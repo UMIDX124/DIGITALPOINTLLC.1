@@ -53,3 +53,20 @@ model FounderSubmission {
   @@index([createdAt])
   @@index([status])
 }
+
+model SupportTicket {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  priority  String   @default("normal") // "normal" | "high"
+  status    String   @default("open")   // "open" | "in_progress" | "resolved" | "closed"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([email])
+  @@index([priority])
+  @@index([status])
+  @@index([createdAt])
+}

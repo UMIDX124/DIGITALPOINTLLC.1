@@ -18,6 +18,7 @@ import { RemoteWorkforcePage } from '@/components/sections/RemoteWorkforcePage';
 import { SystemsReportingPage } from '@/components/sections/SystemsReportingPage';
 import { ResultsPage } from '@/components/sections/ResultsPage';
 import { AuditPage } from '@/components/sections/AuditPage';
+import { SectionDivider } from '@/components/ui-dp/SectionDivider';
 import { trackPageView } from '@/lib/analytics';
 import type { PageRoute } from '@/types/navigation';
 import { pathToPage, pageToPath, pageNames } from '@/types/navigation';
@@ -60,14 +61,23 @@ function PageContent({ currentPage }: { currentPage: PageRoute }) {
       return (
         <>
           <HeroSection />
+          <SectionDivider variant="wave" />
           <ProcessSection />
+          <SectionDivider variant="curve" />
           <SystemSection />
+          <SectionDivider variant="angle" />
           <ProofSection />
+          <SectionDivider variant="wave" flip />
           <ProblemSection />
+          <SectionDivider variant="curve" flip />
           <PillarsSection />
+          <SectionDivider variant="angle" flip />
           <TestimonialsSection />
+          <SectionDivider variant="wave" />
           <FounderFormSection />
+          <SectionDivider variant="curve" />
           <FAQSection />
+          <SectionDivider variant="angle" />
           <CTASection />
         </>
       );
