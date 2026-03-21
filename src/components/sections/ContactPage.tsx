@@ -207,16 +207,14 @@ export function ContactPage() {
                         />
                       </div>
 
-                      <motion.button
+                      <button
                         type="submit"
                         disabled={status === 'submitting'}
-                        className="w-full py-3.5 rounded-xl text-white font-semibold text-sm flex items-center justify-center gap-2 disabled:opacity-50"
+                        className="w-full py-3.5 rounded-xl text-white font-semibold text-sm flex items-center justify-center gap-2 disabled:opacity-50 transition-transform duration-150 hover:scale-[1.01] active:scale-[0.99]"
                         style={{
                           background: 'linear-gradient(135deg, #7b2cbf 0%, #9d4edd 100%)',
                           boxShadow: '0 4px 16px rgba(123, 44, 191, 0.3)',
                         }}
-                        whileHover={{ scale: 1.01 }}
-                        whileTap={{ scale: 0.99 }}
                       >
                         {status === 'submitting' ? (
                           <span className="flex items-center gap-2">
@@ -231,7 +229,7 @@ export function ContactPage() {
                             <Send className="w-4 h-4" />
                           </>
                         )}
-                      </motion.button>
+                      </button>
 
                       {status === 'error' && (
                         <p className="text-[#ff6b9d] text-sm text-center">Something went wrong. Please try again or email us directly.</p>
