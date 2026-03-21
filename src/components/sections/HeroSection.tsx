@@ -95,9 +95,9 @@ export function HeroSection() {
       />
 
       {/* Animated planets with parallax */}
-      <motion.div 
+      <motion.div
         style={{ y: yPlanets }}
-        className="absolute inset-0 z-[1] pointer-events-none"
+        className="absolute inset-0 z-[1] pointer-events-none overflow-hidden"
       >
         {/* Large primary planet with orbit animation */}
         <motion.div
@@ -401,11 +401,11 @@ export function HeroSection() {
       </div>
 
       {/* Main Content */}
-      <motion.div 
+      <motion.div
         style={{ opacity }}
         className="absolute inset-0 z-[5] flex items-center"
       >
-        <div className="w-full px-6 pt-24 pb-20 md:pt-28 md:pb-24 md:pl-[12%] lg:pl-[14%]">
+        <div className="w-full px-5 pt-24 pb-20 sm:px-6 md:pt-28 md:pb-24 md:pl-[12%] lg:pl-[14%]">
           <div className="max-w-xl">
             {/* Badge */}
             <motion.div
@@ -427,7 +427,7 @@ export function HeroSection() {
                 />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#c77dff]"></span>
               </span>
-              <span className="text-[#e0aaff] text-sm">For companies spending $10k–$200k/month on ads</span>
+              <span className="text-[#e0aaff] text-xs sm:text-sm">For companies spending $10k–$200k/month on ads</span>
             </motion.div>
 
             {/* Main Heading */}
