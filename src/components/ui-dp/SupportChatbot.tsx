@@ -343,7 +343,7 @@ export default function SupportChatbot() {
       {/* ── Floating Robot Button ── */}
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-20 md:bottom-6 right-6 z-[60] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center cursor-pointer shadow-lg shadow-plum/30 border border-border-glass"
+        className="fixed bottom-[4.5rem] md:bottom-6 right-4 md:right-6 z-[60] w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center cursor-pointer shadow-lg shadow-plum/30 border border-border-glass"
         style={{
           background: "linear-gradient(135deg, #1a0f2e 0%, #2d1b4e 100%)",
         }}
@@ -409,7 +409,7 @@ export default function SupportChatbot() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
-            className="fixed bottom-36 md:bottom-24 right-4 md:right-6 z-[60] w-[380px] max-w-[calc(100vw-2rem)] h-[500px] md:h-[560px] max-h-[calc(100vh-10rem)] rounded-2xl overflow-hidden flex flex-col shadow-2xl shadow-plum/20"
+            className="fixed bottom-[8.5rem] md:bottom-24 right-4 md:right-6 z-[60] w-[380px] max-w-[calc(100vw-2rem)] h-[460px] md:h-[560px] max-h-[calc(100vh-10rem)] rounded-2xl overflow-hidden flex flex-col shadow-2xl shadow-plum/20"
             style={{
               background: "rgba(13, 8, 21, 0.95)",
               backdropFilter: "blur(24px)",
