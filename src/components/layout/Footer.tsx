@@ -45,14 +45,14 @@ export function Footer() {
               href="/"
               className="flex items-center gap-3 mb-6"
             >
-              <div className="relative w-10 h-10 flex items-center justify-center">
+              <div className="relative w-12 h-12 flex items-center justify-center">
                 <Image
-                  src="/dp-logo.png"
+                  src="/Dp-logo1.png"
                   alt="Digital Point LLC"
-                  width={44}
-                  height={28}
+                  width={48}
+                  height={48}
                   className="drop-shadow-[0_0_10px_rgba(139,92,246,0.5)]"
-                  style={{ width: '44px', height: 'auto' }}
+                  style={{ width: '48px', height: '48px' }}
                 />
               </div>
               <div>

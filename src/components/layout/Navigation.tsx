@@ -82,20 +82,24 @@ export function Navigation() {
 
         <nav className="relative px-4 md:px-6">
           <div className="flex items-center justify-between h-14 md:h-16">
-            {/* Logo */}
+            {/* Logo — Cosmo mascot sitting on the navbar */}
             <Link
               href="/"
-              className="flex items-center gap-3 group relative z-10"
+              className="flex items-center gap-2 group relative z-10"
             >
-              <div className="relative w-10 h-10 md:w-11 md:h-11 flex items-center justify-center">
+              <div className="relative" style={{ marginTop: '-48px', marginBottom: '-44px' }}>
                 <Image
-                  src="/dp-logo.png"
+                  src="/Dp-logo1.png"
                   alt="Digital Point LLC"
-                  width={48}
-                  height={30}
+                  width={160}
+                  height={160}
                   priority
-                  className="drop-shadow-[0_0_10px_rgba(139,92,246,0.6)]"
-                  style={{ width: '48px', height: 'auto' }}
+                  className="relative z-10 transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-1"
+                  style={{
+                    width: '120px',
+                    height: '120px',
+                    filter: 'drop-shadow(0 6px 12px rgba(0,0,0,0.6)) drop-shadow(0 12px 24px rgba(139,92,246,0.35))',
+                  }}
                 />
               </div>
               <div className="hidden sm:block">
