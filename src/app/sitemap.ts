@@ -17,6 +17,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
   ];
 
+  // Research
+  const researchPages: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/research`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${baseUrl}/research/facebook-ads-benchmarks-2026`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/research/google-ads-roas-benchmarks`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/research/average-cac-by-industry`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/research/marketing-attribution-statistics`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${baseUrl}/research/remote-workforce-cost-analysis`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+  ];
+
   // Tools
   const toolPages: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/tools`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
@@ -42,5 +52,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...corePages, ...toolPages, ...categoryPages, ...blogPages];
+  return [...corePages, ...researchPages, ...toolPages, ...categoryPages, ...blogPages];
 }
