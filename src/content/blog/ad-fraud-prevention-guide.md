@@ -3,7 +3,7 @@ title: "Digital Ad Fraud Prevention: Protect Your Ad Spend"
 excerpt: "Learn how to detect and prevent digital ad fraud that wastes up to 22% of ad budgets. Protect your campaigns from bots, click fraud, and fake traffic."
 category: "Paid Ads Benchmarks"
 tags: ["ad fraud", "click fraud", "bot traffic", "ad fraud prevention", "invalid traffic"]
-date: "2026-03-22"
+date: "2025-12-15"
 author: "Digital Point LLC"
 faqs:
   - question: "How much ad spend is wasted on fraud?"

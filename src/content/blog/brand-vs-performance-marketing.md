@@ -3,7 +3,7 @@ title: "Brand vs Performance Marketing: Finding the Balance"
 excerpt: "Learn how to balance brand and performance marketing for sustainable growth. Data-driven frameworks for budget allocation between brand building and direct response."
 category: "Growth Systems"
 tags: ["brand marketing", "performance marketing", "marketing strategy", "brand building", "growth marketing"]
-date: "2026-03-22"
+date: "2026-01-14"
 author: "Digital Point LLC"
 faqs:
   - question: "What is the difference between brand and performance marketing?"

@@ -3,7 +3,7 @@ title: "LinkedIn Ads for B2B: Complete Strategy Guide"
 excerpt: "The definitive guide to LinkedIn advertising for B2B companies, covering targeting strategies, ad formats, campaign structures, benchmarks, and optimization tactics."
 category: "Paid Ads Benchmarks"
 tags: ["LinkedIn Ads", "B2B advertising", "B2B marketing", "LinkedIn strategy", "lead generation"]
-date: "2026-03-17"
+date: "2025-04-18"
 author: "Digital Point LLC"
 faqs:
   - question: "Are LinkedIn Ads worth the high CPC?"

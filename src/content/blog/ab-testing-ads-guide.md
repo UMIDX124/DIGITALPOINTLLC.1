@@ -3,11 +3,11 @@ title: "A/B Testing for Ads: Statistical Methods That Actually Work"
 excerpt: "Stop guessing and start testing. Learn the statistical methods, sample size calculations, and testing frameworks that produce reliable results for ad campaigns."
 category: "Marketing Analytics"
 tags: ["A/B testing", "statistical significance", "ad testing", "experiment design", "paid ads"]
-date: "2026-03-22"
+date: "2025-08-14"
 author: "Digital Point LLC"
 faqs:
   - question: "How many conversions do I need before an A/B test result is reliable?"
-    answer: "For a standard A/B test with 80% statistical power and 95% confidence level, you need approximately 400 conversions per variation to detect a 20% relative improvement, or about 1,600 conversions per variation to detect a 10% improvement. For ad creative testing where you are measuring click-through rate (much higher volume), you can reach significance faster, typically within 5,000-10,000 impressions per variation. The exact number depends on your baseline conversion rate and the minimum detectable effect size you care about. Use a sample size calculator before launching any test to set expectations."
+    answer: "For a standard A/B test with 80% statistical power and 95% confidence level, you need approximately 400 conversions per variation to detect a 20% relative improvement, or about 1,600 conversions per variation to detect a 10% improvement. For ad creative testing where you're measuring click-through rate (much higher volume), you can reach significance faster, typically within 5,000-10,000 impressions per variation. The exact number depends on your baseline conversion rate and the minimum detectable effect size you care about. Use a sample size calculator before launching any test to set expectations."
   - question: "Can I test more than two ad variations at once?"
     answer: "Yes, but you need to adjust your approach. Testing multiple variations simultaneously requires either a larger sample size (roughly proportional to the number of variations) or a different statistical method. For ad creative testing, we recommend testing 3-5 variations at a time using a multi-armed bandit approach or sequential testing framework. For landing page testing, stick to 2-3 variations to reach significance faster. The key rule: never compare more than one variation to the control without applying a multiple comparison correction like Bonferroni or Benjamini-Hochberg, or you will get false positives."
   - question: "Should I use the built-in A/B testing in Google Ads and Meta, or use a third-party tool?"

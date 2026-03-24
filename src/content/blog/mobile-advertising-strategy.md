@@ -3,7 +3,7 @@ title: "Mobile Advertising Strategy for 2026"
 excerpt: "Build a mobile advertising strategy that captures 70%+ of digital traffic. Mobile ad formats, targeting, attribution challenges, and optimization tactics."
 category: "Paid Ads Benchmarks"
 tags: ["mobile advertising", "mobile ads", "mobile marketing", "app advertising", "mobile optimization"]
-date: "2026-03-22"
+date: "2025-02-06"
 author: "Digital Point LLC"
 faqs:
   - question: "How much of digital advertising is mobile in 2026?"

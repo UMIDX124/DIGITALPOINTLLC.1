@@ -3,7 +3,7 @@ title: "Measuring Content Marketing ROI: From Blog Posts to Revenue"
 excerpt: "Learn how to measure the true ROI of content marketing by connecting content consumption to pipeline and revenue, not just traffic and engagement metrics."
 category: "Growth Systems"
 tags: ["content marketing", "ROI measurement", "content strategy", "marketing analytics", "attribution"]
-date: "2026-03-22"
+date: "2025-06-26"
 author: "Digital Point LLC"
 faqs:
   - question: "How long does it take for content marketing to generate ROI?"

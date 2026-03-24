@@ -3,7 +3,7 @@ title: "Dynamic Creative Optimization (DCO) Guide"
 excerpt: "Master Dynamic Creative Optimization to deliver personalized ads at scale. Learn DCO strategy, setup, and best practices for higher ROAS in 2026."
 category: "CAC ROAS Optimization"
 tags: ["dynamic creative optimization", "DCO", "personalized ads", "ad creative", "programmatic advertising"]
-date: "2026-03-22"
+date: "2025-01-06"
 author: "Digital Point LLC"
 faqs:
   - question: "What is Dynamic Creative Optimization (DCO)?"

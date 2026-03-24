@@ -3,13 +3,13 @@ title: "E-Commerce Advertising Strategy: From Startup to Scale"
 excerpt: "A complete playbook for e-commerce paid advertising at every stage — from your first $1,000 in ad spend to scaling past $200,000/month profitably."
 category: "Paid Ads Benchmarks"
 tags: ["e-commerce advertising", "DTC marketing", "Shopify ads", "e-commerce ROAS", "shopping ads"]
-date: "2026-03-19"
+date: "2025-05-15"
 author: "Digital Point LLC"
 faqs:
   - question: "What is a good ROAS for e-commerce advertising?"
     answer: "A 'good' ROAS depends on your margins. For most e-commerce brands, 3-4x blended ROAS is healthy, meaning you generate $3-$4 in revenue for every $1 spent on ads. Brands with 70%+ gross margins (like digital products or luxury items) can be profitable at 2x ROAS. Brands with 30-40% margins typically need 4-5x ROAS. For channel-specific benchmarks: Google Shopping averages 4-8x, Meta averages 2-4x, and branded search averages 8-15x. Always calculate your break-even ROAS based on your specific margins and overhead."
   - question: "How much should an e-commerce business spend on ads?"
-    answer: "Most successful e-commerce businesses spend 15-25% of revenue on advertising. For a brand doing $100K/month in revenue, that means $15K-$25K in ad spend. In the early growth phase (under $500K annual revenue), you may need to spend 25-35% of revenue to build awareness. At scale ($5M+ annual), many brands optimize down to 12-18% of revenue while maintaining growth. The key metric is not spend as a percentage of revenue but rather your MER (marketing efficiency ratio) — total revenue divided by total marketing spend."
+    answer: "Most successful e-commerce businesses spend 15-25% of revenue on advertising. For a brand doing $100K/month in revenue, that means $15K-$25K in ad spend. In the early growth phase (under $500K annual revenue), you may need to spend 25-35% of revenue to build awareness. At scale ($5M+ annual), many brands optimize down to 12-18% of revenue while maintaining growth. The key metric isn't spend as a percentage of revenue but rather your MER (marketing efficiency ratio) — total revenue divided by total marketing spend."
   - question: "Which ad platform is best for e-commerce?"
     answer: "For most e-commerce brands, Google (Shopping + Search) and Meta (Facebook + Instagram) form the foundation. Google captures high-intent shoppers actively searching for products, while Meta excels at demand generation and reaching new customers. At scale, add TikTok for younger demographics, Pinterest for aspirational/visual products, and CTV for brand building. The ideal starting split is typically 50-60% Google, 30-40% Meta, and 10% testing other channels."
 ---
@@ -20,7 +20,7 @@ E-commerce advertising has never been more competitive — or more rewarding for
 
 The brands that win aren't just spending more. They're spending smarter — with better attribution, stronger creative, and full-funnel strategies that turn cold audiences into loyal customers.
 
-This guide covers the complete e-commerce advertising playbook for brands spending **$10,000 to $200,000+ per month**, from channel strategy and benchmarks to scaling frameworks and measurement.
+This guide covers the complete e-commerce advertising playbook for brands spending **$10K–$200K+ per month**, from channel strategy and benchmarks to scaling frameworks and measurement.
 
 ## E-Commerce Advertising Benchmarks (2026)
 

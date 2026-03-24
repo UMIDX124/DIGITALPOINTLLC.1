@@ -3,7 +3,7 @@ title: "Account-Based Marketing (ABM) Guide: Targeted Growth for B2B"
 excerpt: "Learn how to implement account-based marketing with paid ads — from building target account lists to measuring pipeline impact and scaling your ABM program."
 category: "Growth Systems"
 tags: ["account-based marketing", "ABM", "B2B marketing", "demand generation", "target accounts"]
-date: "2026-03-20"
+date: "2025-03-07"
 author: "Digital Point LLC"
 faqs:
   - question: "What is account-based marketing?"
@@ -24,7 +24,7 @@ Think of it as sniper marketing vs. shotgun marketing.
 
 **ABM:** Identify 200 target accounts → Run personalized campaigns → Engage 80 accounts → Sales works 40 → Close 15 deals
 
-For B2B companies spending **$10,000 to $200,000+ per month** on marketing, ABM often delivers dramatically better pipeline ROI because every dollar goes toward accounts that actually fit your ideal customer profile.
+For B2B companies spending **$15K–$200K monthly** on marketing, ABM often delivers dramatically better pipeline ROI because every dollar goes toward accounts that actually fit your ideal customer profile.
 
 ## ABM Benchmarks and ROI
 

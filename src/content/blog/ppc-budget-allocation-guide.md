@@ -3,13 +3,13 @@ title: "PPC Budget Allocation: How to Distribute Ad Spend Across Channels"
 excerpt: "A data-driven framework for allocating your PPC budget across Google, Meta, LinkedIn, TikTok, and other channels to maximize total return on your advertising investment."
 category: "Paid Ads Benchmarks"
 tags: ["PPC budget", "budget allocation", "media mix", "ad spend", "channel strategy"]
-date: "2026-03-15"
+date: "2024-11-12"
 author: "Digital Point LLC"
 faqs:
   - question: "What percentage of my ad budget should go to Google vs. Meta?"
-    answer: "There is no universal split. The right allocation depends on your business model, audience, and goals. As a starting point, e-commerce brands typically allocate 40-50% to Google (Search + Shopping) and 30-40% to Meta. B2B companies often allocate 50-60% to Google Search and 15-25% to LinkedIn. Start with a hypothesis based on these benchmarks, run for 30-60 days, then reallocate based on performance data. The key is not to set a split and forget it — review and adjust monthly based on each channel's marginal ROAS."
+    answer: "There's no universal split. The right allocation depends on your business model, audience, and goals. As a starting point, e-commerce brands typically allocate 40-50% to Google (Search + Shopping) and 30-40% to Meta. B2B companies often allocate 50-60% to Google Search and 15-25% to LinkedIn. Start with a hypothesis based on these benchmarks, run for 30-60 days, then reallocate based on performance data. The key isn't to set a split and forget it — review and adjust monthly based on each channel's marginal ROAS."
   - question: "How should I split budget between prospecting and retargeting?"
-    answer: "A healthy split is typically 65-80% prospecting and 20-35% retargeting. Many advertisers over-invest in retargeting because it has better ROAS, but retargeting audiences are limited by the number of people entering your funnel. If you shift too much to retargeting, you exhaust the audience and frequency climbs, which actually increases costs. The prospecting budget feeds the retargeting pool. Monitor your retargeting frequency — if it exceeds 3-4 per week, you are likely overspending on retargeting."
+    answer: "A healthy split is typically 65-80% prospecting and 20-35% retargeting. Many advertisers over-invest in retargeting because it has better ROAS, but retargeting audiences are limited by the number of people entering your funnel. If you shift too much to retargeting, you exhaust the audience and frequency climbs, which actually increases costs. The prospecting budget feeds the retargeting pool. Monitor your retargeting frequency — if it exceeds 3-4 per week, you're likely overspending on retargeting."
   - question: "Should I diversify across many channels or concentrate on a few?"
     answer: "For budgets under $25k per month, concentrate on 1-2 channels where you have the strongest product-market fit. Spreading thin across many channels means none gets enough budget for the algorithms to optimize effectively. At $25k-$75k per month, test 3-4 channels with enough budget in each to be meaningful. Above $75k per month, diversification across 4-6 channels reduces risk and captures demand across different touchpoints. Always maintain a minimum budget of $3,000-$5,000 per channel to generate useful data."
 ---

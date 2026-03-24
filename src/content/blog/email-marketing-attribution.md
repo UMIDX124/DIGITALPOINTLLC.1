@@ -3,7 +3,7 @@ title: "Email Marketing Attribution: Complete Guide"
 excerpt: "Learn how to properly attribute revenue to email marketing. Solve over-attribution, set correct windows, and measure email's true impact on conversions."
 category: "Marketing Attribution"
 tags: ["email attribution", "email marketing", "marketing attribution", "email ROI", "email analytics"]
-date: "2026-03-22"
+date: "2025-06-10"
 author: "Digital Point LLC"
 faqs:
   - question: "Why does email get too much attribution credit?"

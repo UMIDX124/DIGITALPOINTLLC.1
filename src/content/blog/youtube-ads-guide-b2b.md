@@ -3,7 +3,7 @@ title: "YouTube Ads for B2B: Strategy, Targeting, and Benchmarks"
 excerpt: "Discover how to use YouTube ads for B2B marketing with targeting strategies, creative formats, benchmarks, and budget recommendations for lead generation."
 category: "Paid Ads Benchmarks"
 tags: ["youtube ads", "B2B marketing", "video advertising", "lead generation"]
-date: "2025-02-05"
+date: "2024-11-28"
 author: "Digital Point LLC"
 faqs:
   - question: "Do YouTube ads work for B2B companies?"

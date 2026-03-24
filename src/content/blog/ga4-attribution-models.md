@@ -3,15 +3,15 @@ title: "GA4 Attribution Models: Which One Should You Use?"
 excerpt: "Google Analytics 4 changed its attribution models. Learn which GA4 attribution model is right for your business, how to configure it, and how to interpret the data correctly."
 category: "Marketing Attribution"
 tags: ["GA4", "Google Analytics 4", "attribution models", "data-driven attribution", "marketing analytics"]
-date: "2026-03-17"
+date: "2025-09-19"
 author: "Digital Point LLC"
 faqs:
   - question: "What attribution model does GA4 use by default?"
-    answer: "GA4 uses data-driven attribution (DDA) as its default model for all properties. Unlike Universal Analytics which defaulted to last-click, GA4's data-driven model uses machine learning to analyze all conversion paths and assign credit based on each touchpoint's statistical impact on conversion probability. If your property does not have enough data for DDA, GA4 falls back to a cross-channel rules-based model."
+    answer: "GA4 uses data-driven attribution (DDA) as its default model for all properties. Unlike Universal Analytics which defaulted to last-click, GA4's data-driven model uses machine learning to analyze all conversion paths and assign credit based on each touchpoint's statistical impact on conversion probability. If your property doesn't have enough data for DDA, GA4 falls back to a cross-channel rules-based model."
   - question: "Can I still use last-click attribution in GA4?"
     answer: "Yes. While GA4 defaults to data-driven attribution, you can switch to paid and organic last-click, or Google paid channels last-click in your property settings under Admin > Attribution Settings. However, Google removed first-click, linear, time-decay, and position-based models from GA4 in late 2023, so your options are limited to data-driven, paid and organic last-click, or Google paid channels last-click."
   - question: "Why are my GA4 conversion numbers different from my ad platform numbers?"
-    answer: "Several factors cause discrepancies: GA4 uses cross-channel attribution (distributing credit across touchpoints) while ad platforms give full credit to their own ads; GA4 deduplicates conversions while each platform counts independently; GA4 relies on its own tracking while platforms use their own pixels; and attribution windows may differ. Typically, GA4 reports 20-40% fewer conversions per channel than the platform itself reports, because it is distributing credit rather than allowing double-counting."
+    answer: "Several factors cause discrepancies: GA4 uses cross-channel attribution (distributing credit across touchpoints) while ad platforms give full credit to their own ads; GA4 deduplicates conversions while each platform counts independently; GA4 relies on its own tracking while platforms use their own pixels; and attribution windows may differ. Typically, GA4 reports 20-40% fewer conversions per channel than the platform itself reports, because it's distributing credit rather than allowing double-counting."
 ---
 
 ## GA4 Attribution: What Changed from Universal Analytics
@@ -31,7 +31,7 @@ Google Analytics 4 fundamentally changed how attribution works compared to Unive
 
 The shift from session-based to event-based tracking is particularly important. In UA, a "session" was the unit of analysis — a user visits your site, and the session gets attributed to a source. In GA4, each **event** (page view, form fill, purchase) can have its own attribution, allowing more granular analysis.
 
-For businesses spending **$10,000 to $200,000+ per month** on paid media, understanding GA4's attribution is critical because it directly impacts how you evaluate channel performance and make budget decisions.
+For businesses with **significant paid media budgets** on paid media, understanding GA4's attribution is critical because it directly impacts how you evaluate channel performance and make budget decisions.
 
 ## GA4 Attribution Models Explained
 

@@ -3,7 +3,7 @@ title: "Lookalike Audiences in 2026: What Still Works After Privacy Changes"
 excerpt: "Learn what works for lookalike audiences after iOS privacy changes with updated strategies for Meta, Google, and LinkedIn audience expansion."
 category: "Paid Ads Benchmarks"
 tags: ["lookalike audiences", "audience targeting", "privacy changes", "paid social"]
-date: "2025-03-05"
+date: "2025-11-10"
 author: "Digital Point LLC"
 faqs:
   - question: "Do lookalike audiences still work after iOS 14.5?"
@@ -22,7 +22,7 @@ Then came **iOS 14.5, ATT prompts, cookie deprecation, and expanded privacy regu
 
 But here's the nuanced truth: **lookalike audiences aren't dead. They're different.** The advertisers who adapted their approach continue to see strong results. Those who kept using the same 2020 playbook are struggling.
 
-This guide covers what has changed, what still works, and how to build effective lookalike strategies in the current privacy landscape.
+This guide covers what has changed, what still works, and how to build effective lookalike strategies in today's privacy environment.
 
 ## What Changed and Why It Matters
 
@@ -269,7 +269,7 @@ When saturation hits:
 
 To protect your lookalike strategy from future privacy changes:
 
-1. **Build robust first-party data collection** (email lists, CRM data, loyalty programs)
+1. **Build thorough first-party data collection** (email lists, CRM data, loyalty programs)
 2. **Implement server-side tracking** to maintain signal quality
 3. **Invest in zero-party data** (surveys, preference centers, quizzes)
 4. **Diversify targeting methods** so you're never dependent on one approach

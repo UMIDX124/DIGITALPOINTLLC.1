@@ -3,7 +3,7 @@ title: "Demand Generation Strategy: Create Pipeline at Scale"
 excerpt: "Build a demand generation strategy that creates qualified pipeline at scale through multi-channel campaigns, content-led acquisition, and systematic nurturing."
 category: "Growth Systems"
 tags: ["demand generation", "pipeline generation", "B2B marketing", "lead generation", "content marketing"]
-date: "2026-03-22"
+date: "2025-03-24"
 author: "Digital Point LLC"
 faqs:
   - question: "What is the difference between demand generation and lead generation?"

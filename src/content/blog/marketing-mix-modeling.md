@@ -3,11 +3,11 @@ title: "Marketing Mix Modeling: How to Measure True Channel Impact"
 excerpt: "Understand how Marketing Mix Modeling (MMM) helps you allocate budgets across channels by measuring incremental impact, not just last-click attribution."
 category: "Marketing Analytics"
 tags: ["marketing mix modeling", "MMM", "attribution", "budget allocation", "media planning"]
-date: "2026-03-22"
+date: "2025-06-16"
 author: "Digital Point LLC"
 faqs:
   - question: "What is the difference between Marketing Mix Modeling and multi-touch attribution?"
-    answer: "Marketing Mix Modeling (MMM) uses aggregate historical data and statistical regression to measure the incremental impact of each marketing channel on business outcomes. It works with top-down data and does not require user-level tracking. Multi-touch attribution (MTA) tracks individual user journeys across touchpoints to assign credit to specific interactions. MMM is better for strategic budget allocation across channels and is privacy-compliant, while MTA is better for tactical optimization within channels. In 2026, most sophisticated marketing teams use both approaches together for a complete picture."
+    answer: "Marketing Mix Modeling (MMM) uses aggregate historical data and statistical regression to measure the incremental impact of each marketing channel on business outcomes. It works with top-down data and doesn't require user-level tracking. Multi-touch attribution (MTA) tracks individual user journeys across touchpoints to assign credit to specific interactions. MMM is better for strategic budget allocation across channels and is privacy-compliant, while MTA is better for tactical optimization within channels. In 2026, most sophisticated marketing teams use both approaches together for a complete picture."
   - question: "How much data do I need to build a Marketing Mix Model?"
     answer: "You need a minimum of 2 years of weekly data to build a reliable Marketing Mix Model. This gives the model enough data points (104 weeks) to identify seasonal patterns and distinguish between short-term and long-term effects. You need data on marketing spend by channel, business outcomes (revenue, leads, conversions), and external factors (seasonality, economic indicators, competitor activity). If you have less than 2 years of data, you can still build a directional model, but the confidence intervals will be wider and the results less actionable."
   - question: "How much does it cost to implement Marketing Mix Modeling?"
@@ -155,7 +155,7 @@ Platform-reported metrics (Google Ads conversions, Meta reported ROAS) are usefu
 
 **Insufficient data variation.** If you spend roughly the same amount on a channel every week, the model can't measure its impact. You need spending variation, either natural (seasonal fluctuations, promotions) or intentional (planned spend experiments).
 
-**Ignoring external factors.** If your revenue spikes every Q4 due to holiday demand and you increase ad spend in Q4, a naive model will over-credit your ads for what is actually seasonal demand. Always include robust seasonality and external factor controls.
+**Ignoring external factors.** If your revenue spikes every Q4 due to holiday demand and you increase ad spend in Q4, a naive model will over-credit your ads for what is actually seasonal demand. Always include strong seasonality and external factor controls.
 
 **Over-fitting.** Including too many variables with limited data leads to unreliable estimates. A model with 20 channels and only 104 weekly data points will produce noise, not signal. Focus on your top 5-8 channels and group smaller channels together.
 

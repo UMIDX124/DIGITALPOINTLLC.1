@@ -3,11 +3,11 @@ title: "Google Ads Benchmarks 2026: CPC, CTR, and Conversion Rates by Industry"
 excerpt: "The most comprehensive Google Ads benchmarks for 2026 — CPC, CTR, conversion rate, and cost per conversion data across 15+ industries for Search, Shopping, Display, and YouTube."
 category: "Paid Ads Benchmarks"
 tags: ["Google Ads benchmarks", "CPC benchmarks", "CTR benchmarks", "conversion rate benchmarks", "2026 benchmarks"]
-date: "2026-03-19"
+date: "2025-02-28"
 author: "Digital Point LLC"
 faqs:
   - question: "What is a good CTR for Google Ads in 2026?"
-    answer: "For Google Search Ads, the overall average CTR is 4-6%, but a good CTR depends on your industry. Legal services average 3-4% while dating and personal services can reach 6-8%. For Display ads, 0.5-1% CTR is considered good. For YouTube, 0.5-1.5% CTR is typical. Focus less on hitting a specific CTR and more on whether your CTR is above your industry average, and whether your clicks are converting. A high CTR with low conversion rate means you are attracting the wrong clicks."
+    answer: "For Google Search Ads, the overall average CTR is 4-6%, but a good CTR depends on your industry. Legal services average 3-4% while dating and personal services can reach 6-8%. For Display ads, 0.5-1% CTR is considered good. For YouTube, 0.5-1.5% CTR is typical. Focus less on hitting a specific CTR and more on whether your CTR is above your industry average, and whether your clicks are converting. A high CTR with low conversion rate means you're attracting the wrong clicks."
   - question: "Are Google Ads CPC costs going up in 2026?"
     answer: "Yes, Google Ads CPCs have increased an average of 8-12% year-over-year across most industries. The most significant increases are in financial services (+15%), legal (+14%), and technology (+12%). The increases are driven by more advertisers competing for the same search volume, Google's reduced ad inventory on some queries, and the shift to automated bidding which can push up auction prices. To counteract rising CPCs, focus on improving Quality Score, conversion rates, and targeting precision."
   - question: "How do Performance Max benchmarks compare to standard Search campaigns?"

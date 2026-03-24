@@ -3,7 +3,7 @@ title: "Connected TV (CTV) Advertising: Strategy and Benchmarks for 2026"
 excerpt: "CTV advertising is the fastest-growing channel in digital marketing. Learn the strategy, benchmarks, targeting options, and measurement approaches you need to succeed."
 category: "Paid Ads Benchmarks"
 tags: ["CTV advertising", "connected TV", "OTT advertising", "streaming ads", "video advertising"]
-date: "2026-03-17"
+date: "2026-01-12"
 author: "Digital Point LLC"
 faqs:
   - question: "How much does CTV advertising cost?"
@@ -16,7 +16,7 @@ faqs:
 
 ## The Rise of CTV Advertising
 
-Connected TV advertising has moved from experimental to essential. In 2026, CTV ad spending in the US is projected to exceed **$32 billion**, making it one of the largest and fastest-growing digital channels. For performance marketers spending **$10,000 to $200,000+ per month**, CTV offers a unique combination of TV's brand-building power and digital's targeting precision.
+Connected TV advertising has moved from experimental to essential. In 2026, CTV ad spending in the US is projected to exceed **$32 billion**, making it one of the largest and fastest-growing digital channels. For performance marketers spending **$10K–$200K/month**, CTV offers a unique combination of TV's brand-building power and digital's targeting precision.
 
 Here's why CTV matters now:
 

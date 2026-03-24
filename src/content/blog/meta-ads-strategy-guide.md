@@ -3,7 +3,7 @@ title: "Meta Ads Strategy: How to Structure Campaigns for Maximum ROAS"
 excerpt: "Learn how to structure Meta ad campaigns for maximum ROAS with proven frameworks for campaign architecture, audience targeting, and budget allocation."
 category: "Paid Ads Benchmarks"
 tags: ["meta ads", "facebook advertising", "ROAS optimization", "campaign structure"]
-date: "2025-01-08"
+date: "2025-11-03"
 author: "Digital Point LLC"
 faqs:
   - question: "What is a good ROAS for Meta ads?"

@@ -3,7 +3,7 @@ title: "Marketing Attribution for SaaS Companies"
 excerpt: "Learn how to implement marketing attribution for SaaS companies with long sales cycles, free trials, and multi-stakeholder buying committees."
 category: "Marketing Attribution"
 tags: ["SaaS attribution", "marketing attribution", "B2B SaaS", "SaaS marketing", "attribution models"]
-date: "2026-03-22"
+date: "2025-06-06"
 author: "Digital Point LLC"
 faqs:
   - question: "Why is attribution harder for SaaS companies?"

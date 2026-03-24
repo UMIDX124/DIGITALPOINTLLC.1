@@ -3,11 +3,11 @@ title: "Google Search Ads Optimization: Advanced Bidding and Structure Guide"
 excerpt: "Master Google Search Ads with advanced optimization strategies for bidding, ad structure, keyword management, and Quality Score improvement."
 category: "Paid Ads Benchmarks"
 tags: ["google ads", "search ads", "PPC optimization", "bidding strategy"]
-date: "2025-04-30"
+date: "2025-05-30"
 author: "Digital Point LLC"
 faqs:
   - question: "What is a good Quality Score in Google Ads?"
-    answer: "A Quality Score of 7-10 is good, meaning your ads are relevant and well-optimized. Scores of 5-6 are average and indicate room for improvement. Below 5 means you are overpaying for clicks and need to address relevance issues between keywords, ads, and landing pages."
+    answer: "A Quality Score of 7-10 is good, meaning your ads are relevant and well-optimized. Scores of 5-6 are average and indicate room for improvement. Below 5 means you're overpaying for clicks and need to address relevance issues between keywords, ads, and landing pages."
   - question: "Should I use Smart Bidding or manual bidding in Google Ads?"
     answer: "Smart Bidding (Target CPA, Target ROAS, Maximize Conversions) works best when you have 30+ conversions per month per campaign and accurate conversion tracking. Manual or enhanced CPC bidding is better for new campaigns, low-volume accounts, or when you need tight budget control."
   - question: "How many keywords should I have per ad group?"

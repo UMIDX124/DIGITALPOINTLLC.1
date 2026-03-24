@@ -3,7 +3,7 @@ title: "How AI is Transforming Paid Advertising"
 excerpt: "Discover how AI is reshaping paid advertising in 2026. From automated bidding to creative generation, learn practical AI strategies that improve ROAS."
 category: "Paid Ads Benchmarks"
 tags: ["AI advertising", "AI marketing", "automated bidding", "AI creative", "machine learning ads"]
-date: "2026-03-22"
+date: "2025-10-13"
 author: "Digital Point LLC"
 faqs:
   - question: "How is AI being used in paid advertising in 2026?"

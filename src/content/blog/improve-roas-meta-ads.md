@@ -3,11 +3,11 @@ title: "How to Improve ROAS on Meta Ads in 2026"
 excerpt: "Proven strategies to improve your Meta Ads ROAS in 2026, including creative frameworks, audience tactics, campaign structures, and measurement approaches that work in the post-iOS world."
 category: "CAC ROAS Optimization"
 tags: ["Meta Ads", "Facebook Ads", "ROAS", "social advertising", "Instagram Ads"]
-date: "2026-03-17"
+date: "2025-04-29"
 author: "Digital Point LLC"
 faqs:
   - question: "What is a good ROAS for Meta Ads in 2026?"
-    answer: "For e-commerce, a good Meta Ads ROAS is 3-5x blended (prospecting and retargeting combined). Prospecting campaigns alone typically deliver 1.5-3x, while retargeting achieves 5-12x. For lead generation, evaluate ROAS based on pipeline value — a good benchmark is 4-8x. These numbers have shifted since 2024 due to rising CPMs and continued signal loss. The most important thing is knowing your breakeven ROAS and ensuring you are comfortably above it."
+    answer: "For e-commerce, a good Meta Ads ROAS is 3-5x blended (prospecting and retargeting combined). Prospecting campaigns alone typically deliver 1.5-3x, while retargeting achieves 5-12x. For lead generation, evaluate ROAS based on pipeline value — a good benchmark is 4-8x. These numbers have shifted since 2024 due to rising CPMs and continued signal loss. The most important thing is knowing your breakeven ROAS and ensuring you're comfortably above it."
   - question: "How has iOS privacy impacted Meta Ads ROAS?"
     answer: "iOS privacy changes (App Tracking Transparency) reduced Meta's ability to track conversions and optimize delivery, causing reported ROAS to drop 20-40% for many advertisers when the changes first rolled out. In 2026, Meta has largely recovered through Conversions API, advanced matching, and AI-powered modeling. However, advertisers who have not implemented Conversions API and server-side tracking are still seeing underreported ROAS. The actual performance gap between reported and true ROAS is typically 15-25% for advertisers without server-side tracking."
   - question: "Should I use Advantage+ Shopping Campaigns or manual campaigns?"

@@ -3,7 +3,7 @@ title: "Incrementality Testing: How to Measure True Ad Impact"
 excerpt: "Learn how to run incrementality tests that reveal the true causal impact of your advertising, beyond what attribution models can tell you."
 category: "Marketing Attribution"
 tags: ["incrementality testing", "lift testing", "ad measurement", "marketing experimentation"]
-date: "2025-11-10"
+date: "2026-03-03"
 author: "Digital Point LLC"
 faqs:
   - question: "What is incrementality testing in marketing?"

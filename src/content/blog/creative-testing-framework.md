@@ -3,15 +3,15 @@ title: "Ad Creative Testing: A Scientific Framework for Finding Winners"
 excerpt: "Learn a systematic creative testing framework for paid ads with methods for testing hooks, formats, copy, and visuals to find high-performing ad creative."
 category: "CAC ROAS Optimization"
 tags: ["creative testing", "ad creative", "A/B testing", "paid advertising"]
-date: "2025-03-19"
+date: "2026-01-06"
 author: "Digital Point LLC"
 faqs:
   - question: "How many ad variations should I test at once?"
     answer: "Test 3-5 variations per variable in each round. Testing more dilutes your budget and extends the time needed for statistical significance. Focus on one variable at a time: message, format, hook, or visual."
   - question: "How long should I run a creative test?"
-    answer: "Most creative tests need 7-14 days and a minimum of 1,000 impressions per variation (ideally 5,000+) to produce reliable results. Do not make decisions based on fewer than 3-5 days of data unless spend volumes are very high."
+    answer: "Most creative tests need 7-14 days and a minimum of 1,000 impressions per variation (ideally 5,000+) to produce reliable results. Don't make decisions based on fewer than 3-5 days of data unless spend volumes are very high."
   - question: "What metrics should I use to evaluate ad creative?"
-    answer: "Use CTR and hook rate to evaluate engagement, then CPA and ROAS to evaluate conversion performance. A high-CTR ad that does not convert is worse than a moderate-CTR ad with strong conversion rates. Always optimize for the metric closest to revenue."
+    answer: "Use CTR and hook rate to evaluate engagement, then CPA and ROAS to evaluate conversion performance. A high-CTR ad that doesn't convert is worse than a moderate-CTR ad with strong conversion rates. Always optimize for the metric closest to revenue."
 ---
 
 ## Why Most Creative Testing Is a Waste of Money

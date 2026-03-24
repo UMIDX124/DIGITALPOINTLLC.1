@@ -3,15 +3,15 @@ title: "View-Through Attribution: Should You Count Impressions as Conversions?"
 excerpt: "Understand view-through attribution, when it inflates your numbers, when it captures real value, and how to configure it correctly across ad platforms."
 category: "Marketing Attribution"
 tags: ["view-through attribution", "impression tracking", "display advertising", "marketing measurement", "attribution models"]
-date: "2026-03-15"
+date: "2025-07-01"
 author: "Digital Point LLC"
 faqs:
   - question: "What is the difference between view-through and click-through attribution?"
-    answer: "Click-through attribution credits a conversion to an ad that the user clicked before converting. View-through attribution credits a conversion to an ad the user saw (but did not click) before converting. For example, if someone sees your display ad, does not click it, but visits your website the next day and purchases, view-through attribution would credit that display ad. Click-through would not give it any credit."
+    answer: "Click-through attribution credits a conversion to an ad that the user clicked before converting. View-through attribution credits a conversion to an ad the user saw (but didn't click) before converting. For example, if someone sees your display ad, doesn't click it, but visits your website the next day and purchases, view-through attribution would credit that display ad. Click-through wouldn't give it any credit."
   - question: "Is view-through attribution reliable?"
     answer: "View-through attribution is partially reliable. It captures real value from awareness channels like display, video, and CTV that drive conversions without clicks. However, it can also overcount by crediting ads that a user barely noticed. The key is to use short view-through windows (1 day), apply it selectively to awareness channels, and validate with incrementality tests."
   - question: "Should I turn off view-through attribution?"
-    answer: "No, you should not turn it off entirely, especially for display, video, and Connected TV campaigns. These channels are designed to build awareness and influence without requiring a click. Instead of turning it off, use a short view-through window (1 day), discount view-through conversions by 30-50% in your analysis, and validate with holdout tests to confirm real impact."
+    answer: "No, you shouldn't turn it off entirely, especially for display, video, and Connected TV campaigns. These channels are designed to build awareness and influence without requiring a click. Instead of turning it off, use a short view-through window (1 day), discount view-through conversions by 30-50% in your analysis, and validate with holdout tests to confirm real impact."
 ---
 
 ## What Is View-Through Attribution?
@@ -20,7 +20,7 @@ faqs:
 
 This is one of the most debated topics in digital marketing measurement. On one side, marketers argue that view-through conversions are largely fabricated — the user was going to buy anyway, and the ad impression was incidental. On the other side, marketers point out that awareness advertising works precisely by being seen, not clicked, and ignoring view-through means ignoring the impact of entire channels.
 
-The truth sits somewhere in between. For businesses spending **$10,000 to $200,000+ per month** on ads, getting view-through attribution right is worth hundreds of thousands of dollars in properly allocated budget.
+The truth sits somewhere in between. For businesses putting **serious money into ads each month** on ads, getting view-through attribution right is worth hundreds of thousands of dollars in properly allocated budget.
 
 ## How View-Through Attribution Works
 

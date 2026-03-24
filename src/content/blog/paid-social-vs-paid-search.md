@@ -3,7 +3,7 @@ title: "Paid Social vs Paid Search: Where to Allocate Budget"
 excerpt: "Compare paid social and paid search advertising across ROAS, CAC, and conversion rates. Learn the optimal budget split for your business in 2026."
 category: "Paid Ads Benchmarks"
 tags: ["paid social", "paid search", "budget allocation", "PPC", "social ads"]
-date: "2026-03-22"
+date: "2025-11-17"
 author: "Digital Point LLC"
 faqs:
   - question: "Should I spend more on paid social or paid search?"
