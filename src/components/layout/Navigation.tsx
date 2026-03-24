@@ -94,11 +94,11 @@ export function Navigation() {
         />
 
         <nav className="relative px-4 md:px-8 mx-auto max-w-7xl">
-          <div className="flex items-center justify-between h-14 md:h-16">
+          <div className="flex items-center justify-between gap-6 h-14 md:h-16">
             {/* Logo — Cosmo mascot sitting on the navbar */}
             <Link
               href="/"
-              className="flex items-center gap-2 group relative z-10"
+              className="flex items-center gap-2 group relative z-10 mr-auto"
             >
               <div className="relative" style={{ marginTop: '-24px', marginBottom: '-22px' }}>
                 {/* White glow behind logo */}
