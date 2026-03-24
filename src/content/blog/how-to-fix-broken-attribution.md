@@ -3,7 +3,7 @@ title: "How to Fix Broken Marketing Attribution (Step-by-Step)"
 excerpt: "Diagnose and fix the most common marketing attribution problems with this practical step-by-step guide for performance marketers."
 category: "Marketing Attribution"
 tags: ["attribution troubleshooting", "tracking issues", "marketing data", "performance marketing"]
-date: "2025-08-15"
+date: "2025-03-31"
 author: "Digital Point LLC"
 faqs:
   - question: "How do I know if my marketing attribution is broken?"

@@ -3,7 +3,7 @@ title: "25 Performance Marketing KPIs You Must Track"
 excerpt: "The definitive list of 25 performance marketing KPIs for 2026. Learn what to measure, benchmark targets, and how each KPI drives better ROAS and lower CAC."
 category: "Marketing Analytics"
 tags: ["performance marketing", "marketing KPIs", "ROAS", "CAC", "marketing metrics"]
-date: "2026-03-22"
+date: "2025-07-11"
 author: "Digital Point LLC"
 faqs:
   - question: "What are the most important performance marketing KPIs?"

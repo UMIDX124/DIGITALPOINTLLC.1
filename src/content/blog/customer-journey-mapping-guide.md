@@ -3,7 +3,7 @@ title: "How to Map Customer Journeys for Better Attribution"
 excerpt: "Learn how to map customer journeys across every touchpoint to improve marketing attribution accuracy, reduce CAC, and maximize ROAS in 2026."
 category: "Marketing Attribution"
 tags: ["customer journey mapping", "marketing attribution", "touchpoint analysis", "conversion optimization"]
-date: "2026-03-22"
+date: "2026-02-06"
 author: "Digital Point LLC"
 faqs:
   - question: "What is customer journey mapping in marketing?"

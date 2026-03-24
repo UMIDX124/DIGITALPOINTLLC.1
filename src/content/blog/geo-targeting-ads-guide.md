@@ -3,7 +3,7 @@ title: "Geo-Targeting in Paid Ads: Strategy Guide"
 excerpt: "Master geo-targeting in Google Ads, Meta Ads, and LinkedIn to reduce wasted spend and improve ROAS. Strategies for local, national, and international campaigns."
 category: "CAC ROAS Optimization"
 tags: ["geo-targeting", "location targeting", "paid ads", "local advertising", "international ads"]
-date: "2026-03-22"
+date: "2025-12-29"
 author: "Digital Point LLC"
 faqs:
   - question: "What is geo-targeting in digital advertising?"

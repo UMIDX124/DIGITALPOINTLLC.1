@@ -3,13 +3,13 @@ title: "Bid Strategy Guide: Manual vs Automated Bidding Across Platforms"
 excerpt: "Choosing the right bid strategy can make or break your ROAS. Learn when to use manual vs automated bidding, how each platform's algorithm works, and which strategy fits your goals."
 category: "Paid Ads Benchmarks"
 tags: ["bid strategy", "automated bidding", "manual bidding", "Google Ads bidding", "Meta Ads bidding", "campaign optimization"]
-date: "2026-03-18"
+date: "2024-10-01"
 author: "Digital Point LLC"
 faqs:
   - question: "Should I use manual or automated bidding?"
-    answer: "For most advertisers in 2026, automated bidding outperforms manual bidding — but with important caveats. Automated bidding works best when you have at least 30-50 conversions per month per campaign, clean conversion tracking, and sufficient budget for the algorithm to learn. Manual bidding is better when you are just launching campaigns, have very low conversion volume, need precise control over specific placements, or when your conversion data is unreliable."
+    answer: "For most advertisers in 2026, automated bidding outperforms manual bidding — but with important caveats. Automated bidding works best when you have at least 30-50 conversions per month per campaign, clean conversion tracking, and sufficient budget for the algorithm to learn. Manual bidding is better when you're just launching campaigns, have very low conversion volume, need precise control over specific placements, or when your conversion data is unreliable."
   - question: "How long does it take for automated bidding to learn?"
-    answer: "Most platforms need a 'learning period' of 1-2 weeks or 50+ conversions before automated bidding stabilizes. During this period, performance is volatile and CPAs may be 2-3x higher than your target. Do not make major changes during the learning period as it resets the process. Google Ads typically needs 2-4 weeks, Meta needs 1-2 weeks, and LinkedIn needs 2-4 weeks of data before automated strategies perform reliably."
+    answer: "Most platforms need a 'learning period' of 1-2 weeks or 50+ conversions before automated bidding stabilizes. During this period, performance is volatile and CPAs may be 2-3x higher than your target. Don't make major changes during the learning period as it resets the process. Google Ads typically needs 2-4 weeks, Meta needs 1-2 weeks, and LinkedIn needs 2-4 weeks of data before automated strategies perform reliably."
   - question: "What is the best bid strategy for Google Ads?"
     answer: "For most advertisers, Target ROAS or Target CPA are the best Google Ads bid strategies. Use Target ROAS if you sell products at different price points and want to maximize revenue efficiency. Use Target CPA if your conversions have relatively uniform value and you want to maximize conversion volume at a set cost. Maximize Conversions (without a target) works well for campaigns with ample budget that need to scale quickly, but it can overspend. Maximize Clicks is only recommended for top-of-funnel awareness campaigns."
 ---
@@ -18,7 +18,7 @@ faqs:
 
 Your bid strategy is the single most impactful setting in any ad account. It determines how much you pay for every click, impression, and conversion. Get it right, and you scale profitably. Get it wrong, and you burn through budget with nothing to show for it.
 
-The landscape has shifted dramatically. Five years ago, manual bidding was standard practice. Today, machine learning-powered automated bidding outperforms manual bidding in most scenarios — but "most" isn't "all." Understanding when to use each approach is critical for marketers spending **$10,000 to $200,000+ per month** on paid media.
+Things have changed fast. Five years ago, manual bidding was standard practice. Today, machine learning-powered automated bidding outperforms manual bidding in most scenarios — but "most" isn't "all." Understanding when to use each approach is critical for marketers with **significant monthly ad budgets** on paid media.
 
 ## Bid Strategy Options by Platform
 

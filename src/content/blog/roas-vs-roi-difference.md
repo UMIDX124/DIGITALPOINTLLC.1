@@ -3,14 +3,14 @@ title: "ROAS vs ROI: What's the Difference and Which Should You Track?"
 excerpt: "Understand the critical differences between ROAS and ROI, when to use each metric, and how to avoid the common mistakes that lead to misleading performance reporting."
 category: "CAC ROAS Optimization"
 tags: ["ROAS", "ROI", "marketing metrics", "performance measurement", "ad spend"]
-date: "2026-03-16"
+date: "2025-07-22"
 author: "Digital Point LLC"
 faqs:
   - question: "Can you have a positive ROAS but negative ROI?"
-    answer: "Yes, and this is one of the most common and dangerous situations in digital advertising. If your ROAS is 2.5x but your gross margin is 40%, your breakeven ROAS is 2.5x — so you are barely breaking even on product costs alone. Once you factor in operating expenses, shipping, returns, and overhead, you are losing money. A positive ROAS only means you generated more revenue than you spent on ads. A positive ROI means you actually made a profit after all costs. Always know your breakeven ROAS and ensure you are comfortably above it."
+    answer: "Yes, and this is one of the most common and dangerous situations in digital advertising. If your ROAS is 2.5x but your gross margin is 40%, your breakeven ROAS is 2.5x — so you're barely breaking even on product costs alone. Once you factor in operating expenses, shipping, returns, and overhead, you're losing money. A positive ROAS only means you generated more revenue than you spent on ads. A positive ROI means you actually made a profit after all costs. Always know your breakeven ROAS and ensure you're comfortably above it."
   - question: "Which metric should I report to my CEO or board?"
-    answer: "Report both, but lead with ROI for strategic decisions and use ROAS for tactical optimization. Your CEO cares about profitability and growth, which ROI captures. Your media team needs ROAS for day-to-day campaign management. Present ROI at the business level (marketing investment vs. profit generated) and ROAS at the channel and campaign level. Include context: explain what is and is not included in each calculation, and show trends over time rather than single-period snapshots."
-  - question: "How do I calculate ROI for campaigns where the customer does not buy immediately?"
+    answer: "Report both, but lead with ROI for strategic decisions and use ROAS for tactical optimization. Your CEO cares about profitability and growth, which ROI captures. Your media team needs ROAS for day-to-day campaign management. Present ROI at the business level (marketing investment vs. profit generated) and ROAS at the channel and campaign level. Include context: explain what is and isn't included in each calculation, and show trends over time rather than single-period snapshots."
+  - question: "How do I calculate ROI for campaigns where the customer doesn't buy immediately?"
     answer: "For long sales cycles, track intermediate conversions (leads, demos, trials) and assign projected values based on historical conversion rates. For example, if 20% of demo requests become customers with a $10,000 average contract value, each demo request has a projected value of $2,000. Calculate ROI using projected pipeline value in the short term and actual closed revenue in the long term. Compare projected vs. actual regularly to calibrate your projections. At Digital Point LLC, we build attribution models that connect ad spend to actual revenue for accurate long-cycle ROI measurement."
 ---
 

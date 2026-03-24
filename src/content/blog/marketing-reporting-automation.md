@@ -3,7 +3,7 @@ title: "How to Automate Your Marketing Reports"
 excerpt: "Save 10+ hours weekly by automating marketing reports. Learn the tools, workflows, and best practices for marketing reporting automation in 2026."
 category: "Marketing Analytics"
 tags: ["marketing reporting", "report automation", "marketing analytics", "data automation"]
-date: "2026-03-22"
+date: "2024-11-20"
 author: "Digital Point LLC"
 faqs:
   - question: "How much time can marketing reporting automation save?"

@@ -296,20 +296,63 @@ export function getServiceIndustryContent(serviceSlug: string, industrySlug: str
 
   if (!service || !industry) return null;
 
-  const intro = `${industry.name} companies deal with a specific set of headaches when it comes to paid media. ${industry.painPoints[0]}, and ${industry.painPoints[1].toLowerCase()}. That's exactly where solid ${service.name.toLowerCase()} makes a real difference.`;
+  const variant = (service.slug.length + industry.slug.length) % 3;
 
-  const whyItMatters = `For ${industry.name.toLowerCase()} businesses, ${service.name.toLowerCase()} isn't a nice-to-have — it's a growth lever. ${service.description} When we apply this specifically to the ${industry.name.toLowerCase()} space, it means campaigns that actually account for ${industry.painPoints[2].toLowerCase()} and ${industry.painPoints[3].toLowerCase()}.`;
+  let intro: string;
+  let whyItMatters: string;
+  let approach: string;
+  let results: string;
+  let howWeHelp: string[];
 
-  const approach = `Here's how we approach ${service.name.toLowerCase()} for ${industry.name.toLowerCase()}: we start by learning your business model, sales cycle, and who you're up against. Then we build campaigns around how ${industry.name.toLowerCase()} buyers actually behave — not some cookie-cutter playbook borrowed from a totally different industry.`;
+  if (variant === 0) {
+    // Variant 0: Statement-led (refined original)
+    intro = `${industry.name} companies deal with a specific set of headaches when it comes to paid media. ${industry.painPoints[0]}, and ${industry.painPoints[1].toLowerCase()}. That's exactly where solid ${service.name.toLowerCase()} makes a real difference.`;
 
-  const results = `What you end up with is a ${service.name.toLowerCase()} program that moves the numbers ${industry.name.toLowerCase()} businesses actually care about: lower acquisition costs, better ROAS, and a clear picture of what's driving revenue — not just clicks.`;
+    whyItMatters = `For ${industry.name.toLowerCase()} businesses, ${service.name.toLowerCase()} isn't a nice-to-have — it's a growth lever. ${service.description} When we apply this specifically to the ${industry.name.toLowerCase()} space, it means campaigns that actually account for ${industry.painPoints[2].toLowerCase()} and ${industry.painPoints[3].toLowerCase()}.`;
 
-  const howWeHelp = [
-    `First, we audit what you've got. Honestly, most ${service.name.toLowerCase()} setups we look at have obvious waste and missed opportunities — especially in ${industry.name.toLowerCase()}.`,
-    `Then we build a strategy from scratch that tackles ${industry.painPoints[0].toLowerCase()} head-on, while playing to the strengths of your ${industry.name.toLowerCase()} business model.`,
-    `We set up proper tracking and attribution so there's no ambiguity about how ${service.name.toLowerCase()} impacts your bottom line.`,
-    `From there, it's ongoing optimization — adapting to market shifts, competitive moves, and changes in how ${industry.name.toLowerCase()} buyers behave.`,
-  ];
+    approach = `Here's how we approach ${service.name.toLowerCase()} for ${industry.name.toLowerCase()}: we start by learning your business model, sales cycle, and who you're up against. Then we build campaigns around how ${industry.name.toLowerCase()} buyers actually behave — not some cookie-cutter playbook borrowed from a totally different industry.`;
+
+    results = `What you end up with is a ${service.name.toLowerCase()} program that moves the numbers ${industry.name.toLowerCase()} businesses actually care about: lower acquisition costs, better ROAS, and a clear picture of what's driving revenue — not just clicks.`;
+
+    howWeHelp = [
+      `First, we audit what you've got. Honestly, most ${service.name.toLowerCase()} setups we look at have obvious waste and missed opportunities — especially in ${industry.name.toLowerCase()}.`,
+      `Then we build a strategy from scratch that tackles ${industry.painPoints[0].toLowerCase()} head-on, while playing to the strengths of your ${industry.name.toLowerCase()} business model.`,
+      `We set up proper tracking and attribution so there's no ambiguity about how ${service.name.toLowerCase()} impacts your bottom line.`,
+      `From there, it's ongoing optimization — adapting to market shifts, competitive moves, and changes in how ${industry.name.toLowerCase()} buyers behave.`,
+    ];
+  } else if (variant === 1) {
+    // Variant 1: Question-led
+    intro = `What happens when ${industry.name.toLowerCase()} companies get ${service.name.toLowerCase()} right? They stop worrying about ${industry.painPoints[0].toLowerCase()} and start scaling with confidence. But getting there means solving for ${industry.painPoints[1].toLowerCase()} — and that takes more than surface-level optimization.`;
+
+    whyItMatters = `In the ${industry.name.toLowerCase()} space, ${service.name.toLowerCase()} touches everything. ${service.description} The ${industry.name.toLowerCase()} angle matters because your buyers behave differently — they're dealing with ${industry.painPoints[2].toLowerCase()}, and your campaigns need to reflect that reality.`;
+
+    approach = `We've worked with enough ${industry.name.toLowerCase()} companies to know the playbook. Generic strategies fall apart when you're up against ${industry.painPoints[3].toLowerCase()}. So we skip the templates and build ${service.name.toLowerCase()} programs around what actually moves the needle in your market.`;
+
+    results = `The ${industry.name.toLowerCase()} clients we work with on ${service.name.toLowerCase()} don't just see better metrics — they get predictability. Revenue attribution they can trust, acquisition costs they can plan around, and campaigns that hold up as they scale.`;
+
+    howWeHelp = [
+      `We kick things off with a deep dive into your ${industry.name.toLowerCase()} business — your margins, your sales process, your competitive set. No generic questionnaire.`,
+      `Next, we identify the biggest gaps in your current ${service.name.toLowerCase()} setup and prioritize fixes by revenue impact, not effort.`,
+      `Our team builds out the infrastructure — tracking, audiences, creative frameworks — all calibrated for how ${industry.name.toLowerCase()} buyers actually convert.`,
+      `Once campaigns are live, we run a continuous testing cycle: new angles, new segments, new bid strategies — always grounded in your ${industry.name.toLowerCase()} data.`,
+    ];
+  } else {
+    // Variant 2: Problem-led
+    intro = `Most ${industry.name.toLowerCase()} teams struggle with ${industry.painPoints[0].toLowerCase()}. Layer on ${industry.painPoints[1].toLowerCase()}, and it's no surprise that ${service.name.toLowerCase()} often ends up as an afterthought — running on autopilot while money leaks out the sides.`;
+
+    whyItMatters = `Here's why that's costly: ${service.name.toLowerCase()} done right is one of the fastest ways to fix the economics of a ${industry.name.toLowerCase()} business. ${service.description} Apply that lens to ${industry.name.toLowerCase()} specifically, and you're solving for ${industry.painPoints[2].toLowerCase()} and ${industry.painPoints[3].toLowerCase()} at the same time.`;
+
+    approach = `Our ${service.name.toLowerCase()} process for ${industry.name.toLowerCase()} starts differently than most agencies. We don't open with a keyword list or a campaign structure — we open with your P&L. Understanding what a customer is actually worth to your ${industry.name.toLowerCase()} business shapes every decision we make from there.`;
+
+    results = `${industry.name} companies we've run ${service.name.toLowerCase()} for walk away with something rare: clarity. They know exactly what's working, what isn't, and where the next dollar of growth is coming from. No fog, no vanity metrics.`;
+
+    howWeHelp = [
+      `The engagement starts with a forensic audit of your current ${service.name.toLowerCase()} performance — we pull apart every campaign, every audience, every landing page to find where ${industry.name.toLowerCase()}-specific waste is hiding.`,
+      `With that picture clear, we rebuild your strategy around the economics that matter: your real CAC targets, your LTV benchmarks, and the competitive dynamics unique to ${industry.name.toLowerCase()}.`,
+      `Execution is hands-on — we launch, monitor, and iterate weekly, not monthly. ${industry.name} moves fast and your ${service.name.toLowerCase()} has to keep pace.`,
+      `We wire everything into reporting that your team can actually use — live dashboards tied to revenue, not just impressions and clicks that don't tell you anything useful.`,
+    ];
+  }
 
   const benefits = service.benefits.map((benefit, index) => {
     const industryContext = [
@@ -340,13 +383,41 @@ export function getServiceCityContent(serviceSlug: string, citySlug: string) {
 
   if (!service || !city) return null;
 
-  const intro = `${city.name} is ${city.description}. If you're running a business here, you need ${service.name.toLowerCase()} that's built for this market's specific dynamics — and that's exactly what we bring to the table.`;
+  const variant = (service.slug.length + city.slug.length) % 3;
 
-  const localContext = `We work with clients across the country, but our ${service.name.toLowerCase()} for ${city.name}-based businesses isn't one-size-fits-all. We've studied the ${city.name} market — the competitive landscape, how people search locally, and the cost benchmarks you're up against in this metro.`;
+  let intro: string;
+  let localContext: string;
+  let approach: string;
+  let results: string;
 
-  const approach = `Our ${service.name.toLowerCase()} programs for ${city.name} businesses combine ${service.shortDescription.toLowerCase().replace(/\.$/, '')} with market-specific intelligence. ${service.description}`;
+  if (variant === 0) {
+    // Variant 0: City-description opening
+    intro = `${city.name} is ${city.description}. If you're running a business here, you need ${service.name.toLowerCase()} that's built for this market's specific dynamics — and that's exactly what we bring to the table.`;
 
-  const results = `${city.name} businesses we've worked with on ${service.name.toLowerCase()} see real improvements — better campaign efficiency, clearer attribution, and growth that's actually predictable. Doesn't matter if you serve the local market or sell nationwide.`;
+    localContext = `We work with clients across the country, but our ${service.name.toLowerCase()} for ${city.name}-based businesses isn't one-size-fits-all. We've studied the ${city.name} market — the competitive landscape, how people search locally, and the cost benchmarks you're up against in this metro.`;
+
+    approach = `Our ${service.name.toLowerCase()} programs for ${city.name} businesses combine ${service.shortDescription.toLowerCase().replace(/\.$/, '')} with market-specific intelligence. ${service.description}`;
+
+    results = `${city.name} businesses we've worked with on ${service.name.toLowerCase()} see real improvements — better campaign efficiency, clearer attribution, and growth that's actually predictable. Doesn't matter if you serve the local market or sell nationwide.`;
+  } else if (variant === 1) {
+    // Variant 1: Market-uniqueness opening
+    intro = `The ${city.name} market has its own rules when it comes to ${service.name.toLowerCase()}. It's ${city.description} — which means the strategies that work in other metros won't necessarily hold up here. You need an approach shaped by what's actually happening on the ground in ${city.name}.`;
+
+    localContext = `What makes ${city.name} different for ${service.name.toLowerCase()}? Cost benchmarks, audience behavior, and competitive density are all specific to this metro. We've dug into the data and built our ${city.name} playbook around those realities — not assumptions borrowed from national averages.`;
+
+    approach = `For ${city.name} clients, our ${service.name.toLowerCase()} work starts with the local landscape. We map your competitors' spend patterns, identify the gaps they're leaving open, and build campaigns that exploit those openings. ${service.description}`;
+
+    results = `Our ${city.name} clients don't just get better numbers — they get an edge over local competitors who are still running generic campaigns. That means stronger ROI, more efficient spend, and growth that compounds over time.`;
+  } else {
+    // Variant 2: Challenge-led opening
+    intro = `Businesses in ${city.name} face a tough reality: it's ${city.description}. That competitive pressure drives up ad costs and makes sloppy ${service.name.toLowerCase()} expensive fast. If your campaigns aren't dialed in for this market, you're leaving money on the table every day.`;
+
+    localContext = `The challenge in ${city.name} isn't just competition — it's that the market moves quickly. Consumer behavior shifts, new players enter, and ad costs fluctuate in ways that don't match national trends. Our ${service.name.toLowerCase()} for ${city.name} businesses is built to stay ahead of those shifts, not react to them after the damage is done.`;
+
+    approach = `We tackle ${service.name.toLowerCase()} in ${city.name} by combining deep local market intelligence with proven frameworks that scale. ${service.shortDescription} ${service.description}`;
+
+    results = `${city.name} businesses that work with us on ${service.name.toLowerCase()} gain something their competitors don't have: a program that adapts to local market conditions in real time. The result is consistent performance — not the boom-and-bust cycles that plague most ad accounts in competitive metros.`;
+  }
 
   return {
     service,

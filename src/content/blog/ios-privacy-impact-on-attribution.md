@@ -3,7 +3,7 @@ title: "How iOS Privacy Changes Broke Your Attribution (And How to Fix It)"
 excerpt: "Understand how Apple's ATT, iOS privacy features, and Safari ITP impacted marketing attribution, and learn practical solutions to recover lost data."
 category: "Marketing Attribution"
 tags: ["iOS privacy", "ATT", "Apple tracking", "attribution", "performance marketing"]
-date: "2025-05-12"
+date: "2025-07-18"
 author: "Digital Point LLC"
 faqs:
   - question: "How much data did iOS privacy changes remove from marketing attribution?"
@@ -26,7 +26,7 @@ For marketers who had built their entire measurement strategy on pixel-based tra
 - Attribution windows were forcibly shortened from 28 days to 7 days on Meta
 - Audience targeting accuracy degraded significantly
 
-But ATT was just one change in a broader privacy overhaul. Let's map the full landscape.
+But ATT was just one change in a broader privacy overhaul. Let's map the full picture.
 
 ## The Full Scope of iOS Privacy Changes
 

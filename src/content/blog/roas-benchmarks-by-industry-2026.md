@@ -3,13 +3,13 @@ title: "ROAS Benchmarks by Industry for 2026"
 excerpt: "Comprehensive ROAS benchmarks for 2026 across 12+ industries and all major ad platforms, with data on what top performers achieve and how to get there."
 category: "CAC ROAS Optimization"
 tags: ["ROAS benchmarks", "return on ad spend", "industry benchmarks", "paid media", "2026 benchmarks"]
-date: "2026-03-19"
+date: "2025-02-13"
 author: "Digital Point LLC"
 faqs:
   - question: "What is the average ROAS across all industries?"
     answer: "The overall average ROAS across all industries and channels in 2026 is approximately 2.5-3.5x. However, this number varies enormously by industry, channel, and campaign type. Brand search campaigns often achieve 10-20x ROAS, while prospecting campaigns on social may deliver 1.5-3x. E-commerce tends to have higher measurable ROAS because purchases happen online and are easily tracked. B2B companies often see lower apparent ROAS because their conversion events (leads, demos) require additional steps before revenue is generated."
   - question: "Why is my ROAS lower than industry benchmarks?"
-    answer: "Common reasons for below-benchmark ROAS include: tracking and attribution issues (you may be underreporting conversions), poor campaign structure that does not separate brand from non-brand performance, creative fatigue from running the same ads too long, landing pages that do not match ad messaging, targeting that is too broad, bidding strategies that are not optimized for value, and insufficient conversion data for algorithmic bidding to work effectively. Start by auditing your tracking setup — many companies are simply not capturing all their conversions."
+    answer: "Common reasons for below-benchmark ROAS include: tracking and attribution issues (you may be underreporting conversions), poor campaign structure that doesn't separate brand from non-brand performance, creative fatigue from running the same ads too long, landing pages that don't match ad messaging, targeting that's too broad, bidding strategies that aren't optimized for value, and insufficient conversion data for algorithmic bidding to work effectively. Start by auditing your tracking setup — many companies are simply not capturing all their conversions."
   - question: "How do ROAS benchmarks differ between prospecting and retargeting?"
     answer: "Retargeting ROAS is typically 3-5x higher than prospecting ROAS. This is expected because retargeting reaches people who already know your brand. The mistake many advertisers make is shifting too much budget to retargeting because of its high ROAS, which shrinks the retargeting audience pool over time and eventually decreases overall performance. A healthy split is typically 60-80% prospecting and 20-40% retargeting, depending on your sales cycle length. Judge prospecting on its own benchmarks, not against retargeting numbers."
 ---
@@ -206,7 +206,7 @@ On social platforms, creative quality is the primary ROAS driver. Launch 3-5 new
 
 ### Step 4: Optimize the Funnel
 
-Improving conversion rate is the highest-leverage ROAS improvement. Test landing pages, checkout flows, and post-click experiences continuously.
+Improving conversion rate is the single best ROAS improvement. Test landing pages, checkout flows, and post-click experiences continuously.
 
 ### Step 5: Use Data to Allocate Budget
 

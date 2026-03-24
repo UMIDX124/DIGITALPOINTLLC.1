@@ -3,7 +3,7 @@ title: "How to Scale Facebook Ads Without Killing Performance"
 excerpt: "Master the art of scaling Facebook ads profitably with proven strategies for horizontal and vertical scaling, budget management, and creative refresh."
 category: "Paid Ads Benchmarks"
 tags: ["facebook ads", "scaling ads", "ad budget", "campaign optimization"]
-date: "2025-04-16"
+date: "2025-11-24"
 author: "Digital Point LLC"
 faqs:
   - question: "How fast can I scale Facebook ads?"

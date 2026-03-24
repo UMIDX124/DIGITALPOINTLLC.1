@@ -3,7 +3,7 @@ title: "Using Social Proof in Your Ad Campaigns"
 excerpt: "Learn how to leverage social proof in paid advertising to increase CTR by 30%+ and reduce CPA. Strategies for reviews, testimonials, and UGC in ads."
 category: "ROAS Optimization"
 tags: ["social proof", "ad creative", "testimonials", "user generated content", "conversion optimization"]
-date: "2026-03-22"
+date: "2024-11-08"
 author: "Digital Point LLC"
 faqs:
   - question: "What is social proof in advertising?"

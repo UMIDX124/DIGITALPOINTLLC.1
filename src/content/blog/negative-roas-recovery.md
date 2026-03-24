@@ -3,15 +3,15 @@ title: "Negative ROAS? How to Turn Around Unprofitable Ad Campaigns"
 excerpt: "A step-by-step recovery plan for ad campaigns that are losing money, with diagnostic frameworks and proven turnaround strategies across Google and Meta Ads."
 category: "CAC ROAS Optimization"
 tags: ["ROAS recovery", "unprofitable ads", "ad campaign optimization", "loss recovery", "paid media"]
-date: "2026-03-15"
+date: "2025-01-23"
 author: "Digital Point LLC"
 faqs:
   - question: "Should I pause unprofitable campaigns immediately?"
-    answer: "Not always. First, verify your tracking is accurate — many 'unprofitable' campaigns are actually converting but the conversions are not being tracked properly. Second, check the attribution window — some campaigns need a longer lookback period to capture delayed conversions. Third, evaluate the campaign's role in your funnel — a prospecting campaign may look unprofitable on last-click but is driving revenue that shows up in your retargeting and brand campaigns. If after these checks the campaign is genuinely unprofitable, pause it or restructure it rather than letting it continue to bleed money."
+    answer: "Not always. First, verify your tracking is accurate — many 'unprofitable' campaigns are actually converting but the conversions aren't being tracked properly. Second, check the attribution window — some campaigns need a longer lookback period to capture delayed conversions. Third, evaluate the campaign's role in your funnel — a prospecting campaign may look unprofitable on last-click but is driving revenue that shows up in your retargeting and brand campaigns. If after these checks the campaign is genuinely unprofitable, pause it or restructure it rather than letting it continue to bleed money."
   - question: "How long should I wait before declaring a campaign unprofitable?"
     answer: "You need statistical significance before making decisions. As a rule of thumb, wait until a campaign has spent at least 3-5x your target CPA before evaluating. For campaigns with a $100 CPA target, that means at least $300-500 in spend. For lower-volume campaigns, wait at least 2 weeks and 1,000+ clicks. Shorter evaluation windows lead to premature kills — some campaigns need time for the algorithm to learn and optimize. However, if a campaign has spent 10x your target CPA with zero conversions, you have enough data to take action."
   - question: "What is the most common cause of unprofitable ad campaigns?"
-    answer: "In our experience at Digital Point LLC, the most common cause is a mismatch between the ad promise and the landing page experience. The ad gets the click (often at a reasonable CPC), but the landing page fails to convert because it does not match the expectation set by the ad, loads too slowly, has too much friction, or does not build enough trust. The second most common cause is targeting too broad an audience, resulting in clicks from people who were never likely to buy. The third is creative fatigue — ads that have been running too long lose their effectiveness but continue spending."
+    answer: "In our experience at Digital Point LLC, the most common cause is a mismatch between the ad promise and the landing page experience. The ad gets the click (often at a reasonable CPC), but the landing page fails to convert because it doesn't match the expectation set by the ad, loads too slowly, has too much friction, or doesn't build enough trust. The second most common cause is targeting too broad an audience, resulting in clicks from people who were never likely to buy. The third is creative fatigue — ads that have been running too long lose their effectiveness but continue spending."
 ---
 
 ## When Your Ads Are Losing Money

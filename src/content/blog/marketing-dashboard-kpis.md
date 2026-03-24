@@ -3,7 +3,7 @@ title: "Essential Marketing Dashboard KPIs Every CMO Needs"
 excerpt: "Discover the critical marketing dashboard KPIs that CMOs need to track in 2026. Build dashboards that drive decisions, not just display data."
 category: "Marketing Analytics"
 tags: ["marketing KPIs", "marketing dashboard", "CMO metrics", "marketing analytics"]
-date: "2026-03-22"
+date: "2026-01-30"
 author: "Digital Point LLC"
 faqs:
   - question: "What KPIs should a CMO dashboard include?"

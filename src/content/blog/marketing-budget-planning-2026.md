@@ -3,7 +3,7 @@ title: "Marketing Budget Planning for 2026"
 excerpt: "Plan your 2026 marketing budget with data-driven frameworks. Learn channel allocation, benchmarks by industry, and how to maximize ROI on every dollar."
 category: "Growth Systems"
 tags: ["marketing budget", "budget planning", "marketing spend", "budget allocation", "marketing ROI"]
-date: "2026-03-22"
+date: "2024-12-10"
 author: "Digital Point LLC"
 faqs:
   - question: "How much should a company spend on marketing in 2026?"

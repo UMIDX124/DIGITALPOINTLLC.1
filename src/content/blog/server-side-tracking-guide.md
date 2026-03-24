@@ -3,7 +3,7 @@ title: "Server-Side Tracking: The Complete Implementation Guide"
 excerpt: "Learn how to implement server-side tracking to recover lost conversion data, improve attribution accuracy, and future-proof your marketing measurement."
 category: "Marketing Attribution"
 tags: ["server-side tracking", "CAPI", "conversion tracking", "privacy", "performance marketing"]
-date: "2025-10-05"
+date: "2025-12-01"
 author: "Digital Point LLC"
 faqs:
   - question: "What is server-side tracking?"

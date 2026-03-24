@@ -3,15 +3,15 @@ title: "How to Reduce Your CAC by 30% in 30 Days"
 excerpt: "A day-by-day action plan to slash your customer acquisition cost by 30% or more in just 30 days, with specific tactics for Google Ads, Meta Ads, and your conversion funnel."
 category: "CAC ROAS Optimization"
 tags: ["CAC reduction", "customer acquisition cost", "cost optimization", "paid ads", "conversion optimization"]
-date: "2026-03-18"
+date: "2025-02-03"
 author: "Digital Point LLC"
 faqs:
   - question: "Is it realistic to reduce CAC by 30% in 30 days?"
     answer: "Yes, for most companies spending $10k or more per month on ads that have not undergone a systematic optimization in the past 6 months. The majority of ad accounts we audit at Digital Point LLC have 20-35% of budget going to clearly underperforming segments. Eliminating that waste alone can achieve a 15-20% CAC reduction. Combined with conversion rate improvements and targeting refinements, 30% is an achievable target. Companies already running highly optimized accounts may see a 10-15% improvement, which is still significant at scale."
   - question: "Will reducing CAC also reduce my lead or customer volume?"
-    answer: "Not if done correctly. The first phase of CAC reduction focuses on eliminating waste — budget that is generating clicks but not customers. Reallocating that budget to your best-performing campaigns and audiences should maintain or increase volume while reducing CAC. The key is to cut the right things. Do not slash budget across the board. Instead, surgically remove underperformers and redirect to proven winners."
+    answer: "Not if done correctly. The first phase of CAC reduction focuses on eliminating waste — budget that's generating clicks but not customers. Reallocating that budget to your best-performing campaigns and audiences should maintain or increase volume while reducing CAC. The key is to cut the right things. Don't slash budget across the board. Instead, surgically remove underperformers and redirect to proven winners."
   - question: "What tools do I need to implement this 30-day plan?"
-    answer: "At minimum, you need access to your ad platform dashboards (Google Ads, Meta Ads Manager), Google Analytics 4, and a landing page builder that supports A/B testing. For more advanced optimization, consider a call tracking tool (like CallRail), a heatmap tool (like Hotjar or Microsoft Clarity — which is free), and a CRM that tracks lead-to-customer conversion. You do not need expensive tools to start — the biggest gains come from better decision-making with the data you already have."
+    answer: "At minimum, you need access to your ad platform dashboards (Google Ads, Meta Ads Manager), Google Analytics 4, and a landing page builder that supports A/B testing. For more advanced optimization, consider a call tracking tool (like CallRail), a heatmap tool (like Hotjar or Microsoft Clarity — which is free), and a CRM that tracks lead-to-customer conversion. You don't need expensive tools to start — the biggest gains come from better decision-making with the data you already have."
 ---
 
 ## The 30-Day CAC Reduction Plan

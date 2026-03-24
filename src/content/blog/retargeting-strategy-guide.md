@@ -3,15 +3,15 @@ title: "Retargeting Strategy: How to Re-Engage Without Wasting Budget"
 excerpt: "Build a retargeting strategy that re-engages warm audiences efficiently with segmentation, frequency caps, and cross-platform tactics that maximize ROI."
 category: "CAC ROAS Optimization"
 tags: ["retargeting", "remarketing", "audience segmentation", "conversion optimization"]
-date: "2025-02-19"
+date: "2025-04-23"
 author: "Digital Point LLC"
 faqs:
   - question: "How much of my ad budget should go to retargeting?"
-    answer: "Most advertisers should allocate 20-35% of their total ad budget to retargeting. Spending less means leaving easy conversions on the table. Spending more indicates your prospecting is not generating enough new traffic to sustain growth."
+    answer: "Most advertisers should allocate 20-35% of their total ad budget to retargeting. Spending less means leaving easy conversions on the table. Spending more indicates your prospecting isn't generating enough new traffic to sustain growth."
   - question: "What is the ideal retargeting window?"
     answer: "It depends on your sales cycle. E-commerce typically uses 7-30 day windows. B2B with longer sales cycles should use 30-90 day windows. Always segment by recency, with higher bids for more recent visitors."
   - question: "Why are my retargeting campaigns showing high frequency but low conversions?"
-    answer: "High frequency with low conversions usually means your audience is too small, your creative is stale, or you are targeting people who will never convert. Implement frequency caps (3-5 impressions per week), refresh creative regularly, and exclude low-intent visitors."
+    answer: "High frequency with low conversions usually means your audience is too small, your creative is stale, or you're targeting people who will never convert. Implement frequency caps (3-5 impressions per week), refresh creative regularly, and exclude low-intent visitors."
 ---
 
 ## The Retargeting Paradox

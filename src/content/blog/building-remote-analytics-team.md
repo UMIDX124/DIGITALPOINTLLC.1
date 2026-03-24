@@ -3,7 +3,7 @@ title: "Building a Remote Analytics Team for Performance Marketing"
 excerpt: "How to build a remote analytics team that turns marketing data into actionable insights, from hiring analysts to setting up data infrastructure and reporting."
 category: "Remote Workforce"
 tags: ["analytics team", "remote hiring", "marketing analytics", "data infrastructure", "performance marketing"]
-date: "2026-03-22"
+date: "2025-06-20"
 author: "Digital Point LLC"
 faqs:
   - question: "What skills should a marketing analyst have?"

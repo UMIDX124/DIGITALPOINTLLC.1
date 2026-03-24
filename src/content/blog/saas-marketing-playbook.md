@@ -3,7 +3,7 @@ title: "SaaS Marketing Playbook: Paid Acquisition Strategies That Scale"
 excerpt: "The complete SaaS paid acquisition guide covering channel strategy, CAC benchmarks, trial optimization, and scaling frameworks for B2B and B2C SaaS companies."
 category: "Growth Systems"
 tags: ["SaaS marketing", "SaaS advertising", "customer acquisition", "growth marketing", "B2B SaaS"]
-date: "2026-03-19"
+date: "2024-10-22"
 author: "Digital Point LLC"
 faqs:
   - question: "What is a good CAC for SaaS?"
@@ -18,7 +18,7 @@ faqs:
 
 SaaS marketing is unique. Unlike e-commerce where you optimize for one-time purchases, SaaS acquisition must account for recurring revenue, retention, and lifetime value. A customer acquired at a high CPA can be extremely profitable if they stick around for years — or a total loss if they churn in month two.
 
-For SaaS companies spending **$10,000 to $200,000+ per month** on paid acquisition, the playbook requires balancing acquisition volume with unit economics, optimizing for the right conversion events, and building a measurement system that connects ad spend to actual revenue.
+For SaaS companies spending **$10K to six figures monthly** on paid acquisition, the playbook requires balancing acquisition volume with unit economics, optimizing for the right conversion events, and building a measurement system that connects ad spend to actual revenue.
 
 ## SaaS Marketing Benchmarks (2026)
 

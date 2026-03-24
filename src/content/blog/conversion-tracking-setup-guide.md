@@ -3,7 +3,7 @@ title: "Conversion Tracking Setup: Complete Technical Guide"
 excerpt: "Step-by-step guide to setting up conversion tracking across Google Ads, Meta, GA4, and your CRM. Fix tracking gaps that cost you 20-40% in lost attribution."
 category: "Marketing Analytics"
 tags: ["conversion tracking", "tracking setup", "Google Ads tracking", "Meta pixel", "server-side tracking"]
-date: "2026-03-22"
+date: "2024-10-28"
 author: "Digital Point LLC"
 faqs:
   - question: "What is conversion tracking and why does it matter?"
@@ -30,7 +30,7 @@ This guide walks through the complete technical setup for conversion tracking ac
 
 ### The Modern Tracking Stack
 
-A robust tracking setup in 2026 requires multiple layers:
+A solid tracking setup in 2026 requires multiple layers:
 
 ```
 Layer 1: Client-Side Tags (Google Tag, Meta Pixel, etc.)
