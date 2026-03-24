@@ -93,7 +93,7 @@ export function Navigation() {
           }}
         />
 
-        <nav className="relative px-4 md:px-8 mx-auto max-w-7xl">
+        <nav className="relative pl-2 pr-4 md:pl-4 md:pr-8 mx-auto max-w-7xl">
           <div className="flex items-center justify-between gap-6 h-14 md:h-16">
             {/* Logo — Cosmo mascot sitting on the navbar */}
             <Link
