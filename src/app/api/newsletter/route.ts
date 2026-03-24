@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { sendEmail, escapeHtml } from '@/lib/email';
+import { db } from '@/lib/db';
 
 // In-memory rate limiter
 const rateLimiter = new Map<string, { count: number; reset: number }>();
@@ -19,6 +20,13 @@ export async function POST(req: Request) {
       rateLimiter.set(ip, { count: 1, reset: now + 3600000 });
     }
 
+    // Cleanup expired rate limit entries
+    if (rateLimiter.size > 100) {
+      for (const [key, val] of rateLimiter) {
+        if (now > val.reset) rateLimiter.delete(key);
+      }
+    }
+
     const { email } = await req.json();
 
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -27,25 +35,23 @@ export async function POST(req: Request) {
 
     const safeEmail = escapeHtml(email);
 
-    // Store subscriber - try database first
+    // Store subscriber using shared db instance
     let dbSuccess = false;
     try {
-      const { PrismaClient } = await import('@prisma/client');
-      const prisma = new PrismaClient();
-      await prisma.$executeRawUnsafe(
+      await db.$executeRawUnsafe(
         `INSERT INTO NewsletterSubscriber (id, email, createdAt) VALUES (?, ?, ?) ON CONFLICT(email) DO NOTHING`,
         crypto.randomUUID(),
         email.toLowerCase(),
         new Date().toISOString()
       );
-      await prisma.$disconnect();
       dbSuccess = true;
     } catch {
       // DB might not have the table yet - continue with email notification
     }
 
     // Send welcome email to the subscriber
-    await sendEmail({
+    try {
+      await sendEmail({
       to: email,
       subject: 'Welcome to Digital Point — Growth Insights',
       html: `
@@ -79,21 +85,28 @@ export async function POST(req: Request) {
         </div>
       `,
     });
+    } catch {
+      // Welcome email failed - continue, don't block the subscription
+    }
 
     // Send admin notification
-    await sendEmail({
-      to: 'info@digitalpointllc.com',
-      subject: `New Newsletter Subscriber: ${email}`,
-      replyTo: email,
-      html: `
-        <div style="font-family: Arial, sans-serif; padding: 20px;">
-          <h2 style="color: #7b2cbf;">New Newsletter Subscriber</h2>
-          <p><strong>Email:</strong> ${safeEmail}</p>
-          <p><strong>Time:</strong> ${new Date().toLocaleString()}</p>
-          <p><strong>DB Stored:</strong> ${dbSuccess ? 'Yes' : 'No (fallback mode)'}</p>
-        </div>
-      `,
-    });
+    try {
+      await sendEmail({
+        to: 'info@digitalpointllc.com',
+        subject: `New Newsletter Subscriber: ${email}`,
+        replyTo: email,
+        html: `
+          <div style="font-family: Arial, sans-serif; padding: 20px;">
+            <h2 style="color: #7b2cbf;">New Newsletter Subscriber</h2>
+            <p><strong>Email:</strong> ${safeEmail}</p>
+            <p><strong>Time:</strong> ${new Date().toLocaleString()}</p>
+            <p><strong>DB Stored:</strong> ${dbSuccess ? 'Yes' : 'No (fallback mode)'}</p>
+          </div>
+        `,
+      });
+    } catch {
+      // Admin notification failed - not critical
+    }
 
     return NextResponse.json({ success: true });
   } catch {
