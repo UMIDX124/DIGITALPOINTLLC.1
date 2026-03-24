@@ -16,7 +16,7 @@ faqs:
 
 ## Display Advertising in 2026: The Role It Plays
 
-Display advertising — banner ads, native ads, and rich media formats appearing across websites and apps — is one of the oldest digital advertising channels. In 2026, it is not the flashiest channel, but it remains essential for a complete paid media strategy.
+Display advertising — banner ads, native ads, and rich media formats appearing across websites and apps — is one of the oldest digital advertising channels. In 2026, it's not the flashiest channel, but it remains essential for a complete paid media strategy.
 
 Display excels at three things: retargeting website visitors, building brand awareness at scale, and supporting conversions that originate on other channels. When used correctly, it delivers strong returns. When used incorrectly — as a primary direct response channel — it wastes budget.
 
@@ -177,7 +177,7 @@ Dynamic creative typically delivers 2-3x higher CTR and conversion rates compare
 
 ### The Attribution Challenge
 
-Display ads primarily influence conversions rather than directly cause them. A user sees a display retargeting ad, does not click, but later returns via Google Search and buys. Last-click attribution gives credit to Search, not Display.
+Display ads primarily influence conversions rather than directly cause them. A user sees a display retargeting ad, doesn't click, but later returns via Google Search and buys. Last-click attribution gives credit to Search, not Display.
 
 ### Measurement Approaches
 
@@ -239,7 +239,7 @@ Display advertising carries brand safety risk — your ads appearing next to ina
 
 Build retargeting sequences across display and other channels:
 
-1. User visits site but does not convert
+1. User visits site but doesn't convert
 2. Day 1-3: Display retargeting with product-specific ads
 3. Day 3-7: Social retargeting on Meta with testimonial creative
 4. Day 7-14: Display retargeting with offer or urgency

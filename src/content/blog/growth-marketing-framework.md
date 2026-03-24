@@ -108,7 +108,7 @@ Growth marketing runs on experiments. Every change is a hypothesis to be tested,
 **Step 3: Execution**
 - Implement the change
 - Monitor for technical issues (not results)
-- Do not peek at results until the predetermined end date
+- Don't peek at results until the predetermined end date
 
 **Step 4: Analysis**
 - Calculate statistical significance
@@ -157,9 +157,9 @@ Where possible, automate the winning tactic so it runs without manual interventi
 
 ### Avoiding Scaling Pitfalls
 
-**Do not scale too fast.** Increase budget or reach by 20-30% per week, not 200% overnight. Platforms need time to adjust, and sudden changes can destabilize performance.
+**Don't scale too fast.** Increase budget or reach by 20-30% per week, not 200% overnight. Platforms need time to adjust, and sudden changes can destabilize performance.
 
-**Do not assume universal applicability.** A winning tactic in one context may not work in another. Test before assuming.
+**Don't assume universal applicability.** A winning tactic in one context may not work in another. Test before assuming.
 
 **Monitor for diminishing returns.** As you scale, marginal returns decrease. Track performance at each scale level and stop increasing when ROI drops below your threshold.
 

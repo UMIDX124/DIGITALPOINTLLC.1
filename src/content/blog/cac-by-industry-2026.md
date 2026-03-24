@@ -146,11 +146,11 @@ Understanding where each channel delivers is critical for budget allocation.
 
 ## Factors That Drive CAC Variation Within Industries
 
-Two companies in the same industry can have dramatically different CACs. Here is what drives the gap:
+Two companies in the same industry can have dramatically different CACs. Here's what drives the gap:
 
 ### Brand Awareness
 
-Companies with strong brand recognition consistently achieve 30-50% lower CAC than unknown competitors. Brand search campaigns convert at 5-10x the rate of non-brand campaigns. If your brand is not well known, factor in the investment needed to build awareness.
+Companies with strong brand recognition consistently achieve 30-50% lower CAC than unknown competitors. Brand search campaigns convert at 5-10x the rate of non-brand campaigns. If your brand isn't well known, factor in the investment needed to build awareness.
 
 ### Product Price Point
 
@@ -158,7 +158,7 @@ Higher-priced products naturally have higher CAC because prospects need more tou
 
 ### Competitive Intensity
 
-In crowded markets, CPCs are higher and conversion rates are lower because prospects have more options. If you are in a competitive space, your CAC will be higher unless you differentiate clearly in your messaging and offer.
+In crowded markets, CPCs are higher and conversion rates are lower because prospects have more options. If you're in a competitive space, your CAC will be higher unless you differentiate clearly in your messaging and offer.
 
 ### Sales Cycle Length
 
@@ -180,7 +180,7 @@ Calculate your fully loaded CAC including all marketing and sales costs, not jus
 
 ### Step 2: Identify Your Gap
 
-If your CAC is above the average, there are clear optimization opportunities. If you are between average and top quartile, you are performing well but there is still room. If you are at or below top quartile, focus on scaling volume while maintaining efficiency.
+If your CAC is above the average, there are clear optimization opportunities. If you're between average and top quartile, you're performing well but there's still room. If you're at or below top quartile, focus on scaling volume while maintaining efficiency.
 
 ### Step 3: Benchmark by Channel
 
@@ -192,7 +192,7 @@ Use the top quartile benchmark as your 90-day target. Moving from average to top
 
 ### Step 5: Track Progress Weekly
 
-Monitor your CAC on a weekly basis with a 4-week rolling average to smooth out fluctuations. Celebrate improvement but do not overreact to single-week spikes.
+Monitor your CAC on a weekly basis with a 4-week rolling average to smooth out fluctuations. Celebrate improvement but don't overreact to single-week spikes.
 
 ## CAC Trends to Watch in 2026
 

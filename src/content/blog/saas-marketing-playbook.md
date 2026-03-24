@@ -142,7 +142,7 @@ Meta provides the lowest CPCs and most sophisticated algorithms for SaaS.
 - PLG products with low-friction signups (free trial, freemium)
 
 **Where Meta struggles:**
-- Precise B2B targeting (cannot target by job title like LinkedIn)
+- Precise B2B targeting (can't target by job title like LinkedIn)
 - Enterprise SaaS with long sales cycles and small audiences
 - Products requiring significant education before conversion
 
@@ -168,8 +168,8 @@ These channels typically deliver the highest SQL rates because users are activel
 SaaS landing pages should communicate three things instantly:
 
 1. **What you do** (clear in 5 seconds)
-2. **Who it is for** (audience qualification)
-3. **Why you are better** (differentiation)
+2. **Who it's for** (audience qualification)
+3. **Why you're better** (differentiation)
 
 **High-converting SaaS landing page elements:**
 
@@ -199,7 +199,7 @@ SaaS landing pages should communicate three things instantly:
 
 ### The Three Scaling Levers
 
-**Lever 1: Expand channels.** Add new channels to reach audiences you are not currently reaching.
+**Lever 1: Expand channels.** Add new channels to reach audiences you're not currently reaching.
 
 **Lever 2: Expand audiences.** Broaden targeting within existing channels (wider lookalikes, new keyword themes, additional industries).
 
@@ -222,11 +222,11 @@ Increase budget when:
 - You have sufficient creative to avoid fatigue at higher spend
 - Your sales team can handle increased lead volume
 
-Do not increase budget when:
+Don't increase budget when:
 - CPA is already above target
 - Recent cohort retention is declining
 - Your sales team is at capacity
-- You have not tested creative in 4+ weeks
+- You haven't tested creative in 4+ weeks
 
 ## SaaS Measurement Framework
 
@@ -251,4 +251,4 @@ SaaS attribution should track the full journey from first touch to closed revenu
 
 Import CRM data back to ad platforms at each stage for algorithm optimization.
 
-If your SaaS paid acquisition is not scaling efficiently, or if your CAC is climbing without corresponding LTV growth, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your funnel, identify bottlenecks, and build an acquisition strategy that scales with healthy unit economics.
+If your SaaS paid acquisition isn't scaling efficiently, or if your CAC is climbing without corresponding LTV growth, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your funnel, identify bottlenecks, and build an acquisition strategy that scales with healthy unit economics.

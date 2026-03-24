@@ -18,13 +18,13 @@ faqs:
 
 Choosing between building a remote marketing team and hiring an agency is one of the most consequential decisions for a growth-stage company. Get it right and you build a sustainable competitive advantage. Get it wrong and you waste months of time and tens of thousands of dollars.
 
-There is no universally correct answer. The right choice depends on your budget, growth stage, internal capabilities, and strategic goals. This guide provides a framework for making that decision based on data, not opinion.
+There's no universally correct answer. The right choice depends on your budget, growth stage, internal capabilities, and strategic goals. This guide provides a framework for making that decision based on data, not opinion.
 
 ## Comparing the Two Models
 
 ### Agency Model: How It Works
 
-When you hire a marketing agency, you are paying for access to an established team with existing processes, tools, and expertise. Your account is managed by a team that also manages other accounts.
+When you hire a marketing agency, you're paying for access to an established team with existing processes, tools, and expertise. Your account is managed by a team that also manages other accounts.
 
 **Typical agency team allocation per client:**
 - Account Strategist: 10-20% of their time
@@ -91,7 +91,7 @@ Note: Remote team costs include tools and overhead. Agency costs assume a percen
 
 **Agencies are faster to start.** They have the team in place and can begin work within days. Remote teams take months to recruit, hire, and onboard.
 
-**Remote teams are faster to adapt.** Changes in strategy, new campaigns, and quick pivots happen faster when your team is dedicated and does not need to coordinate with an account manager who manages 10 other clients.
+**Remote teams are faster to adapt.** Changes in strategy, new campaigns, and quick pivots happen faster when your team is dedicated and doesn't need to coordinate with an account manager who manages 10 other clients.
 
 ### Knowledge and Continuity
 
@@ -101,7 +101,7 @@ Note: Remote team costs include tools and overhead. Agency costs assume a percen
 
 ### Control and Transparency
 
-**With an agency:** You see monthly or bi-weekly reports and have limited visibility into day-to-day decisions. You are dependent on the agency's willingness to share data and access.
+**With an agency:** You see monthly or bi-weekly reports and have limited visibility into day-to-day decisions. You're dependent on the agency's willingness to share data and access.
 
 **With a remote team:** You have full visibility into every campaign, every optimization, and every dollar spent. You own all the data, accounts, and institutional knowledge.
 
@@ -109,7 +109,7 @@ Note: Remote team costs include tools and overhead. Agency costs assume a percen
 
 An agency is the right choice when:
 
-1. **You are spending under $40k/month on ads.** At this level, a remote team is not cost-effective and you need the breadth of an agency.
+1. **You're spending under $40k/month on ads.** At this level, a remote team isn't cost-effective and you need the breadth of an agency.
 
 2. **You need results fast.** If you have a product launch, funding milestone, or seasonal deadline, an agency can start producing results in weeks.
 
@@ -123,13 +123,13 @@ An agency is the right choice when:
 
 A remote team is the right choice when:
 
-1. **You are spending $75k+ per month on ads.** At this level, a dedicated team provides better economics and deeper focus.
+1. **You're spending $75k+ per month on ads.** At this level, a dedicated team provides better economics and deeper focus.
 
-2. **Marketing is a core competency for your business.** If your competitive advantage depends on marketing excellence, it should not be outsourced.
+2. **Marketing is a core competency for your business.** If your competitive advantage depends on marketing excellence, it shouldn't be outsourced.
 
 3. **You have marketing leadership in place.** Someone on your team can set strategy, manage people, and hold the team accountable.
 
-4. **You need deep integration with product and sales.** Remote team members can participate in cross-functional meetings and develop deep product knowledge that agency teams cannot.
+4. **You need deep integration with product and sales.** Remote team members can participate in cross-functional meetings and develop deep product knowledge that agency teams can't.
 
 5. **You value long-term knowledge building.** Every optimization, test result, and insight stays within your organization.
 
@@ -159,7 +159,7 @@ Start with an agency to build the foundation: channel strategy, campaign structu
 
 ### From Agency to Remote Team
 
-If you are transitioning from an agency to a remote team:
+If you're transitioning from an agency to a remote team:
 
 1. **Hire your first team member 2-3 months before the transition.** They need time to learn the accounts while the agency is still running them.
 2. **Get full account access.** Ensure your team has admin access to all ad platforms, analytics, and tools before the transition.
@@ -169,10 +169,10 @@ If you are transitioning from an agency to a remote team:
 
 ### From Remote Team to Agency
 
-If your remote team is not working and you need to bring in an agency:
+If your remote team isn't working and you need to bring in an agency:
 
 1. **Audit current performance** to establish a baseline
-2. **Document what has been tried** so the agency does not repeat failed experiments
+2. **Document what has been tried** so the agency doesn't repeat failed experiments
 3. **Transfer all data and access** cleanly
 4. **Set clear expectations** about the transition period (expect 4-6 weeks before the agency is fully ramped)
 

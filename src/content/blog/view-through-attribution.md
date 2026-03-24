@@ -16,7 +16,7 @@ faqs:
 
 ## What Is View-Through Attribution?
 
-**View-through attribution** (VTA) counts a conversion when someone sees your ad, does not click it, and later converts on your website. The ad gets credit for the conversion even though the user never directly engaged with it.
+**View-through attribution** (VTA) counts a conversion when someone sees your ad, doesn't click it, and later converts on your website. The ad gets credit for the conversion even though the user never directly engaged with it.
 
 This is one of the most debated topics in digital marketing measurement. On one side, marketers argue that view-through conversions are largely fabricated — the user was going to buy anyway, and the ad impression was incidental. On the other side, marketers point out that awareness advertising works precisely by being seen, not clicked, and ignoring view-through means ignoring the impact of entire channels.
 
@@ -28,7 +28,7 @@ The mechanics are straightforward:
 
 1. A user visits a website or app where your ad is displayed
 2. The ad platform records that the user was served an impression
-3. The user does not click the ad
+3. The user doesn't click the ad
 4. Within the view-through attribution window (typically 1-24 hours), the user visits your site and converts
 5. The ad platform credits that conversion as a "view-through conversion"
 
@@ -42,7 +42,7 @@ For view-through attribution to work, the ad platform needs to:
 
 ### Where View-Through Gets Complicated
 
-The core challenge is **causation vs. correlation**. Just because someone saw your ad and later converted does not mean the ad caused the conversion. Consider these scenarios:
+The core challenge is **causation vs. correlation**. Just because someone saw your ad and later converted doesn't mean the ad caused the conversion. Consider these scenarios:
 
 **Scenario A (Real impact):** A user sees your video ad while browsing YouTube. The ad introduces them to your brand. The next day, they search for your product name and buy. Without the ad, they never would have known about you.
 
@@ -72,21 +72,21 @@ Google introduced "engaged-view conversions" for YouTube, which sit between clic
 
 ## When View-Through Attribution Is Valuable
 
-View-through is not universally good or bad. It is valuable in specific contexts:
+View-through isn't universally good or bad. It's valuable in specific contexts:
 
 ### 1. Upper-Funnel Awareness Campaigns
 
-Display, video, and CTV campaigns are designed to build awareness. Their primary goal is not to generate clicks — it is to put your brand in front of the right audience. Measuring these campaigns only on clicks would be like judging a billboard by how many people pulled over to write down the phone number.
+Display, video, and CTV campaigns are designed to build awareness. Their primary goal isn't to generate clicks — it's to put your brand in front of the right audience. Measuring these campaigns only on clicks would be like judging a billboard by how many people pulled over to write down the phone number.
 
 For awareness campaigns, view-through attribution captures the downstream impact of exposure. Without it, you would systematically undervalue your prospecting efforts and over-invest in bottom-funnel channels.
 
 ### 2. Connected TV (CTV) Advertising
 
-CTV ads are not clickable. There is no remote control button that takes you to a website. If you do not use view-through attribution for CTV, you cannot measure CTV at all (at least not through platform-native reporting). VTA is essential for CTV measurement.
+CTV ads aren't clickable. There's no remote control button that takes you to a website. If you don't use view-through attribution for CTV, you can't measure CTV at all (at least not through platform-native reporting). VTA is essential for CTV measurement.
 
 ### 3. High-Frequency Brand Campaigns
 
-When you are running brand campaigns at high frequency to specific audiences, the cumulative effect of repeated impressions drives action. View-through helps capture this cumulative impact that no single click can represent.
+When you're running brand campaigns at high frequency to specific audiences, the cumulative effect of repeated impressions drives action. View-through helps capture this cumulative impact that no single click can represent.
 
 ### 4. New Market or Product Launches
 
@@ -100,15 +100,15 @@ This is where VTA is most commonly abused. Retargeting ads are shown to people w
 
 ### 2. High-Volume Display Networks
 
-Some display networks serve billions of impressions across low-quality placements. The sheer volume means they will overlap with a meaningful number of users who were already converting. VTA lets these networks claim credit for conversions they did not influence.
+Some display networks serve billions of impressions across low-quality placements. The sheer volume means they will overlap with a meaningful number of users who were already converting. VTA lets these networks claim credit for conversions they didn't influence.
 
 ### 3. Small-Spend Campaigns
 
-If you are only spending $500/month on display, the number of view-through conversions is likely noise, not signal. VTA is most reliable at scale where statistical patterns become meaningful.
+If you're only spending $500/month on display, the number of view-through conversions is likely noise, not signal. VTA is most reliable at scale where statistical patterns become meaningful.
 
 ### 4. Comparison to Search Campaigns
 
-If you are comparing display (with VTA) to search (without VTA), the comparison is unfair. Either include VTA for both or neither when making channel comparisons.
+If you're comparing display (with VTA) to search (without VTA), the comparison is unfair. Either include VTA for both or neither when making channel comparisons.
 
 ## How to Configure View-Through Attribution Correctly
 
@@ -184,7 +184,7 @@ All major platforms now use some degree of modeling to fill gaps in their conver
 
 ## Building a View-Through Measurement Framework
 
-For brands spending significant budgets on awareness and display channels, here is a framework for measuring view-through impact:
+For brands spending significant budgets on awareness and display channels, here's a framework for measuring view-through impact:
 
 ### Tier 1: Platform-Reported VTA (Directional)
 Use platform view-through data as a directional signal, discounted by 40-70% depending on channel and campaign type. This is your day-to-day optimization data.
@@ -200,7 +200,7 @@ Use MMM to measure the aggregate impact of awareness spending, independent of us
 
 ## Making the Right Call on View-Through
 
-View-through attribution is neither a scam nor gospel truth. It is a signal with known limitations. The right approach is to include it in your measurement framework with appropriate guardrails:
+View-through attribution is neither a scam nor gospel truth. It's a signal with known limitations. The right approach is to include it in your measurement framework with appropriate guardrails:
 
 - Use short windows (1 day for most channels)
 - Report VTA separately from click-through conversions
@@ -208,4 +208,4 @@ View-through attribution is neither a scam nor gospel truth. It is a signal with
 - Validate with incrementality tests
 - Never let retargeting VTA inflate your ROAS calculations unchallenged
 
-If you are struggling to determine how much your display and video campaigns are actually contributing — or if your ROAS numbers seem too good to be true — **[request a free growth audit](/free-growth-audit)** from Digital Point LLC. We will help you build a measurement framework that captures the real value of every channel without overcounting.
+If you're struggling to determine how much your display and video campaigns are actually contributing — or if your ROAS numbers seem too good to be true — **[request a free growth audit](/free-growth-audit)** from Digital Point LLC. We will help you build a measurement framework that captures the real value of every channel without overcounting.

@@ -18,7 +18,7 @@ faqs:
 
 You have a fixed advertising budget and dozens of places to spend it. Every dollar in Google Search is a dollar not in Meta. Every dollar in prospecting is a dollar not in retargeting. How do you decide?
 
-Most companies set their allocation based on gut feel or historical inertia — "we have always spent 60% on Google." This approach leaves money on the table because it does not account for changing channel performance, audience behavior, or competitive dynamics.
+Most companies set their allocation based on gut feel or historical inertia — "we have always spent 60% on Google." This approach leaves money on the table because it doesn't account for changing channel performance, audience behavior, or competitive dynamics.
 
 At Digital Point LLC, we use a data-driven framework to allocate and continuously reallocate budgets across channels. This guide shares that framework.
 
@@ -152,10 +152,10 @@ Every month, conduct a budget allocation review:
 ### The 70/20/10 Rule
 
 - **70%** of budget goes to proven, scalable channels (your core workhorses)
-- **20%** goes to channels showing promise that you are scaling (emerging winners)
+- **20%** goes to channels showing promise that you're scaling (emerging winners)
 - **10%** goes to testing new channels and tactics (experimentation)
 
-This ensures you are always optimizing your core while continuously exploring new opportunities.
+This ensures you're always optimizing your core while continuously exploring new opportunities.
 
 ### Seasonal Budget Shifting
 

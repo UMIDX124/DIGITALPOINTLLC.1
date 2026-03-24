@@ -152,7 +152,7 @@ This structure attracts high performers who are confident in their ability to de
 
 ### Strategy 4: Invest Savings Wisely
 
-Do not pocket all the savings from global hiring. Reinvest a portion:
+Don't pocket all the savings from global hiring. Reinvest a portion:
 
 | Investment Area | Recommended Allocation | Impact |
 |---|---|---|

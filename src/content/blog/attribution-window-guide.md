@@ -16,15 +16,15 @@ faqs:
 
 ## What Are Attribution Windows?
 
-An **attribution window** (sometimes called a lookback window or conversion window) defines the time period after someone interacts with your ad during which any resulting conversion gets credited to that ad. It is one of the most important settings in your ad accounts, yet most marketers never change the defaults.
+An **attribution window** (sometimes called a lookback window or conversion window) defines the time period after someone interacts with your ad during which any resulting conversion gets credited to that ad. It's one of the most important settings in your ad accounts, yet most marketers never change the defaults.
 
-Here is why that matters. If your attribution window is set to 7 days and a customer clicks your ad, browses your site, thinks about it for 10 days, and then buys — that sale never shows up in your ad reporting. As far as the platform is concerned, the ad did not work. But it did.
+Here's why that matters. If your attribution window is set to 7 days and a customer clicks your ad, browses your site, thinks about it for 10 days, and then buys — that sale never shows up in your ad reporting. As far as the platform is concerned, the ad didn't work. But it did.
 
 For businesses spending **$10,000 to $200,000+ per month** on paid media, misconfigured attribution windows can hide millions in revenue and lead to catastrophically wrong optimization decisions.
 
 ## How Attribution Windows Work Across Platforms
 
-Every major ad platform has its own default attribution settings, and they are not the same. This creates a measurement mess when you are running campaigns across multiple channels.
+Every major ad platform has its own default attribution settings, and they're not the same. This creates a measurement mess when you're running campaigns across multiple channels.
 
 ### Platform Default Attribution Windows (2026)
 
@@ -38,7 +38,7 @@ Every major ad platform has its own default attribution settings, and they are n
 | Snapchat | 28 days | 1 day | 28 days |
 | Microsoft Ads | 30 days | N/A | 90 days |
 
-Notice the inconsistency. If you are comparing Meta performance to Google Ads performance using default settings, you are comparing a 7-day click window against a 30-day click window. Google will naturally report more conversions — not because it performs better, but because it has a longer period to claim credit.
+Notice the inconsistency. If you're comparing Meta performance to Google Ads performance using default settings, you're comparing a 7-day click window against a 30-day click window. Google will naturally report more conversions — not because it performs better, but because it has a longer period to claim credit.
 
 ### Click-Through vs. View-Through Windows
 
@@ -46,7 +46,7 @@ Attribution windows typically have two components:
 
 **Click-through attribution** credits conversions that happen after someone clicks your ad. This is the more straightforward measurement — someone clicked, then they converted.
 
-**View-through attribution** credits conversions that happen after someone sees your ad but does not click it. The user saw your display ad, did not click, but later visited your site and converted. The ad gets partial credit.
+**View-through attribution** credits conversions that happen after someone sees your ad but doesn't click it. The user saw your display ad, didn't click, but later visited your site and converted. The ad gets partial credit.
 
 View-through attribution is more controversial because the causal link is weaker. Someone might have converted anyway, regardless of seeing your ad. However, dismissing view-through entirely ignores the real impact of awareness campaigns, especially for display, video, and Connected TV.
 
@@ -56,7 +56,7 @@ The default attribution window on any platform is set to benefit the platform, n
 
 ### The Undercounting Problem
 
-After Meta shortened its default window from 28-day click to 7-day click, many advertisers saw reported conversions drop by 20-40% overnight — even though actual sales had not changed. The ads were still working; the reporting window was just too short to capture the full impact.
+After Meta shortened its default window from 28-day click to 7-day click, many advertisers saw reported conversions drop by 20-40% overnight — even though actual sales hadn't changed. The ads were still working; the reporting window was just too short to capture the full impact.
 
 This is particularly damaging for:
 
@@ -71,15 +71,15 @@ On the flip side, a 90-day attribution window on Google Ads might credit a conve
 
 ### How to Find Your Ideal Window Length
 
-The right attribution window should match your actual **time-to-conversion** data. Here is how to find it:
+The right attribution window should match your actual **time-to-conversion** data. Here's how to find it:
 
 **Step 1: Analyze your conversion lag data.** In Google Ads, go to Tools > Attribution > Conversion Paths and look at the time lag report. This shows how many days pass between first interaction and conversion.
 
 **Step 2: Find the 90th percentile.** If 90% of your conversions happen within 14 days of the first click, a 14-day window captures the vast majority of your conversion value without excessive overcounting.
 
-**Step 3: Segment by product or campaign type.** Your branded search campaigns might convert in 1-2 days, while your prospecting display campaigns might take 21 days. One window does not fit all.
+**Step 3: Segment by product or campaign type.** Your branded search campaigns might convert in 1-2 days, while your prospecting display campaigns might take 21 days. One window doesn't fit all.
 
-**Step 4: Account for offline conversions.** If you are importing CRM data or offline sales, make sure your window is long enough to capture those delayed signals.
+**Step 4: Account for offline conversions.** If you're importing CRM data or offline sales, make sure your window is long enough to capture those delayed signals.
 
 ## Attribution Window Recommendations by Business Type
 
@@ -117,7 +117,7 @@ With high-ticket items, the 7-day Meta window will significantly undercount. You
 | Meta Ads | 7 days | 1 day |
 | Display/YouTube | 30-60 days | 7-14 days |
 
-B2B sales cycles are long. A 90-day window on LinkedIn is not unusual when enterprise deals take 3-6 months to close. The challenge is balancing accurate measurement against credit inflation.
+B2B sales cycles are long. A 90-day window on LinkedIn isn't unusual when enterprise deals take 3-6 months to close. The challenge is balancing accurate measurement against credit inflation.
 
 ### Lead Generation
 
@@ -151,26 +151,26 @@ Note that changing the attribution window only affects **reporting**, not delive
 
 ### In Your Attribution Platform
 
-If you are using a third-party attribution tool (like Triple Whale, Northbeam, or Rockerbox), you can typically set custom windows that override the platform defaults. This gives you a consistent measurement framework across all channels.
+If you're using a third-party attribution tool (like Triple Whale, Northbeam, or Rockerbox), you can typically set custom windows that override the platform defaults. This gives you a consistent measurement framework across all channels.
 
 ## Advanced Attribution Window Strategies
 
 ### Strategy 1: Use Different Windows for Different Funnel Stages
 
-Do not apply the same window to prospecting and retargeting campaigns:
+Don't apply the same window to prospecting and retargeting campaigns:
 
-- **Prospecting campaigns** need longer windows because they are introducing your brand to cold audiences. It takes time for those users to convert.
-- **Retargeting campaigns** should use shorter windows because these users are already warm. If they do not convert within a few days of seeing a retargeting ad, the ad probably was not the deciding factor.
+- **Prospecting campaigns** need longer windows because they're introducing your brand to cold audiences. It takes time for those users to convert.
+- **Retargeting campaigns** should use shorter windows because these users are already warm. If they don't convert within a few days of seeing a retargeting ad, the ad probably wasn't the deciding factor.
 
 ### Strategy 2: Run Window Comparison Tests
 
 Most platforms let you toggle between different attribution windows in your reporting. Run the same report with 1-day, 7-day, and 28-day windows to see how many incremental conversions each extended period captures.
 
-If extending from 7 days to 28 days only adds 5% more conversions, the shorter window is probably sufficient. If it adds 40%, you are significantly undercounting with the shorter window.
+If extending from 7 days to 28 days only adds 5% more conversions, the shorter window is probably sufficient. If it adds 40%, you're significantly undercounting with the shorter window.
 
 ### Strategy 3: Align Windows with Your Remarketing Strategy
 
-Your attribution window should be at least as long as your remarketing window. If you are retargeting users for 30 days after they visit your site, but your attribution window is only 7 days, you cannot properly measure the retargeting funnel.
+Your attribution window should be at least as long as your remarketing window. If you're retargeting users for 30 days after they visit your site, but your attribution window is only 7 days, you can't properly measure the retargeting funnel.
 
 ### Strategy 4: Account for Attribution Window in Budget Decisions
 
@@ -193,11 +193,11 @@ Platform defaults change. Meta's 2021 window change caught many advertisers off 
 
 ### Mistake 3: Using the Same Window for All Campaigns
 
-A branded search campaign and a top-of-funnel video campaign should not have the same attribution window. Segment your windows by campaign type and objective.
+A branded search campaign and a top-of-funnel video campaign shouldn't have the same attribution window. Segment your windows by campaign type and objective.
 
 ### Mistake 4: Ignoring View-Through for Awareness Campaigns
 
-If you are running display, video, or CTV campaigns and only measuring click-through attribution, you are missing the majority of those campaigns' impact. Include view-through attribution (with a short window like 1 day) for awareness channels.
+If you're running display, video, or CTV campaigns and only measuring click-through attribution, you're missing the majority of those campaigns' impact. Include view-through attribution (with a short window like 1 day) for awareness channels.
 
 ### Mistake 5: Setting It and Forgetting It
 
@@ -211,7 +211,7 @@ Your attribution window defines **when** conversions are counted, while your att
 - **Data-driven model + long window** = Most comprehensive measurement. Captures delayed conversions and distributes credit across touchpoints.
 - **First-click model + long window** = Emphasizes the initial discovery touch, which can overvalue top-of-funnel channels.
 
-The combination you choose should reflect your business goals. If you need to justify immediate ROI, use shorter windows with last-click. If you are building a long-term growth engine, use longer windows with data-driven or position-based models.
+The combination you choose should reflect your business goals. If you need to justify immediate ROI, use shorter windows with last-click. If you're building a long-term growth engine, use longer windows with data-driven or position-based models.
 
 ## Measuring What Attribution Windows Miss
 
@@ -223,12 +223,12 @@ No attribution window captures everything. Here are supplementary measurement ap
 
 **Post-purchase surveys** — Ask customers how they heard about you. This qualitative data fills gaps that pixel-based attribution misses.
 
-**Matched market tests** — Compare performance in markets where you run ads versus similar markets where you do not.
+**Matched market tests** — Compare performance in markets where you run ads versus similar markets where you don't.
 
 ## Getting Your Attribution Windows Right
 
-Attribution windows are not a set-and-forget setting. They require ongoing analysis and adjustment as your business, customers, and the ad platforms themselves evolve.
+Attribution windows aren't a set-and-forget setting. They require ongoing analysis and adjustment as your business, customers, and the ad platforms themselves evolve.
 
-The stakes are high. A misconfigured attribution window can make a profitable campaign look like a loser, or make a losing campaign look like a winner. When you are spending tens or hundreds of thousands per month on ads, that misattribution translates directly into wasted budget.
+The stakes are high. A misconfigured attribution window can make a profitable campaign look like a loser, or make a losing campaign look like a winner. When you're spending tens or hundreds of thousands per month on ads, that misattribution translates directly into wasted budget.
 
-If you are unsure whether your attribution windows are properly configured, or if your cross-channel reporting tells conflicting stories, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your current attribution setup, identify gaps, and recommend the exact window configurations for your business and sales cycle.
+If you're unsure whether your attribution windows are properly configured, or if your cross-channel reporting tells conflicting stories, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your current attribution setup, identify gaps, and recommend the exact window configurations for your business and sales cycle.

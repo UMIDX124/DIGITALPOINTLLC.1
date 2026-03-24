@@ -342,4 +342,4 @@ If you're starting from scratch or need to overhaul your attribution, here's a p
 - Identify discrepancies and investigate root causes
 - Plan your first incrementality test
 
-Attribution is not a one-time project—it's an ongoing discipline. But by building the right foundation and committing to continuous improvement, you can gain a genuine competitive advantage in understanding what drives your business forward.
+Attribution isn't a one-time project—it's an ongoing discipline. But by building the right foundation and committing to continuous improvement, you can gain a genuine competitive advantage in understanding what drives your business forward.

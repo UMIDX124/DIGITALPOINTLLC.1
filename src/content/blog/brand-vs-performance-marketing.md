@@ -38,7 +38,7 @@ People actively searching for a solution. They know they have a problem and are 
 **Future demand (85-95% of your addressable market):**
 People who will eventually need your solution but aren't actively searching today. Brand marketing plants seeds with this audience so that when they do enter the market, your brand is already familiar and trusted.
 
-**The critical insight:** Performance marketing can only capture existing demand. It cannot create demand that doesn't exist. If only 10% of your market is actively buying, performance marketing competes for that 10%. Brand marketing expands the funnel by making the other 90% more likely to choose you when they do enter the market.
+**The critical insight:** Performance marketing can only capture existing demand. It can't create demand that doesn't exist. If only 10% of your market is actively buying, performance marketing competes for that 10%. Brand marketing expands the funnel by making the other 90% more likely to choose you when they do enter the market.
 
 ### The Compound Effect of Brand on Performance
 

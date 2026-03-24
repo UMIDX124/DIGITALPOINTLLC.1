@@ -16,7 +16,7 @@ faqs:
 
 ## Why Seasonal Strategy Matters
 
-Seasonality affects every business, even those that think it does not. Consumer behavior, competitive intensity, and advertising costs all fluctuate predictably throughout the year. For marketers spending **$10,000 to $200,000+ per month** on paid media, failing to plan for seasonal variation means overpaying during peaks and underinvesting during valleys.
+Seasonality affects every business, even those that think it doesn't. Consumer behavior, competitive intensity, and advertising costs all fluctuate predictably throughout the year. For marketers spending **$10,000 to $200,000+ per month** on paid media, failing to plan for seasonal variation means overpaying during peaks and underinvesting during valleys.
 
 The numbers are stark:
 
@@ -25,7 +25,7 @@ The numbers are stark:
 - **Conversion rates** increase 20-50% during peak buying seasons
 - **The top 25% of seasonal planners** generate 40-60% of annual revenue during peak periods
 
-The brands that win seasonal peaks are not the ones that spend the most — they are the ones that plan the best.
+The brands that win seasonal peaks aren't the ones that spend the most — they're the ones that plan the best.
 
 ## The Seasonal Marketing Calendar
 
@@ -131,7 +131,7 @@ The brands that win seasonal peaks are not the ones that spend the most — they
 **Immediate actions:**
 - Reduce budgets to pre-season levels (gradually, 20-30% per week)
 - Pause seasonal-specific campaigns
-- Launch post-season remarketing (cart abandoners, browsers who did not buy)
+- Launch post-season remarketing (cart abandoners, browsers who didn't buy)
 - Capture clearance/sale traffic at reduced CPMs
 
 **Analysis:**
@@ -234,7 +234,7 @@ Allocate your annual ad budget with seasonality in mind:
 
 ### The Blended ROAS Trap
 
-Do not evaluate seasonal campaigns in isolation. The pre-season audience building campaign that cost $15,000 with "no direct conversions" may have been responsible for populating the remarketing pool that drove $200,000 in peak-season revenue.
+Don't evaluate seasonal campaigns in isolation. The pre-season audience building campaign that cost $15,000 with "no direct conversions" may have been responsible for populating the remarketing pool that drove $200,000 in peak-season revenue.
 
 Calculate **full-season ROAS:**
 ```

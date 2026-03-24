@@ -76,7 +76,7 @@ The most precise targeting on LinkedIn. Target specific decision-makers:
 **Targeting tips:**
 - Use exact job titles for precision (CEO, VP Marketing, Director of IT)
 - Combine with company size to control audience quality
-- Exclude irrelevant titles (students, interns, freelancers unless they are your target)
+- Exclude irrelevant titles (students, interns, freelancers unless they're your target)
 - Test seniority level as an alternative to specific titles — it captures a broader but still relevant audience
 
 ### Company-Based Targeting
@@ -106,7 +106,7 @@ The most precise targeting on LinkedIn. Target specific decision-makers:
 **Strategy 3: Retargeting Stack**
 - Website visitors (last 90 days)
 - Video viewers (50%+ completion)
-- Lead Gen Form openers (opened but did not submit)
+- Lead Gen Form openers (opened but didn't submit)
 - Company page visitors
 - Event attendees
 

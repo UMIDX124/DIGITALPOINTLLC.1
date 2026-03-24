@@ -18,23 +18,23 @@ faqs:
 
 Every advertiser runs A/B tests. Very few run them correctly. The most common mistakes, ending tests too early, testing too many variables, and ignoring statistical significance, lead to decisions that are no better than coin flips dressed up as data-driven insights.
 
-When you are spending $10,000 or more per month on advertising, bad testing leads to bad decisions that compound over time. A false winner that you scale across campaigns can cost tens of thousands of dollars before you realize the error. This guide covers the statistical methods and practical frameworks that produce reliable, actionable results from your ad tests.
+When you're spending $10,000 or more per month on advertising, bad testing leads to bad decisions that compound over time. A false winner that you scale across campaigns can cost tens of thousands of dollars before you realize the error. This guide covers the statistical methods and practical frameworks that produce reliable, actionable results from your ad tests.
 
 ## The Statistics You Actually Need to Know
 
-You do not need a PhD in statistics to run good tests. But you do need to understand four key concepts.
+You don't need a PhD in statistics to run good tests. But you do need to understand four key concepts.
 
 ### Statistical Significance
 
-Statistical significance tells you the probability that the difference you observed between your test variations is real, not just random noise. The standard threshold is 95% confidence (p-value < 0.05), meaning there is less than a 5% chance the observed difference is due to random variation.
+Statistical significance tells you the probability that the difference you observed between your test variations is real, not just random noise. The standard threshold is 95% confidence (p-value < 0.05), meaning there's less than a 5% chance the observed difference is due to random variation.
 
-What this means practically: if you run 20 tests at a 95% confidence level, you should expect approximately 1 false positive even when there is no real difference. This is why single test results should always be viewed with appropriate skepticism.
+What this means practically: if you run 20 tests at a 95% confidence level, you should expect approximately 1 false positive even when there's no real difference. This is why single test results should always be viewed with appropriate skepticism.
 
 ### Statistical Power
 
 Power is the probability that your test will detect a real difference when one exists. The standard target is 80% power. If your test has only 50% power (common with small sample sizes), you have a coin flip chance of missing a real improvement.
 
-Low power is the most common problem in ad testing. Teams declare "no significant difference" after running underpowered tests, when the reality is they simply did not have enough data to detect the difference.
+Low power is the most common problem in ad testing. Teams declare "no significant difference" after running underpowered tests, when the reality is they simply didn't have enough data to detect the difference.
 
 ### Minimum Detectable Effect (MDE)
 
@@ -58,7 +58,7 @@ The required sample size depends on your baseline conversion rate, your MDE, and
 | 10% | 10% | 3,300 clicks / ~330 conversions |
 | 10% | 20% | 870 clicks / ~87 conversions |
 
-Calculate your required sample size before launching any test. If your campaign does not generate enough volume to reach significance within 4-6 weeks, either increase your MDE threshold or find a higher-volume metric to test.
+Calculate your required sample size before launching any test. If your campaign doesn't generate enough volume to reach significance within 4-6 weeks, either increase your MDE threshold or find a higher-volume metric to test.
 
 ## The Ad Testing Framework
 
@@ -81,9 +81,9 @@ This planning takes 15 minutes and saves you from the most common testing mistak
 
 **Avoid these execution errors:**
 
-- Do not peek at results daily and stop when one variation looks good. This inflates your false positive rate dramatically (the "peeking problem").
-- Do not change anything mid-test. No budget adjustments, no audience changes, no creative tweaks.
-- Do not run tests during abnormal periods (major holidays, product launches, PR events) unless you are specifically testing for those conditions.
+- Don't peek at results daily and stop when one variation looks good. This inflates your false positive rate dramatically (the "peeking problem").
+- Don't change anything mid-test. No budget adjustments, no audience changes, no creative tweaks.
+- Don't run tests during abnormal periods (major holidays, product launches, PR events) unless you're specifically testing for those conditions.
 
 **Monitor for technical issues.** Check that both variations are serving correctly, that tracking is firing, and that there are no page load errors. Technical monitoring is different from results checking.
 
@@ -103,7 +103,7 @@ Document every test with its hypothesis, results, statistical details, and busin
 For winners, scale gradually:
 - First, implement across the original campaign
 - Then, test on adjacent campaigns with similar audiences
-- Do not assume a result from one campaign will transfer perfectly to all campaigns
+- Don't assume a result from one campaign will transfer perfectly to all campaigns
 
 ## Testing Specific Ad Elements
 
@@ -138,7 +138,7 @@ Visual creative testing requires higher sample sizes because CTRs are lower, but
 2. **Format testing**: Static image vs. video vs. carousel. Format preference varies by audience and placement.
 3. **Element testing**: Specific visual elements within a winning concept (background color, image style, text overlay position).
 
-Do not test small visual changes until you have found a winning concept and format. Testing button colors while your overall creative concept is wrong is like rearranging deck chairs on the Titanic.
+Don't test small visual changes until you have found a winning concept and format. Testing button colors while your overall creative concept is wrong is like rearranging deck chairs on the Titanic.
 
 ### Landing Page Testing
 
@@ -159,7 +159,7 @@ Testing different audience segments is often more impactful than testing differe
 **Rules for audience tests:**
 
 - Use identical creative across all audience segments to isolate the audience effect
-- Ensure audience segments do not overlap (or account for overlap in your analysis)
+- Ensure audience segments don't overlap (or account for overlap in your analysis)
 - Measure cost per acquisition or ROAS, not just conversion rate, since CPMs vary by audience
 - Run audience tests for at least 3-4 weeks to account for audience learning periods on platforms like Meta
 
@@ -180,13 +180,13 @@ Traditional A/B tests are best for: high-stakes decisions where you need a defin
 
 ### Bayesian A/B Testing
 
-Bayesian methods produce results that are more intuitive than frequentist methods. Instead of p-values, you get statements like "there is a 94% probability that Variation B is better than Variation A." Bayesian methods also incorporate prior knowledge and handle small sample sizes better.
+Bayesian methods produce results that are more intuitive than frequentist methods. Instead of p-values, you get statements like "there's a 94% probability that Variation B is better than Variation A." Bayesian methods also incorporate prior knowledge and handle small sample sizes better.
 
 For ad testing, Bayesian methods are particularly useful when you have strong priors from previous tests and want to reach conclusions faster.
 
 ## Building a Testing Velocity Engine
 
-The teams that win at advertising are the ones that test the most. Here is how to build a systematic testing engine.
+The teams that win at advertising are the ones that test the most. Here's how to build a systematic testing engine.
 
 **Monthly testing cadence:**
 
@@ -208,6 +208,6 @@ Multiply the scores and work from the top of the list.
 
 ## Stop Guessing, Start Testing
 
-If your marketing team is making creative, landing page, and audience decisions based on opinions rather than data, you are leaving revenue on the table. At Digital Point LLC, we help performance marketing teams build rigorous testing programs that compound improvements over time.
+If your marketing team is making creative, landing page, and audience decisions based on opinions rather than data, you're leaving revenue on the table. At Digital Point LLC, we help performance marketing teams build rigorous testing programs that compound improvements over time.
 
 [Get your free growth audit](/free-growth-audit) to identify the highest-impact testing opportunities in your current campaigns.

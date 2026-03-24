@@ -137,7 +137,7 @@ The landing page for native ads needs to match the content experience the user e
 - Use editorial-style layouts with minimal navigation distractions
 - Place CTAs naturally within the content
 
-**Do not:**
+**Don't:**
 - Send native ad traffic to a standard product page (conversion rates plummet)
 - Gate all the content behind a form immediately
 - Use pop-ups within the first 30 seconds
@@ -253,4 +253,4 @@ Native works best when:
 - You want to build brand awareness while driving measurable results
 - Your target audience reads online content (news, blogs, publications)
 
-If you are looking to diversify beyond Google and Meta, or if your display campaigns are underperforming, native advertising might be the missing piece. **[Get a free growth audit](/free-growth-audit)** from Digital Point LLC, and we will assess whether native fits your marketing mix and help you build a strategy that delivers real results.
+If you're looking to diversify beyond Google and Meta, or if your display campaigns are underperforming, native advertising might be the missing piece. **[Get a free growth audit](/free-growth-audit)** from Digital Point LLC, and we will assess whether native fits your marketing mix and help you build a strategy that delivers real results.

@@ -18,7 +18,7 @@ faqs:
 
 The marketing technology landscape has exploded to over 13,000 tools in 2026. This abundance creates a paradox: more options should mean better outcomes, but most marketing teams are overwhelmed, overspending on underused tools, and struggling with fragmented data across disconnected platforms.
 
-The ideal tech stack is not about having the most tools or the most expensive ones. It is about having the right tools, well-integrated, fully adopted by your team, and configured to support your specific marketing strategy.
+The ideal tech stack isn't about having the most tools or the most expensive ones. It's about having the right tools, well-integrated, fully adopted by your team, and configured to support your specific marketing strategy.
 
 This guide provides a practical framework for building a marketing tech stack that supports a performance marketing team spending $10k-$200k per month on advertising.
 
@@ -213,7 +213,7 @@ Every year, audit your entire stack:
 1. **Usage audit**: Check login frequency and feature usage for every tool. Eliminate or downgrade tools with low adoption.
 2. **Integration audit**: Test all integrations and data flows. Fix broken connections.
 3. **Cost audit**: Review all contracts and negotiate renewals. Many tools offer 15-25% discounts for annual commitments.
-4. **Gap analysis**: Identify capabilities you need but do not have. Evaluate whether existing tools can fill the gap before buying something new.
+4. **Gap analysis**: Identify capabilities you need but don't have. Evaluate whether existing tools can fill the gap before buying something new.
 5. **Consolidation review**: Look for overlapping tools that can be consolidated onto a single platform.
 
 ## Build Your Optimal Tech Stack

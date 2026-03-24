@@ -119,7 +119,7 @@ Page speed directly impacts both conversion rates and ad costs:
 - Compress all images (use WebP format where supported)
 - Lazy-load images below the fold
 - Specify image dimensions to prevent layout shift
-- Use appropriately sized images (do not load a 4000px image for a 400px container)
+- Use appropriately sized images (don't load a 4000px image for a 400px container)
 
 **Code:**
 - Minimize CSS and JavaScript
@@ -170,7 +170,7 @@ For campaigns with multiple ad angles, create **variant landing pages** that mat
 - Ad angle 2 (time savings) leads to landing page variant B (time savings headline)
 - Ad angle 3 (better results) leads to landing page variant C (results headline)
 
-You do not need completely different pages. Often, **changing just the headline and hero section** is enough to maintain strong message match.
+You don't need completely different pages. Often, **changing just the headline and hero section** is enough to maintain strong message match.
 
 ## Mobile Optimization
 
@@ -274,14 +274,14 @@ Prioritize tests by potential impact:
 **Sample size calculator:**
 - For a page converting at 3% and wanting to detect a 20% improvement (3.6%):
   - You need approximately 8,000 visitors per variation
-  - At 200 visitors/day per variation, that is a 40-day test
+  - At 200 visitors/day per variation, that's a 40-day test
 - For a page converting at 5% and wanting to detect a 25% improvement:
   - You need approximately 3,000 visitors per variation
-  - At 200 visitors/day per variation, that is a 15-day test
+  - At 200 visitors/day per variation, that's a 15-day test
 
 ### Continuous Optimization Cycle
 
-Landing page optimization is not a one-time project. Follow this cycle:
+Landing page optimization isn't a one-time project. Follow this cycle:
 
 1. **Analyze**: Review analytics data, heatmaps, and session recordings
 2. **Hypothesize**: Form a specific hypothesis about what change will improve conversions
@@ -290,7 +290,7 @@ Landing page optimization is not a one-time project. Follow this cycle:
 5. **Learn**: Document results regardless of outcome
 6. **Implement**: Apply the winner and start the next test
 
-Aim for 2-3 tests per month. Over a year, that is 24-36 optimization experiments, each building on previous learnings.
+Aim for 2-3 tests per month. Over a year, that's 24-36 optimization experiments, each building on previous learnings.
 
 ## Common Landing Page Mistakes
 
@@ -304,9 +304,9 @@ Including full website navigation gives visitors a dozen ways to leave without c
 Visitors can spot stock photos instantly and they reduce trust. Use real photos of your team, product, or customers whenever possible.
 
 ### Mistake 4: Wall of Text
-Long paragraphs are not read, they are scanned. Use headings, bullet points, short paragraphs, and visual breaks to make content scannable.
+Long paragraphs aren't read, they're scanned. Use headings, bullet points, short paragraphs, and visual breaks to make content scannable.
 
 ### Mistake 5: No Mobile Testing
-Viewing your desktop page on a phone simulator is not the same as testing on an actual mobile device. Test on real devices with real cellular connections.
+Viewing your desktop page on a phone simulator isn't the same as testing on an actual mobile device. Test on real devices with real cellular connections.
 
-The best landing page optimizers treat every page as an experiment in progress. There is always another headline to test, another form field to remove, or another trust signal to add. The compounding effect of continuous optimization transforms your paid ads from a cost center into a growth engine.
+The best landing page optimizers treat every page as an experiment in progress. There's always another headline to test, another form field to remove, or another trust signal to add. The compounding effect of continuous optimization transforms your paid ads from a cost center into a growth engine.

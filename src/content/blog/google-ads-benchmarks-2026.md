@@ -16,7 +16,7 @@ faqs:
 
 ## Why Google Ads Benchmarks Matter
 
-Benchmarks give your performance context. A $3 CPC is excellent in retail but terrible in B2B SaaS. A 2% conversion rate is strong for enterprise software but weak for e-commerce. Without industry-specific benchmarks, you are optimizing blind.
+Benchmarks give your performance context. A $3 CPC is excellent in retail but terrible in B2B SaaS. A 2% conversion rate is strong for enterprise software but weak for e-commerce. Without industry-specific benchmarks, you're optimizing blind.
 
 These benchmarks are compiled from Digital Point LLC client data and industry research for 2026. Use them to evaluate your account performance, set realistic targets, and identify optimization opportunities.
 

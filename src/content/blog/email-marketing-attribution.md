@@ -139,7 +139,7 @@ This doesn't mean email is unimportant—a 20% incremental lift on a large custo
 Classify email-attributed revenue into three categories:
 
 **1. Truly incremental revenue (15-35% of attributed):**
-Purchases that would not have happened without the email. Identified through holdout testing.
+Purchases that wouldn't have happened without the email. Identified through holdout testing.
 
 **2. Accelerated revenue (25-40% of attributed):**
 Purchases that would have happened eventually but happened sooner because of the email. The email shortened the buying cycle but didn't create the sale.

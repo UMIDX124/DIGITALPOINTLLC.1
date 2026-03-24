@@ -26,7 +26,7 @@ Communication is the operating system of a remote team. Get it wrong and everyth
 
 ### The Async-First Principle
 
-Default to asynchronous communication for everything that does not require real-time interaction. This means:
+Default to asynchronous communication for everything that doesn't require real-time interaction. This means:
 
 - Status updates go in Slack channels or project management tools, not meetings
 - Questions get posted in writing so they can be answered thoughtfully
@@ -108,7 +108,7 @@ The best tool is the one your team actually uses consistently. Features matter l
 - In Progress: Actively being worked on
 - In Review: Complete, waiting for feedback
 - Done: Approved and complete
-- Blocked: Cannot proceed, needs input
+- Blocked: Can't proceed, needs input
 
 **Weekly task review:** Every Monday, review the task board. Clear out completed items, reprioritize the backlog, and ensure every team member has clear priorities for the week.
 
@@ -203,7 +203,7 @@ Remote team members need to feel safe raising problems, asking questions, and di
 Add a new team member when:
 - Existing team members are consistently working overtime
 - Growth opportunities are being left on the table due to capacity
-- A specialized skill is needed that current members do not have
+- A specialized skill is needed that current members don't have
 - The team's output quality is declining due to overload
 
 ### Maintaining Culture During Growth

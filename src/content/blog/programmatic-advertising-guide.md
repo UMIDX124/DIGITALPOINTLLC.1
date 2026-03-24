@@ -128,7 +128,7 @@ Placing ads alongside relevant content rather than targeting specific users:
 - Category-based (ads appear on pages about specific topics)
 - Sentiment-based (ads avoid negative content contexts)
 
-Contextual targeting has seen a resurgence due to privacy changes. It does not rely on user tracking and can be highly effective when well-executed.
+Contextual targeting has seen a resurgence due to privacy changes. It doesn't rely on user tracking and can be highly effective when well-executed.
 
 ### Geotargeting
 
@@ -232,9 +232,9 @@ Programmatic is susceptible to various fraud types:
 - Use ads.txt and sellers.json verification
 - Implement pre-bid fraud detection (IAS, DoubleVerify, HUMAN)
 - Monitor for anomalous metrics (suspiciously high CTR, 100% viewability)
-- Avoid suspiciously cheap inventory (if CPMs are too good to be true, they are)
+- Avoid suspiciously cheap inventory (if CPMs are too good to be true, they're)
 
-Expect to spend 5-15% of your programmatic budget on verification and brand safety tools. This is not optional; it is essential.
+Expect to spend 5-15% of your programmatic budget on verification and brand safety tools. This isn't optional; it's essential.
 
 ## Measurement and Attribution
 
@@ -252,7 +252,7 @@ Expect to spend 5-15% of your programmatic budget on verification and brand safe
 **Brand lift:**
 - Measure awareness, consideration, and preference changes
 - Requires survey-based studies (available through major DSPs)
-- Best used for awareness campaigns where direct response metrics are not the goal
+- Best used for awareness campaigns where direct response metrics aren't the goal
 
 **Cross-device attribution:**
 - Track user engagement across mobile, desktop, tablet, and CTV
@@ -275,7 +275,7 @@ Programmatic often plays an upper-funnel role, making attribution challenging:
 The gold standard for measuring programmatic impact:
 
 1. **Geographic holdout**: Run programmatic in some regions, not others
-2. **Ghost bidding**: Win auctions but do not serve ads to a control group
+2. **Ghost bidding**: Win auctions but don't serve ads to a control group
 3. **On/off testing**: Run programmatic for defined periods and measure impact
 4. **PSA testing**: Show public service ads to the control group instead of your ads
 
@@ -348,4 +348,4 @@ Several trends are reshaping programmatic advertising:
 
 **Retail media networks**: Amazon, Walmart, and other retailers are opening their first-party data for programmatic targeting, creating powerful new targeting capabilities.
 
-For marketers spending $10K+/month on digital advertising, programmatic is not a niche channel. It is a fundamental part of a mature media strategy that enables reach, precision, and scale that walled-garden platforms alone cannot provide.
+For marketers spending $10K+/month on digital advertising, programmatic isn't a niche channel. It's a fundamental part of a mature media strategy that enables reach, precision, and scale that walled-garden platforms alone can't provide.

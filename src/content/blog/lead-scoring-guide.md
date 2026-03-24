@@ -16,9 +16,9 @@ faqs:
 
 ## Why Most Lead Scoring Systems Fail
 
-Most companies that implement lead scoring end up with a system that nobody trusts. Marketing assigns arbitrary point values based on assumptions, sales ignores the scores because they do not match reality, and the system becomes abandoned shelfware within six months.
+Most companies that implement lead scoring end up with a system that nobody trusts. Marketing assigns arbitrary point values based on assumptions, sales ignores the scores because they don't match reality, and the system becomes abandoned shelfware within six months.
 
-The problem is not lead scoring itself. It is that most implementations are built on guesswork rather than data. A score of "+10 for downloading a whitepaper" means nothing unless you have validated that whitepaper downloaders actually convert at a higher rate than non-downloaders.
+The problem isn't lead scoring itself. It's that most implementations are built on guesswork rather than data. A score of "+10 for downloading a whitepaper" means nothing unless you have validated that whitepaper downloaders actually convert at a higher rate than non-downloaders.
 
 This guide shows you how to build a lead scoring system grounded in real conversion data, so your sales team focuses on the leads most likely to become customers and your marketing team invests in the channels and campaigns that generate the highest-quality leads.
 
@@ -26,7 +26,7 @@ This guide shows you how to build a lead scoring system grounded in real convers
 
 ### Axis 1: Demographic Fit (Lead Grade)
 
-Demographic fit measures how closely a lead matches your ideal customer profile. This is relatively static: a lead's company size and industry do not change based on their behavior.
+Demographic fit measures how closely a lead matches your ideal customer profile. This is relatively static: a lead's company size and industry don't change based on their behavior.
 
 **Building your ICP scoring model:**
 
@@ -194,12 +194,12 @@ Every quarter, run this validation:
 2. Group by score quartile (top 25%, second 25%, etc.)
 3. Calculate conversion rate, deal size, and sales cycle length for each quartile
 4. Compare to expectations: does the top quartile convert at 3-5x the bottom?
-5. Identify scoring rules that are not predictive and adjust
+5. Identify scoring rules that aren't predictive and adjust
 6. Identify new behaviors that correlate with conversion and add them
 
 ## Common Lead Scoring Mistakes
 
-**Scoring everything equally.** A pricing page visit is not equal to a blog post view. Weight behaviors based on purchase intent, not just engagement volume.
+**Scoring everything equally.** A pricing page visit isn't equal to a blog post view. Weight behaviors based on purchase intent, not just engagement volume.
 
 **Ignoring negative signals.** Leads that unsubscribe, bounce, or go dormant should lose points. Without score decay, your pipeline fills with stale leads that waste sales time.
 
@@ -207,7 +207,7 @@ Every quarter, run this validation:
 
 **Over-complicating the model.** Start with 10-15 scoring rules based on your most clearly predictive attributes. Add complexity only when you have data to support it.
 
-**Not measuring accuracy.** A scoring system that is never validated is just guessing with extra steps. Measure conversion rate by score tier quarterly and adjust.
+**Not measuring accuracy.** A scoring system that's never validated is just guessing with extra steps. Measure conversion rate by score tier quarterly and adjust.
 
 ## Build a Lead Scoring System That Drives Revenue
 

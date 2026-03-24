@@ -18,9 +18,9 @@ faqs:
 
 Every marketing team tracks CAC. Most track revenue. But surprisingly few track the ratio between what they spend to acquire a customer and what that customer is worth over their lifetime.
 
-This is a problem because CAC in isolation is meaningless. A $500 CAC is terrible if your average customer spends $400 total. But it is a bargain if your average customer spends $5,000 over three years.
+This is a problem because CAC in isolation is meaningless. A $500 CAC is terrible if your average customer spends $400 total. But it's a bargain if your average customer spends $5,000 over three years.
 
-The CAC-to-LTV ratio tells you whether your marketing spend is building a profitable, sustainable business or slowly bleeding you dry. At Digital Point LLC, it is the first metric we calculate when onboarding a new client.
+The CAC-to-LTV ratio tells you whether your marketing spend is building a profitable, sustainable business or slowly bleeding you dry. At Digital Point LLC, it's the first metric we calculate when onboarding a new client.
 
 ## How to Calculate the CAC-to-LTV Ratio
 
@@ -66,7 +66,7 @@ Example: If your LTV is $900 and your CAC is $300, your ratio is 3:1.
 | 3:1 to 5:1 | Strong unit economics | Scale aggressively while maintaining ratio |
 | Above 5:1 | Excellent — but possibly underinvesting | You can likely afford to spend more on acquisition |
 
-**Important nuance:** A ratio above 5:1 is not always better. It may indicate you are being too conservative with marketing spend and leaving growth on the table. In competitive markets, the company with the higher CAC tolerance often wins because they can outbid and outspend competitors.
+**Important nuance:** A ratio above 5:1 isn't always better. It may indicate you're being too conservative with marketing spend and leaving growth on the table. In competitive markets, the company with the higher CAC tolerance often wins because they can outbid and outspend competitors.
 
 ### Benchmarks by Industry
 
@@ -127,17 +127,17 @@ Your Google Search customers might have a 5:1 LTV:CAC while your Meta prospectin
 
 ### Mistake 4: Ignoring Expansion Revenue
 
-For SaaS and subscription businesses, expansion revenue (upsells, cross-sells, plan upgrades) can increase LTV by 30-50%. If you are not factoring this in, you are underestimating your LTV and potentially underinvesting in acquisition.
+For SaaS and subscription businesses, expansion revenue (upsells, cross-sells, plan upgrades) can increase LTV by 30-50%. If you're not factoring this in, you're underestimating your LTV and potentially underinvesting in acquisition.
 
 ### Mistake 5: Treating CAC-to-LTV as Static
 
-This ratio changes over time as you scale. CAC typically increases as you exhaust your easiest-to-reach audiences. LTV can increase with better onboarding and product improvements, or decrease if you are acquiring lower-quality customers to hit growth targets.
+This ratio changes over time as you scale. CAC typically increases as you exhaust your easiest-to-reach audiences. LTV can increase with better onboarding and product improvements, or decrease if you're acquiring lower-quality customers to hit growth targets.
 
 Track this ratio monthly and watch for trends.
 
 ## How to Improve Your CAC-to-LTV Ratio
 
-You can pull two levers: reduce CAC or increase LTV. Here is how to do both.
+You can pull two levers: reduce CAC or increase LTV. Here's how to do both.
 
 ### Reducing CAC
 
@@ -193,7 +193,7 @@ The most powerful use of this metric is at the segment level. Analyze LTV:CAC by
 | LinkedIn | $350 | $1,800 | 5.1:1 |
 | Organic | $15 | $500 | 33:1 |
 
-This table reveals that LinkedIn has the highest CAC but also the highest LTV, making it your most efficient B2B channel. Meta retargeting looks great on LTV:CAC but cannot scale independently.
+This table reveals that LinkedIn has the highest CAC but also the highest LTV, making it your most efficient B2B channel. Meta retargeting looks great on LTV:CAC but can't scale independently.
 
 ### By Customer Segment
 
@@ -231,14 +231,14 @@ Set alerts for when your ratio drops below your minimum acceptable threshold (ty
 
 ## When to Prioritize Growth Over Ratio
 
-A high LTV:CAC ratio is not always the goal. In these situations, accepting a lower ratio makes strategic sense:
+A high LTV:CAC ratio isn't always the goal. In these situations, accepting a lower ratio makes strategic sense:
 
 - **Market land-grab:** When first-mover advantage matters and the market will consolidate
 - **Network effects:** When each customer makes the product more valuable for others
 - **Competitive defense:** When letting competitors acquire those customers would hurt you
 - **Fundraising:** When you need growth metrics for your next round
 
-But have a clear plan for how and when the ratio will improve. Unprofitable growth only works when there is a credible path to profitability.
+But have a clear plan for how and when the ratio will improve. Unprofitable growth only works when there's a credible path to profitability.
 
 ## Get Your LTV:CAC Ratio Analyzed
 

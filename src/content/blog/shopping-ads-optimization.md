@@ -16,7 +16,7 @@ faqs:
 
 ## Why Google Shopping Ads Matter
 
-Google Shopping Ads are the backbone of e-commerce paid advertising. They appear at the top of search results with product images, prices, and store names — capturing high-intent shoppers at the moment they are ready to buy.
+Google Shopping Ads are the backbone of e-commerce paid advertising. They appear at the top of search results with product images, prices, and store names — capturing high-intent shoppers at the moment they're ready to buy.
 
 In 2026, Shopping Ads generate the highest volume of e-commerce conversions of any Google ad format. For most online retailers, Shopping campaigns deliver better ROAS than Search text ads because the visual format pre-qualifies clicks — users see the product and price before clicking.
 
@@ -72,7 +72,7 @@ Examples:
 4. Include key attributes: color, size, material, gender
 5. Use natural language — no keyword stuffing
 6. Maximum length is 150 characters, aim for 100-120
-7. Do not include promotional text or all caps
+7. Don't include promotional text or all caps
 
 ### Product Descriptions
 
@@ -194,12 +194,12 @@ For new products or categories without conversion history:
 
 ### Negative Keywords for Shopping
 
-Shopping campaigns do not use keywords for targeting, but you can add negative keywords to prevent your ads from showing on irrelevant searches.
+Shopping campaigns don't use keywords for targeting, but you can add negative keywords to prevent your ads from showing on irrelevant searches.
 
 **Common negative keyword categories for Shopping:**
 - Informational queries: "how to," "what is," "review," "comparison"
 - Non-commercial: "free," "DIY," "cheap" (unless you sell budget products)
-- Competitor names (unless you are running conquest campaigns)
+- Competitor names (unless you're running conquest campaigns)
 - Unrelated product attributes: if you sell men's shoes, negative "women's"
 
 Review your search term report weekly and add negatives aggressively.
@@ -211,7 +211,7 @@ Not every product should be in Shopping campaigns:
 | Exclude | Reason |
 |---|---|
 | Out-of-stock products | Wasted clicks, bad experience |
-| Very low-margin products | Cannot achieve profitable ROAS |
+| Very low-margin products | Can't achieve profitable ROAS |
 | Products with poor images | Low CTR damages campaign quality |
 | Products with incomplete data | Poor ad quality, low impression share |
 | One-off or discontinued items | Minimal search volume |

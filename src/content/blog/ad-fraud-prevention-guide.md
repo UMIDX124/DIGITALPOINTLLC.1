@@ -20,7 +20,7 @@ faqs:
 
 Digital ad fraud is the marketing industry's open secret. Everyone knows it exists. Few teams actively fight it. And the scale is staggering: **$84 billion in ad spend was lost to fraud globally in 2025**, and the number continues to climb as fraudsters deploy increasingly sophisticated techniques.
 
-If you're spending $50,000 per month on digital ads, statistical averages suggest that **$11,000 of that is being wasted on fraudulent clicks, fake impressions, and bot traffic.** That's $132,000 per year flowing to fraudsters instead of reaching real potential customers.
+If you're spending $50,000 per month on digital ads, statistical averages suggest that **$11,000 of that's being wasted on fraudulent clicks, fake impressions, and bot traffic.** That's $132,000 per year flowing to fraudsters instead of reaching real potential customers.
 
 The impact goes beyond wasted spend. Ad fraud corrupts your data, inflates your [CAC calculations](/blog/complete-guide-cac-optimization), distorts your [attribution models](/blog/complete-guide-marketing-attribution), and leads to poor budget allocation decisions. When your conversion data includes fake leads and bot interactions, every downstream decision is compromised.
 
@@ -66,7 +66,7 @@ Fake leads, form submissions, app installs, or purchases designed to earn affili
 
 Fraudulent publishers misrepresenting their websites as premium properties to command higher CPMs.
 
-**How it works:** A low-quality site (or fake site) uses techniques to make ad exchanges believe they are a premium publisher like NYTimes.com or ESPN.com. Advertisers pay premium rates for bottom-tier inventory.
+**How it works:** A low-quality site (or fake site) uses techniques to make ad exchanges believe they're a premium publisher like NYTimes.com or ESPN.com. Advertisers pay premium rates for bottom-tier inventory.
 
 **Impact:** Premium CPMs for junk inventory, brand safety risks, and zero actual reach to your target audience.
 

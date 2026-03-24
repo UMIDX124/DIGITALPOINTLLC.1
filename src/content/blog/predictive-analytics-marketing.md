@@ -16,7 +16,7 @@ faqs:
 
 ## The Case for Predictive Analytics in Performance Marketing
 
-Every marketing decision involves a prediction. When you allocate budget to Google Search over Meta, you are predicting that Google will generate more revenue per dollar. When you increase spend on a campaign, you are predicting it will scale profitably. The question is not whether you use predictions but whether your predictions are based on statistical models or gut feelings.
+Every marketing decision involves a prediction. When you allocate budget to Google Search over Meta, you're predicting that Google will generate more revenue per dollar. When you increase spend on a campaign, you're predicting it will scale profitably. The question isn't whether you use predictions but whether your predictions are based on statistical models or gut feelings.
 
 Predictive analytics uses historical data and statistical or machine learning models to make these predictions explicit, quantified, and testable. For marketing teams spending $10k-$200k per month on advertising, predictive analytics typically improves marketing ROI by 15-30% by making three types of decisions better: budget allocation, audience targeting, and revenue forecasting.
 
@@ -101,7 +101,7 @@ Predictive budget allocation uses response curves and forecasting to determine t
 
 Churn prediction identifies customers at risk of leaving before they actually leave, enabling proactive retention campaigns.
 
-**Why it matters:** Acquiring a new customer costs 5-7x more than retaining an existing one. Early identification of at-risk customers lets you intervene with targeted retention campaigns when it is still possible to save the relationship.
+**Why it matters:** Acquiring a new customer costs 5-7x more than retaining an existing one. Early identification of at-risk customers lets you intervene with targeted retention campaigns when it's still possible to save the relationship.
 
 **Common churn predictors:**
 
@@ -192,7 +192,7 @@ Track these metrics to quantify the ROI of your predictive analytics investment:
 
 **Budget optimization impact.** Run controlled experiments comparing predictive allocation to your previous approach. Target 15-25% improvement in revenue per dollar.
 
-**Churn prevention.** Measure the retention rate of at-risk customers who received intervention versus those who did not. Target 20-40% reduction in churn among identified at-risk customers.
+**Churn prevention.** Measure the retention rate of at-risk customers who received intervention versus those who didn't. Target 20-40% reduction in churn among identified at-risk customers.
 
 ## Transform Your Marketing with Predictive Analytics
 

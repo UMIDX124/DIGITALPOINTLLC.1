@@ -20,7 +20,7 @@ Lookalike audiences were once the golden goose of digital advertising. Upload yo
 
 Then came **iOS 14.5, ATT prompts, cookie deprecation, and expanded privacy regulations**. Each change chipped away at the data signals that made lookalikes so effective.
 
-But here is the nuanced truth: **lookalike audiences are not dead. They are different.** The advertisers who adapted their approach continue to see strong results. Those who kept using the same 2020 playbook are struggling.
+But here's the nuanced truth: **lookalike audiences aren't dead. They're different.** The advertisers who adapted their approach continue to see strong results. Those who kept using the same 2020 playbook are struggling.
 
 This guide covers what has changed, what still works, and how to build effective lookalike strategies in the current privacy landscape.
 
@@ -59,7 +59,7 @@ For most advertisers, lookalike audience performance has declined by **20-40%** 
 
 ### Strategy 1: First-Party Data Seeds
 
-The single most effective adaptation is **shifting from pixel-based to first-party data seed audiences**. Customer lists uploaded directly to platforms are not affected by browser-based tracking limitations.
+The single most effective adaptation is **shifting from pixel-based to first-party data seed audiences**. Customer lists uploaded directly to platforms aren't affected by browser-based tracking limitations.
 
 **Best seed audience sources (ranked by quality):**
 
@@ -272,7 +272,7 @@ To protect your lookalike strategy from future privacy changes:
 1. **Build robust first-party data collection** (email lists, CRM data, loyalty programs)
 2. **Implement server-side tracking** to maintain signal quality
 3. **Invest in zero-party data** (surveys, preference centers, quizzes)
-4. **Diversify targeting methods** so you are never dependent on one approach
+4. **Diversify targeting methods** so you're never dependent on one approach
 5. **Test platform-native AI targeting** alongside manual lookalikes
 
 The future of audience targeting is moving toward a combination of first-party data signals and platform AI. Advertisers who build strong first-party data foundations will have the most effective lookalike audiences regardless of how privacy regulations evolve.

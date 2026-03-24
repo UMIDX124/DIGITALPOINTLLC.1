@@ -94,7 +94,7 @@ TikTok is a creative-first platform. The quality and relevance of your video con
 **The hook (first 1-2 seconds):**
 - Open with motion, sound, or a provocative statement
 - Address the viewer directly: "Hey, did you know..."
-- Start mid-action — do not ease in
+- Start mid-action — don't ease in
 - Use on-screen text immediately — many users browse without sound initially
 
 **The body (3-20 seconds):**
@@ -129,7 +129,7 @@ TikTok creative fatigues faster than other platforms due to the content-heavy na
 - **Recommended:** 15-25 new creatives per month
 - **Aggressive:** 30+ new creatives per month
 
-Do not let production quality slow you down. TikTok's best-performing ads look authentic, not polished. A smartphone video with good lighting outperforms a professionally produced commercial.
+Don't let production quality slow you down. TikTok's best-performing ads look authentic, not polished. A smartphone video with good lighting outperforms a professionally produced commercial.
 
 ### Creator Marketplace
 
@@ -158,7 +158,7 @@ Budget $500-$5,000 per creator depending on their reach and production quality.
 
 TikTok's algorithm needs approximately 50 conversions per ad group to complete the learning phase. During learning:
 
-- Performance will be volatile — do not make changes
+- Performance will be volatile — don't make changes
 - CPAs will be higher than your eventual steady state
 - Avoid editing ad groups, which resets learning
 - Budget at least $100-$150/day per ad group to exit learning within 1-2 weeks
@@ -170,9 +170,9 @@ TikTok's algorithm needs approximately 50 conversions per ad group to complete t
 - Duplicate winning ad groups to test with different audiences
 - Extract winning creative and run it in new campaigns
 
-**Kill what does not:**
+**Kill what doesn't:**
 - Pause ads with less than 0.5% CTR after 1,000 impressions
-- Kill ad groups that have not exited learning after $500 in spend
+- Kill ad groups that haven't exited learning after $500 in spend
 - Replace creative with declining engagement (CTR dropping week over week)
 
 **Iterate constantly:**
@@ -232,6 +232,6 @@ TikTok Shop has transformed e-commerce advertising on the platform in 2026:
 
 ## Get Your TikTok Ads Strategy Built
 
-At Digital Point LLC, we help brands expand into TikTok advertising with strategies tailored to the platform's unique creative and targeting requirements. Whether you are testing TikTok for the first time or scaling an existing presence, we can accelerate your results.
+At Digital Point LLC, we help brands expand into TikTok advertising with strategies tailored to the platform's unique creative and targeting requirements. Whether you're testing TikTok for the first time or scaling an existing presence, we can accelerate your results.
 
 [Get your free growth audit](/free-growth-audit) to evaluate whether TikTok Ads should be part of your paid media mix and what performance to expect.

@@ -50,10 +50,10 @@ Data-driven attribution (DDA) uses machine learning to analyze your actual conve
 - You have at least 300-400 conversions per month (Google's minimum for reliable DDA)
 - You run campaigns across multiple channels
 - You want an objective, data-backed credit distribution
-- You do not have strong opinions about which model "should" be used
+- You don't have strong opinions about which model "should" be used
 
 **Limitations of DDA:**
-- It is a black box — you cannot see the exact calculation behind credit distribution
+- It's a black box — you can't see the exact calculation behind credit distribution
 - Results change as your data changes (not always consistent month-to-month)
 - It can be biased toward channels with more data points
 - Small conversion volumes produce unreliable results
@@ -66,12 +66,12 @@ This model gives 100% of the conversion credit to the last channel the user inte
 - You need simple, consistent reporting
 - You want to match how ad platforms report their own performance
 - Your business has short sales cycles (1-3 days)
-- You are comparing to historical UA data (which used last-click)
+- You're comparing to historical UA data (which used last-click)
 
 **Limitations:**
 - Systematically undervalues upper-funnel channels
 - Over-credits bottom-funnel channels (branded search, retargeting)
-- Does not reflect the multi-touch reality of most customer journeys
+- Doesn't reflect the multi-touch reality of most customer journeys
 
 ### Google Paid Channels Last-Click
 
@@ -79,7 +79,7 @@ This model gives all credit to the last Google Ads click. If there was no Google
 
 **When to use:**
 - You want GA4 conversion data to closely match Google Ads reporting
-- You are primarily a Google Ads advertiser
+- You're primarily a Google Ads advertiser
 
 **Limitations:**
 - Obviously biased toward Google's own channels
@@ -123,7 +123,7 @@ GA4 lets you configure two lookback windows:
 
 For each conversion event, decide whether to count:
 
-- **Once per session** — Counts a maximum of one conversion per session (better for lead generation forms where a duplicate submission is not a new lead)
+- **Once per session** — Counts a maximum of one conversion per session (better for lead generation forms where a duplicate submission isn't a new lead)
 - **Every event** — Counts each conversion event separately (better for e-commerce purchases where each transaction is real revenue)
 
 ## Reading GA4 Attribution Reports
@@ -138,7 +138,7 @@ This report is one of the most valuable in GA4. It shows your conversion data si
 
 1. Select two models to compare (e.g., Data-driven vs. Last-click)
 2. Look for channels where the difference is significant:
-   - If a channel gets **more** credit under DDA than last-click, it is an important upper-funnel contributor that last-click undervalues
+   - If a channel gets **more** credit under DDA than last-click, it's an important upper-funnel contributor that last-click undervalues
    - If a channel gets **less** credit under DDA than last-click, it may be getting inflated credit from being the final click
 
 **Example findings:**
@@ -185,7 +185,7 @@ GA4 samples data when your queries exceed thresholds. In standard reports, sampl
 
 ### Pitfall 2: Consent Mode Gaps
 
-If you have implemented consent mode (required in the EU and increasingly common in the US), GA4 does not collect full data from users who decline tracking. GA4 uses **behavioral modeling** to estimate conversions from non-consenting users, but this modeling adds uncertainty.
+If you have implemented consent mode (required in the EU and increasingly common in the US), GA4 doesn't collect full data from users who decline tracking. GA4 uses **behavioral modeling** to estimate conversions from non-consenting users, but this modeling adds uncertainty.
 
 **Impact:** Reported conversions include a mix of observed and modeled data. The modeled portion can be 20-50% in regions with high consent opt-out rates.
 
@@ -198,7 +198,7 @@ GA4 offers three identity methods for cross-device tracking:
 - **Google Signals** — Uses Google account data for signed-in users
 - **Device-ID** — Falls back to client-side IDs (least accurate)
 
-If most of your users are not logged in, GA4 cannot accurately track cross-device journeys. A user who clicks an ad on mobile and converts on desktop looks like two separate users.
+If most of your users aren't logged in, GA4 can't accurately track cross-device journeys. A user who clicks an ad on mobile and converts on desktop looks like two separate users.
 
 **Solution:** Implement User-ID tracking through customer accounts or email identification. This dramatically improves cross-device attribution accuracy.
 
@@ -206,11 +206,11 @@ If most of your users are not logged in, GA4 cannot accurately track cross-devic
 
 If your UTM tagging is inconsistent, GA4 categorizes traffic as "(not set)" or places it in the wrong default channel group. This pollutes your attribution data.
 
-**Solution:** Audit your channel groupings (Admin > Channel Groups) and enforce consistent UTM parameters. Create custom channel groups if the defaults do not match your marketing structure.
+**Solution:** Audit your channel groupings (Admin > Channel Groups) and enforce consistent UTM parameters. Create custom channel groups if the defaults don't match your marketing structure.
 
 ### Pitfall 5: Comparing GA4 to Platform Data
 
-GA4 will almost always show fewer conversions per channel than the ad platform itself reports. This is not a GA4 error — it is a feature. GA4 deduplicates conversions and distributes credit, while platforms claim full credit.
+GA4 will almost always show fewer conversions per channel than the ad platform itself reports. This isn't a GA4 error — it's a feature. GA4 deduplicates conversions and distributes credit, while platforms claim full credit.
 
 **Typical discrepancy ranges:**
 
@@ -221,7 +221,7 @@ GA4 will almost always show fewer conversions per channel than the ad platform i
 | TikTok | 30-50% fewer in GA4 |
 | LinkedIn | 20-40% fewer in GA4 |
 
-**Solution:** Do not expect the numbers to match. Use GA4 for cross-channel comparison and platform data for within-channel optimization.
+**Solution:** Don't expect the numbers to match. Use GA4 for cross-channel comparison and platform data for within-channel optimization.
 
 ## Advanced GA4 Attribution Techniques
 
@@ -262,7 +262,7 @@ Use GA4 Explorations to analyze attribution by user segment:
 
 ## Making GA4 Attribution Actionable
 
-Attribution data is only valuable if it changes decisions. Here is how to act on GA4 attribution insights:
+Attribution data is only valuable if it changes decisions. Here's how to act on GA4 attribution insights:
 
 1. **Quarterly model comparison reviews** — Compare DDA to last-click every quarter. Identify channels that are systematically over or undervalued.
 
@@ -270,6 +270,6 @@ Attribution data is only valuable if it changes decisions. Here is how to act on
 
 3. **Path analysis for creative strategy** — If most conversion paths start with social video, invest in better video creative for the awareness stage.
 
-4. **Funnel optimization** — If paths show a common drop-off point (e.g., users click social ads but do not return from email), optimize that stage.
+4. **Funnel optimization** — If paths show a common drop-off point (e.g., users click social ads but don't return from email), optimize that stage.
 
-If your GA4 attribution data is confusing, inconsistent, or not matching what you see in your ad platforms, your setup may need tuning. **[Get a free growth audit](/free-growth-audit)** from Digital Point LLC, and we will review your GA4 configuration, attribution settings, and tracking implementation to make sure you are getting accurate, actionable data.
+If your GA4 attribution data is confusing, inconsistent, or not matching what you see in your ad platforms, your setup may need tuning. **[Get a free growth audit](/free-growth-audit)** from Digital Point LLC, and we will review your GA4 configuration, attribution settings, and tracking implementation to make sure you're getting accurate, actionable data.

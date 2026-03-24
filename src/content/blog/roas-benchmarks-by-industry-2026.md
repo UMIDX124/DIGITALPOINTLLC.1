@@ -16,7 +16,7 @@ faqs:
 
 ## Why ROAS Benchmarks Matter in 2026
 
-ROAS benchmarks give you a reference point for evaluating your advertising performance. Without context, you cannot know if your 3.5x ROAS is excellent or mediocre.
+ROAS benchmarks give you a reference point for evaluating your advertising performance. Without context, you can't know if your 3.5x ROAS is excellent or mediocre.
 
 At Digital Point LLC, we manage millions in ad spend across dozens of industries. These benchmarks come from real account data combined with industry research, giving you a practical framework for setting targets and identifying improvement opportunities.
 
@@ -105,7 +105,7 @@ At Digital Point LLC, we manage millions in ad spend across dozens of industries
 | Electronics | 1.0-2.0x | 3.5x+ | Review and unboxing content |
 | Subscription | 1.5-2.5x | 4.0x+ | Free trial offers perform |
 
-**2026 trend:** TikTok ROAS has improved significantly as the platform's ad targeting and measurement capabilities mature. It is now competitive with Meta for many DTC brands targeting audiences under 40.
+**2026 trend:** TikTok ROAS has improved significantly as the platform's ad targeting and measurement capabilities mature. It's now competitive with Meta for many DTC brands targeting audiences under 40.
 
 ### LinkedIn Ads ROAS
 
@@ -190,7 +190,7 @@ Your reported ROAS varies significantly by attribution model:
 
 ### Step 1: Fix Tracking First
 
-You cannot optimize what you cannot measure. Ensure you have:
+You can't optimize what you can't measure. Ensure you have:
 - Server-side tracking (Conversions API for Meta, Enhanced Conversions for Google)
 - Proper revenue tracking passing actual order values
 - Consistent attribution windows across platforms

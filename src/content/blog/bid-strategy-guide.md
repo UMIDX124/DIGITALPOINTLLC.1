@@ -18,7 +18,7 @@ faqs:
 
 Your bid strategy is the single most impactful setting in any ad account. It determines how much you pay for every click, impression, and conversion. Get it right, and you scale profitably. Get it wrong, and you burn through budget with nothing to show for it.
 
-The landscape has shifted dramatically. Five years ago, manual bidding was standard practice. Today, machine learning-powered automated bidding outperforms manual bidding in most scenarios — but "most" is not "all." Understanding when to use each approach is critical for marketers spending **$10,000 to $200,000+ per month** on paid media.
+The landscape has shifted dramatically. Five years ago, manual bidding was standard practice. Today, machine learning-powered automated bidding outperforms manual bidding in most scenarios — but "most" isn't "all." Understanding when to use each approach is critical for marketers spending **$10,000 to $200,000+ per month** on paid media.
 
 ## Bid Strategy Options by Platform
 
@@ -86,11 +86,11 @@ Automated bidding algorithms need data to learn. A brand-new campaign with zero 
 
 ### Scenario 2: Very Low Conversion Volume
 
-If a campaign generates fewer than 15-20 conversions per month, automated bidding does not have enough data to optimize reliably. The algorithm may make erratic decisions.
+If a campaign generates fewer than 15-20 conversions per month, automated bidding doesn't have enough data to optimize reliably. The algorithm may make erratic decisions.
 
 ### Scenario 3: Niche or Specialized Campaigns
 
-Campaigns targeting a tiny audience (like ABM campaigns targeting 50 specific companies on LinkedIn) do not benefit from automated bidding. Manual control lets you set appropriate bids for each target.
+Campaigns targeting a tiny audience (like ABM campaigns targeting 50 specific companies on LinkedIn) don't benefit from automated bidding. Manual control lets you set appropriate bids for each target.
 
 ### Scenario 4: Unreliable Conversion Tracking
 
@@ -131,7 +131,7 @@ These improvements compound over time as the algorithm accumulates more data.
 
 ### Best Practice 1: Start with Realistic Targets
 
-If your current CPA is $50, do not set a Target CPA of $20. The algorithm will restrict delivery severely, get minimal data, and fail to learn.
+If your current CPA is $50, don't set a Target CPA of $20. The algorithm will restrict delivery severely, get minimal data, and fail to learn.
 
 **Recommended approach:**
 1. Run Maximize Conversions (no cap) for 2-4 weeks
@@ -152,9 +152,9 @@ Every time you make a significant change, the algorithm re-enters a learning per
 
 **During the learning period (1-2 weeks):**
 - CPA will be volatile (expect 2-3x normal variance)
-- Do not make additional changes
-- Do not pause based on early results
-- Monitor but do not intervene
+- Don't make additional changes
+- Don't pause based on early results
+- Monitor but don't intervene
 
 ### Best Practice 3: Feed the Algorithm Good Data
 
@@ -164,7 +164,7 @@ Automated bidding is only as good as the data you feed it:
 
 **Set accurate conversion values.** For Target ROAS, ensure your conversion values reflect actual revenue, not arbitrary numbers.
 
-**Implement offline conversion imports.** If you are a B2B company where the real conversion happens in your CRM (SQL, opportunity), import these events back to the ad platform so the algorithm learns what a real conversion looks like.
+**Implement offline conversion imports.** If you're a B2B company where the real conversion happens in your CRM (SQL, opportunity), import these events back to the ad platform so the algorithm learns what a real conversion looks like.
 
 **Use enhanced conversions.** Server-side data improves conversion matching by 10-25%, giving the algorithm significantly more signal.
 
@@ -226,11 +226,11 @@ Best for: Accounts with multiple campaigns targeting similar conversion goals.
 ### Issue: CPA Spiking After Switching to Automated
 
 **Cause:** Learning period volatility or target set too aggressively.
-**Fix:** Wait 2 weeks. If CPA does not stabilize, raise your target by 10-20%.
+**Fix:** Wait 2 weeks. If CPA doesn't stabilize, raise your target by 10-20%.
 
 ### Issue: Low Spend / Limited Delivery
 
-**Cause:** Target CPA or ROAS too aggressive — the algorithm cannot find enough auctions to win at your target.
+**Cause:** Target CPA or ROAS too aggressive — the algorithm can't find enough auctions to win at your target.
 **Fix:** Raise CPA target or lower ROAS target by 15-20%. Alternatively, broaden your targeting.
 
 ### Issue: Automated Bidding Overspending
@@ -255,4 +255,4 @@ When managing multiple campaigns with different bid strategies, allocate budget 
 
 This ensures most of your budget goes to campaigns where the algorithm has enough data to perform well, while newer campaigns get enough budget to learn.
 
-If your bid strategies are not delivering the ROAS you need, or if you are unsure whether to use manual or automated approaches, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your current bid strategy setup, identify optimization opportunities, and recommend the approach that maximizes your return on ad spend.
+If your bid strategies aren't delivering the ROAS you need, or if you're unsure whether to use manual or automated approaches, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your current bid strategy setup, identify optimization opportunities, and recommend the approach that maximizes your return on ad spend.

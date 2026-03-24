@@ -138,7 +138,7 @@ Programmatic display extends your reach beyond search and social:
 
 ## The B2B Paid Advertising Funnel
 
-B2B requires a full-funnel approach. You cannot just run bottom-of-funnel conversion campaigns and expect results, because most of your target audience is not actively looking for a solution right now.
+B2B requires a full-funnel approach. You can't just run bottom-of-funnel conversion campaigns and expect results, because most of your target audience isn't actively looking for a solution right now.
 
 ### Top of Funnel: Awareness (30% of Budget)
 
@@ -220,7 +220,7 @@ B2B ad creative should match the funnel stage:
 
 ### Connecting Ad Spend to Pipeline
 
-The biggest B2B advertising mistake is measuring leads without connecting to revenue. Here is how to fix it:
+The biggest B2B advertising mistake is measuring leads without connecting to revenue. Here's how to fix it:
 
 1. **Import CRM stage changes** back into ad platforms (Google offline conversions, Meta CAPI with custom events, LinkedIn offline conversions)
 2. **Set up pipeline-based bidding** in Google Ads using imported SQL or opportunity values

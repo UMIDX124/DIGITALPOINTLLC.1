@@ -18,7 +18,7 @@ faqs:
 
 Retargeting is simultaneously the easiest and most abused channel in digital advertising. Done right, it delivers the highest ROAS of any campaign type. Done wrong, it annoys potential customers and wastes budget on people who were never going to buy.
 
-The core issue is that **most retargeting strategies are too simple**. Showing the same ad to every website visitor for 30 days is not a strategy. It is laziness with a pixel.
+The core issue is that **most retargeting strategies are too simple**. Showing the same ad to every website visitor for 30 days isn't a strategy. It's laziness with a pixel.
 
 This guide covers how to build a retargeting system that captures genuine demand without burning budget or burning bridges with your audience.
 
@@ -34,7 +34,7 @@ The average retargeted user sees the same ad **17-20 times** before the campaign
 
 ### Problem 3: Stale Creative
 
-Running the same retargeting ads for months means your warmest prospects have seen and ignored your message dozens of times. If they did not respond the first five times, showing it a twentieth time will not change their mind.
+Running the same retargeting ads for months means your warmest prospects have seen and ignored your message dozens of times. If they didn't respond the first five times, showing it a twentieth time won't change their mind.
 
 ### Problem 4: Ignoring Post-Conversion
 
@@ -42,15 +42,15 @@ Many advertisers keep retargeting people who already converted. This wastes budg
 
 ## The Retargeting Segmentation Framework
 
-Effective retargeting starts with **audience segmentation based on intent signals**. Here is the framework we use for accounts spending $10K+/month.
+Effective retargeting starts with **audience segmentation based on intent signals**. Here's the framework we use for accounts spending $10K+/month.
 
 ### Tier 1: Hottest Intent (Highest Priority)
 
-**Who they are:**
+**Who they're:**
 - Cart abandoners (e-commerce)
 - Pricing page visitors (SaaS/B2B)
-- Free trial starters who did not complete
-- Demo request page visitors who did not submit
+- Free trial starters who didn't complete
+- Demo request page visitors who didn't submit
 - Return visitors (3+ visits in 7 days)
 
 **Strategy:**
@@ -63,11 +63,11 @@ Effective retargeting starts with **audience segmentation based on intent signal
 
 ### Tier 2: Warm Intent (Medium Priority)
 
-**Who they are:**
+**Who they're:**
 - Product/service page visitors
 - Blog readers who visited 2+ pages
 - Video viewers (50%+ completion)
-- Email subscribers who have not purchased
+- Email subscribers who haven't purchased
 - Social media engagers
 
 **Strategy:**
@@ -80,7 +80,7 @@ Effective retargeting starts with **audience segmentation based on intent signal
 
 ### Tier 3: Cool Intent (Lower Priority)
 
-**Who they are:**
+**Who they're:**
 - Homepage visitors who bounced
 - Single page visitors under 30 seconds
 - Social media followers with no website visit
@@ -178,8 +178,8 @@ Instead of showing the same ad repeatedly, build a creative sequence based on ex
 - Format: Static image or short video
 
 **Impression 4-6: Objection Handling**
-- Address common reasons people do not convert
-- "Not sure if it is right for you? Here is what [similar company] achieved."
+- Address common reasons people don't convert
+- "Not sure if it's right for you? Here is what [similar company] achieved."
 - Format: Carousel or longer video
 
 **Impression 7-9: Urgency/Incentive**
@@ -261,7 +261,7 @@ The right retargeting percentage depends on your funnel:
 - **SaaS/B2B**: 20-30% of total ad budget
 - **Lead generation**: 20-25% of total ad budget
 
-If retargeting accounts for more than 40% of your budget, your prospecting is likely too weak. If it is under 15%, you are leaving easy revenue on the table.
+If retargeting accounts for more than 40% of your budget, your prospecting is likely too weak. If it's under 15%, you're leaving easy revenue on the table.
 
 ## Advanced Retargeting Tactics
 
@@ -317,11 +317,11 @@ Upload CRM segments for highly targeted retargeting:
 The biggest challenge with retargeting measurement is that many retargeted users would have converted anyway. To understand true incremental impact:
 
 1. **Holdout testing**: Exclude 10-15% of your retargeting audience and compare conversion rates
-2. **Ghost bidding**: Bid on retargeting auctions but do not serve ads; compare to the control
+2. **Ghost bidding**: Bid on retargeting auctions but don't serve ads; compare to the control
 3. **Geo-based testing**: Run retargeting in some regions but not others
 4. **Before/after analysis**: Pause retargeting for 2 weeks and measure the impact on total conversions
 
-Most advertisers find that retargeting's true incremental impact is 30-60% of what platforms report. That is still highly profitable, but it is important to understand the real numbers.
+Most advertisers find that retargeting's true incremental impact is 30-60% of what platforms report. That's still highly profitable, but it's important to understand the real numbers.
 
 ## Building Your Retargeting System
 
@@ -354,4 +354,4 @@ Most advertisers find that retargeting's true incremental impact is 30-60% of wh
 - Assess cross-platform frequency overlap
 - Update audience segment definitions based on funnel changes
 
-Retargeting is not about chasing people around the internet. It is about delivering the right message to the right person at the right moment in their decision process. Build the system correctly, and retargeting becomes your most efficient and profitable channel.
+Retargeting isn't about chasing people around the internet. It's about delivering the right message to the right person at the right moment in their decision process. Build the system correctly, and retargeting becomes your most efficient and profitable channel.

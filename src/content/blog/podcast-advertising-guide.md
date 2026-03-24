@@ -22,7 +22,7 @@ The numbers tell the story:
 
 - **75% of podcast listeners** say they take action after hearing a podcast ad
 - **71% of listeners** can recall a podcast advertiser without prompting
-- **54% of podcast listeners** say they are more likely to consider a brand after hearing it on a podcast
+- **54% of podcast listeners** say they're more likely to consider a brand after hearing it on a podcast
 - **Podcast ad revenue** exceeded $4 billion in 2025 and continues growing 15-20% annually
 
 For businesses spending **$10,000 to $200,000+ per month** on paid media, podcast advertising offers a channel that reaches highly engaged audiences with minimal ad fatigue — something increasingly rare in digital marketing.
@@ -39,7 +39,7 @@ The host personally endorses your product or service in their own words. This is
 - Typically 60-90 seconds
 - Higher recall and conversion rates
 - More expensive ($25-$100+ CPM)
-- Cannot be easily swapped or updated after recording
+- Can't be easily swapped or updated after recording
 
 **Best for:** Brand building, high-consideration products, building trust with niche audiences.
 
@@ -167,13 +167,13 @@ Identify podcast hosts who are influential in your space, regardless of show cat
 **For host-read ads:**
 - Provide a brief, not a script. Let hosts use their own words.
 - Include 3-5 key talking points
-- Suggest but do not mandate personal anecdotes
+- Suggest but don't mandate personal anecdotes
 - Provide a clear CTA (promo code + vanity URL)
 - Send the product for the host to try before recording
 
 **For pre-produced ads:**
 - Keep it conversational — podcast listeners are allergic to "ad voice"
-- Match the tone of the shows you are placing in
+- Match the tone of the shows you're placing in
 - Test multiple versions (different CTAs, offers, lengths)
 - Include clear audio branding (consistent jingle or tagline)
 
@@ -195,7 +195,7 @@ Identify podcast hosts who are influential in your space, regardless of show cat
 
 Podcast ads are notoriously difficult to attribute because:
 - Listeners hear the ad but act later (often hours or days later)
-- Many listeners do not use the promo code or vanity URL
+- Many listeners don't use the promo code or vanity URL
 - Some listeners search for your brand instead of using the direct link
 - Word-of-mouth amplification is real but unmeasurable
 
@@ -259,4 +259,4 @@ Typical multipliers range from **1.5x to 3x** — meaning for every directly tra
 
 **Mistake 5: Running the same creative forever.** Even loyal listeners tune out repetitive ads. Refresh creative every 4-8 weeks.
 
-If you are looking to add podcast advertising to your marketing mix, or if you are running podcast ads but cannot prove the ROI, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will help you identify the right shows, set up proper measurement, and build a podcast strategy that scales.
+If you're looking to add podcast advertising to your marketing mix, or if you're running podcast ads but can't prove the ROI, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will help you identify the right shows, set up proper measurement, and build a podcast strategy that scales.

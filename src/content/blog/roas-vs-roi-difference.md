@@ -48,7 +48,7 @@ Example: You invested $10,000 in marketing (including ad spend, agency fees, and
 
 ## The Critical Difference Illustrated
 
-Here is where the distinction matters most:
+Here's where the distinction matters most:
 
 | Scenario | ROAS | ROI |
 |---|---|---|
@@ -57,7 +57,7 @@ Here is where the distinction matters most:
 | $10k ad spend, $25k revenue, 40% margin | 2.5x | 0% (breakeven) |
 | $10k ad spend, $20k revenue, 40% margin | 2.0x | -20% (losing money) |
 
-Notice: At 2.0x ROAS, you are generating double your ad spend in revenue. That looks healthy at first glance. But with 40% gross margin, you only earn $8,000 in gross profit on $20,000 revenue — less than the $10,000 you spent on ads. You are losing $2,000.
+Notice: At 2.0x ROAS, you're generating double your ad spend in revenue. That looks healthy at first glance. But with 40% gross margin, you only earn $8,000 in gross profit on $20,000 revenue — less than the $10,000 you spent on ads. You're losing $2,000.
 
 **This is why ROAS alone is misleading.** Without considering margins, a positive ROAS can disguise an unprofitable marketing operation.
 
@@ -95,7 +95,7 @@ ROI is the right metric for:
 
 **ROAS = Attributed Revenue / Ad Spend**
 
-This is what most ad platforms report. It is useful but incomplete.
+This is what most ad platforms report. It's useful but incomplete.
 
 ### Fully Loaded ROAS
 
@@ -166,7 +166,7 @@ Your ROI calculation must include all marketing costs — not just ad spend. Age
 
 ### Mistake 4: Using Revenue Instead of Profit for ROI
 
-ROI calculated on revenue instead of profit is not ROI — it is ROAS with extra steps. Always use gross profit (or contribution margin) in your ROI calculations.
+ROI calculated on revenue instead of profit isn't ROI — it's ROAS with extra steps. Always use gross profit (or contribution margin) in your ROI calculations.
 
 ### Mistake 5: Inconsistent Attribution Windows
 
@@ -224,7 +224,7 @@ Understanding how each channel typically performs on both metrics helps with bud
 
 **Always know your breakeven ROAS.** This is the minimum ROAS required to not lose money, calculated as 1 / gross margin percentage.
 
-**Report both, with context.** Stakeholders need to understand what each number means and what it does and does not include.
+**Report both, with context.** Stakeholders need to understand what each number means and what it does and doesn't include.
 
 ## Get Your True Marketing ROI Analyzed
 

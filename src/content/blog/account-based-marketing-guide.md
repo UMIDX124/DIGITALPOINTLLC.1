@@ -37,7 +37,7 @@ For B2B companies spending **$10,000 to $200,000+ per month** on marketing, ABM 
 | Marketing ROI | Baseline | 87% higher (ITSMA) |
 | Pipeline per dollar spent | Baseline | 2-3x higher |
 
-The reason ABM works better is simple: you are focusing resources on accounts that match your ideal customer profile, engaging multiple stakeholders simultaneously, and coordinating sales and marketing efforts around the same targets.
+The reason ABM works better is simple: you're focusing resources on accounts that match your ideal customer profile, engaging multiple stakeholders simultaneously, and coordinating sales and marketing efforts around the same targets.
 
 ## Building Your ABM Program
 
@@ -162,7 +162,7 @@ This stack gives you account-level targeting, contact identification, and measur
 
 ### Playbook 1: New Account Penetration
 
-**Goal:** Create awareness and initial engagement with accounts that do not know you yet.
+**Goal:** Create awareness and initial engagement with accounts that don't know you yet.
 
 **Timeline:** 4-8 weeks
 
@@ -239,10 +239,10 @@ ABM attribution should be account-level, not individual-level:
 
 **Mistake 2: Trying to personalize everything.** Full personalization is only viable for Tier 1 accounts. Use segment-level personalization for Tier 2 and programmatic targeting for Tier 3.
 
-**Mistake 3: Measuring ABM with demand gen metrics.** ABM is not about lead volume. Measuring by CPL or MQL count misses the point. Focus on account engagement, pipeline, and revenue.
+**Mistake 3: Measuring ABM with demand gen metrics.** ABM isn't about lead volume. Measuring by CPL or MQL count misses the point. Focus on account engagement, pipeline, and revenue.
 
-**Mistake 4: Too many target accounts.** If you have 5,000 "target accounts," you do not have an ABM program — you have a targeted demand gen program. Be selective.
+**Mistake 4: Too many target accounts.** If you have 5,000 "target accounts," you don't have an ABM program — you have a targeted demand gen program. Be selective.
 
-**Mistake 5: Only using one channel.** ABM works through orchestrated multi-channel campaigns. LinkedIn alone is not ABM. Display alone is not ABM. The orchestration across channels is what creates impact.
+**Mistake 5: Only using one channel.** ABM works through orchestrated multi-channel campaigns. LinkedIn alone isn't ABM. Display alone isn't ABM. The orchestration across channels is what creates impact.
 
-If you are ready to implement ABM but are not sure where to start, or if your current ABM program is not delivering pipeline results, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will help you build your target account list, design campaign playbooks, and implement the measurement framework that connects ABM spend to revenue.
+If you're ready to implement ABM but aren't sure where to start, or if your current ABM program isn't delivering pipeline results, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will help you build your target account list, design campaign playbooks, and implement the measurement framework that connects ABM spend to revenue.

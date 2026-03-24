@@ -79,7 +79,7 @@ Reaching the right people is half the ROAS equation.
 **Layer audiences for precision.** On Google, combine keyword targeting with in-market audiences. The overlap audience is smaller but converts at much higher rates.
 
 **Use exclusions aggressively:**
-- Exclude recent purchasers from prospecting (they are already customers)
+- Exclude recent purchasers from prospecting (they're already customers)
 - Exclude low-value customers from lookalike seeds
 - Exclude bounced visitors from retargeting (they showed no interest)
 - Exclude converted visitors from awareness campaigns
@@ -106,7 +106,7 @@ In 2026, creative quality is the single biggest lever for ROAS on social platfor
 
 2. **Use social proof early.** Open with a customer testimonial, review count, or results statistic.
 
-3. **Create urgency without being gimmicky.** Limited-time offers, low stock indicators, and seasonal relevance work. Fake countdown timers do not.
+3. **Create urgency without being gimmicky.** Limited-time offers, low stock indicators, and seasonal relevance work. Fake countdown timers don't.
 
 4. **Match creative to funnel stage:**
    - Prospecting: Problem-aware content, educational, entertaining
@@ -138,7 +138,7 @@ Your bidding strategy directly controls the balance between ROAS and volume.
 
 **Tips for automated bidding:**
 - Set your Target ROAS 10-20% below your actual target to give the algorithm room to optimize
-- Do not change targets more than once every 2 weeks
+- Don't change targets more than once every 2 weeks
 - Avoid large bid changes (more than 20%) which reset algorithm learning
 - Use portfolio bid strategies across similar campaigns for more data
 - Set up seasonality adjustments before known high or low periods
@@ -224,7 +224,7 @@ YouTube is underutilized for ROAS-positive campaigns. Optimize by:
 
 ## ROAS Tracking and Attribution
 
-Accurate ROAS measurement requires proper attribution. Here is how to avoid the most common pitfalls:
+Accurate ROAS measurement requires proper attribution. Here's how to avoid the most common pitfalls:
 
 **Use a consistent attribution model.** Compare ROAS across channels using the same attribution window and model. Google's default 30-day click window versus Meta's 7-day click/1-day view creates apples-to-oranges comparisons.
 
@@ -249,7 +249,7 @@ Your blended ROAS is an average. Your marginal ROAS — the return on your last 
 
 ### Cross-Channel ROAS Optimization
 
-Optimize ROAS across your entire media mix, not per channel. Google Search might have 8:1 ROAS but limited volume. Meta might have 3:1 ROAS but unlimited scale. The optimal allocation is not all-in on Google — it is the mix that maximizes total profit.
+Optimize ROAS across your entire media mix, not per channel. Google Search might have 8:1 ROAS but limited volume. Meta might have 3:1 ROAS but unlimited scale. The optimal allocation isn't all-in on Google — it's the mix that maximizes total profit.
 
 ## Get Expert ROAS Optimization
 

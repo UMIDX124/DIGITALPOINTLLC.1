@@ -16,9 +16,9 @@ faqs:
 
 ## The Content Marketing Measurement Problem
 
-Most companies cannot answer a simple question: "How much revenue did our content marketing generate last quarter?" They can tell you about pageviews, social shares, and email subscribers. But they cannot draw a clear line from a blog post to a closed deal.
+Most companies can't answer a simple question: "How much revenue did our content marketing generate last quarter?" They can tell you about pageviews, social shares, and email subscribers. But they can't draw a clear line from a blog post to a closed deal.
 
-This measurement gap leads to two bad outcomes. Either content marketing gets cut during budget season because leadership cannot see the ROI, or content marketing gets unlimited budget because it feels important but nobody holds it accountable to revenue targets.
+This measurement gap leads to two bad outcomes. Either content marketing gets cut during budget season because leadership can't see the ROI, or content marketing gets unlimited budget because it feels important but nobody holds it accountable to revenue targets.
 
 This guide shows you how to build a measurement system that connects content to revenue, so you can invest confidently in content that drives business results.
 
@@ -32,7 +32,7 @@ Content marketing generates revenue through four mechanisms:
 A prospect reads a blog post, clicks a CTA, fills out a form, enters the sales pipeline, and becomes a customer. The content is the acquisition source.
 
 **2. Assisted conversion (partially measurable)**
-A prospect first encounters your brand through content, then later converts through a different channel (paid ad, direct visit, sales outreach). Content influenced the conversion but was not the last touch.
+A prospect first encounters your brand through content, then later converts through a different channel (paid ad, direct visit, sales outreach). Content influenced the conversion but wasn't the last touch.
 
 **3. Sales enablement (hard to measure, high impact)**
 Sales reps share content with prospects during the sales process to address objections, educate stakeholders, or build credibility. Content shortens the sales cycle and increases win rates.
@@ -168,7 +168,7 @@ Double down on topics and formats that generate pipeline. Reduce investment in c
 
 ### The Compounding Effect
 
-Content marketing ROI compounds over time because content assets continue generating traffic and leads long after they are created. A blog post published today might generate 100 visits in its first month but 500 visits per month by month 12 as it ranks in search.
+Content marketing ROI compounds over time because content assets continue generating traffic and leads long after they're created. A blog post published today might generate 100 visits in its first month but 500 visits per month by month 12 as it ranks in search.
 
 **Year 1 economics (example):**
 - Investment: $120,000 ($10k/month in content production)
@@ -198,6 +198,6 @@ This compounding is why content marketing patience pays off and why cutting cont
 
 ## Start Measuring Content ROI Today
 
-If your content marketing team cannot tell you exactly how much pipeline and revenue their work generated last quarter, you have a measurement problem, not a content problem. At Digital Point LLC, we help performance marketing teams build content strategies with clear attribution to pipeline and revenue.
+If your content marketing team can't tell you exactly how much pipeline and revenue their work generated last quarter, you have a measurement problem, not a content problem. At Digital Point LLC, we help performance marketing teams build content strategies with clear attribution to pipeline and revenue.
 
 [Get your free growth audit](/free-growth-audit) to assess your content marketing's revenue impact and identify opportunities to improve measurement and performance.

@@ -30,7 +30,7 @@ Before you can capture demand, you need to create it. Demand creation puts your 
 
 **Content-Led Demand Creation**
 
-Content is the engine of demand creation. But not all content creates demand. The content that drives pipeline shares three characteristics: it addresses a specific pain point your target audience faces, it demonstrates expertise without requiring a sales conversation, and it is accessible without a form fill.
+Content is the engine of demand creation. But not all content creates demand. The content that drives pipeline shares three characteristics: it addresses a specific pain point your target audience faces, it demonstrates expertise without requiring a sales conversation, and it's accessible without a form fill.
 
 | Content Type | Pipeline Impact | Time to Impact | Investment Level |
 |---|---|---|---|
@@ -71,12 +71,12 @@ Demand capture converts the interest you have created into identifiable leads an
 
 - **Google Search (non-brand)**: Capture existing demand from prospects actively searching for solutions. Highest-intent paid channel.
 - **Google Search (brand)**: Capture demand from prospects who know your brand. Cheapest and highest-converting paid traffic.
-- **Retargeting (all platforms)**: Re-engage visitors who showed interest but did not convert. 5-10x more efficient than prospecting.
+- **Retargeting (all platforms)**: Re-engage visitors who showed interest but didn't convert. 5-10x more efficient than prospecting.
 - **LinkedIn Lead Gen Forms**: Capture leads directly in the LinkedIn feed. Higher conversion rate than landing pages but sometimes lower quality.
 
 ### Stage 3: Pipeline Acceleration (Moving Leads to Opportunity)
 
-Most leads are not ready to buy immediately. Pipeline acceleration nurtures them from initial interest to sales-readiness.
+Most leads aren't ready to buy immediately. Pipeline acceleration nurtures them from initial interest to sales-readiness.
 
 **Email Nurture Sequences:**
 
@@ -181,7 +181,7 @@ Demand generation activities often touch prospects long before they enter the CR
 
 ## Scale Your Pipeline
 
-Building a demand generation engine takes time, but the results compound. Companies that invest in demand creation alongside demand capture build sustainable pipeline that does not depend on increasing ad spend forever.
+Building a demand generation engine takes time, but the results compound. Companies that invest in demand creation alongside demand capture build sustainable pipeline that doesn't depend on increasing ad spend forever.
 
 At Digital Point LLC, we help B2B companies build demand generation strategies that create qualified pipeline at scale through integrated multi-channel campaigns.
 

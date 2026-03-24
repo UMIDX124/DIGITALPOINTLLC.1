@@ -37,7 +37,7 @@ The data flow looks like this:
 
 Ad Click → Landing Page → Form Submission → CRM Record Created → Lead Score Calculated → Automation Sequence Triggered → Engagement Tracked → Qualification Threshold Met → Sales Notification Sent → Opportunity Created
 
-Every step must be tracked and measured. If any link in this chain is broken, you are losing leads that you paid to acquire.
+Every step must be tracked and measured. If any link in this chain is broken, you're losing leads that you paid to acquire.
 
 ## Building Your Automation Sequences
 
@@ -77,7 +77,7 @@ After this sequence, move unconverted leads to a monthly newsletter.
 
 ### Sequence 3: Re-Engagement (Stale Leads)
 
-For leads who went through nurturing but did not convert.
+For leads who went through nurturing but didn't convert.
 
 **Trigger:** 60-90 days of no engagement after completing a nurture sequence
 
@@ -95,7 +95,7 @@ If no engagement after re-engagement, reduce contact to quarterly or remove from
 
 Assign points based on two dimensions:
 
-**Demographic fit (who they are):**
+**Demographic fit (who they're):**
 
 | Attribute | High Score (+15-25) | Medium Score (+5-14) | Low Score (+1-4) |
 |---|---|---|---|
@@ -146,7 +146,7 @@ Modern marketing automation extends beyond email to every touchpoint:
 The key is coordinating messages across channels so leads receive a consistent, non-repetitive experience.
 
 Rules for cross-channel automation:
-- If a lead opens an email, do not serve them the same message as a retargeting ad
+- If a lead opens an email, don't serve them the same message as a retargeting ad
 - If a lead books a meeting, suppress all nurture emails and ads immediately
 - If a lead engages with a chatbot, adjust the email sequence based on what they discussed
 - Track total touchpoints per week per lead and cap at 3-4 to avoid fatigue

@@ -18,7 +18,7 @@ faqs:
 
 Despite all the noise about iOS 14.5, rising CPMs, and shifting user demographics, **Meta's advertising platform remains the single most powerful paid social channel** for most businesses. With nearly 3 billion daily active users across Facebook and Instagram, the reach is unmatched.
 
-But here is the reality: most advertisers waste 30-50% of their Meta ad budget on poorly structured campaigns. The difference between a 2x ROAS and a 6x ROAS often comes down to **campaign architecture**, not creative genius.
+But here's the reality: most advertisers waste 30-50% of their Meta ad budget on poorly structured campaigns. The difference between a 2x ROAS and a 6x ROAS often comes down to **campaign architecture**, not creative genius.
 
 This guide breaks down exactly how to structure Meta ad campaigns for maximum return, based on managing millions in ad spend across dozens of accounts.
 
@@ -60,7 +60,7 @@ By separating tiers into distinct campaigns with dedicated budgets, you ensure c
 
 **Ad Set Budget (ABO)** works best when:
 - You need precise control over spend per audience
-- You are testing new audiences and want equal spend distribution
+- You're testing new audiences and want equal spend distribution
 - Audience sizes vary dramatically between ad sets
 
 For most accounts spending $10K+/month, we recommend a **hybrid approach**: use CBO for your main prospecting campaigns and ABO for testing campaigns.
@@ -83,12 +83,12 @@ This gives the algorithm different formats to test across placements while keepi
 
 One of the biggest shifts in Meta advertising is the move toward **broader targeting**. With Advantage+ audiences and improved machine learning, Meta's algorithm often outperforms hand-picked interest targeting.
 
-Here is when to go broad:
+Here's when to go broad:
 - Your pixel has 50+ conversions per week
 - You spend $5K+/month on a single campaign
 - Your creative clearly communicates who the product is for
 
-Here is when to use detailed targeting:
+Here's when to use detailed targeting:
 - New accounts with limited pixel data
 - Niche B2B products with very specific audiences
 - You spend under $3K/month and need to focus budget
@@ -204,7 +204,7 @@ Not every campaign deserves more budget. Kill campaigns that show:
 - Frequency above 3.0 in prospecting campaigns
 - No conversions after spending 5x your target CPA
 
-Be ruthless. The cost of running a losing campaign is not just the wasted spend; it is the opportunity cost of not testing something better.
+Be ruthless. The cost of running a losing campaign isn't just the wasted spend; it's the opportunity cost of not testing something better.
 
 ## Advanced Optimization Tactics
 
@@ -287,7 +287,7 @@ Optimizing for landing page views when you want purchases will get you lots of c
 
 ### Mistake 5: No Exclusions
 
-If you do not exclude existing customers from prospecting campaigns and purchasers from retargeting campaigns, you waste budget showing ads to people who already converted.
+If you don't exclude existing customers from prospecting campaigns and purchasers from retargeting campaigns, you waste budget showing ads to people who already converted.
 
 ## Building Your Meta Ads Strategy
 
@@ -299,7 +299,7 @@ If you do not exclude existing customers from prospecting campaigns and purchase
 
 ### Week 2-3: Launch and Learn
 - Launch prospecting and retargeting campaigns
-- Monitor daily but do not make changes for 5-7 days
+- Monitor daily but don't make changes for 5-7 days
 - Document baseline CPA, CTR, and ROAS
 
 ### Week 4: Optimize
@@ -314,4 +314,4 @@ If you do not exclude existing customers from prospecting campaigns and purchase
 - Test Advantage+ campaigns
 - Implement incrementality testing
 
-The advertisers who win on Meta are not the ones with the biggest budgets. They are the ones with the most disciplined structure, consistent creative testing, and honest measurement. Build the foundation right, and scaling becomes a matter of turning dials rather than reinventing the wheel.
+The advertisers who win on Meta aren't the ones with the biggest budgets. They're the ones with the most disciplined structure, consistent creative testing, and honest measurement. Build the foundation right, and scaling becomes a matter of turning dials rather than reinventing the wheel.

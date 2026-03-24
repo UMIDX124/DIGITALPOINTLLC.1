@@ -18,7 +18,7 @@ faqs:
 
 E-commerce advertising has never been more competitive — or more rewarding for brands that get it right. Global e-commerce ad spend exceeds **$250 billion**, with the average DTC brand spending 20% of revenue on advertising.
 
-The brands that win are not just spending more. They are spending smarter — with better attribution, stronger creative, and full-funnel strategies that turn cold audiences into loyal customers.
+The brands that win aren't just spending more. They're spending smarter — with better attribution, stronger creative, and full-funnel strategies that turn cold audiences into loyal customers.
 
 This guide covers the complete e-commerce advertising playbook for brands spending **$10,000 to $200,000+ per month**, from channel strategy and benchmarks to scaling frameworks and measurement.
 
@@ -270,4 +270,4 @@ At scale, you need a consistent creative production process:
 - Run incrementality tests to validate channel lift
 - Track post-purchase survey data for qualitative attribution
 
-If your e-commerce brand is ready to scale but you are not sure how to structure your ad spend, or if your ROAS is declining as you grow, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your current performance, identify scaling opportunities, and build a roadmap to grow profitably.
+If your e-commerce brand is ready to scale but you're not sure how to structure your ad spend, or if your ROAS is declining as you grow, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will analyze your current performance, identify scaling opportunities, and build a roadmap to grow profitably.
