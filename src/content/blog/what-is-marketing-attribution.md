@@ -126,7 +126,7 @@ These distribute credit across multiple touchpoints:
 **Data-Driven Attribution** uses algorithms to analyze your actual data and determine how much credit each touchpoint deserves.
 
 - Good for: Businesses with enough data (300+ monthly conversions)
-- Watch out: Can be a black box—hard to explain why credit is assigned the way it is
+- Watch out: Can be a black box—hard to explain why credit is assigned the way it's
 
 ## Setting Up Attribution: A Practical Starting Point
 

@@ -18,9 +18,9 @@ faqs:
 
 You check your dashboard and the numbers are red. Your campaigns are spending money but not generating enough revenue to justify the spend. Your ROAS is below breakeven, your CPA is 2-3x your target, and your boss is asking questions.
 
-This situation is more common than you think. At Digital Point LLC, roughly 40% of the accounts we audit have at least one major campaign that is actively losing money. The good news: most of these campaigns can be turned around with systematic diagnosis and targeted fixes.
+This situation is more common than you think. At Digital Point LLC, roughly 40% of the accounts we audit have at least one major campaign that's actively losing money. The good news: most of these campaigns can be turned around with systematic diagnosis and targeted fixes.
 
-Here is the exact process we use to recover unprofitable campaigns.
+Here's the exact process we use to recover unprofitable campaigns.
 
 ## Step 1: Diagnose the Problem
 
@@ -32,7 +32,7 @@ Answer these five questions to identify your primary problem:
 
 **Question 1: Is your tracking accurate?**
 
-Check before anything else. Common tracking issues that make campaigns appear worse than they are:
+Check before anything else. Common tracking issues that make campaigns appear worse than they're:
 
 - Conversion pixel not firing on all conversion pages
 - Conversion event set to "every" instead of "one" (or vice versa) causing over or under-counting
@@ -40,7 +40,7 @@ Check before anything else. Common tracking issues that make campaigns appear wo
 - Cross-domain tracking gaps losing conversions on checkout redirects
 - Google Analytics and ad platform showing wildly different numbers
 
-If your tracking is broken, fix it first. Many "unprofitable" campaigns are actually profitable — the conversions just are not being counted.
+If your tracking is broken, fix it first. Many "unprofitable" campaigns are actually profitable — the conversions just aren't being counted.
 
 **Question 2: Is the problem traffic quality or conversion rate?**
 
@@ -66,7 +66,7 @@ Some campaigns are efficient but have too little volume. Others have volume but 
 
 **Question 5: Is the campaign serving its intended role?**
 
-A prospecting campaign should not be evaluated on the same ROAS as a retargeting campaign. If your prospecting campaign has a 1.5x ROAS but feeds a retargeting campaign with 10x ROAS, the system may be profitable overall.
+A prospecting campaign shouldn't be evaluated on the same ROAS as a retargeting campaign. If your prospecting campaign has a 1.5x ROAS but feeds a retargeting campaign with 10x ROAS, the system may be profitable overall.
 
 ## Step 2: Execute Quick Fixes (Days 1-7)
 
@@ -86,7 +86,7 @@ Sort all campaigns by cost per acquisition. Anything with CAC more than 3x your 
 **Meta Ads quick cuts:**
 - Check frequency — anything above 3 on prospecting is likely fatigued
 - Review placement performance — exclude Audience Network if underperforming
-- Check age and gender breakdown — exclude demographics that are not converting
+- Check age and gender breakdown — exclude demographics that aren't converting
 - Pause any ad with more than $200 spend and zero conversions
 - Reduce budget on ad sets with high CPM but low CTR
 
@@ -96,7 +96,7 @@ Check your landing pages right now for these common conversion killers:
 
 - Page load speed over 3 seconds on mobile (use Google PageSpeed Insights)
 - No clear CTA visible above the fold
-- Headline does not match the ad copy
+- Headline doesn't match the ad copy
 - Form has too many fields
 - Missing social proof (reviews, testimonials, trust badges)
 - No mobile optimization (tiny text, non-tappable buttons)
@@ -107,7 +107,7 @@ Fixing these issues alone can improve conversion rates by 20-50%.
 
 ### Google Ads Restructuring
 
-**Separate brand from non-brand.** If they are in the same campaign, brand keywords inflate your apparent ROAS while non-brand underperforms invisibly.
+**Separate brand from non-brand.** If they're in the same campaign, brand keywords inflate your apparent ROAS while non-brand underperforms invisibly.
 
 **Tighten ad group structure.** Each ad group should focus on one keyword theme with ad copy that matches that specific theme.
 
@@ -119,21 +119,21 @@ Fixing these issues alone can improve conversion rates by 20-50%.
 
 **Consolidate campaigns.** Too many campaigns with too little budget each is a common cause of poor Meta performance. Combine similar audiences into fewer ad sets with more budget.
 
-**Refresh all creative.** If your top ads have been running for more than 4-6 weeks, they are likely fatigued even if frequency metrics look okay. Launch entirely new creative concepts.
+**Refresh all creative.** If your top ads have been running for more than 4-6 weeks, they're likely fatigued even if frequency metrics look okay. Launch entirely new creative concepts.
 
 **Reset the learning phase.** Sometimes the best fix is to turn off the underperforming campaign and launch a new one with a clean structure. Meta's algorithm can get stuck in local optimums — a fresh start forces it to re-learn.
 
-**Check your optimization event.** Are you optimizing for the right action? Optimizing for landing page views when you want purchases will generate cheap traffic that does not buy. Always optimize for the action closest to revenue that still has enough volume (50+ events per week per ad set).
+**Check your optimization event.** Are you optimizing for the right action? Optimizing for landing page views when you want purchases will generate cheap traffic that doesn't buy. Always optimize for the action closest to revenue that still has enough volume (50+ events per week per ad set).
 
 ## Step 4: Improve Your Offer (Days 14-21)
 
-Sometimes the problem is not the campaign — it is the offer. If your product, pricing, or value proposition is not competitive, no amount of campaign optimization will fix it.
+Sometimes the problem isn't the campaign — it's the offer. If your product, pricing, or value proposition isn't competitive, no amount of campaign optimization will fix it.
 
 ### Signs Your Offer Needs Work
 
 - High landing page traffic but very low conversion rates across all campaigns and channels
-- Visitors spend time on the page but do not convert (using heatmap data)
-- You are losing to competitors in side-by-side comparisons
+- Visitors spend time on the page but don't convert (using heatmap data)
+- You're losing to competitors in side-by-side comparisons
 - Your pricing page has a high exit rate
 - Free trial signups are decent but paid conversions are very low
 
@@ -152,7 +152,7 @@ Sometimes the problem is not the campaign — it is the offer. If your product, 
 - Show the value in terms of ROI or savings for the customer
 
 **Differentiate clearly:**
-- What do you offer that competitors do not?
+- What do you offer that competitors don't?
 - Lead with your strongest differentiator in ads and landing pages
 - Use comparison tables that highlight your advantages
 - Share case studies with specific results
@@ -199,14 +199,14 @@ If your target is unrealistic, every campaign will look unprofitable. Set target
 ### Kill the campaign if:
 
 - You have spent more than 10x your target CPA with zero conversions
-- The fundamental offer is not competitive and cannot be changed
+- The fundamental offer isn't competitive and can't be changed
 - The target audience is too small or too expensive to reach profitably
 - You have tried all optimization levers and ROAS is still below 50% of breakeven
 - Better opportunities exist for the same budget
 
 ### Revive the campaign if:
 
-- Tracking was broken and actual conversions were not being counted
+- Tracking was broken and actual conversions weren't being counted
 - The campaign was structured poorly but the underlying demand exists
 - Creative was fatigued but the audience is still viable
 - The landing page was the bottleneck and has been fixed
@@ -214,7 +214,7 @@ If your target is unrealistic, every campaign will look unprofitable. Set target
 
 ## The Recovery Timeline
 
-Here is what a typical turnaround looks like:
+Here's what a typical turnaround looks like:
 
 | Timeframe | Expected Result |
 |---|---|

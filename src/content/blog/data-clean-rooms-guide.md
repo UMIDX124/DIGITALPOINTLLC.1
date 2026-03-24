@@ -106,7 +106,7 @@ Data clean rooms address this by creating a **privacy-compliant way to reconnect
 
 ### Use Case 1: Campaign Measurement and Attribution
 
-**The problem:** You spent $200,000 on a CTV campaign, but you cannot track view-through conversions because there are no clicks and cookies do not work on TVs.
+**The problem:** You spent $200,000 on a CTV campaign, but you can't track view-through conversions because there are no clicks and cookies don't work on TVs.
 
 **The clean room solution:** Upload your customer purchase data (hashed emails) to the CTV provider's clean room. Match against households that were served your ads. Measure the conversion rate among exposed vs. unexposed households.
 
@@ -120,19 +120,19 @@ Data clean rooms address this by creating a **privacy-compliant way to reconnect
 
 ### Use Case 3: Reach and Frequency Analysis
 
-**The problem:** You are running ads across five platforms and have no idea how much audience overlap exists. You might be hitting the same people 30 times across different channels while missing others entirely.
+**The problem:** You're running ads across five platforms and have no idea how much audience overlap exists. You might be hitting the same people 30 times across different channels while missing others entirely.
 
 **The clean room solution:** Use a multi-party clean room to analyze deduplicated reach across platforms. Discover that 40% of your Meta audience also sees your YouTube ads, allowing you to optimize frequency caps and reduce waste.
 
 ### Use Case 4: Retail Media Measurement
 
-**The problem:** You spend heavily on retail media (Amazon, Walmart, Instacart) but cannot connect online ad exposure to in-store purchases.
+**The problem:** You spend heavily on retail media (Amazon, Walmart, Instacart) but can't connect online ad exposure to in-store purchases.
 
 **The clean room solution:** Match your loyalty card data with the retailer's ad exposure data in a clean room. Measure the offline sales lift from your online retail media campaigns.
 
 ### Use Case 5: Publisher Partnership Optimization
 
-**The problem:** You buy inventory across 20 publishers but cannot measure which ones actually drive conversions because cross-site tracking is broken.
+**The problem:** You buy inventory across 20 publishers but can't measure which ones actually drive conversions because cross-site tracking is broken.
 
 **The clean room solution:** Establish clean room partnerships with your top publishers. Match your conversion data with their impression data to calculate true publisher-level ROAS.
 
@@ -158,7 +158,7 @@ If your first-party data is messy, fix that before investing in a clean room.
 
 **Start with a platform-native clean room.** If you spend heavily on Google or Meta, their clean rooms are free to use and provide immediate value.
 
-**Run a specific measurement project.** Do not try to boil the ocean. Pick one question:
+**Run a specific measurement project.** Don't try to boil the ocean. Pick one question:
 - "What was the true incremental impact of our Q1 YouTube campaign?"
 - "How many of our existing customers were exposed to our Meta awareness campaign?"
 
@@ -188,15 +188,15 @@ Clean room analyses have minimum threshold requirements for privacy compliance. 
 
 ### Limitation 2: They Are Complex
 
-Setting up and operating a clean room requires data engineering skills. Most marketing teams cannot do this without support from a data team or external partner.
+Setting up and operating a clean room requires data engineering skills. Most marketing teams can't do this without support from a data team or external partner.
 
 ### Limitation 3: They Are Not Real-Time
 
-Clean room analyses typically run in batch mode — hours or days, not seconds. You cannot use clean room data for real-time bidding optimization. It is a measurement and planning tool, not an activation tool (with some exceptions).
+Clean room analyses typically run in batch mode — hours or days, not seconds. You can't use clean room data for real-time bidding optimization. It's a measurement and planning tool, not an activation tool (with some exceptions).
 
 ### Limitation 4: Coverage Gaps
 
-Not every publisher or platform offers clean room access. If a significant portion of your spend is with partners that do not support clean rooms, you still have measurement blind spots.
+Not every publisher or platform offers clean room access. If a significant portion of your spend is with partners that don't support clean rooms, you still have measurement blind spots.
 
 ### Limitation 5: Cost
 
@@ -226,8 +226,8 @@ Data clean rooms are rapidly evolving:
 ### Not yet, if:
 - Your ad spend is under $30,000/month
 - Your first-party data is limited or messy
-- You have not yet implemented basic tracking (UTMs, server-side tracking, GA4)
-- You do not have data engineering support
+- You haven't yet implemented basic tracking (UTMs, server-side tracking, GA4)
+- You don't have data engineering support
 
 For most companies, getting the basics right — server-side tracking, first-party data collection, proper UTM tagging — should come before investing in clean rooms.
 
@@ -235,4 +235,4 @@ For most companies, getting the basics right — server-side tracking, first-par
 
 Data clean rooms are one piece of a broader privacy-safe measurement strategy. The full stack includes server-side tracking, first-party data infrastructure, incrementality testing, marketing mix modeling, and clean room analysis.
 
-If you are unsure where to start, or if your current measurement is showing gaps that you cannot explain, **[request a free growth audit](/free-growth-audit)** from Digital Point LLC. We will assess your data infrastructure, identify measurement gaps, and recommend the right combination of tools — including whether a data clean room makes sense for your specific situation.
+If you're unsure where to start, or if your current measurement is showing gaps that you can't explain, **[request a free growth audit](/free-growth-audit)** from Digital Point LLC. We will assess your data infrastructure, identify measurement gaps, and recommend the right combination of tools — including whether a data clean room makes sense for your specific situation.

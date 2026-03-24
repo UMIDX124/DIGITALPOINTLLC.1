@@ -18,7 +18,7 @@ faqs:
 
 Your competitors are spending money on ads. Some of that money is well spent and some is wasted. If you can figure out which is which, you gain a massive advantage — you can replicate their wins and avoid their mistakes without spending a dollar of your own budget on testing.
 
-Competitor analysis for paid ads is not about copying. It is about intelligence gathering. Understanding what competitors are doing helps you:
+Competitor analysis for paid ads isn't about copying. It's about intelligence gathering. Understanding what competitors are doing helps you:
 
 - **Identify gaps** in their strategy that you can fill
 - **Benchmark your performance** against industry standards
@@ -32,7 +32,7 @@ For businesses spending **$10,000 to $200,000+ per month** on paid media, compet
 
 ### Step 1: Identify Your Real Competitors
 
-Your paid ad competitors are not always your business competitors. In paid advertising, you compete with anyone bidding on the same keywords or targeting the same audiences.
+Your paid ad competitors aren't always your business competitors. In paid advertising, you compete with anyone bidding on the same keywords or targeting the same audiences.
 
 **Three types of ad competitors:**
 
@@ -62,8 +62,8 @@ Your paid ad competitors are not always your business competitors. In paid adver
 **What to analyze in search:**
 
 **Keywords:** What terms are they bidding on? Look for:
-- High-intent keywords you are missing
-- Long-tail variations you have not tested
+- High-intent keywords you're missing
+- Long-tail variations you haven't tested
 - Negative keyword opportunities (terms they bid on that have low relevance)
 - Brand bidding (are they bidding on your brand name?)
 
@@ -82,7 +82,7 @@ Your paid ad competitors are not always your business competitors. In paid adver
 **Estimated spend:** How much are they investing?
 - SEMrush provides monthly estimated spend
 - Cross-reference with auction impression share for validation
-- Higher spend does not mean better performance — they might be wasting money
+- Higher spend doesn't mean better performance — they might be wasting money
 
 ### Step 3: Analyze Their Social Ad Strategy
 
@@ -92,7 +92,7 @@ Your paid ad competitors are not always your business competitors. In paid adver
 - Shows all active ads for any Facebook/Instagram advertiser
 - Includes ad creative, copy, and active date ranges
 - Filter by country, platform, and media type
-- Does not show targeting, spend, or performance
+- Doesn't show targeting, spend, or performance
 
 **What to look for in Meta Ad Library:**
 - How many active ads do they run? (More = likely higher spend and active testing)
@@ -132,7 +132,7 @@ Your paid ad competitors are not always your business competitors. In paid adver
 These tools estimate Google Ads spend based on keyword data. Accuracy: within 30-50% for larger advertisers.
 
 **Method 2: Impression share ratio**
-If Google Ads Auction Insights shows a competitor has 40% impression share and you have 20% with a $50K monthly spend, they are likely spending roughly $100K (2x your share = 2x your spend, approximately).
+If Google Ads Auction Insights shows a competitor has 40% impression share and you have 20% with a $50K monthly spend, they're likely spending roughly $100K (2x your share = 2x your spend, approximately).
 
 **Method 3: Ad volume proxy**
 On Meta, the number of active ad variations correlates with spend:
@@ -151,7 +151,7 @@ Compare your keyword portfolio against competitors:
 
 1. Export your Google Ads keywords
 2. Pull competitor keywords from SEMrush or SpyFu
-3. Identify keywords competitors bid on that you do not
+3. Identify keywords competitors bid on that you don't
 4. Prioritize by volume, intent, and estimated CPC
 5. Test the highest-potential gaps with dedicated ad groups
 
@@ -244,11 +244,11 @@ Use competitor audience data to inform your targeting:
 
 **Mistake 1: Copying instead of learning.** If you copy competitor ads exactly, you lose differentiation. Learn from their approach, then create something better.
 
-**Mistake 2: Assuming competitors are smarter.** Just because a competitor is running an ad does not mean it is working. Many companies run poorly performing campaigns for months.
+**Mistake 2: Assuming competitors are smarter.** Just because a competitor is running an ad doesn't mean it's working. Many companies run poorly performing campaigns for months.
 
 **Mistake 3: Over-indexing on one competitor.** Analyze 3-5 competitors to get a balanced view. Focusing on just one gives you a skewed picture.
 
-**Mistake 4: Ignoring indirect competitors.** The biggest threat to your ad performance might not be a direct competitor — it could be a content platform, marketplace, or aggregator that is absorbing your audience's attention.
+**Mistake 4: Ignoring indirect competitors.** The biggest threat to your ad performance might not be a direct competitor — it could be a content platform, marketplace, or aggregator that's absorbing your audience's attention.
 
 **Mistake 5: Analysis without action.** Competitive intelligence is only valuable if it changes your strategy. Set specific action items after every competitive review.
 

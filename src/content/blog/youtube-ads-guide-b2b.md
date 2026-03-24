@@ -16,9 +16,9 @@ faqs:
 
 ## Why B2B Marketers Overlook YouTube
 
-Most B2B marketers default to LinkedIn and Google Search for paid campaigns. YouTube barely gets consideration, and that is a mistake.
+Most B2B marketers default to LinkedIn and Google Search for paid campaigns. YouTube barely gets consideration, and that's a mistake.
 
-Here is why: **70% of B2B buyers watch videos during their purchasing journey**, and YouTube is the second-largest search engine in the world. Your target audience is already there, watching industry content, product reviews, and educational videos.
+Here's why: **70% of B2B buyers watch videos during their purchasing journey**, and YouTube is the second-largest search engine in the world. Your target audience is already there, watching industry content, product reviews, and educational videos.
 
 The opportunity for B2B on YouTube is significant because:
 - CPMs are 40-60% lower than LinkedIn
@@ -43,7 +43,7 @@ These play before, during, or after YouTube videos. Viewers can skip after 5 sec
 
 ### Non-Skippable In-Stream Ads
 
-15-second ads that cannot be skipped. You pay per impression (CPM).
+15-second ads that can't be skipped. You pay per impression (CPM).
 
 **Best for B2B:** Retargeting campaigns where you want guaranteed message delivery.
 
@@ -185,7 +185,7 @@ Hooks that work for B2B:
 - Customer testimonial clips
 - Before/after comparisons with real data
 
-**What does not work:**
+**What doesn't work:**
 - Generic corporate stock footage
 - Overly polished brand videos without substance
 - Feature lists without context
@@ -193,7 +193,7 @@ Hooks that work for B2B:
 
 ### Production Quality Considerations
 
-You do not need Hollywood production values. B2B YouTube ads that perform well often have:
+You don't need Hollywood production values. B2B YouTube ads that perform well often have:
 
 - Good audio quality (invest in a decent microphone)
 - Adequate lighting (natural light or basic ring light)
@@ -303,10 +303,10 @@ Use YouTube's sequence targeting to show these ads in order to the same viewers.
 ### YouTube as a Retargeting Channel
 
 YouTube retargeting is underutilized in B2B. Create audiences from:
-- Website visitors who did not convert
+- Website visitors who didn't convert
 - Blog readers (by URL)
 - Pricing page visitors
-- Free trial signups who did not activate
+- Free trial signups who didn't activate
 - Webinar registrants
 
 Show these audiences targeted video content that addresses their specific stage in the buying journey.
@@ -325,7 +325,7 @@ Short-form vertical video is growing rapidly on YouTube. For B2B:
 
 ## Integrating YouTube into Your B2B Marketing Mix
 
-YouTube ads should not operate in isolation. They work best as part of a coordinated strategy:
+YouTube ads shouldn't operate in isolation. They work best as part of a coordinated strategy:
 
 - **Google Search captures demand** that YouTube creates
 - **LinkedIn retargets** YouTube viewers with more detailed B2B targeting

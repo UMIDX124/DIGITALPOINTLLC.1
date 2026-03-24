@@ -16,13 +16,13 @@ faqs:
 
 ## Why B2B Attribution Is Different
 
-If you have tried to apply B2C attribution practices to a B2B business, you know it does not work. The buying journey is fundamentally different:
+If you have tried to apply B2C attribution practices to a B2B business, you know it doesn't work. The buying journey is fundamentally different:
 
 **B2C:** One person sees an ad, clicks, and buys in one session (or maybe a few days). Attribution is relatively straightforward.
 
 **B2B:** A company with multiple stakeholders researches solutions over weeks or months, involving dozens of touchpoints across different channels and individuals, before a deal closes.
 
-Here is what a real B2B buying journey looks like:
+Here's what a real B2B buying journey looks like:
 
 1. **Week 1:** Marketing manager sees a LinkedIn ad, clicks to read a blog post
 2. **Week 2:** Same person downloads a whitepaper after a Google search
@@ -54,11 +54,11 @@ Average B2B sales cycles by deal size:
 | $50K-$250K | 3-6 months | 180 days |
 | $250K+ | 6-12+ months | 365 days |
 
-Most ad platforms max out at 90 days for attribution windows. This means you physically cannot track the full B2B journey through platform-native reporting.
+Most ad platforms max out at 90 days for attribution windows. This means you physically can't track the full B2B journey through platform-native reporting.
 
 ### Challenge 3: Offline and Dark Funnel Touchpoints
 
-A huge portion of B2B buying happens in places attribution cannot see:
+A huge portion of B2B buying happens in places attribution can't see:
 
 - Private Slack communities
 - Word-of-mouth recommendations
@@ -71,7 +71,7 @@ Research from Forrester suggests that up to 70% of the B2B buying journey happen
 
 ### Challenge 4: CRM Disconnect
 
-Most B2B companies track deals in a CRM (Salesforce, HubSpot) but marketing activities in separate platforms. Connecting the marketing touchpoint data to CRM revenue data requires integration work that many companies have not completed.
+Most B2B companies track deals in a CRM (Salesforce, HubSpot) but marketing activities in separate platforms. Connecting the marketing touchpoint data to CRM revenue data requires integration work that many companies haven't completed.
 
 ### Challenge 5: Conversion to Revenue Gap
 
@@ -237,7 +237,7 @@ Based on our work with B2B clients, here are typical attribution benchmarks:
 
 ## Dealing with the B2B Dark Funnel
 
-The dark funnel is real. People talk about your product in Slack groups, on podcasts, and at dinner. You cannot track these interactions, but you can measure their existence.
+The dark funnel is real. People talk about your product in Slack groups, on podcasts, and at dinner. You can't track these interactions, but you can measure their existence.
 
 ### Self-Reported Attribution
 
@@ -251,7 +251,7 @@ Monitor branded search volume as an indicator of offline and dark funnel marketi
 
 ### Account Engagement Scoring
 
-Use engagement scores that weight trackable activities (page views, content downloads, ad clicks) to identify accounts that are in-market. High engagement from target accounts validates that your marketing is working, even if individual touchpoints are not perfectly attributed.
+Use engagement scores that weight trackable activities (page views, content downloads, ad clicks) to identify accounts that are in-market. High engagement from target accounts validates that your marketing is working, even if individual touchpoints aren't perfectly attributed.
 
 ## Common B2B Attribution Mistakes
 
@@ -271,7 +271,7 @@ Many attribution tools are built for e-commerce — they track individual users 
 
 ### Mistake 4: Expecting Precision
 
-B2B attribution will never be as precise as B2C. Accept directional accuracy over decimal-point precision. If your model tells you LinkedIn drives 20% of pipeline, the real number might be 15% or 25%. That is still useful for budget decisions.
+B2B attribution will never be as precise as B2C. Accept directional accuracy over decimal-point precision. If your model tells you LinkedIn drives 20% of pipeline, the real number might be 15% or 25%. That's still useful for budget decisions.
 
 ## Building Your B2B Attribution Stack
 
@@ -285,4 +285,4 @@ For most B2B companies spending $10K-$200K+/month on marketing, we recommend thi
 6. **B2B attribution tool** (Dreamdata, HockeyStack, or Bizible) for account-level multi-touch attribution
 7. **Dashboard** (Looker, Tableau, or HubSpot Reports) for unified reporting
 
-If your B2B marketing feels like a black box — you are spending on ads but cannot connect that spend to pipeline and revenue — it is time to fix your attribution foundation. **[Get a free growth audit](/free-growth-audit)** from Digital Point LLC, and we will map your full funnel, identify attribution gaps, and build a measurement plan that connects marketing spend to real revenue.
+If your B2B marketing feels like a black box — you're spending on ads but can't connect that spend to pipeline and revenue — it's time to fix your attribution foundation. **[Get a free growth audit](/free-growth-audit)** from Digital Point LLC, and we will map your full funnel, identify attribution gaps, and build a measurement plan that connects marketing spend to real revenue.

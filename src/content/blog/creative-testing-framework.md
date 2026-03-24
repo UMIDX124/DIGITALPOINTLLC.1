@@ -25,7 +25,7 @@ This approach has several fatal flaws:
 3. **Insufficient sample size**: Making decisions on 200 impressions per variation produces unreliable winners
 4. **No iteration**: Finding one winner and stopping leaves massive performance on the table
 
-A scientific approach to creative testing can improve ad performance by **30-60% over six months**. Here is how to build that system.
+A scientific approach to creative testing can improve ad performance by **30-60% over six months**. Here's how to build that system.
 
 ## The Creative Testing Hierarchy
 
@@ -50,7 +50,7 @@ The first 1-3 seconds of a video or the first line of ad copy determine whether 
 - Bold claim: "We cut our client's CPA by 47% in 30 days"
 - Question: "Are you tracking the right metrics?"
 - Statistic: "72% of ad spend is wasted on the wrong audience"
-- Contradiction: "More traffic is not the answer to low conversions"
+- Contradiction: "More traffic isn't the answer to low conversions"
 - Story: "Last month, a client came to us spending $50K with no idea what was working"
 
 ### Level 3: Format (Medium Impact)
@@ -100,7 +100,7 @@ Once your angle, hook, format, and visuals are set, optimize the details:
 **Evaluation criteria:**
 - Primary: Click-through rate (CTR)
 - Secondary: Engagement rate (comments, shares)
-- Note: Do not evaluate CPA at this stage since volumes are too low
+- Note: Don't evaluate CPA at this stage since volumes are too low
 
 **Decision rule:**
 - Select the top 2-3 angles based on CTR
@@ -177,7 +177,7 @@ Most creative tests should aim for moderate confidence at minimum. High confiden
 ### Avoiding Common Statistical Mistakes
 
 **Mistake 1: Peeking too early**
-Checking results after 24 hours and seeing one variation with 3x higher CTR is not meaningful. Random variance is high with small samples. Wait for your predetermined sample size.
+Checking results after 24 hours and seeing one variation with 3x higher CTR isn't meaningful. Random variance is high with small samples. Wait for your predetermined sample size.
 
 **Mistake 2: Ignoring confidence intervals**
 An ad with 2.1% CTR versus 2.0% CTR is likely not meaningfully different. Look for differences of 15%+ for creative tests to be actionable.
@@ -300,7 +300,7 @@ Based on working with dozens of accounts that implemented systematic creative te
 - **Month 3**: 5-10% additional improvement through iteration and refinement
 - **Ongoing**: 3-5% quarterly improvements as the testing compounds
 
-The compounding effect is the real power. Each round of testing builds on previous learnings, creating an ever-improving creative engine that competitors cannot easily replicate.
+The compounding effect is the real power. Each round of testing builds on previous learnings, creating an ever-improving creative engine that competitors can't easily replicate.
 
 ## The Most Important Principle
 

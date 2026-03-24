@@ -18,7 +18,7 @@ faqs:
 
 In 2026, creative is the primary variable that determines ad performance. Audiences are saturated by platforms. Bidding is automated by algorithms. Targeting options have narrowed due to privacy changes. What is left? The creative. The image or video that stops someone from scrolling. The headline that makes them click. The landing page that converts them.
 
-Meta's own data shows that creative quality accounts for 56% of auction outcomes on their platform. Google's Performance Max campaigns are heavily creative-dependent. For teams spending $10k-$200k per month on ads, building a creative production capability is not a nice-to-have. It is the single biggest opportunity to improve performance.
+Meta's own data shows that creative quality accounts for 56% of auction outcomes on their platform. Google's Performance Max campaigns are heavily creative-dependent. For teams spending $10k-$200k per month on ads, building a creative production capability isn't a nice-to-have. It's the single biggest opportunity to improve performance.
 
 This guide covers how to build a remote creative team that produces high-performing ad assets at scale.
 
@@ -68,7 +68,7 @@ Skills required: Ad platform analytics, creative testing methodology, copywritin
 
 ### What to Look For
 
-**Portfolio quality is necessary but not sufficient.** A beautiful portfolio does not mean someone can create performance ads. Look specifically for:
+**Portfolio quality is necessary but not sufficient.** A beautiful portfolio doesn't mean someone can create performance ads. Look specifically for:
 
 - Direct response ad work (not just brand or editorial design)
 - Evidence of iterative creative testing (multiple variations of concepts)
@@ -152,7 +152,7 @@ Develop 2-4 new creative concepts per month based on research findings.
 
 ### Phase 4: Testing and Iteration
 
-Creative production does not end at launch. The testing loop is where performance happens.
+Creative production doesn't end at launch. The testing loop is where performance happens.
 
 **Testing framework:**
 - Launch each concept with 2-3 variations
@@ -212,7 +212,7 @@ The most important process for a creative team is the feedback loop between perf
 **Weekly creative review meeting (30-45 minutes):**
 1. Review performance data for all active creatives (10 min)
 2. Identify what is working and hypothesize why (10 min)
-3. Review what is not working and hypothesize why (5 min)
+3. Review what isn't working and hypothesize why (5 min)
 4. Brief next round of creative based on learnings (10 min)
 5. Review upcoming deadlines and capacity (5 min)
 

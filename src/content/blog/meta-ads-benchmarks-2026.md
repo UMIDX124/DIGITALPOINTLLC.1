@@ -176,7 +176,7 @@ Meta CPMs fluctuate significantly throughout the year:
 | November | +25 to +50% | Black Friday, highest CPMs |
 | December | +15 to +35% | Holiday peak, drops late month |
 
-**Strategic implication:** If your business is not seasonal, lean into Q1 spending when CPMs are cheapest. You get more reach for the same budget and competition is at its lowest.
+**Strategic implication:** If your business isn't seasonal, lean into Q1 spending when CPMs are cheapest. You get more reach for the same budget and competition is at its lowest.
 
 ## How to Beat These Benchmarks
 
@@ -186,7 +186,7 @@ Brands with the best Meta Ads performance in 2026 are producing 10-20 new creati
 
 ### 2. Implement Full Tracking
 
-Conversions API plus Advanced Matching plus UTM tracking. This triad ensures you are capturing all conversions and giving Meta the data it needs to optimize effectively.
+Conversions API plus Advanced Matching plus UTM tracking. This triad ensures you're capturing all conversions and giving Meta the data it needs to optimize effectively.
 
 ### 3. Test Advantage+ Products
 

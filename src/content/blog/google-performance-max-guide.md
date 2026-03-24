@@ -81,7 +81,7 @@ Asset groups are the building blocks of PMax campaigns. Each asset group contain
 
 ### Step 3: Audience Signals
 
-Audience signals tell Google's AI where to start looking for converters. They are suggestions, not restrictions, meaning Google will explore beyond your signals.
+Audience signals tell Google's AI where to start looking for converters. They're suggestions, not restrictions, meaning Google will explore beyond your signals.
 
 **Priority audience signals (in order of value):**
 
@@ -150,9 +150,9 @@ B2B advertisers face unique challenges with PMax due to longer sales cycles and 
 
 PMax needs a learning period. During the first month:
 
-**Week 1-2: Do not touch anything**
+**Week 1-2: Don't touch anything**
 - Let the system accumulate data
-- Monitor but do not make changes
+- Monitor but don't make changes
 - Verify conversion tracking is accurate
 
 **Week 3: First assessment**
@@ -186,11 +186,11 @@ PMax needs a learning period. During the first month:
 
 ### Asset Optimization
 
-Google rates each asset as "Best," "Good," "Low," or "Learning." Here is how to manage them:
+Google rates each asset as "Best," "Good," "Low," or "Learning." Here's how to manage them:
 
 - **Best assets**: Keep these running; create variations to test
 - **Good assets**: Maintain; they contribute positively
-- **Low assets**: Replace within 2-3 weeks if they do not improve
+- **Low assets**: Replace within 2-3 weeks if they don't improve
 - **Learning assets**: Give them at least 2 weeks before judging
 
 **Creative refresh cadence:**
@@ -199,7 +199,7 @@ Google rates each asset as "Best," "Good," "Low," or "Learning." Here is how to 
 - Always have at least one video asset (even simple ones)
 - Test different headline angles: benefit-focused vs problem-focused vs social proof
 
-## What PMax Cannot Do Well
+## What PMax Can't Do Well
 
 ### Limitations to Understand
 
@@ -210,13 +210,13 @@ PMax often claims credit for branded search conversions that would have happened
 - Compare total conversions before and after PMax launch
 
 **2. Limited search query control**
-You cannot see all search queries or add campaign-level negatives. Use:
+You can't see all search queries or add campaign-level negatives. Use:
 - The search term insights report (limited but helpful)
 - Account-level negative keyword lists
 - URL exclusions to prevent irrelevant pages from showing
 
 **3. Budget allocation opacity**
-You cannot control how much goes to Search vs Display vs YouTube. If you notice PMax spending heavily on Display with low-quality traffic:
+You can't control how much goes to Search vs Display vs YouTube. If you notice PMax spending heavily on Display with low-quality traffic:
 - Strengthen your audience signals
 - Improve your conversion tracking (especially enhanced conversions)
 - Test tighter target CPA/ROAS to force the algorithm to find higher-intent placements
@@ -259,7 +259,7 @@ PMax reporting is notoriously generous with attribution. To get a true picture:
 
 ### The Ideal Account Structure
 
-PMax should not run in isolation. The highest-performing Google Ads accounts use PMax as part of a broader strategy:
+PMax shouldn't run in isolation. The highest-performing Google Ads accounts use PMax as part of a broader strategy:
 
 1. **Branded Search campaign** (always separate, always running)
 2. **High-intent Search campaigns** for your most valuable non-brand keywords
@@ -291,7 +291,7 @@ Scale by 15-20% increments every 5-7 days. Monitor for 48 hours after each incre
 PMax needs data to learn. If you have fewer than 30 conversions/month, build that foundation with standard campaigns first.
 
 ### Mistake 2: Using Auto-Generated Videos
-Google will create low-quality videos from your images if you do not provide video assets. Always upload at least one custom video, even if it is simple.
+Google will create low-quality videos from your images if you don't provide video assets. Always upload at least one custom video, even if it's simple.
 
 ### Mistake 3: Ignoring Search Term Insights
 The limited search term data Google provides is still valuable. Check it weekly for irrelevant queries and add negatives at the account level.
@@ -300,7 +300,7 @@ The limited search term data Google provides is still valuable. Check it weekly 
 PMax requires active management. Creative fatigue, audience exhaustion, and changing market conditions all require ongoing optimization.
 
 ### Mistake 5: Not Accounting for Brand Cannibalization
-If your branded search volume drops when PMax launches, it is likely claiming those conversions. Always run a separate brand campaign and monitor organic brand traffic.
+If your branded search volume drops when PMax launches, it's likely claiming those conversions. Always run a separate brand campaign and monitor organic brand traffic.
 
 ## The Future of PMax
 

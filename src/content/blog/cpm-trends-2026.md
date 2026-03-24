@@ -165,7 +165,7 @@ If CPMs increase 15% but your conversion rate improves 15%, your cost per conver
 
 ### Strategy 5: Leverage Off-Peak Timing
 
-If your business is not seasonal, lean into lower-CPM periods:
+If your business isn't seasonal, lean into lower-CPM periods:
 - **Q1 spending:** CPMs are lowest in January-February. Increase prospecting budget during this window.
 - **Weekday optimization:** CPMs are often lower Tuesday-Thursday compared to weekends for B2B.
 - **Time-of-day adjustment:** Late night and early morning CPMs are lower for many audiences.
@@ -195,13 +195,13 @@ Based on current trends, here are our CPM projections:
 
 ## The Smart Advertiser's Response
 
-Rising CPMs are not something you can control. But you can control:
+Rising CPMs aren't something you can control. But you can control:
 
 1. **Creative quality** — earn lower CPMs through better engagement
 2. **Conversion efficiency** — extract more value from every impression
 3. **Targeting precision** — waste fewer impressions on non-buyers
 4. **Channel diversification** — capture value from emerging, lower-cost platforms
-5. **Measurement accuracy** — ensure you are counting all conversions so you know your true ROAS
+5. **Measurement accuracy** — ensure you're counting all conversions so you know your true ROAS
 
 The advertisers who thrive in a rising-CPM environment are those who continuously improve their end-to-end efficiency. A 15% CPM increase is irrelevant if your conversion rate improved 20%.
 

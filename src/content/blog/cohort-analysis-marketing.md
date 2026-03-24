@@ -65,8 +65,8 @@ Group customers by their early behavior to predict long-term value and identify 
 Common behavioral cohort definitions:
 - Customers who engaged with 3+ features in their first week vs. fewer
 - Customers who made a second purchase within 30 days vs. later
-- Customers who referred a friend vs. those who did not
-- Customers who contacted support in the first month vs. those who did not
+- Customers who referred a friend vs. those who didn't
+- Customers who contacted support in the first month vs. those who didn't
 
 Understanding which early behaviors predict long-term value helps you design onboarding flows, retargeting campaigns, and nurture sequences that drive those behaviors.
 
@@ -107,7 +107,7 @@ Common tools for cohort analysis:
 
 ### Step 3: Build Your First Cohort Table
 
-Start with a simple acquisition cohort retention table. Here is the logic:
+Start with a simple acquisition cohort retention table. Here's the logic:
 
 1. Assign each customer to their acquisition month
 2. For each cohort, calculate the metric of interest (revenue, active customers) for each subsequent month
@@ -190,7 +190,7 @@ As you accumulate data, regularly recalibrate your cohort expectations. If custo
 
 ## Start Using Cohort Analysis Today
 
-If you are making budget allocation decisions based on last-click ROAS or aggregate metrics, you are likely misallocating significant spend. Cohort analysis reveals the true long-term value of your marketing investments and helps you make decisions that compound over time.
+If you're making budget allocation decisions based on last-click ROAS or aggregate metrics, you're likely misallocating significant spend. Cohort analysis reveals the true long-term value of your marketing investments and helps you make decisions that compound over time.
 
 At Digital Point LLC, we help performance marketing teams build cohort analysis capabilities and use them to optimize multi-channel ad spend for long-term profitability, not just short-term metrics.
 

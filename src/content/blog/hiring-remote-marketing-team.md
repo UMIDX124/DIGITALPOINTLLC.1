@@ -175,7 +175,7 @@ Every team member should have:
 
 | Meeting | Frequency | Duration | Purpose |
 |---|---|---|---|
-| Daily standup | Daily (async or sync) | 5-10 min | What you did yesterday, what you are doing today, blockers |
+| Daily standup | Daily (async or sync) | 5-10 min | What you did yesterday, what you're doing today, blockers |
 | 1:1 with manager | Weekly | 30 min | Performance feedback, career development, problem solving |
 | Team strategy | Weekly | 60 min | Review metrics, discuss strategy, plan next week |
 | Cross-functional | Bi-weekly | 30 min | Align with sales, product, and other teams |
@@ -195,7 +195,7 @@ Every team member should have:
 
 ### Handling Performance Issues Remotely
 
-Address performance issues immediately and directly. Remote work amplifies the impact of underperformance because it is harder to observe and course-correct informally.
+Address performance issues immediately and directly. Remote work amplifies the impact of underperformance because it's harder to observe and course-correct informally.
 
 1. Document the specific gap between expected and actual performance
 2. Have a direct 1:1 conversation (video, not text) discussing the gap
@@ -215,7 +215,7 @@ Turnover is expensive. For marketing roles, replacing a team member costs 3-6 mo
 
 **Flexibility:** Trust your team to manage their own schedules. Measure output, not hours logged.
 
-**Investment:** Fund learning and development. Conference attendance, course subscriptions, and skill development budgets signal that you are invested in their growth.
+**Investment:** Fund learning and development. Conference attendance, course subscriptions, and skill development budgets signal that you're invested in their growth.
 
 ## Build Your Remote Marketing Team with Expert Guidance
 

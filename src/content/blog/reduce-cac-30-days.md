@@ -18,11 +18,11 @@ faqs:
 
 Most companies are overpaying for customers without realizing it. Based on hundreds of account audits at Digital Point LLC, the typical ad account has 25-35% efficiency gains hiding in plain sight.
 
-This is not theory. This is a specific, day-by-day plan you can execute starting today to reduce your customer acquisition cost by 30% or more within 30 days.
+This isn't theory. This is a specific, day-by-day plan you can execute starting today to reduce your customer acquisition cost by 30% or more within 30 days.
 
 ## Before You Start: Establish Your Baseline
 
-You cannot improve what you do not measure. Before day one, document these numbers:
+You can't improve what you don't measure. Before day one, document these numbers:
 
 - **Current blended CAC** — total marketing and sales spend divided by new customers
 - **Channel-specific CAC** — CAC for each ad platform separately
@@ -38,7 +38,7 @@ Week one is about cutting the fat. This is where the fastest and most dramatic C
 
 ### Day 1: Campaign-Level Audit
 
-Pull every campaign across all platforms. Sort by cost per acquisition (or cost per lead if you cannot track to customer). Create three buckets:
+Pull every campaign across all platforms. Sort by cost per acquisition (or cost per lead if you can't track to customer). Create three buckets:
 
 **Green — performing well:** CAC is at or below your target. These get more budget.
 
@@ -66,7 +66,7 @@ Common waste areas:
 - Audience Network on Meta (often low quality traffic)
 - Mobile app placements on Google Display
 - Specific websites on Google Display with high impressions but zero conversions
-- Instagram Explore when your creative is not designed for it
+- Instagram Explore when your creative isn't designed for it
 
 Exclude underperforming placements.
 
@@ -108,7 +108,7 @@ Review audience targeting on Google:
 
 ### Week 1 Expected Impact
 
-By the end of week one, you should see a 15-20% reduction in wasted spend. This alone can drop your CAC by 10-15% because you are now only spending money on the segments that actually convert.
+By the end of week one, you should see a 15-20% reduction in wasted spend. This alone can drop your CAC by 10-15% because you're now only spending money on the segments that actually convert.
 
 ## Week 2: Optimize Conversion Rates (Days 8-14)
 
@@ -153,7 +153,7 @@ Better ad copy means fewer unqualified clicks, which directly reduces CAC.
 
 ### Day 13-14: Thank You Page and Follow-Up Audit
 
-The conversion does not end at form submission. Optimize:
+The conversion doesn't end at form submission. Optimize:
 
 - Thank you page with clear next steps and expectation setting
 - Immediate email confirmation with value add content
@@ -193,7 +193,7 @@ Audit your current creative performance:
 Create new creative that:
 - Uses different angles than your current winners (new pain points, new benefits)
 - Tests different formats (static vs. video, carousel vs. single image)
-- Includes UGC-style content if you have not tested it
+- Includes UGC-style content if you haven't tested it
 - Leads with specific results or numbers
 
 ### Day 19-20: Bid Strategy Optimization
@@ -258,7 +258,7 @@ The biggest risk after a successful optimization sprint is backsliding. Build pr
 
 A 30% CAC reduction is a great start, but optimization is ongoing. Plan your next 30-day sprint:
 
-- Test new channels you are not currently using
+- Test new channels you're not currently using
 - Build a more sophisticated attribution model
 - Implement server-side tracking for better data
 - Develop a formal creative testing calendar
@@ -266,7 +266,7 @@ A 30% CAC reduction is a great start, but optimization is ongoing. Plan your nex
 
 ## Real Results: What 30% CAC Reduction Looks Like
 
-Here is the math for a company spending $50,000 per month on ads:
+Here's the math for a company spending $50,000 per month on ads:
 
 | Metric | Before | After 30% Reduction |
 |---|---|---|
@@ -280,13 +280,13 @@ Same spend, 43% more customers. Or you could maintain the same customer volume a
 
 ## Common Pitfalls to Avoid
 
-**Do not cut everything at once.** Make changes systematically so you can measure the impact of each change. If you change everything on day one, you will not know what worked.
+**Don't cut everything at once.** Make changes systematically so you can measure the impact of each change. If you change everything on day one, you won't know what worked.
 
-**Do not confuse correlation with causation.** A campaign's CAC spiked the same week you launched new creative — was it the creative or something else? Always check for external factors.
+**Don't confuse correlation with causation.** A campaign's CAC spiked the same week you launched new creative — was it the creative or something else? Always check for external factors.
 
-**Do not ignore statistical significance.** A campaign with 5 conversions and a low CAC might just be lucky. Wait for at least 20-30 conversions before making major decisions.
+**Don't ignore statistical significance.** A campaign with 5 conversions and a low CAC might just be lucky. Wait for at least 20-30 conversions before making major decisions.
 
-**Do not sacrifice long-term growth for short-term CAC.** Prospecting campaigns will always have higher CAC than retargeting. If you cut all prospecting, your retargeting pool dries up and CAC eventually increases.
+**Don't sacrifice long-term growth for short-term CAC.** Prospecting campaigns will always have higher CAC than retargeting. If you cut all prospecting, your retargeting pool dries up and CAC eventually increases.
 
 ## Need Help Executing This Plan?
 

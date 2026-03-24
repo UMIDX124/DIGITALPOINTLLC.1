@@ -16,14 +16,14 @@ faqs:
 
 ## What Is Quality Score and Why Should You Care
 
-Quality Score is Google's rating of the quality and relevance of your keywords, ads, and landing pages. It is scored from 1 to 10, with 10 being the best.
+Quality Score is Google's rating of the quality and relevance of your keywords, ads, and landing pages. It's scored from 1 to 10, with 10 being the best.
 
 Quality Score matters because it directly affects two things that determine your Google Ads profitability:
 
 1. **How much you pay per click.** Higher Quality Score means lower CPCs. Google charges less for ads that provide a good user experience.
 2. **Where your ads appear.** Quality Score is a component of Ad Rank, which determines your position on the search results page.
 
-The financial impact is substantial. Here is how Quality Score affects your actual CPC:
+The financial impact is substantial. Here's how Quality Score affects your actual CPC:
 
 | Quality Score | Estimated CPC Multiplier | Example CPC (if base is $5) |
 |---|---|---|
@@ -37,7 +37,7 @@ The financial impact is substantial. Here is how Quality Score affects your actu
 | 2 | 2.5x | $12.50 |
 | 1 | 4.0x | $20.00 |
 
-Moving from Quality Score 5 to 8 on a keyword with $5 base CPC saves you $2.50 per click. At 1,000 clicks per month, that is $2,500 saved monthly — $30,000 per year — from a single keyword improvement.
+Moving from Quality Score 5 to 8 on a keyword with $5 base CPC saves you $2.50 per click. At 1,000 clicks per month, that's $2,500 saved monthly — $30,000 per year — from a single keyword improvement.
 
 ## How Quality Score Is Calculated
 
@@ -58,7 +58,7 @@ This measures how likely your ad is to be clicked when shown. Google compares yo
 
 ### 2. Ad Relevance — Approximately 25% of Score
 
-This measures how closely your ad matches the intent behind a search query. If someone searches for "waterproof hiking boots" and your ad talks about "outdoor footwear," it is less relevant than an ad about "waterproof hiking boots."
+This measures how closely your ad matches the intent behind a search query. If someone searches for "waterproof hiking boots" and your ad talks about "outdoor footwear," it's less relevant than an ad about "waterproof hiking boots."
 
 **Ratings:** Above Average, Average, Below Average
 
@@ -66,8 +66,8 @@ This measures how closely your ad matches the intent behind a search query. If s
 - Include the keyword (or close variant) in your ad headline
 - Create tightly themed ad groups with 10-20 closely related keywords
 - Write ad copy that directly addresses the search intent
-- Use keyword insertion for dynamic relevance (but do not sacrifice readability)
-- Do not group unrelated keywords together just because they are in the same topic area
+- Use keyword insertion for dynamic relevance (but don't sacrifice readability)
+- Don't group unrelated keywords together just because they're in the same topic area
 
 ### 3. Landing Page Experience — Approximately 35% of Score
 
@@ -98,7 +98,7 @@ In Google Ads, add columns for Quality Score, Expected CTR, Ad Relevance, and La
 |---|---|---|
 | 8-10 | Low priority | Maintain — these are performing well |
 | 6-7 | Medium priority | Optimize — room for improvement |
-| 4-5 | High priority | Fix urgently — you are paying 20-50% more than you need to |
+| 4-5 | High priority | Fix urgently — you're paying 20-50% more than you need to |
 | 1-3 | Critical | Restructure or pause — these are destroying your account efficiency |
 
 **Step 3:** Identify the component causing the issue.
@@ -107,7 +107,7 @@ For each low-Quality Score keyword, check which component (Expected CTR, Ad Rele
 
 ### Phase 2: Fix Ad Relevance (Week 2)
 
-Ad Relevance is the easiest component to fix because it is entirely within your control.
+Ad Relevance is the easiest component to fix because it's entirely within your control.
 
 **Restructure ad groups for relevance:**
 
@@ -160,7 +160,7 @@ Landing Page Experience is the most impactful but most time-consuming component 
 **Technical optimization:**
 - Page speed: Aim for under 3 seconds on mobile (test with Google PageSpeed Insights)
 - Mobile responsiveness: Test on actual devices, not just browser resizing
-- HTTPS: If you are not on HTTPS in 2026, this is critical
+- HTTPS: If you're not on HTTPS in 2026, this is critical
 - Core Web Vitals: LCP under 2.5s, INP under 200ms, CLS under 0.1
 
 **Content optimization:**
@@ -195,7 +195,7 @@ For your top 10-20 keywords by spend, create dedicated landing pages that match 
 
 ### Strategy 4: Use Negative Keywords to Improve CTR
 
-Irrelevant search terms that trigger your ads but do not get clicked drag down your expected CTR. Aggressive negative keyword management improves CTR metrics even without changing your ads.
+Irrelevant search terms that trigger your ads but don't get clicked drag down your expected CTR. Aggressive negative keyword management improves CTR metrics even without changing your ads.
 
 ### Strategy 5: Test Landing Page Variants
 
@@ -204,16 +204,16 @@ A/B test landing pages to find versions that Google rates higher. Sometimes subt
 ## Quality Score Myths Debunked
 
 **Myth: Display and YouTube campaigns affect Search Quality Score.**
-Reality: Quality Score is specific to Search campaigns. Display and YouTube have their own quality signals but do not impact Search Quality Score.
+Reality: Quality Score is specific to Search campaigns. Display and YouTube have their own quality signals but don't impact Search Quality Score.
 
 **Myth: Pausing low-Quality Score keywords will improve account-level Quality Score.**
-Reality: Quality Score is at the keyword level, not the account level. Pausing a bad keyword does not improve other keywords' scores. However, there is an account-level quality signal used for new keywords.
+Reality: Quality Score is at the keyword level, not the account level. Pausing a bad keyword doesn't improve other keywords' scores. However, there's an account-level quality signal used for new keywords.
 
 **Myth: You need a Quality Score of 10 on every keyword.**
 Reality: Focus on 7+ for most keywords and 6+ for highly competitive keywords. Achieving 10 is rarely necessary or cost-effective for every keyword.
 
 **Myth: Quality Score updates in real time.**
-Reality: The score in your interface updates periodically (often weekly). The actual auction-time quality calculations happen in real time but are not identical to the reported Quality Score.
+Reality: The score in your interface updates periodically (often weekly). The actual auction-time quality calculations happen in real time but aren't identical to the reported Quality Score.
 
 ## Measuring Quality Score Impact
 

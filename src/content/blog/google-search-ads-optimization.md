@@ -102,7 +102,7 @@ Best for: E-commerce or campaigns with variable conversion values
 Best for: Campaigns where you want maximum volume within a fixed budget
 - No CPA target; Google spends your full budget
 - Good for: Building data for eventual tCPA transition
-- Risk: May deliver low-quality conversions if tracking is not tight
+- Risk: May deliver low-quality conversions if tracking isn't tight
 
 **Maximize Conversion Value**
 Best for: Maximizing total revenue from a fixed budget
@@ -176,7 +176,7 @@ Pinning forces specific headlines into specific positions. Use strategically:
 
 - **Pin to position 1**: Your most important headline (keyword + value prop)
 - **Pin to position 2**: Your second most important message (2-3 options)
-- **Do not pin position 3**: Let Google test freely
+- **Don't pin position 3**: Let Google test freely
 - **Pin one description**: Your strongest value statement
 
 Over-pinning reduces Google's ability to optimize. Pin only when you need to ensure specific information always appears.
@@ -385,4 +385,4 @@ Even with Smart Bidding, understanding device performance is critical:
 - Plan next month's optimizations
 - Update stakeholders on key metrics
 
-The most successful Google Ads accounts are not built overnight. They are the result of consistent, systematic optimization. Each improvement in Quality Score, each negative keyword added, each ad copy test completed builds on the last, creating a compounding advantage that competitors cannot easily replicate.
+The most successful Google Ads accounts aren't built overnight. They're the result of consistent, systematic optimization. Each improvement in Quality Score, each negative keyword added, each ad copy test completed builds on the last, creating a compounding advantage that competitors can't easily replicate.

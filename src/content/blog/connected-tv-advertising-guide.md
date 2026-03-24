@@ -18,7 +18,7 @@ faqs:
 
 Connected TV advertising has moved from experimental to essential. In 2026, CTV ad spending in the US is projected to exceed **$32 billion**, making it one of the largest and fastest-growing digital channels. For performance marketers spending **$10,000 to $200,000+ per month**, CTV offers a unique combination of TV's brand-building power and digital's targeting precision.
 
-Here is why CTV matters now:
+Here's why CTV matters now:
 
 - **87% of US households** have at least one connected TV device
 - **Cord-cutting continues** — traditional TV viewership drops 5-8% annually
@@ -225,7 +225,7 @@ CTV creative needs differ from social video:
 
 ## Common CTV Mistakes
 
-**Mistake 1: Measuring CTV like display.** CTV is a full-funnel channel. Expecting direct-response click metrics will make it look like it is failing when it is actually building the pipeline that other channels convert.
+**Mistake 1: Measuring CTV like display.** CTV is a full-funnel channel. Expecting direct-response click metrics will make it look like it's failing when it's actually building the pipeline that other channels convert.
 
 **Mistake 2: Running one creative.** A single creative fatigues quickly on CTV. Rotate at least 3-5 variations.
 
@@ -233,7 +233,7 @@ CTV creative needs differ from social video:
 
 **Mistake 4: Only buying premium.** A mix of premium (direct) and long-tail (programmatic) inventory optimizes for both quality and reach.
 
-**Mistake 5: Not integrating measurement.** If CTV measurement is siloed from your other digital channels, you cannot evaluate its true incremental contribution to your marketing mix.
+**Mistake 5: Not integrating measurement.** If CTV measurement is siloed from your other digital channels, you can't evaluate its true incremental contribution to your marketing mix.
 
 ## Is CTV Right for Your Business?
 
@@ -242,6 +242,6 @@ CTV works best when:
 - Your product or service appeals to a broad audience (or a targetable niche)
 - You have video creative assets (or the budget to produce them)
 - You have tracking infrastructure to measure view-through impact
-- Your other channels are already optimized and you are looking for incremental growth
+- Your other channels are already optimized and you're looking for incremental growth
 
-If you are considering adding CTV to your marketing mix, or if you are already running CTV but cannot prove its ROI, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will evaluate your channel mix, assess CTV opportunity, and build a measurement framework that connects CTV spend to real business outcomes.
+If you're considering adding CTV to your marketing mix, or if you're already running CTV but can't prove its ROI, **[get a free growth audit](/free-growth-audit)** from Digital Point LLC. We will evaluate your channel mix, assess CTV opportunity, and build a measurement framework that connects CTV spend to real business outcomes.

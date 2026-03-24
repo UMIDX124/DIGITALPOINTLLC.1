@@ -16,7 +16,7 @@ faqs:
 
 ## Why Google Ads ROAS Matters
 
-Google Ads remains the highest-intent paid advertising channel. People searching on Google are actively looking for solutions, making it the most efficient platform for driving direct response conversions. But high intent does not automatically mean high ROAS.
+Google Ads remains the highest-intent paid advertising channel. People searching on Google are actively looking for solutions, making it the most efficient platform for driving direct response conversions. But high intent doesn't automatically mean high ROAS.
 
 The difference between a 2x and a 6x ROAS on Google Ads comes down to optimization across keywords, ads, bidding, and post-click experience. Here are twelve strategies that consistently move the needle.
 
@@ -26,10 +26,10 @@ The search term report is where money goes to die — or to thrive. Every week, 
 
 - Download search terms for the past 7 days
 - Add irrelevant terms as negative keywords (exact match negatives for specific terms, phrase match for patterns)
-- Identify high-converting terms that are not in your keyword list — add them as dedicated keywords
+- Identify high-converting terms that aren't in your keyword list — add them as dedicated keywords
 - Flag terms with high spend and no conversions for exclusion
 
-**Benchmark:** Top-performing Google Ads accounts typically have 500-2,000 negative keywords. If you have fewer than 200, there is waste hiding in your search terms.
+**Benchmark:** Top-performing Google Ads accounts typically have 500-2,000 negative keywords. If you have fewer than 200, there's waste hiding in your search terms.
 
 **Pro tip:** Create a shared negative keyword list for terms that are universally irrelevant (jobs, careers, free, DIY, how to) and apply it across all campaigns.
 
@@ -41,13 +41,13 @@ When brand and non-brand are in the same campaign:
 - Brand keywords consume most of the budget because they convert better
 - The algorithm over-optimizes for brand and under-invests in non-brand
 - Your blended ROAS looks great but masks poor non-brand performance
-- You cannot accurately evaluate true acquisition ROAS
+- You can't accurately evaluate true acquisition ROAS
 
 **Action:** Create separate campaigns for brand and non-brand. Report on them independently. Optimize non-brand on its own merits.
 
 ## Strategy 3: Build Single Theme Ad Groups
 
-Loose keyword groupings lead to generic ad copy that does not match search intent. Tight ad groups allow you to write highly specific ads that match exactly what the user searched for.
+Loose keyword groupings lead to generic ad copy that doesn't match search intent. Tight ad groups allow you to write highly specific ads that match exactly what the user searched for.
 
 **Before (poor structure):**
 - Ad Group: "Marketing Software"
@@ -129,7 +129,7 @@ Use all applicable extensions. Google selects which to show based on predicted p
 
 ## Strategy 8: Implement Conversion Value Tracking
 
-If you are tracking all conversions with the same value (or no value at all), your bid algorithms cannot optimize for ROAS. Feed actual revenue data:
+If you're tracking all conversions with the same value (or no value at all), your bid algorithms can't optimize for ROAS. Feed actual revenue data:
 
 **For e-commerce:** Pass actual order values through your conversion tag or server-side integration.
 
@@ -141,7 +141,7 @@ This data allows Target ROAS bidding to prioritize clicks that generate revenue,
 
 ## Strategy 9: Optimize for Mobile Separately
 
-Mobile and desktop users behave differently and convert at different rates. Do not treat them the same.
+Mobile and desktop users behave differently and convert at different rates. Don't treat them the same.
 
 **Typical performance differences:**
 
@@ -168,12 +168,12 @@ Performance Max (PMax) campaigns use Google's AI to run ads across Search, Shopp
 - Upload a variety of creative assets (images, videos, headlines, descriptions)
 - Set up audience signals using your best customer data
 - Use URL expansion carefully — restrict to relevant landing pages
-- Run PMax alongside standard Search campaigns (PMax does not cannibalize exact match)
+- Run PMax alongside standard Search campaigns (PMax doesn't cannibalize exact match)
 - Monitor asset group performance and replace low-performing assets
 
 **PMax pitfalls to avoid:**
-- Do not combine wildly different products in one asset group
-- Do not set ROAS targets too aggressively at launch — start 20% below your goal
+- Don't combine wildly different products in one asset group
+- Don't set ROAS targets too aggressively at launch — start 20% below your goal
 - Monitor what PMax is doing through the Insights tab and search term report
 - Exclude brand terms if you want clean non-brand PMax performance data
 
@@ -197,7 +197,7 @@ The old advice was to avoid broad match keywords. In 2026, broad match combined 
 **Prerequisites for broad match success:**
 - At least 30 conversions per month in the campaign
 - Target ROAS or Target CPA bidding is active
-- You are actively monitoring and adding negative keywords
+- You're actively monitoring and adding negative keywords
 - Conversion tracking is accurate with conversion values
 - You have a strong negative keyword list to filter junk
 

@@ -83,7 +83,7 @@ utm_term: [keyword or targeting] (marketing-attribution)
 
 ### Pillar 3: Process Automation
 
-Every recurring marketing process should be automated or streamlined. Manual processes are slow, error-prone, and do not scale.
+Every recurring marketing process should be automated or streamlined. Manual processes are slow, error-prone, and don't scale.
 
 **High-value automation opportunities:**
 
@@ -204,7 +204,7 @@ Your first marketing operations hire should be a generalist who can handle:
 
 ## Common MOps Mistakes
 
-**Over-investing in tools, under-investing in process.** A $50k/year marketing automation platform is worthless without clear processes for how it is used. Invest in process design before tool selection.
+**Over-investing in tools, under-investing in process.** A $50k/year marketing automation platform is worthless without clear processes for how it's used. Invest in process design before tool selection.
 
 **Building for perfection instead of progress.** Start with simple automation and reporting, then iterate. A working 80% solution today is better than a perfect solution six months from now.
 

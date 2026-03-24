@@ -16,7 +16,7 @@ faqs:
 
 ## Why Performance Marketing Teams Need Dedicated Analytics
 
-Most marketing teams are drowning in data but starving for insights. They have dashboards with hundreds of metrics but cannot answer basic questions: Which campaigns are truly driving revenue? Where should we shift budget next month? Is our customer acquisition cost trending in the right direction when we control for seasonality?
+Most marketing teams are drowning in data but starving for insights. They have dashboards with hundreds of metrics but can't answer basic questions: Which campaigns are truly driving revenue? Where should we shift budget next month? Is our customer acquisition cost trending in the right direction when we control for seasonality?
 
 A dedicated analytics function transforms raw marketing data into the insights that drive better decisions. For teams spending $30k or more per month on advertising, the ROI on a skilled analyst typically exceeds 5x within the first year through better budget allocation, faster identification of underperforming campaigns, and more rigorous testing.
 
@@ -72,7 +72,7 @@ Core responsibilities:
 
 ### Where to Find Them
 
-Marketing analysts with both technical skills and marketing domain knowledge are rare. Here is where to find them:
+Marketing analysts with both technical skills and marketing domain knowledge are rare. Here's where to find them:
 
 **Former agency analysts.** Marketing agencies train analysts on campaign data, attribution, and client reporting. Agency alumni bring immediately relevant skills.
 
@@ -117,7 +117,7 @@ Give the candidate a complex analysis result and ask them to explain it to a non
 
 ### The Marketing Data Stack
 
-Your analytics team needs a reliable data infrastructure to work effectively. Here is the recommended stack.
+Your analytics team needs a reliable data infrastructure to work effectively. Here's the recommended stack.
 
 **Layer 1: Data Collection**
 
@@ -129,7 +129,7 @@ Every marketing platform has an API that provides campaign data. Set up automate
 - CRM (Salesforce, HubSpot: leads, opportunities, revenue)
 - Email platform (engagement metrics, conversion data)
 
-Use an ETL tool like Fivetran, Stitch, or Supermetrics to automate these extractions. Manual data pulls are not sustainable and introduce errors.
+Use an ETL tool like Fivetran, Stitch, or Supermetrics to automate these extractions. Manual data pulls aren't sustainable and introduce errors.
 
 **Layer 2: Data Warehouse**
 
@@ -146,7 +146,7 @@ For most marketing teams, BigQuery provides the best balance of cost, performanc
 
 **Layer 3: Data Transformation**
 
-Raw data from APIs needs to be cleaned, joined, and modeled before it is useful. Use dbt (data build tool) to:
+Raw data from APIs needs to be cleaned, joined, and modeled before it's useful. Use dbt (data build tool) to:
 - Standardize naming conventions across platforms
 - Join ad platform data with CRM and revenue data
 - Build marketing-specific data models (unified campaign performance, customer journey, attribution)
@@ -202,11 +202,11 @@ Build dashboards at three levels:
 
 The biggest mistake analytics teams make is spending 80% of their time on reporting and 20% on analysis. Invert this ratio.
 
-**Automate reporting.** Every recurring report should be automated. If an analyst is manually pulling data and formatting spreadsheets every week, that is a failure of infrastructure, not a productive use of time.
+**Automate reporting.** Every recurring report should be automated. If an analyst is manually pulling data and formatting spreadsheets every week, that's a failure of infrastructure, not a productive use of time.
 
-**Protect analysis time.** Block dedicated time for deep analysis work. Do not let ad-hoc requests consume all of your analyst's capacity. Establish a request process and prioritize based on business impact.
+**Protect analysis time.** Block dedicated time for deep analysis work. Don't let ad-hoc requests consume all of your analyst's capacity. Establish a request process and prioritize based on business impact.
 
-**Require actionable outputs.** Every analysis should end with "therefore we should..." and not just "here is what happened." Train your analysts to deliver recommendations, not just data.
+**Require actionable outputs.** Every analysis should end with "therefore we should..." and not just "here's what happened." Train your analysts to deliver recommendations, not just data.
 
 ## Onboarding Remote Analysts
 

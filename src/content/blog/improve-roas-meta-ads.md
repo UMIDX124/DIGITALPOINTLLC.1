@@ -35,7 +35,7 @@ The Meta pixel alone misses 15-30% of conversions due to ad blockers, iOS restri
 - Better algorithmic optimization (Meta makes better decisions with more data)
 - 10-20% ROAS improvement from better delivery optimization
 
-If you are not running CAPI in 2026, you are flying blind and bleeding efficiency.
+If you're not running CAPI in 2026, you're flying blind and bleeding efficiency.
 
 ### Set Up Advanced Matching
 
@@ -68,7 +68,7 @@ ASC campaigns combine prospecting and retargeting audiences and let Meta's AI de
 - Upload at least 10-15 creative assets to give the algorithm options
 - Set an existing customer budget cap (typically 10-20%) to ensure most budget goes to new customers
 - Let ASC run for at least 7 days before evaluating performance
-- Do not overlap ASC with heavy manual prospecting — they compete for the same audiences
+- Don't overlap ASC with heavy manual prospecting — they compete for the same audiences
 
 ### Manual Campaign Structure
 
@@ -150,7 +150,7 @@ Test broad against your best lookalike to see which delivers better ROAS for you
 
 ### Retargeting Segmentation
 
-Do not retarget all website visitors the same way. Segment by intent:
+Don't retarget all website visitors the same way. Segment by intent:
 
 | Segment | Window | Creative Approach | Expected ROAS |
 |---|---|---|---|
@@ -185,7 +185,7 @@ Allocate more retargeting budget to higher-intent segments.
 
 ## Landing Page Optimization for Meta Traffic
 
-Meta traffic behaves differently from Google Search traffic. These visitors are interrupted during their social browsing — they did not search for your product.
+Meta traffic behaves differently from Google Search traffic. These visitors are interrupted during their social browsing — they didn't search for your product.
 
 **Meta-specific landing page best practices:**
 
@@ -193,7 +193,7 @@ Meta traffic behaves differently from Google Search traffic. These visitors are 
 - **Visual continuity.** Use similar imagery and colors to what was in the ad. Jarring transitions increase bounce rates.
 - **Mobile-first design.** Over 70% of Meta traffic is mobile. Your landing page must be thumb-friendly with large buttons and minimal text.
 - **Reduce friction.** Offer guest checkout, multiple payment methods, and clear shipping information above the fold.
-- **Social proof.** Meta audiences need more convincing than search audiences because they were not actively seeking your product. Load your pages with reviews, testimonials, and trust signals.
+- **Social proof.** Meta audiences need more convincing than search audiences because they weren't actively seeking your product. Load your pages with reviews, testimonials, and trust signals.
 
 ## Measurement and Attribution
 
@@ -202,8 +202,8 @@ Meta traffic behaves differently from Google Search traffic. These visitors are 
 Meta reports using its own attribution model, which may differ from your analytics platform. Key settings to understand:
 
 - **Attribution window:** Default is 7-day click, 1-day view. Consider testing 7-day click only for a more conservative view.
-- **Modeled conversions:** Meta estimates conversions it cannot directly track (from iOS users who opted out). These are generally accurate in aggregate but can be noisy at the campaign level.
-- **View-through conversions:** People who saw your ad but did not click, then converted within 1 day. These are real but may overlap with other channels.
+- **Modeled conversions:** Meta estimates conversions it can't directly track (from iOS users who opted out). These are generally accurate in aggregate but can be noisy at the campaign level.
+- **View-through conversions:** People who saw your ad but didn't click, then converted within 1 day. These are real but may overlap with other channels.
 
 ### Cross-Platform Measurement
 

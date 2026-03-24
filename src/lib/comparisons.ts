@@ -66,7 +66,7 @@ export const comparisons: Comparison[] = [
       { category: 'Attribution', optionA: 'Strong for last-click', optionB: 'Weakened by iOS privacy changes' },
     ],
     recommendation:
-      'For most businesses, the answer is not either/or — it is both, with budget allocation driven by data. Google Ads should be prioritized when you have strong search demand and need bottom-of-funnel conversions. Facebook Ads should lead when you need to build awareness, reach new audiences, or when your product benefits from visual storytelling. We help clients build cross-platform strategies where both channels reinforce each other.',
+      'For most businesses, the answer isn\'t either/or — it\'s both, with budget allocation driven by data. Here\'s the thing: Google Ads should be your priority when you\'ve got strong search demand and need bottom-of-funnel conversions. Facebook Ads should lead when you need to build awareness, reach new audiences, or when your product benefits from visual storytelling. We help clients build cross-platform strategies where both channels reinforce each other.',
   },
   {
     slug: 'first-click-vs-last-click-attribution',
@@ -88,7 +88,7 @@ export const comparisons: Comparison[] = [
         'Ignores every touchpoint after the first interaction',
         'Over-credits awareness channels while under-crediting conversion drivers',
         'Can lead to over-investment in top-of-funnel at the expense of closing channels',
-        'Does not reflect the complexity of modern buyer journeys',
+        'Doesn\'t reflect the complexity of modern buyer journeys',
       ],
     },
     optionB: {
@@ -114,7 +114,7 @@ export const comparisons: Comparison[] = [
       { category: 'Platform Default', optionA: 'Rarely used as default', optionB: 'Default for most ad platforms' },
     ],
     recommendation:
-      'Neither first-click nor last-click attribution tells the full story. We recommend moving to a multi-touch attribution model that distributes credit across the entire customer journey. If you must choose between these two, use last-click for short sales cycles and first-click for longer consideration periods — but recognize that both are oversimplifications. Our attribution services help clients implement data-driven models that reflect how customers actually convert.',
+      'The truth is, neither first-click nor last-click attribution tells the full story. We recommend moving to a multi-touch attribution model that distributes credit across the entire customer journey. If you must choose between these two, use last-click for short sales cycles and first-click for longer consideration periods — but recognize that both are oversimplifications. Our attribution services help clients implement data-driven models that reflect how customers actually convert.',
   },
   {
     slug: 'in-house-vs-agency-marketing',
@@ -172,7 +172,7 @@ export const comparisons: Comparison[] = [
     description:
       'Compare Google Analytics with custom marketing dashboards to determine which reporting approach gives your team the insights it needs to grow.',
     intro:
-      'Google Analytics is the default analytics tool for most businesses, but as marketing operations grow more complex, many teams find it insufficient for the cross-channel, real-time visibility they need. Custom dashboards pull data from multiple sources into purpose-built views. Here is how they compare.',
+      'Google Analytics is the default analytics tool for most businesses, but as marketing operations grow more complex, many teams find it insufficient for the cross-channel, real-time visibility they need. Custom dashboards pull data from multiple sources into purpose-built views. Here\'s how they compare.',
     optionA: {
       name: 'Google Analytics',
       pros: [
@@ -212,7 +212,7 @@ export const comparisons: Comparison[] = [
       { category: 'Ease of Use', optionA: 'Moderate (GA4 has a learning curve)', optionB: 'High once built (designed for your team)' },
     ],
     recommendation:
-      'Use Google Analytics as a foundational data source, but do not rely on it as your primary reporting tool. Custom dashboards that pull from GA, ad platforms, CRM, and revenue data give you the complete picture you need to make budget and strategy decisions. Our marketing dashboard service builds exactly this — unified views that turn scattered data into actionable intelligence.',
+      'Use Google Analytics as a foundational data source, but don\'t rely on it as your primary reporting tool. Custom dashboards that pull from GA, ad platforms, CRM, and revenue data give you the complete picture you need to make budget and strategy decisions. Our marketing dashboard service builds exactly this — unified views that turn scattered data into actionable intelligence.',
   },
   {
     slug: 'manual-vs-automated-bidding',
@@ -228,7 +228,7 @@ export const comparisons: Comparison[] = [
         'Complete control over bid amounts at the keyword and placement level',
         'No reliance on algorithms that may not understand your business context',
         'Useful for small accounts or campaigns with limited conversion data',
-        'Transparent — you know exactly what you are bidding and why',
+        'Transparent — you know exactly what you\'re bidding and why',
       ],
       cons: [
         'Extremely time-intensive to manage at scale',
@@ -276,7 +276,7 @@ export const comparisons: Comparison[] = [
       pros: [
         'Builds long-term brand equity that reduces future acquisition costs',
         'Creates preference and trust that makes performance campaigns more effective',
-        'Generates organic demand that does not depend on ad spend',
+        'Generates organic demand that doesn\'t depend on ad spend',
         'Differentiates your business in commoditized markets',
       ],
       cons: [
@@ -291,14 +291,14 @@ export const comparisons: Comparison[] = [
       pros: [
         'Directly measurable ROI on every dollar spent',
         'Immediate results and fast feedback loops',
-        'Scalable — invest more when it works, pull back when it does not',
+        'Scalable — invest more when it works, pull back when it doesn\'t',
         'Clear accountability with transparent cost-per-acquisition metrics',
       ],
       cons: [
         'Diminishing returns as you exhaust high-intent audiences',
         'Vulnerable to platform changes, rising CPCs, and algorithm shifts',
         'Can create dependency on paid channels for growth',
-        'Does not build long-term brand value or organic demand',
+        'Doesn\'t build long-term brand value or organic demand',
       ],
     },
     comparisonRows: [
@@ -379,7 +379,7 @@ export const comparisons: Comparison[] = [
         'Ignores all touchpoints except one, creating a distorted picture',
         'Over-credits either awareness or closing channels depending on model',
         'Leads to budget misallocation based on incomplete data',
-        'Does not reflect modern multi-channel customer journeys',
+        'Doesn\'t reflect modern multi-channel customer journeys',
       ],
     },
     optionB: {
@@ -406,7 +406,7 @@ export const comparisons: Comparison[] = [
       { category: 'Stakeholder Clarity', optionA: 'High — easy to understand', optionB: 'Moderate — requires education' },
     ],
     recommendation:
-      'Multi-touch attribution is the clear winner for any business serious about optimizing marketing spend. Single-touch models are acceptable only as a temporary starting point. We help clients implement multi-touch attribution systems that connect ad platform data, CRM records, and revenue outcomes — giving you the full picture of what is working and what is not.',
+      'Honestly, multi-touch attribution is the clear winner for any business serious about optimizing marketing spend. Single-touch models are acceptable only as a temporary starting point. We help clients implement multi-touch attribution systems that connect ad platform data, CRM records, and revenue outcomes — giving you the full picture of what\'s working and what isn\'t.',
   },
   {
     slug: 'google-ads-vs-microsoft-ads',
@@ -415,7 +415,7 @@ export const comparisons: Comparison[] = [
     description:
       'Compare Google Ads and Microsoft Ads (Bing Ads) on reach, cost, audience demographics, and performance to optimize your search advertising budget.',
     intro:
-      'Google Ads dominates search advertising with roughly 90% market share, but Microsoft Ads (formerly Bing Ads) serves a valuable and often overlooked audience. Microsoft Ads reaches users across Bing, Yahoo, AOL, and the Microsoft ecosystem including Edge, Outlook, and LinkedIn. Here is how the two platforms compare.',
+      'Google Ads dominates search advertising with roughly 90% market share, but Microsoft Ads (formerly Bing Ads) serves a valuable and often overlooked audience. Microsoft Ads reaches users across Bing, Yahoo, AOL, and the Microsoft ecosystem including Edge, Outlook, and LinkedIn. Here\'s how the two platforms compare.',
     optionA: {
       name: 'Google Ads',
       pros: [
@@ -455,7 +455,7 @@ export const comparisons: Comparison[] = [
       { category: 'Automation', optionA: 'Industry-leading AI and automation', optionB: 'Improving but still behind Google' },
     ],
     recommendation:
-      'Run both. Google Ads should be your primary search advertising platform given its reach and capabilities, but Microsoft Ads offers incremental conversions at lower CPCs that improve your blended efficiency. We typically recommend allocating 10-20% of search budget to Microsoft Ads once Google campaigns are optimized, using campaign import to minimize additional management overhead.',
+      'Run both — seriously. Google Ads should be your primary search advertising platform given its reach and capabilities, but Microsoft Ads offers incremental conversions at lower CPCs that improve your blended efficiency. We typically recommend allocating 10-20% of search budget to Microsoft Ads once Google campaigns are optimized, using campaign import to minimize additional management overhead.',
   },
   {
     slug: 'remote-vs-in-house-marketing-team',
@@ -464,7 +464,7 @@ export const comparisons: Comparison[] = [
     description:
       'Compare the effectiveness, cost, and operational trade-offs of remote marketing teams versus traditional in-house marketing departments.',
     intro:
-      'The shift to remote work has fundamentally changed how companies build marketing teams. A remote marketing team — whether internal employees working remotely or an outsourced partner — offers access to global talent and cost advantages. An in-house team co-located in your office provides proximity and cultural integration. Here is how to think about the trade-offs.',
+      'The shift to remote work has fundamentally changed how companies build marketing teams. A remote marketing team — whether internal employees working remotely or an outsourced partner — offers access to global talent and cost advantages. An in-house team co-located in your office provides proximity and cultural integration. Here\'s how to think about the trade-offs.',
     optionA: {
       name: 'Remote Marketing Team',
       pros: [
@@ -504,7 +504,7 @@ export const comparisons: Comparison[] = [
       { category: 'Cultural Integration', optionA: 'Requires intentional effort', optionB: 'Natural through proximity' },
     ],
     recommendation:
-      'Remote marketing teams deliver equal or better results than co-located teams when supported by clear communication structures, documented processes, and the right collaboration tools. As a remote-first performance marketing agency, Digital Point LLC has built its entire operating model around this approach — delivering enterprise-level paid media management and marketing intelligence to US-based clients through a highly skilled, globally distributed team.',
+      'In our experience, remote marketing teams deliver equal or better results than co-located teams when supported by clear communication structures, documented processes, and the right collaboration tools. As a remote-first performance marketing agency, Digital Point LLC has built its entire operating model around this approach — delivering enterprise-level paid media management and marketing intelligence to US-based clients through a highly skilled, globally distributed team.',
   },
 ];
 

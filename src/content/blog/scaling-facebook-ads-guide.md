@@ -18,11 +18,11 @@ faqs:
 
 You found a winning campaign. CPA is great, ROAS is strong, leads are flowing. Your instinct is to double the budget immediately.
 
-So you do. And within 48 hours, CPA jumps 40%, ROAS tanks, and you are scrambling to figure out what went wrong.
+So you do. And within 48 hours, CPA jumps 40%, ROAS tanks, and you're scrambling to figure out what went wrong.
 
 This is the **Facebook ads scaling trap**, and almost every advertiser falls into it. The algorithms that found your ideal audience at $100/day struggle when you suddenly demand they find 3x more people at $300/day.
 
-Scaling Facebook ads is not about spending more money. It is about **systematically expanding the inputs** (audiences, creative, placements) that let the algorithm perform well at higher spend levels.
+Scaling Facebook ads isn't about spending more money. It's about **systematically expanding the inputs** (audiences, creative, placements) that let the algorithm perform well at higher spend levels.
 
 ## Understanding Why Performance Drops When You Scale
 
@@ -69,7 +69,7 @@ This gradual approach keeps you out of learning phase and gives the algorithm ti
 Stop increasing budget if:
 - CPA increases more than 25% above your baseline after a budget change
 - Frequency rises above 2.5 in prospecting campaigns
-- Conversion volume does not increase proportionally with spend
+- Conversion volume doesn't increase proportionally with spend
 - ROAS drops below your profitability threshold
 
 When this happens, **hold at the current budget for 5-7 days** and let performance stabilize before deciding next steps.
@@ -144,7 +144,7 @@ Meta offers numerous placements, and your winning ad may perform differently acr
 - Feed: Square (1:1) or landscape (4:5)
 - Stories/Reels: Vertical (9:16)
 - Create native-feeling creative for each placement
-- Do not just resize feed ads for Stories; they perform poorly
+- Don't just resize feed ads for Stories; they perform poorly
 
 ### Method 4: Campaign Duplication
 
@@ -156,7 +156,7 @@ When a campaign is performing well and you want to scale faster than the 20% rul
 4. The algorithm may find different pockets within the same audience
 
 **Important caveats:**
-- Do not duplicate more than 2-3 times (audience overlap becomes severe)
+- Don't duplicate more than 2-3 times (audience overlap becomes severe)
 - Monitor combined frequency across duplicates
 - This works best with larger audiences (1M+)
 
@@ -248,7 +248,7 @@ If you have primarily targeted one country, geographic expansion is a powerful s
 
 **Solution:**
 - If just increased budget: Wait 5-7 days for stabilization
-- If CPA does not recover: Revert to previous budget level
+- If CPA doesn't recover: Revert to previous budget level
 - Add new audience segments instead of increasing budget
 - Refresh creative that may be fatiguing
 
@@ -274,7 +274,7 @@ If you have primarily targeted one country, geographic expansion is a powerful s
 
 ### Problem: Retargeting Pool Not Growing
 
-**Diagnosis:** Prospecting is not driving enough new traffic.
+**Diagnosis:** Prospecting isn't driving enough new traffic.
 
 **Solution:**
 - Increase prospecting budget relative to retargeting
@@ -283,7 +283,7 @@ If you have primarily targeted one country, geographic expansion is a powerful s
 
 ## The Scaling Mindset
 
-Successful scaling requires a shift in thinking. You are no longer optimizing a single campaign; you are building a **system** that continuously:
+Successful scaling requires a shift in thinking. You're no longer optimizing a single campaign; you're building a **system** that continuously:
 
 1. Tests new creative and audiences
 2. Validates winners at moderate scale
@@ -291,4 +291,4 @@ Successful scaling requires a shift in thinking. You are no longer optimizing a 
 4. Monitors for fatigue and saturation
 5. Refreshes and repeats
 
-The advertisers who scale past $100K/month on Meta are not the ones who found one magic ad. They are the ones who built a machine that systematically finds, validates, and scales winners while always building the next batch. That machine is what separates businesses that plateau from those that compound growth month after month.
+The advertisers who scale past $100K/month on Meta aren't the ones who found one magic ad. They're the ones who built a machine that systematically finds, validates, and scales winners while always building the next batch. That machine is what separates businesses that plateau from those that compound growth month after month.

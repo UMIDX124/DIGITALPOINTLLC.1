@@ -27,112 +27,112 @@ export const services: Service[] = [
     slug: 'google-ads-management',
     name: 'Google Ads Management',
     description:
-      'Strategic Google Ads management that maximizes return on ad spend through precise keyword targeting, bid optimization, and conversion-focused campaign architecture.',
-    shortDescription: 'Expert Google Ads campaign management and optimization.',
+      "Most Google Ads accounts we audit are bleeding money — poor structure, lazy keyword targeting, and zero bid strategy. We fix that. Our management isn't about tweaking a few settings; it's about rebuilding your campaigns around what actually converts, then optimizing relentlessly.",
+    shortDescription: "Google Ads management that's focused on profit, not vanity metrics.",
     benefits: [
-      'Lower cost per acquisition through continuous bid optimization',
-      'Higher quality scores that reduce CPC and improve ad placement',
-      'Granular keyword targeting that captures high-intent search traffic',
-      'Conversion tracking and attribution for complete performance visibility',
-      'Shopping, search, display, and YouTube campaign management under one roof',
+      "Acquisition costs that drop fast — we've cut CPAs by 30-50% in the first 60 days for most accounts",
+      "Quality scores that actually go up — we've taken accounts from 4/10 to 8/10 in weeks, which directly slashes your cost per click",
+      "Keyword targeting built around buyer intent, not just search volume (there's a huge difference)",
+      "Full conversion tracking so you know exactly which clicks turn into revenue — no more guessing",
+      "Shopping, search, display, YouTube — all managed under one roof so nothing falls through the cracks",
     ],
   },
   {
     slug: 'facebook-ads-management',
     name: 'Facebook Ads Management',
     description:
-      'Full-funnel Facebook and Instagram advertising that drives qualified traffic through advanced audience targeting, creative testing, and algorithmic optimization.',
-    shortDescription: 'Full-funnel Meta advertising and creative optimization.',
+      "Here's the thing about Meta ads: the algorithm is powerful, but it won't save a bad strategy. We build full-funnel campaigns — from cold audiences to retargeting — that give the algorithm what it needs to find your best customers. Creative testing, audience layering, and constant iteration are how we keep results compounding.",
+    shortDescription: "Full-funnel Meta ads that actually scale without tanking your margins.",
     benefits: [
-      'Lookalike and custom audiences built from first-party data',
-      'Creative testing frameworks that identify winning ad variations fast',
-      'Retargeting sequences that convert warm audiences at lower CPAs',
-      'Cross-platform campaigns spanning Facebook, Instagram, and Audience Network',
-      'Automated rules and bid strategies that protect ad spend from waste',
+      "Lookalike audiences built from your real customer data — not some generic interest targeting that wastes budget",
+      "We test 10-20 creative variations per cycle, so winning ads surface fast",
+      "Retargeting sequences that turn window shoppers into buyers at a fraction of cold traffic costs",
+      "Campaigns that work across Facebook, Instagram, and Audience Network simultaneously",
+      "Automated rules that kill underperformers before they drain your budget — we've seen this save clients thousands per month",
     ],
   },
   {
     slug: 'marketing-attribution',
     name: 'Marketing Attribution',
     description:
-      'Multi-touch attribution modeling that reveals the true impact of every marketing channel, enabling data-driven budget allocation and strategy refinement.',
-    shortDescription: 'Multi-touch attribution that reveals true channel performance.',
+      "If you don't know which channels are actually driving revenue, you're making budget decisions in the dark. Most teams we talk to are over-crediting last-click and under-investing in the channels doing the real work. We build attribution models that show you what's truly happening — not just what Google or Meta want you to believe.",
+    shortDescription: "Finally see which marketing channels are earning their keep.",
     benefits: [
-      'Clear visibility into which channels actually drive revenue',
-      'Multi-touch models that credit the full customer journey',
-      'Elimination of wasted spend on underperforming channels',
-      'Custom attribution windows tailored to your sales cycle',
-      'Integration with CRM and ad platform data for unified reporting',
+      "You'll know exactly which channels drive revenue and which ones are just burning cash",
+      "Multi-touch models that capture the full journey — because nobody buys after one ad click",
+      "We've helped clients reallocate 20-40% of budget away from channels that looked good on paper but weren't converting",
+      "Attribution windows customized to how your customers actually buy, not some platform default",
+      "Your CRM, ad platforms, and analytics all feeding into one unified view — no more spreadsheet gymnastics",
     ],
   },
   {
     slug: 'roas-optimization',
     name: 'ROAS Optimization',
     description:
-      'Systematic return on ad spend improvement through bid management, audience refinement, creative optimization, and landing page conversion rate enhancements.',
-    shortDescription: 'Systematic improvement of return on ad spend.',
+      "Honestly, most accounts we take over have a ROAS problem they don't even fully see yet. It's not just about bidding — it's the landing pages, the audiences, the creative, all working together or working against each other. We dig into every layer and fix what's leaking money.",
+    shortDescription: "Getting more revenue from every ad dollar — that's the whole job.",
     benefits: [
-      'Consistent ROAS improvements through data-driven optimization cycles',
-      'Profit-based bidding strategies that go beyond surface-level metrics',
-      'Landing page optimization that increases conversion rates',
-      'Audience segmentation that allocates spend to highest-value segments',
-      'Transparent reporting on revenue attributed to every dollar spent',
+      "ROAS improvements you can actually see quarter over quarter, not just promises",
+      "Bidding based on real profit margins, not just revenue — because a 5x ROAS means nothing if your margins are thin",
+      "Landing pages that convert better (we've lifted conversion rates 20-60% with targeted page changes)",
+      "Budget shifted toward customer segments that spend the most, not just click the most",
+      "Reporting that ties every dollar of ad spend to actual revenue — full transparency, no hand-waving",
     ],
   },
   {
     slug: 'cac-reduction',
     name: 'CAC Reduction',
     description:
-      'Customer acquisition cost reduction programs that identify waste, improve targeting efficiency, and optimize the full conversion funnel from click to close.',
-    shortDescription: 'Reducing customer acquisition costs without sacrificing volume.',
+      "Your CAC is probably higher than it needs to be. That's not a knock on your team — it's just what happens when campaigns run without regular deep-dives into waste, targeting gaps, and funnel friction. We find the leaks and fix them, from the first click all the way through to close.",
+    shortDescription: "Cut acquisition costs without cutting corners on lead quality.",
     benefits: [
-      'Lower CAC through funnel optimization and waste elimination',
-      'Improved lead quality that reduces sales team burden',
-      'Channel mix optimization that shifts budget toward efficient sources',
-      'Conversion rate improvements across landing pages and forms',
-      'Lifetime value analysis that contextualizes acquisition costs',
+      "Lower CAC by plugging the holes — wasted spend, bad targeting, broken funnels",
+      "Better leads, not just more leads (your sales team will thank you)",
+      "We figure out which channels are efficient and shift budget there — sounds simple, but most teams overlook this",
+      "Landing page and form tweaks that lift conversion rates — sometimes a small change makes a surprising difference",
+      "LTV context so you're not just chasing cheap leads that churn in 90 days",
     ],
   },
   {
     slug: 'marketing-dashboards',
     name: 'Marketing Dashboards',
     description:
-      'Custom marketing dashboards that consolidate data from every ad platform, CRM, and analytics tool into real-time, actionable performance views.',
-    shortDescription: 'Custom real-time dashboards for marketing performance.',
+      "How many hours does your team spend pulling data from different platforms into spreadsheets every week? That's time you won't get back. We build custom dashboards that pull everything together — ad platforms, CRM, analytics — into one live view so you can make decisions in minutes, not days.",
+    shortDescription: "One dashboard to replace the spreadsheet chaos.",
     benefits: [
-      'Single source of truth across all marketing channels',
-      'Real-time data that enables faster decision-making',
-      'Custom KPIs and metrics tailored to your business model',
-      'Automated reporting that eliminates manual spreadsheet work',
-      'Executive-ready views alongside granular operational dashboards',
+      "A single source of truth — no more conflicting numbers from different platforms",
+      "Real-time data, so you're making decisions on what's happening now, not last week",
+      "KPIs built around your actual business model, not generic vanity metrics",
+      "Automated reports that show up in your inbox — no more manual pulls every Monday morning",
+      "Executive summaries for leadership plus the granular views your ops team needs, all in one place",
     ],
   },
   {
     slug: 'paid-media-management',
     name: 'Paid Media Management',
     description:
-      'Cross-platform paid media management spanning Google, Meta, LinkedIn, TikTok, and programmatic channels, orchestrated for maximum impact and efficiency.',
-    shortDescription: 'Cross-platform paid media strategy and execution.',
+      "Running ads on five platforms with five different strategies and five different reports? That's a mess. We manage Google, Meta, LinkedIn, TikTok, and programmatic as one coordinated system — so your budget goes where it performs, not where it's easiest to spend.",
+    shortDescription: "All your paid channels managed together, not in silos.",
     benefits: [
-      'Unified strategy across search, social, display, and video channels',
-      'Budget allocation optimized across platforms based on performance data',
-      'Centralized reporting and cross-channel attribution',
-      'Platform-specific expertise combined with holistic media planning',
-      'Rapid scaling capability when performance targets are met',
+      "One strategy that ties search, social, display, and video together instead of treating each like its own island",
+      "Budget moves to whatever's working — we reallocate weekly based on real performance, not quarterly gut feels",
+      "Centralized reporting so you can compare channels apples-to-apples for the first time",
+      "Deep expertise on each platform, but always in service of the bigger picture",
+      "When something's working, we scale it fast — no bureaucratic lag",
     ],
   },
   {
     slug: 'creative-testing',
     name: 'Creative Testing',
     description:
-      'Structured creative testing programs that systematically identify high-performing ad concepts, copy variations, and visual treatments to maximize campaign results.',
-    shortDescription: 'Systematic ad creative testing and optimization.',
+      "The reality is, most ad creative is chosen by whoever shouts loudest in the meeting. We replace opinions with data. Our testing frameworks run structured experiments across copy, visuals, and formats — so you know what works, why it works, and how to keep building on it.",
+    shortDescription: "Stop guessing which ads work. Test and know for sure.",
     benefits: [
-      'Data-driven creative decisions that eliminate guesswork',
-      'Statistically significant testing frameworks for reliable results',
-      'Rapid iteration cycles that keep creative fresh and fatigue-free',
-      'Insights into messaging, visual, and format performance by audience',
-      'Creative performance libraries that inform future campaign development',
+      "Creative decisions backed by real performance data, not someone's gut feeling",
+      "Tests designed for statistical significance — we don't call a winner after 50 impressions",
+      "Fresh creative every cycle, which keeps your audience from tuning out (ad fatigue is a bigger problem than most teams realize)",
+      "Clear breakdowns of what messaging, visuals, and formats resonate with each audience segment",
+      "A growing library of proven creative patterns your team can pull from for future campaigns",
     ],
   },
 ];
@@ -142,140 +142,140 @@ export const industries: Industry[] = [
     slug: 'ecommerce',
     name: 'Ecommerce',
     description:
-      'Online retailers and ecommerce brands competing for visibility in crowded marketplaces and fighting rising customer acquisition costs.',
+      "Ecommerce is brutal right now. CPCs keep climbing, margins keep shrinking, and every competitor is bidding on the same keywords. If you're an online retailer, you already know the pressure — the question is whether your ad strategy is keeping up.",
     painPoints: [
-      'Rising CPCs across Google Shopping and paid search',
-      'Attribution challenges across multi-touch purchase journeys',
-      'Cart abandonment rates eroding campaign profitability',
-      'Seasonal demand fluctuations requiring agile budget management',
+      "Google Shopping CPCs that feel like they go up every month",
+      "You can't figure out which touchpoints actually led to the sale",
+      "Cart abandonment eating into what should be profitable campaigns",
+      "Seasonal swings that require constant budget adjustments (and fast ones)",
     ],
   },
   {
     slug: 'saas',
     name: 'SaaS',
     description:
-      'Software-as-a-service companies navigating long sales cycles, trial-to-paid conversions, and the pressure to maintain efficient customer acquisition at scale.',
+      "SaaS marketing is a patience game with impatient stakeholders. Your sales cycles are long, your trial-to-paid conversion is never as high as the board wants, and the keywords you need keep getting more expensive. We've worked with enough SaaS companies to know these problems inside out.",
     painPoints: [
-      'Long sales cycles that complicate attribution and ROI measurement',
-      'High CAC relative to initial contract values',
-      'Free trial and freemium conversion optimization',
-      'Competitive keyword markets with escalating bid costs',
+      "Sales cycles so long that proving ROI on this quarter's spend feels impossible",
+      "CAC that's way too high compared to first-year contract value",
+      "Trial and freemium users who never convert to paid",
+      "Keyword costs that keep escalating because every competitor is bidding on the same terms",
     ],
   },
   {
     slug: 'lead-generation',
     name: 'Lead Generation',
     description:
-      'Businesses dependent on lead flow that need consistent, qualified pipeline from digital channels without wasting budget on unqualified prospects.',
+      "You need leads. Not junk leads that waste your sales team's time — real, qualified leads that close. That's what every lead gen business says they want, and it's what most ad setups fail to deliver consistently.",
     painPoints: [
-      'Lead quality inconsistency across channels and campaigns',
-      'Inability to connect ad spend to downstream revenue',
-      'Form abandonment and landing page conversion rate issues',
-      'Scaling lead volume without proportionally increasing costs',
+      "Lead quality that's all over the place — great one week, garbage the next",
+      "No clear line between what you spent on ads and what actually closed as revenue",
+      "People start filling out your form and bail halfway through",
+      "Every time you try to scale volume, costs spike and quality tanks",
     ],
   },
   {
     slug: 'd2c',
     name: 'D2C Brands',
     description:
-      'Direct-to-consumer brands building customer relationships through digital channels while managing the economics of acquisition, retention, and lifetime value.',
+      "D2C was supposed to be the future of retail, but the economics have gotten harder — especially post-iOS 14. Acquisition costs are up, Meta targeting isn't what it used to be, and building a brand while hitting ROAS targets feels like a contradiction. Sound familiar?",
     painPoints: [
-      'iOS privacy changes reducing Meta ad targeting effectiveness',
-      'Rising acquisition costs on primary social channels',
-      'Building brand awareness while maintaining performance targets',
-      'First-party data collection and activation at scale',
+      "iOS privacy updates gutted your Meta targeting and you're still feeling it",
+      "Acquisition costs on social channels climbing faster than your AOV",
+      "You need brand awareness but leadership only wants to talk about ROAS",
+      "First-party data is the answer, but actually collecting and using it at scale is the hard part",
     ],
   },
   {
     slug: 'b2b',
     name: 'B2B',
     description:
-      'Business-to-business companies with complex buying committees and extended sales cycles that demand sophisticated targeting and attribution.',
+      "B2B marketing isn't like selling shoes online. You've got buying committees with 5-10 people, sales cycles that drag on for months, and a CRM full of MQLs that never become actual revenue. The playbooks that work in B2C don't translate here — you need a different approach.",
     painPoints: [
-      'Reaching specific decision-makers within target accounts',
-      'Attributing revenue across 6-12 month sales cycles',
-      'Generating qualified pipeline, not just MQLs',
-      'Aligning marketing metrics with sales outcomes',
+      "Getting in front of the actual decision-maker, not just random employees at target companies",
+      "Proving that marketing influenced a deal that took 9 months to close",
+      "Too many MQLs that sales doesn't want to touch",
+      "Marketing reports that say one thing while sales reports say another",
     ],
   },
   {
     slug: 'healthcare',
     name: 'Healthcare',
     description:
-      'Healthcare organizations navigating strict regulatory requirements, compliance constraints, and the need for patient trust in digital advertising.',
+      "Healthcare advertising is a minefield of compliance rules, platform restrictions, and patient trust issues. One wrong move with HIPAA and you've got a real problem. But here's the thing — you still need patients, and digital ads still work. You just need someone who knows the guardrails.",
     painPoints: [
-      'HIPAA compliance requirements in advertising and tracking',
-      'Restricted targeting options on major ad platforms',
-      'Building trust and credibility through compliant messaging',
-      'Local competition for patient acquisition',
+      "HIPAA compliance that affects everything from your tracking pixels to your audience lists",
+      "Ad platforms that restrict what you can target and say (and the rules keep changing)",
+      "Patients who are skeptical of ads — trust has to be earned through careful messaging",
+      "Every local competitor is bidding on the same procedure and condition keywords",
     ],
   },
   {
     slug: 'real-estate',
     name: 'Real Estate',
     description:
-      'Real estate companies and agencies competing for buyer and seller leads in hyper-local markets with high lifetime deal values.',
+      "Real estate advertising is all about location — literally. You need leads in specific zip codes, not just \"nearby.\" And with every brokerage in town running Google Ads, the cost to show up keeps climbing. We've seen what works in this space and what's just burning money.",
     painPoints: [
-      'Hyper-local targeting needs across specific markets and zip codes',
-      'High competition for branded and non-branded search terms',
-      'Long consideration periods from first click to closing',
-      'Seasonal market fluctuations affecting demand and inventory',
+      "You need leads in specific neighborhoods and zip codes, not a 50-mile radius",
+      "Every agent and brokerage is bidding on the same search terms, driving costs through the roof",
+      "Someone clicks your ad today and doesn't close for 6 months — tracking that is a nightmare",
+      "Market seasonality means your budget strategy in March looks nothing like December",
     ],
   },
   {
     slug: 'education',
     name: 'Education',
     description:
-      'Educational institutions and edtech companies competing for student enrollment through digital channels with cyclical enrollment periods.',
+      "Whether you're a university or an edtech startup, enrollment is everything — and it's seasonal, competitive, and increasingly expensive to drive through digital channels. The schools that win aren't spending more; they're spending smarter during the windows that matter.",
     painPoints: [
-      'Enrollment cycle seasonality requiring precise campaign timing',
-      'High competition for program-specific keywords',
-      'Long decision-making processes involving multiple stakeholders',
-      'Tracking enrollment outcomes back to marketing touchpoints',
+      "Enrollment cycles that mean you've got a narrow window to hit your numbers",
+      "Program-specific keywords where every competitor is bidding aggressively",
+      "Prospective students (and their parents) who take months to decide",
+      "Knowing which ad or email actually drove the enrollment, not just the inquiry",
     ],
   },
   {
     slug: 'fintech',
     name: 'Fintech',
     description:
-      'Financial technology companies acquiring users in a regulated industry where trust, compliance, and unit economics are critical to growth.',
+      "Fintech growth is a tightrope walk. You need users fast, but regulators are watching every ad claim, consumers don't trust new financial products easily, and your unit economics have to work or the whole model falls apart. We get it — this isn't a space where you can be sloppy with your ad strategy.",
     painPoints: [
-      'Regulatory restrictions on financial advertising claims',
-      'Building consumer trust in a category with inherent skepticism',
-      'Complex attribution across app installs, signups, and funded accounts',
-      'Balancing growth velocity with sustainable unit economics',
+      "Regulators that limit what you can say in ads (and platforms that add their own restrictions on top)",
+      "Consumers who are naturally skeptical about handing money to a company they found through an ad",
+      "Attribution that has to track from ad click to app install to signup to funded account — each step leaks data",
+      "Growing fast enough to hit targets without blowing past sustainable CAC thresholds",
     ],
   },
   {
     slug: 'agencies',
     name: 'Agencies',
     description:
-      'Marketing agencies seeking white-label or partnership support to expand paid media capabilities without building in-house teams from scratch.',
+      "You're an agency. You know how to do great work. But scaling paid media across a growing client roster without hiring a dozen specialists? That's the hard part. We partner with agencies as a behind-the-scenes extension of your team — your clients never know we exist.",
     painPoints: [
-      'Scaling client media management without proportional headcount growth',
-      'Maintaining quality and performance across diverse client portfolios',
-      'Accessing specialized platform expertise for client verticals',
-      'White-label reporting and transparent collaboration frameworks',
+      "More clients, same team — something's gotta give, and it's usually performance or sanity",
+      "Keeping results consistent when your portfolio spans five different industries",
+      "A client needs TikTok expertise and you don't have it in-house",
+      "White-label reporting that actually looks like it came from your agency, not some generic template",
     ],
   },
 ];
 
 export const cities: City[] = [
-  { slug: 'new-york', name: 'New York', state: 'NY', description: 'the largest metropolitan economy in the United States, home to Fortune 500 headquarters and a fiercely competitive digital advertising landscape' },
-  { slug: 'los-angeles', name: 'Los Angeles', state: 'CA', description: 'a sprawling market driven by entertainment, D2C brands, and a massive consumer base spanning diverse demographics' },
-  { slug: 'chicago', name: 'Chicago', state: 'IL', description: 'a major business hub in the Midwest with a dense concentration of B2B companies, manufacturers, and professional services firms' },
-  { slug: 'houston', name: 'Houston', state: 'TX', description: 'a rapidly growing market anchored by energy, healthcare, and an expanding tech sector with increasing digital ad competition' },
-  { slug: 'phoenix', name: 'Phoenix', state: 'AZ', description: 'one of the fastest-growing metros in the country, attracting new businesses and creating intense competition for local digital advertising' },
-  { slug: 'philadelphia', name: 'Philadelphia', state: 'PA', description: 'a major East Coast market with deep roots in healthcare, education, and financial services, all competing for digital visibility' },
-  { slug: 'san-antonio', name: 'San Antonio', state: 'TX', description: 'a growing Texas metro with a strong military, healthcare, and tourism presence driving local advertising demand' },
-  { slug: 'san-diego', name: 'San Diego', state: 'CA', description: 'a thriving coastal market with biotech, defense, and tourism industries fueling competitive digital advertising' },
-  { slug: 'dallas', name: 'Dallas', state: 'TX', description: 'a booming corporate relocation destination with a diverse economy spanning finance, tech, and retail' },
-  { slug: 'san-jose', name: 'San Jose', state: 'CA', description: 'the heart of Silicon Valley where tech companies compete aggressively for talent and customer acquisition through digital channels' },
-  { slug: 'austin', name: 'Austin', state: 'TX', description: 'a rapidly expanding tech and startup hub where digital-first companies drive intense competition for online visibility' },
-  { slug: 'jacksonville', name: 'Jacksonville', state: 'FL', description: 'the largest city by area in the continental US, with a growing financial services and logistics sector driving digital marketing demand' },
-  { slug: 'san-francisco', name: 'San Francisco', state: 'CA', description: 'a global tech capital where SaaS companies, startups, and established brands compete for some of the highest-CPC keywords in the country' },
-  { slug: 'miami', name: 'Miami', state: 'FL', description: 'a dynamic international market serving Latin America and the Caribbean, with booming real estate, fintech, and D2C sectors' },
-  { slug: 'denver', name: 'Denver', state: 'CO', description: 'a fast-growing market attracting tech relocations and outdoor lifestyle brands, with increasing digital advertising competition' },
+  { slug: 'new-york', name: 'New York', state: 'NY', description: "the biggest metro economy in the US — Fortune 500 headquarters everywhere, and one of the most cutthroat digital ad landscapes you'll find anywhere" },
+  { slug: 'los-angeles', name: 'Los Angeles', state: 'CA', description: "a massive, sprawling market where entertainment, D2C brands, and an incredibly diverse consumer base all collide — and everyone's fighting for attention" },
+  { slug: 'chicago', name: 'Chicago', state: 'IL', description: "the Midwest's business powerhouse, packed with B2B companies, manufacturers, and professional services firms that are all investing heavily in digital" },
+  { slug: 'houston', name: 'Houston', state: 'TX', description: "a market that's growing fast, anchored by energy and healthcare but with a tech sector that's expanding quickly and driving up digital ad competition" },
+  { slug: 'phoenix', name: 'Phoenix', state: 'AZ', description: "one of the fastest-growing metros in the country right now — new businesses are flooding in and the competition for local digital advertising is heating up fast" },
+  { slug: 'philadelphia', name: 'Philadelphia', state: 'PA', description: "a major East Coast market where healthcare, education, and financial services all compete for digital visibility — and the ad costs reflect it" },
+  { slug: 'san-antonio', name: 'San Antonio', state: 'TX', description: "a Texas metro that keeps growing, with military, healthcare, and tourism all driving strong local advertising demand" },
+  { slug: 'san-diego', name: 'San Diego', state: 'CA', description: "a coastal market where biotech, defense, and tourism create a surprisingly competitive digital ad environment" },
+  { slug: 'dallas', name: 'Dallas', state: 'TX', description: "a magnet for corporate relocations, with a diverse economy spanning finance, tech, and retail that makes it one of the most active ad markets in the South" },
+  { slug: 'san-jose', name: 'San Jose', state: 'CA', description: "the heart of Silicon Valley — tech companies here compete aggressively for everything, and digital ad costs are some of the highest you'll see" },
+  { slug: 'austin', name: 'Austin', state: 'TX', description: "a tech and startup hub that won't stop growing — digital-first companies here drive intense competition for online visibility, and it's only getting tougher" },
+  { slug: 'jacksonville', name: 'Jacksonville', state: 'FL', description: "the largest city by area in the continental US, with financial services and logistics sectors that are investing more in digital marketing every year" },
+  { slug: 'san-francisco', name: 'San Francisco', state: 'CA', description: "a global tech capital where SaaS companies, startups, and established brands battle over some of the highest-CPC keywords you'll find anywhere in the country" },
+  { slug: 'miami', name: 'Miami', state: 'FL', description: "a dynamic international market with strong ties to Latin America, plus booming real estate, fintech, and D2C sectors that are all spending aggressively on digital" },
+  { slug: 'denver', name: 'Denver', state: 'CO', description: "a market that's been attracting tech relocations and outdoor lifestyle brands for years now, and the digital advertising competition has followed" },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {
@@ -296,28 +296,28 @@ export function getServiceIndustryContent(serviceSlug: string, industrySlug: str
 
   if (!service || !industry) return null;
 
-  const intro = `${industry.name} companies face a unique set of challenges when it comes to paid media and performance marketing. ${industry.painPoints[0]}, and ${industry.painPoints[1].toLowerCase()}. That is exactly where expert ${service.name.toLowerCase()} makes the difference.`;
+  const intro = `${industry.name} companies deal with a specific set of headaches when it comes to paid media. ${industry.painPoints[0]}, and ${industry.painPoints[1].toLowerCase()}. That's exactly where solid ${service.name.toLowerCase()} makes a real difference.`;
 
-  const whyItMatters = `For ${industry.name.toLowerCase()} businesses, ${service.name.toLowerCase()} is not a nice-to-have — it is a growth lever. ${service.description} When applied specifically to the ${industry.name.toLowerCase()} vertical, this expertise translates into campaigns that account for ${industry.painPoints[2].toLowerCase()} and ${industry.painPoints[3].toLowerCase()}.`;
+  const whyItMatters = `For ${industry.name.toLowerCase()} businesses, ${service.name.toLowerCase()} isn't a nice-to-have — it's a growth lever. ${service.description} When we apply this specifically to the ${industry.name.toLowerCase()} space, it means campaigns that actually account for ${industry.painPoints[2].toLowerCase()} and ${industry.painPoints[3].toLowerCase()}.`;
 
-  const approach = `Our approach to ${service.name.toLowerCase()} for ${industry.name.toLowerCase()} starts with understanding your specific business model, sales cycle, and competitive landscape. We build campaigns and systems that reflect how ${industry.name.toLowerCase()} buyers actually behave — not generic best practices pulled from a different vertical.`;
+  const approach = `Here's how we approach ${service.name.toLowerCase()} for ${industry.name.toLowerCase()}: we start by learning your business model, sales cycle, and who you're up against. Then we build campaigns around how ${industry.name.toLowerCase()} buyers actually behave — not some cookie-cutter playbook borrowed from a totally different industry.`;
 
-  const results = `The result is a ${service.name.toLowerCase()} program that delivers measurable improvements in the metrics that matter to ${industry.name.toLowerCase()} businesses: lower customer acquisition costs, higher return on ad spend, and a clearer picture of what is actually driving revenue.`;
+  const results = `What you end up with is a ${service.name.toLowerCase()} program that moves the numbers ${industry.name.toLowerCase()} businesses actually care about: lower acquisition costs, better ROAS, and a clear picture of what's driving revenue — not just clicks.`;
 
   const howWeHelp = [
-    `We start with a comprehensive audit of your current ${service.name.toLowerCase()} setup, identifying waste, missed opportunities, and quick wins specific to ${industry.name.toLowerCase()}.`,
-    `Our team builds a custom strategy that addresses ${industry.painPoints[0].toLowerCase()} while leveraging the strengths of your ${industry.name.toLowerCase()} business model.`,
-    `We implement rigorous tracking and attribution so you can see exactly how ${service.name.toLowerCase()} contributes to your bottom line.`,
-    `Ongoing optimization cycles ensure your campaigns adapt to market shifts, competitive moves, and changes in ${industry.name.toLowerCase()} buyer behavior.`,
+    `First, we audit what you've got. Honestly, most ${service.name.toLowerCase()} setups we look at have obvious waste and missed opportunities — especially in ${industry.name.toLowerCase()}.`,
+    `Then we build a strategy from scratch that tackles ${industry.painPoints[0].toLowerCase()} head-on, while playing to the strengths of your ${industry.name.toLowerCase()} business model.`,
+    `We set up proper tracking and attribution so there's no ambiguity about how ${service.name.toLowerCase()} impacts your bottom line.`,
+    `From there, it's ongoing optimization — adapting to market shifts, competitive moves, and changes in how ${industry.name.toLowerCase()} buyers behave.`,
   ];
 
   const benefits = service.benefits.map((benefit, index) => {
     const industryContext = [
-      ` — critical for ${industry.name.toLowerCase()} companies managing tight margins`,
-      ` — especially important given ${industry.painPoints[0].toLowerCase()}`,
-      ` — tailored to the ${industry.name.toLowerCase()} buying journey`,
-      ` — addressing ${industry.painPoints[1].toLowerCase()}`,
-      ` — built for ${industry.name.toLowerCase()} scale and complexity`,
+      ` — and in ${industry.name.toLowerCase()}, where margins are tight, this matters a lot`,
+      ` — especially when you're dealing with ${industry.painPoints[0].toLowerCase()}`,
+      ` — shaped around how ${industry.name.toLowerCase()} buyers actually make decisions`,
+      ` — which directly helps with ${industry.painPoints[1].toLowerCase()}`,
+      ` — built to handle the scale and complexity ${industry.name.toLowerCase()} demands`,
     ];
     return benefit + (industryContext[index] || '');
   });
@@ -340,13 +340,13 @@ export function getServiceCityContent(serviceSlug: string, citySlug: string) {
 
   if (!service || !city) return null;
 
-  const intro = `${city.name} is ${city.description}. Businesses in ${city.name} need ${service.name.toLowerCase()} that accounts for this market's specific dynamics — and that is exactly what we deliver.`;
+  const intro = `${city.name} is ${city.description}. If you're running a business here, you need ${service.name.toLowerCase()} that's built for this market's specific dynamics — and that's exactly what we bring to the table.`;
 
-  const localContext = `While we serve clients remotely across the United States, our ${service.name.toLowerCase()} work for ${city.name}-based businesses is informed by deep understanding of the ${city.name} market. We know the competitive landscape, the local search behavior patterns, and the cost benchmarks that define success in this metro.`;
+  const localContext = `We work with clients across the country, but our ${service.name.toLowerCase()} for ${city.name}-based businesses isn't one-size-fits-all. We've studied the ${city.name} market — the competitive landscape, how people search locally, and the cost benchmarks you're up against in this metro.`;
 
   const approach = `Our ${service.name.toLowerCase()} programs for ${city.name} businesses combine ${service.shortDescription.toLowerCase().replace(/\.$/, '')} with market-specific intelligence. ${service.description}`;
 
-  const results = `${city.name} businesses that work with us on ${service.name.toLowerCase()} see measurable improvements in campaign efficiency, clearer attribution, and a more predictable growth trajectory — regardless of whether they serve local or national markets.`;
+  const results = `${city.name} businesses we've worked with on ${service.name.toLowerCase()} see real improvements — better campaign efficiency, clearer attribution, and growth that's actually predictable. Doesn't matter if you serve the local market or sell nationwide.`;
 
   return {
     service,

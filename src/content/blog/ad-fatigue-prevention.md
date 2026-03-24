@@ -16,7 +16,7 @@ faqs:
 
 ## The Silent Campaign Killer
 
-Ad fatigue is the gradual decline in ad performance that happens when your audience sees the same creative too many times. It does not crash your campaigns overnight — it erodes them slowly, making it easy to miss until significant damage is done.
+Ad fatigue is the gradual decline in ad performance that happens when your audience sees the same creative too many times. It doesn't crash your campaigns overnight — it erodes them slowly, making it easy to miss until significant damage is done.
 
 At Digital Point LLC, we see ad fatigue as one of the top three reasons campaigns underperform. Companies often blame algorithms, targeting, or market conditions when the real problem is stale creative that their audience has tuned out.
 
@@ -109,7 +109,7 @@ The number one prevention strategy is always having fresh creative ready to depl
 | $50k-$100k/month | 25-40 variations | 12-20 backup |
 | $100k+/month | 40+ variations | 20+ backup |
 
-A "variation" means a meaningfully different ad — different concept, different hook, different format. Changing the button color does not count.
+A "variation" means a meaningfully different ad — different concept, different hook, different format. Changing the button color doesn't count.
 
 ### Strategy 2: Diversify Creative Formats
 
@@ -158,13 +158,13 @@ Use platform features that automatically vary creative elements:
 
 ### Strategy 6: Stagger Launch Dates
 
-Do not launch all your creative at the same time. If you have 12 new ads, launch 4 in week 1, 4 in week 3, and 4 in week 5. This ensures fresh creative enters rotation before the first batch fatigues.
+Don't launch all your creative at the same time. If you have 12 new ads, launch 4 in week 1, 4 in week 3, and 4 in week 5. This ensures fresh creative enters rotation before the first batch fatigues.
 
 ## Fixing Ad Fatigue When It Hits
 
 ### Immediate Actions
 
-1. **Pause fatigued ads.** Do not let them continue spending at inflated costs.
+1. **Pause fatigued ads.** Don't let them continue spending at inflated costs.
 2. **Launch replacement creative.** This is why you maintain a buffer stock.
 3. **Review audience overlap.** If multiple campaigns target the same audience, combined frequency may be causing faster fatigue across all campaigns.
 4. **Check your budget allocation.** Too much budget for a small audience accelerates fatigue. Either expand the audience or reduce the budget.
