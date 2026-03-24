@@ -18,7 +18,7 @@ faqs:
 
 ## What Is Customer Journey Mapping?
 
-Customer journey mapping is the practice of documenting and visualizing every interaction a potential customer has with your brand before, during, and after conversion. In a marketing landscape where the average buyer touches **15 or more channels** before making a purchase, understanding these journeys isn't just nice to have—it's essential for attribution accuracy and budget optimization.
+Customer journey mapping is the practice of documenting and visualizing every interaction a potential customer has with your brand before, during, and after conversion. In a marketing world where the average buyer touches **15 or more channels** before making a purchase, understanding these journeys isn't just nice to have—it's essential for attribution accuracy and budget optimization.
 
 The fundamental problem most marketing teams face is that they're making budget decisions based on incomplete data. They see the last click or the first click, but the complex web of interactions in between remains invisible. Journey mapping fills that gap by providing a structured framework for understanding how customers actually move through your funnel.
 
