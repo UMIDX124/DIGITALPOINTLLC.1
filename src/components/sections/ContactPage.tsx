@@ -34,7 +34,7 @@ const contactMethods = [
 ];
 
 const officeDetails = [
-  { icon: MapPin, label: 'Location', value: 'Global operations — US, Pakistan, Remote' },
+  { icon: MapPin, label: 'Location', value: 'United States — Global Remote Operations' },
   { icon: Clock, label: 'Response Time', value: 'Within 24 hours on business days' },
 ];
 

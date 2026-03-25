@@ -138,7 +138,7 @@ export function CaseStudiesPage() {
                 Ready to become the next success story?
               </p>
               <Link
-                href="/growth-audit"
+                href="/free-growth-audit"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-white transition-all hover:scale-105"
                 style={{
                   background: 'linear-gradient(135deg, #9d4edd 0%, #c77dff 100%)',

@@ -77,7 +77,7 @@ Certain regions have developed strong concentrations of marketing talent:
 | Latin America (Brazil, Argentina, Colombia) | Creative, content, social media | Strong overlap | Mid-range |
 | Southeast Asia (Philippines, India) | Operations, content, data entry | Limited overlap | Lower |
 | Western Europe (UK, Germany, Spain) | Strategy, brand, B2B marketing | Moderate overlap | Higher |
-| Pakistan and Middle East | Analytics, paid media, technical marketing | Moderate overlap | Mid-range |
+| Middle East and Central Asia | Analytics, paid media, technical marketing | Moderate overlap | Mid-range |
 
 ## The Hiring Process for Remote Marketing Roles
 

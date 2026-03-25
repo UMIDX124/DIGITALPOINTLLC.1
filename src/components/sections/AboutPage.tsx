@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const milestones = [
   { year: '2017', title: 'Founded', description: 'Digital Point LLC established with a focus on performance marketing for growth-stage businesses.' },
-  { year: '2019', title: 'Remote Ops Launched', description: 'Expanded into remote workforce solutions, building dedicated teams for US clients from Pakistan.' },
+  { year: '2019', title: 'Remote Ops Launched', description: 'Expanded into remote workforce solutions, building dedicated global teams for US clients.' },
   { year: '2021', title: '$25M+ Under Management', description: 'Crossed $25M in managed ad spend with a growing roster of high-LTV clients.' },
   { year: '2023', title: 'Systems Division', description: 'Added reporting and systems consulting to help clients build operational clarity.' },
   { year: '2025', title: 'AI-Powered Platform', description: 'Integrated AI assistants and multi-agent systems into client workflows.' },
