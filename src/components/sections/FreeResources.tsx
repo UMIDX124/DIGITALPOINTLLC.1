@@ -9,7 +9,7 @@ const resources = [
     icon: BarChart3,
     title: 'The ROAS Optimization Framework',
     description: 'Our step-by-step playbook for improving return on ad spend',
-    href: '/guides/roas-optimization-guide',
+    href: '/guides/cac-roas-guide',
   },
   {
     icon: Target,
@@ -21,7 +21,7 @@ const resources = [
     icon: TrendingDown,
     title: 'CAC Reduction Checklist',
     description: '30-day action plan to reduce customer acquisition costs',
-    href: '/guides/cac-optimization-guide',
+    href: '/guides/growth-systems-guide',
   },
 ] as const;
 

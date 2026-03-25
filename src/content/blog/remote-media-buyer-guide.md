@@ -152,7 +152,7 @@ More common for senior media buyers or consultants. A lower retainer combined wi
 | Eastern Europe | $25k-$40k | $40k-$65k | $65k-$90k |
 | Latin America | $25k-$40k | $40k-$60k | $60k-$85k |
 | South/Southeast Asia | $18k-$30k | $30k-$50k | $50k-$75k |
-| Pakistan/Middle East | $18k-$30k | $30k-$50k | $50k-$75k |
+| Middle East/Central Asia | $18k-$30k | $30k-$50k | $50k-$75k |
 
 ## Setting Up Your Remote Media Buyer for Success
 

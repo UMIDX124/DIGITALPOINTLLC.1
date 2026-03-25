@@ -204,7 +204,7 @@ export function Footer() {
               Terms of Service
             </Link>
             <Link
-              href="/free-growth-audit"
+              href="/contact"
               className="text-[#7c5a8a] text-xs hover:text-[#b794c7] transition-colors"
             >
               Contact

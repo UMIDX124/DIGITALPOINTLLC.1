@@ -5,7 +5,7 @@ export const COMPANY_KNOWLEDGE = `
 # Digital Point LLC — Company Knowledge Base
 
 ## Company Overview
-Digital Point LLC is a performance marketing and digital operations company co-founded by M. Faizan Rafiq and Anwaar Tayyab. The company has 8+ years of experience in the digital marketing space. It operates with a US-based business entity and delivers through a global remote team. The co-founders are based in Pakistan, with team members across multiple time zones.
+Digital Point LLC is a USA-based performance marketing and digital operations company co-founded by M. Faizan Rafiq and Anwaar Tayyab. The company has 8+ years of experience in the digital marketing space. It operates as a US-based business entity and delivers through a global remote team, with team members across multiple time zones.
 
 ## Core Services
 

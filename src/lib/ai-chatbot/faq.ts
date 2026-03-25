@@ -27,9 +27,9 @@ const FAQ_RESPONSES: { keywords: string[]; answer: string }[] = [
       'You can reach Digital Point LLC through:\n\n- **Email:** info@digitalpointllc.com\n- **Co-Founders:** admin@digitalpointllc.com\n- **Website:** digitalpointllc.com\n\nOr I can create a support ticket for you right now if you have a specific question or need!',
   },
   {
-    keywords: ['location', 'where', 'based', 'office', 'country', 'pakistan', 'us', 'united states'],
+    keywords: ['location', 'where', 'based', 'office', 'country', 'us', 'united states', 'usa'],
     answer:
-      'Digital Point LLC operates with a **US-based business entity** and delivers through a global remote team. Our co-founders are based in Pakistan, and we have team members across multiple time zones to ensure seamless coverage for our clients.\n\nWe serve clients primarily in the US, UK, and globally.',
+      'Digital Point LLC is a **USA-based company** that delivers through a global remote team. We have team members across multiple time zones to ensure seamless coverage for our clients.\n\nWe serve clients primarily in the US, UK, and globally.',
   },
   {
     keywords: ['process', 'how do you work', 'workflow', 'onboarding', 'get started', 'start'],

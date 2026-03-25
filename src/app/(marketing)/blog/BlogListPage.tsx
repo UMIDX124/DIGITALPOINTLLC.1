@@ -159,35 +159,37 @@ export function BlogListPage({ posts, categories, categoryMeta }: Props) {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {displayPosts.map((article) => (
               <StaggerItem key={article.slug}>
-                <GlassCard className="p-6 h-full flex flex-col group cursor-pointer">
-                  <div className="flex items-center gap-2 mb-4">
-                    <span
-                      className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium"
-                      style={{
-                        background: `${categoryColors[article.category] || '#c77dff'}15`,
-                        border: `1px solid ${categoryColors[article.category] || '#c77dff'}30`,
-                        color: categoryColors[article.category] || '#c77dff',
-                      }}
-                    >
-                      <Tag className="w-3 h-3" />
-                      {article.category}
-                    </span>
-                  </div>
-                  <h3 className="font-display text-lg font-semibold text-white group-hover:text-[#e0aaff] transition-colors mb-3 leading-snug">
-                    {article.title}
-                  </h3>
-                  <p className="text-[#9080a0] text-sm leading-relaxed flex-1 mb-4">{article.excerpt}</p>
-                  <div className="flex items-center justify-between pt-4" style={{ borderTop: '1px solid rgba(157, 78, 221, 0.1)' }}>
-                    <div className="flex items-center gap-3 text-[#7c5a8a] text-xs">
-                      <span>{new Date(article.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</span>
-                      <span className="flex items-center gap-1">
-                        <Clock className="w-3 h-3" />
-                        {article.readTime}
+                <Link href={`/blog/${article.slug}`} className="block h-full">
+                  <GlassCard className="p-6 h-full flex flex-col group cursor-pointer">
+                    <div className="flex items-center gap-2 mb-4">
+                      <span
+                        className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium"
+                        style={{
+                          background: `${categoryColors[article.category] || '#c77dff'}15`,
+                          border: `1px solid ${categoryColors[article.category] || '#c77dff'}30`,
+                          color: categoryColors[article.category] || '#c77dff',
+                        }}
+                      >
+                        <Tag className="w-3 h-3" />
+                        {article.category}
                       </span>
                     </div>
-                    <ArrowRight className="w-4 h-4 text-[#c77dff] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
-                  </div>
-                </GlassCard>
+                    <h3 className="font-display text-lg font-semibold text-white group-hover:text-[#e0aaff] transition-colors mb-3 leading-snug">
+                      {article.title}
+                    </h3>
+                    <p className="text-[#9080a0] text-sm leading-relaxed flex-1 mb-4">{article.excerpt}</p>
+                    <div className="flex items-center justify-between pt-4" style={{ borderTop: '1px solid rgba(157, 78, 221, 0.1)' }}>
+                      <div className="flex items-center gap-3 text-[#7c5a8a] text-xs">
+                        <span>{new Date(article.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</span>
+                        <span className="flex items-center gap-1">
+                          <Clock className="w-3 h-3" />
+                          {article.readTime}
+                        </span>
+                      </div>
+                      <ArrowRight className="w-4 h-4 text-[#c77dff] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
+                    </div>
+                  </GlassCard>
+                </Link>
               </StaggerItem>
             ))}
           </StaggerContainer>
