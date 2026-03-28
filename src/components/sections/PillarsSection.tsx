@@ -27,12 +27,8 @@ const pillars = [
 ];
 
 export function PillarsSection() {
-
   return (
     <Section className="relative overflow-hidden">
-      {/* Cosmic gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1a0a2e] via-[#1d0f33] to-[#13091e]" />
-      
       <Container className="relative z-10">
         <SectionHeader
           eyebrow="What We Build"
@@ -44,43 +40,27 @@ export function PillarsSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {pillars.map((pillar, index) => (
             <FadeUp key={pillar.title} delay={index * 0.1}>
-              <Link
-                href={pillar.link}
-                className="block w-full text-left"
-              >
+              <Link href={pillar.link} className="block w-full text-left">
                 <GlassCard className="p-8 h-full group cursor-pointer">
                   {/* Icon */}
-                  <div 
-                    className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-transform group-hover:scale-110"
-                    style={{
-                      background: 'rgba(157, 78, 221, 0.15)',
-                      border: '1px solid rgba(199, 125, 255, 0.2)',
-                    }}
-                  >
-                    <pillar.icon className="w-7 h-7 text-[#c77dff]" />
+                  <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-transform group-hover:scale-105 bg-white/[0.05] border border-white/[0.06]">
+                    <pillar.icon className="w-7 h-7 text-violet-400" />
                   </div>
 
                   {/* Title */}
-                  <h3 
-                    className="font-display text-xl font-bold mb-3 transition-colors"
-                    style={{
-                      background: 'linear-gradient(90deg, #ffffff, #c77dff)',
-                      WebkitBackgroundClip: 'text',
-                      WebkitTextFillColor: 'transparent',
-                    }}
-                  >
+                  <h3 className="font-display text-xl font-bold mb-3 text-white">
                     {pillar.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-[#b794c7] text-sm leading-relaxed mb-6">
+                  <p className="text-zinc-400 text-sm leading-relaxed mb-6">
                     {pillar.description}
                   </p>
 
                   {/* Features */}
                   <ul className="space-y-2 mb-6">
                     {pillar.features.map((feature) => (
-                      <li key={feature} className="flex items-center gap-2 text-[#9080a0] text-sm">
+                      <li key={feature} className="flex items-center gap-2 text-zinc-500 text-sm">
                         <SignalPoint size="sm" pulse={false} />
                         {feature}
                       </li>
@@ -88,7 +68,7 @@ export function PillarsSection() {
                   </ul>
 
                   {/* CTA */}
-                  <div className="flex items-center text-[#c77dff] text-sm font-medium group-hover:text-[#e0aaff] transition-colors">
+                  <div className="flex items-center text-violet-400 text-sm font-medium group-hover:text-violet-300 transition-colors">
                     Learn more
                     <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                   </div>

@@ -21,7 +21,6 @@ export function ExitIntentModal() {
   useEffect(() => {
     if (isAuditPage) return;
 
-    // Only show on desktop (no mouseleave on mobile)
     if (window.matchMedia('(pointer: coarse)').matches) return;
 
     const handleMouseLeave = (e: MouseEvent) => {
@@ -43,17 +42,17 @@ export function ExitIntentModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent
-        className="sm:max-w-md border-0"
+        className="sm:max-w-md"
         style={{
-          background: 'linear-gradient(135deg, #1a0f2e 0%, #2d1b4e 100%)',
-          border: '1px solid rgba(199, 125, 255, 0.2)',
+          background: '#161618',
+          border: '1px solid rgba(255, 255, 255, 0.08)',
         }}
       >
         <DialogHeader>
           <DialogTitle className="font-display text-2xl text-white text-center">
             Before you go&hellip;
           </DialogTitle>
-          <DialogDescription className="text-[#b794c7] text-center text-base mt-2">
+          <DialogDescription className="text-zinc-400 text-center text-base mt-2">
             Get a free growth audit — we&apos;ll review your setup and show you exactly what&apos;s blocking growth. No pitch, just clarity.
           </DialogDescription>
         </DialogHeader>
@@ -62,11 +61,7 @@ export function ExitIntentModal() {
           <Link
             href="/free-growth-audit"
             onClick={() => setOpen(false)}
-            className="w-full py-3 rounded-xl text-sm font-semibold text-white flex items-center justify-center gap-2"
-            style={{
-              background: 'linear-gradient(135deg, #7b2cbf 0%, #9d4edd 50%, #c77dff 100%)',
-              boxShadow: '0 4px 16px rgba(123, 44, 191, 0.4)',
-            }}
+            className="w-full py-3 rounded-lg text-sm font-semibold text-white flex items-center justify-center gap-2 bg-violet-600 hover:brightness-110 transition-all"
           >
             Get Free Audit
             <ArrowRight className="w-4 h-4" />
@@ -74,7 +69,7 @@ export function ExitIntentModal() {
 
           <button
             onClick={() => setOpen(false)}
-            className="w-full py-2.5 text-sm text-[#9080a0] hover:text-white transition-colors text-center"
+            className="w-full py-2.5 text-sm text-zinc-500 hover:text-white transition-colors text-center"
           >
             Maybe later
           </button>
