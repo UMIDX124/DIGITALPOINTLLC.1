@@ -22,9 +22,10 @@ export function Footer() {
 
   return (
     <footer
-      className="relative mt-auto bg-background"
+      className="relative mt-auto"
       style={{
-        borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+        background: 'linear-gradient(180deg, #0d0815 0%, #0a0610 100%)',
+        borderTop: '1px solid rgba(139, 92, 246, 0.08)',
       }}
     >
       <div className="container-wide relative z-10">
@@ -53,7 +54,7 @@ export function Footer() {
                 <span className="text-zinc-600 text-xs block -mt-1">LLC</span>
               </div>
             </Link>
-            <p className="text-zinc-500 text-sm leading-relaxed max-w-xs">
+            <p className="text-[#a196b0] text-sm leading-relaxed max-w-xs">
               Built by two guys who got tired of watching good businesses waste money on bad data. We treat every client&apos;s budget like it&apos;s our own — because we remember when it was.
             </p>
             <div className="flex items-center gap-3 mt-4">
@@ -76,10 +77,10 @@ export function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-zinc-500 hover:text-zinc-300 text-sm transition-colors inline-flex items-center gap-1 group"
+                    className="text-[#a196b0] hover:text-zinc-300 text-sm transition-colors inline-flex items-center gap-1 group"
                   >
                     {link.name}
-                    <ArrowUpRight className="w-3 h-3 opacity-0 -translate-x-1 translate-y-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all text-zinc-500" />
+                    <ArrowUpRight className="w-3 h-3 opacity-0 -translate-x-1 translate-y-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all text-[#a196b0]" />
                   </Link>
                 </li>
               ))}
@@ -96,10 +97,10 @@ export function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-zinc-500 hover:text-zinc-300 text-sm transition-colors inline-flex items-center gap-1 group"
+                    className="text-[#a196b0] hover:text-zinc-300 text-sm transition-colors inline-flex items-center gap-1 group"
                   >
                     {link.name}
-                    <ArrowUpRight className="w-3 h-3 opacity-0 -translate-x-1 translate-y-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all text-zinc-500" />
+                    <ArrowUpRight className="w-3 h-3 opacity-0 -translate-x-1 translate-y-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all text-[#a196b0]" />
                   </Link>
                 </li>
               ))}
@@ -114,7 +115,7 @@ export function Footer() {
             <div className="space-y-4">
               <a
                 href="mailto:info@digitalpointllc.com"
-                className="flex items-center gap-3 text-zinc-500 hover:text-zinc-300 text-sm transition-colors group"
+                className="flex items-center gap-3 text-[#a196b0] hover:text-zinc-300 text-sm transition-colors group"
               >
                 <Mail className="w-4 h-4 text-zinc-600 group-hover:text-zinc-400 transition-colors" />
                 info@digitalpointllc.com
@@ -123,7 +124,7 @@ export function Footer() {
                 href="https://linkedin.com/company/digitalpointllc"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-zinc-500 hover:text-zinc-300 text-sm transition-colors group"
+                className="flex items-center gap-3 text-[#a196b0] hover:text-zinc-300 text-sm transition-colors group"
               >
                 <Linkedin className="w-4 h-4 text-zinc-600 group-hover:text-zinc-400 transition-colors" />
                 LinkedIn
@@ -135,18 +136,18 @@ export function Footer() {
         {/* Personal mission */}
         <div
           className="py-6 text-center"
-          style={{ borderTop: '1px solid rgba(255, 255, 255, 0.04)' }}
+          style={{ borderTop: '1px solid rgba(139, 92, 246, 0.06)' }}
         >
           <p className="text-zinc-600 text-sm italic max-w-xl mx-auto">
             &ldquo;Every dollar you spend on marketing should be accountable. If we can&apos;t prove it&apos;s working, we&apos;ll be the first to tell you.&rdquo;
-            <span className="not-italic text-zinc-500 ml-1">&mdash; Faizan &amp; Anwaar</span>
+            <span className="not-italic text-[#a196b0] ml-1">&mdash; Faizan &amp; Anwaar</span>
           </p>
         </div>
 
         {/* Bottom Bar */}
         <div
           className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4"
-          style={{ borderTop: '1px solid rgba(255, 255, 255, 0.04)' }}
+          style={{ borderTop: '1px solid rgba(139, 92, 246, 0.06)' }}
         >
           <div className="flex items-center gap-4">
             <p className="text-zinc-700 text-xs">
@@ -154,16 +155,16 @@ export function Footer() {
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center sm:justify-end gap-x-6 gap-y-2">
-            <Link href="/" className="text-zinc-700 text-xs hover:text-zinc-500 transition-colors">
+            <Link href="/" className="text-zinc-700 text-xs hover:text-[#a196b0] transition-colors">
               Home
             </Link>
-            <Link href="/privacy-policy" className="text-zinc-700 text-xs hover:text-zinc-500 transition-colors">
+            <Link href="/privacy-policy" className="text-zinc-700 text-xs hover:text-[#a196b0] transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms-of-service" className="text-zinc-700 text-xs hover:text-zinc-500 transition-colors">
+            <Link href="/terms-of-service" className="text-zinc-700 text-xs hover:text-[#a196b0] transition-colors">
               Terms of Service
             </Link>
-            <Link href="/contact" className="text-zinc-700 text-xs hover:text-zinc-500 transition-colors">
+            <Link href="/contact" className="text-zinc-700 text-xs hover:text-[#a196b0] transition-colors">
               Contact
             </Link>
           </div>

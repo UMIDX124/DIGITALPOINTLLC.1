@@ -38,6 +38,8 @@ const caseStudies = [
 export function ProofSection() {
   return (
     <Section className="relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0d0815] via-[#0a0610] to-[#0d0815]" />
+
       <Container className="relative z-10">
         <SectionHeader
           eyebrow="Results"
@@ -65,11 +67,11 @@ export function ProofSection() {
                 <div className="space-y-3">
                   <div>
                     <div className="text-zinc-600 text-xs uppercase tracking-wide mb-1">Situation</div>
-                    <p className="text-zinc-300 text-sm">{study.situation}</p>
+                    <p className="text-white/80 text-sm">{study.situation}</p>
                   </div>
                   <div>
                     <div className="text-zinc-600 text-xs uppercase tracking-wide mb-1">What We Did</div>
-                    <p className="text-zinc-300 text-sm">{study.action}</p>
+                    <p className="text-white/80 text-sm">{study.action}</p>
                   </div>
                   <div>
                     <div className="text-zinc-600 text-xs uppercase tracking-wide mb-1">Result</div>

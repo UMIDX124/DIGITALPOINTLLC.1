@@ -245,7 +245,8 @@ export default function SupportChatbot() {
       <div className="fixed bottom-[4.5rem] md:bottom-6 right-4 md:right-6 z-[60] flex flex-col items-end gap-3">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 bg-violet-600 shadow-lg shadow-black/30"
+          className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 bg-violet-600"
+          style={{ boxShadow: '0 4px 16px rgba(124, 58, 237, 0.3), 0 2px 8px rgba(0,0,0,0.3)' }}
           aria-label={isOpen ? "Close support chat" : "Open support chat"}
         >
           {isOpen ? (
@@ -266,12 +267,14 @@ export default function SupportChatbot() {
             transition={{ duration: 0.2 }}
             className="fixed bottom-[8rem] md:bottom-24 right-4 md:right-6 z-[60] w-[380px] max-w-[calc(100vw-2rem)] h-[460px] md:h-[560px] max-h-[calc(100vh-10rem)] rounded-xl overflow-hidden flex flex-col shadow-2xl shadow-black/40"
             style={{
-              background: "#111113",
-              border: "1px solid rgba(255, 255, 255, 0.08)",
+              background: "rgba(13, 8, 21, 0.95)",
+              backdropFilter: "blur(20px)",
+              WebkitBackdropFilter: "blur(20px)",
+              border: "1px solid rgba(139, 92, 246, 0.15)",
             }}
           >
             {/* ── Header ── */}
-            <div className="shrink-0 px-5 py-4 flex items-center gap-3 border-b border-white/[0.06] bg-[#161618]">
+            <div className="shrink-0 px-5 py-4 flex items-center gap-3" style={{ background: 'rgba(22, 16, 36, 0.9)', borderBottom: '1px solid rgba(139, 92, 246, 0.12)' }}>
               <div className="w-8 h-8 rounded-full bg-violet-600/20 flex items-center justify-center">
                 <MessageCircle className="w-4 h-4 text-violet-400" />
               </div>
@@ -479,7 +482,7 @@ export default function SupportChatbot() {
 
             {/* ── Input Bar ── */}
             {!showTicketForm && (
-              <div className="shrink-0 px-4 py-3 flex items-center gap-2 border-t border-white/[0.06] bg-[#0e0e10]">
+              <div className="shrink-0 px-4 py-3 flex items-center gap-2" style={{ borderTop: '1px solid rgba(139, 92, 246, 0.1)', background: 'rgba(13, 8, 21, 0.8)' }}>
                 <button
                   onClick={() => setShowTicketForm(true)}
                   className="shrink-0 p-2 rounded-lg text-zinc-600 hover:text-zinc-400 hover:bg-white/[0.04] transition-all"

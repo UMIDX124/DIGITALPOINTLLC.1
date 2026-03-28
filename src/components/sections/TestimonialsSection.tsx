@@ -31,6 +31,8 @@ const testimonials = [
 export function TestimonialsSection() {
   return (
     <Section className="relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0610] via-[#0d0815] to-[#110d1a]" />
+
       <Container className="relative z-10">
         <SectionHeader
           eyebrow="Client Results"
@@ -53,7 +55,7 @@ export function TestimonialsSection() {
 
                 <Quote className="w-8 h-8 text-zinc-700 mb-4" />
 
-                <p className="text-zinc-300 text-sm leading-relaxed mb-6 flex-grow">
+                <p className="text-white/80 text-sm leading-relaxed mb-6 flex-grow">
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
 

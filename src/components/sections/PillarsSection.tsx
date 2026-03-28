@@ -29,6 +29,8 @@ const pillars = [
 export function PillarsSection() {
   return (
     <Section className="relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-[#110d1a] via-[#150e24] to-[#0d0815]" />
+
       <Container className="relative z-10">
         <SectionHeader
           eyebrow="What We Build"
@@ -43,7 +45,7 @@ export function PillarsSection() {
               <Link href={pillar.link} className="block w-full text-left">
                 <GlassCard className="p-8 h-full group cursor-pointer">
                   {/* Icon */}
-                  <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-transform group-hover:scale-105 bg-white/[0.05] border border-white/[0.06]">
+                  <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-transform group-hover:scale-105" style={{ background: 'rgba(139, 92, 246, 0.1)', border: '1px solid rgba(139, 92, 246, 0.15)' }}>
                     <pillar.icon className="w-7 h-7 text-violet-400" />
                   </div>
 
@@ -53,7 +55,7 @@ export function PillarsSection() {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-zinc-400 text-sm leading-relaxed mb-6">
+                  <p className="text-[#a196b0] text-sm leading-relaxed mb-6">
                     {pillar.description}
                   </p>
 

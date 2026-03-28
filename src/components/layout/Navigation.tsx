@@ -33,7 +33,8 @@ const NavLink = memo(function NavLink({ item, active }: { item: { name: string; 
     >
       {active && (
         <span
-          className="absolute inset-0 rounded-md bg-white/[0.07]"
+          className="absolute inset-0 rounded-md"
+          style={{ background: 'rgba(139, 92, 246, 0.15)' }}
         />
       )}
       <span className="relative z-10">{item.name}</span>
@@ -83,11 +84,11 @@ export function Navigation() {
         )}
         style={{
           background: scrolled
-            ? 'rgba(10, 10, 12, 0.85)'
-            : 'rgba(10, 10, 12, 0.6)',
-          backdropFilter: 'blur(16px)',
-          WebkitBackdropFilter: 'blur(16px)',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+            ? 'rgba(13, 8, 21, 0.9)'
+            : 'rgba(13, 8, 21, 0.6)',
+          backdropFilter: 'blur(20px) saturate(150%)',
+          WebkitBackdropFilter: 'blur(20px) saturate(150%)',
+          borderBottom: '1px solid rgba(139, 92, 246, 0.08)',
         }}
       >
         <nav className="relative px-5 sm:px-6 md:pl-[12%] md:pr-8 lg:pl-[14%]">
@@ -108,7 +109,7 @@ export function Navigation() {
                   style={{
                     width: '48px',
                     height: 'auto',
-                    filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.5))',
+                    filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.5)) drop-shadow(0 1px 6px rgba(139,92,246,0.2))',
                   }}
                 />
               </div>
@@ -138,7 +139,13 @@ export function Navigation() {
             {/* CTA Button */}
             <div className="hidden xl:block relative z-10 ml-2">
               <Link href="/free-growth-audit">
-                <span className="px-5 py-2.5 text-sm font-semibold text-white rounded-lg inline-block transition-all duration-200 hover:brightness-110 active:scale-[0.98] bg-violet-600">
+                <span
+                  className="px-5 py-2.5 text-sm font-semibold text-white rounded-lg inline-block transition-all duration-200 hover:brightness-110 active:scale-[0.98]"
+                  style={{
+                    background: 'linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%)',
+                    boxShadow: '0 2px 12px rgba(124, 58, 237, 0.25)',
+                  }}
+                >
                   Free Growth Audit
                 </span>
               </Link>

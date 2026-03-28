@@ -135,7 +135,7 @@ interface GlassCardProps extends React.HTMLAttributes<HTMLDivElement> {
   hover?: boolean;
 }
 
-/** Clean card — solid background, subtle border */
+/** Cosmic card — purple-tinted dark background */
 export const GlassCard = memo(function GlassCard({ children, className, hover = true, ...rest }: GlassCardProps) {
   return (
     <div
@@ -146,8 +146,8 @@ export const GlassCard = memo(function GlassCard({ children, className, hover = 
         className
       )}
       style={{
-        background: '#161618',
-        border: '1px solid rgba(255, 255, 255, 0.06)',
+        background: 'rgba(19, 12, 30, 0.7)',
+        border: '1px solid rgba(139, 92, 246, 0.1)',
       }}
     >
       <div className="relative z-10">{children}</div>
@@ -246,7 +246,14 @@ export function SectionHeader({ eyebrow, title, description, align = 'center', c
   return (
     <div className={cn('mb-12 md:mb-16', align === 'center' && 'text-center max-w-3xl mx-auto', className)}>
       {eyebrow && (
-        <span className="text-sm font-medium uppercase tracking-wider mb-4 block text-violet-400">
+        <span
+          className="text-sm font-medium uppercase tracking-wider mb-4 block"
+          style={{
+            background: 'linear-gradient(90deg, #c4b5fd, #a78bfa)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+          }}
+        >
           {eyebrow}
         </span>
       )}
@@ -254,7 +261,7 @@ export function SectionHeader({ eyebrow, title, description, align = 'center', c
         {title}
       </h2>
       {description && (
-        <p className="text-zinc-400 text-lg mt-4 leading-relaxed">
+        <p className="text-[#a196b0] text-lg mt-4 leading-relaxed">
           {description}
         </p>
       )}

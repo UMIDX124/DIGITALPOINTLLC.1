@@ -5,11 +5,12 @@ import Link from 'next/link';
 export function CTASection() {
   return (
     <Section className="relative overflow-hidden">
-      {/* Subtle top glow */}
+      {/* Cosmic depth */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#110d1a] via-[#1a0f2e] to-[#110d1a]" />
       <div
-        className="absolute inset-0 pointer-events-none"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full blur-3xl pointer-events-none"
         style={{
-          background: 'radial-gradient(ellipse 50% 40% at 50% 0%, rgba(139, 92, 246, 0.06) 0%, transparent 60%)',
+          background: 'radial-gradient(ellipse, rgba(139, 92, 246, 0.1) 0%, transparent 70%)',
         }}
       />
 
@@ -19,17 +20,17 @@ export function CTASection() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg mb-8 bg-white/[0.04] border border-white/[0.06]">
               <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
-              <span className="text-zinc-400 text-sm">Free. No pitch. Just clarity.</span>
+              <span className="text-[#a196b0] text-sm">Free. No pitch. Just clarity.</span>
             </div>
 
             {/* Heading */}
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
               Know exactly what&apos;s{' '}
-              <span className="text-zinc-400">blocking your growth</span>.
+              <span className="text-[#a196b0]">blocking your growth</span>.
             </h2>
 
             {/* Description */}
-            <p className="text-zinc-400 text-lg mb-10 max-w-xl mx-auto">
+            <p className="text-[#a196b0] text-lg mb-10 max-w-xl mx-auto">
               One call. We review your setup, tell you what&apos;s missing, and give you a clear path forward. Even if you never work with us.
             </p>
 

@@ -26,8 +26,9 @@ export function ProofBar() {
     <section
       className="relative py-12 md:py-16 overflow-hidden"
       style={{
-        borderTop: '1px solid rgba(255, 255, 255, 0.04)',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.04)',
+        background: 'linear-gradient(180deg, rgba(13,8,21,0) 0%, rgba(139,92,246,0.03) 50%, rgba(13,8,21,0) 100%)',
+        borderTop: '1px solid rgba(139, 92, 246, 0.06)',
+        borderBottom: '1px solid rgba(139, 92, 246, 0.06)',
       }}
     >
       <div className="container-wide relative z-10">

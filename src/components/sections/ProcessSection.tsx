@@ -28,6 +28,10 @@ const steps = [
 export function ProcessSection() {
   return (
     <Section className="relative overflow-hidden">
+      {/* Subtle cosmic depth */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0d0815] via-[#110d1a] to-[#0d0815]" />
+      <div className="absolute inset-0 cosmic-glow" />
+
       <Container className="relative z-10">
         <SectionHeader
           eyebrow="How We Start"
@@ -59,7 +63,7 @@ export function ProcessSection() {
                   </div>
 
                   {/* Icon */}
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-4 bg-white/[0.05] border border-white/[0.06]">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ background: 'rgba(139, 92, 246, 0.1)', border: '1px solid rgba(139, 92, 246, 0.15)' }}>
                     <step.icon className="w-6 h-6 text-violet-400" />
                   </div>
 
@@ -69,7 +73,7 @@ export function ProcessSection() {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-zinc-400 text-sm leading-relaxed mb-4">
+                  <p className="text-[#a196b0] text-sm leading-relaxed mb-4">
                     {step.description}
                   </p>
 
