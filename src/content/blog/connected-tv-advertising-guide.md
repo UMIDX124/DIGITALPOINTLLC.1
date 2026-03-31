@@ -1,6 +1,6 @@
 ---
-title: "Connected TV (CTV) Advertising: Strategy and Benchmarks for 2026"
-excerpt: "CTV advertising is the fastest-growing channel in digital marketing. Learn the strategy, benchmarks, targeting options, and measurement approaches you need to succeed."
+title: "CTV Advertising: Strategy and Benchmarks for 2026"
+excerpt: "CTV advertising is the fastest-growing digital channel. Learn the strategy, benchmarks, targeting options, and measurement approaches."
 category: "Paid Ads Benchmarks"
 tags: ["CTV advertising", "connected TV", "OTT advertising", "streaming ads", "video advertising"]
 date: "2025-09-19"

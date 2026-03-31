@@ -1,5 +1,5 @@
 ---
-title: "How iOS Privacy Changes Broke Your Attribution (And How to Fix It)"
+title: "iOS Privacy Changes Broke Attribution: How to Fix"
 excerpt: "Understand how Apple's ATT, iOS privacy features, and Safari ITP impacted marketing attribution, and learn practical solutions to recover lost data."
 category: "Marketing Attribution"
 tags: ["iOS privacy", "ATT", "Apple tracking", "attribution", "performance marketing"]

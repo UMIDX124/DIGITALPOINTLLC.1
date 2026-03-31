@@ -1,6 +1,6 @@
 ---
 title: "The Ideal Marketing Tech Stack for 2026"
-excerpt: "Build a modern marketing tech stack that balances power with simplicity. A practical guide to choosing tools for analytics, automation, advertising, and team collaboration."
+excerpt: "Build a modern marketing tech stack that balances power with simplicity. A practical guide to choosing tools for analytics, automation, and ads."
 category: "Growth Systems"
 tags: ["marketing tech stack", "martech", "marketing tools", "marketing technology", "tool selection"]
 date: "2025-12-27"

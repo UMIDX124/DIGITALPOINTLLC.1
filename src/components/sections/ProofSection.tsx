@@ -38,16 +38,7 @@ const caseStudies = [
 export function ProofSection() {
   return (
     <Section className="relative overflow-hidden">
-      {/* Cosmic background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#13091e] via-[#0d0815] to-[#0a0510]" />
-      
-      {/* Animated glow — CSS animation instead of framer-motion infinite */}
-      <div
-        className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full blur-3xl animate-glow-pulse"
-        style={{
-          background: 'radial-gradient(ellipse, rgba(157, 78, 221, 0.4) 0%, transparent 70%)',
-        }}
-      />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0d0815] via-[#0a0610] to-[#0d0815]" />
 
       <Container className="relative z-10">
         <SectionHeader
@@ -62,41 +53,29 @@ export function ProofSection() {
             <FadeUp key={study.company} delay={index * 0.1}>
               <GlassCard className="p-6 h-full">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="text-xs font-medium text-[#c77dff] px-3 py-1 rounded-full"
-                    style={{
-                      background: 'rgba(157, 78, 221, 0.15)',
-                      border: '1px solid rgba(199, 125, 255, 0.2)',
-                    }}
-                  >
+                  <div className="text-xs font-medium text-violet-400 px-3 py-1 rounded-md bg-white/[0.04] border border-white/[0.06]">
                     {study.company}
                   </div>
                   <div className="text-right">
-                    <div 
-                      className="font-display text-2xl font-bold"
-                      style={{
-                        background: 'linear-gradient(135deg, #e0aaff 0%, #c77dff 50%, #ff6b9d 100%)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent',
-                      }}
-                    >
+                    <div className="font-display text-2xl font-bold text-white">
                       {study.metric}
                     </div>
-                    <div className="text-[#9080a0] text-xs">{study.metricLabel}</div>
+                    <div className="text-zinc-500 text-xs">{study.metricLabel}</div>
                   </div>
                 </div>
-                
+
                 <div className="space-y-3">
                   <div>
-                    <div className="text-[#9080a0] text-xs uppercase tracking-wide mb-1">Situation</div>
+                    <div className="text-zinc-600 text-xs uppercase tracking-wide mb-1">Situation</div>
                     <p className="text-white/80 text-sm">{study.situation}</p>
                   </div>
                   <div>
-                    <div className="text-[#9080a0] text-xs uppercase tracking-wide mb-1">What We Did</div>
+                    <div className="text-zinc-600 text-xs uppercase tracking-wide mb-1">What We Did</div>
                     <p className="text-white/80 text-sm">{study.action}</p>
                   </div>
                   <div>
-                    <div className="text-[#9080a0] text-xs uppercase tracking-wide mb-1">Result</div>
-                    <p className="text-[#c77dff] text-sm font-medium">{study.result}</p>
+                    <div className="text-zinc-600 text-xs uppercase tracking-wide mb-1">Result</div>
+                    <p className="text-violet-400 text-sm font-medium">{study.result}</p>
                   </div>
                 </div>
               </GlassCard>

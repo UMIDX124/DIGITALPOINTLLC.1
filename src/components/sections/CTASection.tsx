@@ -3,17 +3,14 @@ import { Section, Container, FadeUp } from '@/components/ui-dp/AnimatedElements'
 import Link from 'next/link';
 
 export function CTASection() {
-
   return (
     <Section className="relative overflow-hidden">
-      {/* Cosmic gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-[#1a0a2e] via-[#2d1b4e] to-[#1a0a2e]" />
-
-      {/* Glow — CSS animation instead of framer-motion infinite */}
+      {/* Cosmic depth */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#110d1a] via-[#1a0f2e] to-[#110d1a]" />
       <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] rounded-full blur-3xl animate-glow-pulse"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full blur-3xl pointer-events-none"
         style={{
-          background: 'radial-gradient(ellipse, rgba(199, 125, 255, 0.4) 0%, transparent 70%)',
+          background: 'radial-gradient(ellipse, rgba(139, 92, 246, 0.1) 0%, transparent 70%)',
         }}
       />
 
@@ -21,46 +18,26 @@ export function CTASection() {
         <FadeUp>
           <div className="max-w-3xl mx-auto text-center">
             {/* Badge */}
-            <div 
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8"
-              style={{
-                background: 'rgba(157, 78, 221, 0.15)',
-                border: '1px solid rgba(199, 125, 255, 0.3)',
-              }}
-            >
-              <span className="relative flex h-2 w-2">
-                <span className="absolute inline-flex h-full w-full rounded-full bg-[#ff6b9d] animate-ping" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#ff6b9d]"></span>
-              </span>
-              <span className="text-[#e0aaff] text-sm">Free. No pitch. Just clarity.</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg mb-8 bg-white/[0.04] border border-white/[0.06]">
+              <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
+              <span className="text-[#a196b0] text-sm">Free. No pitch. Just clarity.</span>
             </div>
 
             {/* Heading */}
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
               Know exactly what&apos;s{' '}
-              <span 
-                className="bg-gradient-to-r from-[#e0aaff] via-[#c77dff] to-[#ff6b9d] bg-clip-text text-transparent"
-              >
-                blocking your growth
-              </span>
-              .
+              <span className="text-[#a196b0]">blocking your growth</span>.
             </h2>
 
             {/* Description */}
-            <p className="text-[#b794c7] text-lg mb-10 max-w-xl mx-auto">
+            <p className="text-[#a196b0] text-lg mb-10 max-w-xl mx-auto">
               One call. We review your setup, tell you what&apos;s missing, and give you a clear path forward. Even if you never work with us.
             </p>
 
-            {/* CTA Buttons */}
+            {/* CTA Button */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link href="/free-growth-audit" className="w-full sm:w-auto">
-                <span
-                  className="flex sm:inline-flex w-full sm:w-auto justify-center px-8 py-4 text-lg font-semibold text-white rounded-xl overflow-hidden group transition-transform duration-150 hover:scale-[1.02] active:scale-[0.98]"
-                  style={{
-                    background: 'linear-gradient(135deg, #7b2cbf 0%, #9d4edd 50%, #c77dff 100%)',
-                    boxShadow: '0 4px 20px rgba(123, 44, 191, 0.4)',
-                  }}
-                >
+                <span className="flex sm:inline-flex w-full sm:w-auto justify-center px-8 py-4 text-lg font-semibold text-white rounded-lg overflow-hidden group transition-all duration-200 hover:brightness-110 active:scale-[0.98] bg-violet-600">
                   <span className="flex items-center justify-center gap-2">
                     Get Your Growth Audit
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -76,8 +53,8 @@ export function CTASection() {
                 'Reporting blindspots exposed',
                 'Clear next steps',
               ].map((item) => (
-                <span key={item} className="flex items-center gap-2 text-[#9080a0] text-sm">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#c77dff]" />
+                <span key={item} className="flex items-center gap-2 text-zinc-500 text-sm">
+                  <span className="w-1 h-1 rounded-full bg-zinc-600" />
                   {item}
                 </span>
               ))}
@@ -85,18 +62,18 @@ export function CTASection() {
 
             {/* Contact info */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
-              <a 
+              <a
                 href="mailto:info@digitalpointllc.com"
-                className="flex items-center gap-2 text-[#c77dff] hover:text-[#e0aaff] transition-colors text-sm"
+                className="flex items-center gap-2 text-zinc-500 hover:text-zinc-300 transition-colors text-sm"
               >
                 <Mail className="w-4 h-4" />
                 info@digitalpointllc.com
               </a>
-              <a 
+              <a
                 href="https://linkedin.com/company/digitalpointllc"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-[#c77dff] hover:text-[#e0aaff] transition-colors text-sm"
+                className="flex items-center gap-2 text-zinc-500 hover:text-zinc-300 transition-colors text-sm"
               >
                 <Linkedin className="w-4 h-4" />
                 LinkedIn

@@ -1,5 +1,5 @@
 ---
-title: "Multi-Touch Attribution Models Explained: Which One Is Right for You?"
+title: "Multi-Touch Attribution Models Explained"
 excerpt: "Compare multi-touch attribution models including linear, time-decay, position-based, and data-driven to find the best fit for your business."
 category: "Marketing Attribution"
 tags: ["multi-touch attribution", "attribution models", "marketing analytics", "performance marketing"]

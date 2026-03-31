@@ -1,5 +1,5 @@
 ---
-title: "Measuring Content Marketing ROI: From Blog Posts to Revenue"
+title: "Content Marketing ROI: From Blog Posts to Revenue"
 excerpt: "Learn how to measure the true ROI of content marketing by connecting content consumption to pipeline and revenue, not just traffic and engagement metrics."
 category: "Growth Systems"
 tags: ["content marketing", "ROI measurement", "content strategy", "marketing analytics", "attribution"]

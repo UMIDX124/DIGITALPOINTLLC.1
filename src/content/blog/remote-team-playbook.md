@@ -1,5 +1,5 @@
 ---
-title: "The Remote Team Playbook: How We Build High-Output Teams Across Time Zones"
+title: "Remote Team Playbook: High-Output Across Zones"
 excerpt: "Building a remote workforce isn't about finding cheap labor — it's about creating systems that let distributed teams operate at enterprise speed."
 category: "Remote Workforce"
 tags: ["remote teams", "workforce management", "outsourcing", "team building", "remote workforce"]

@@ -1,6 +1,6 @@
 ---
-title: "Marketing Automation Guide: From Lead Capture to Conversion"
-excerpt: "Build marketing automation systems that nurture leads from first touch to closed deal, including email sequences, lead scoring, and workflow design for paid traffic."
+title: "Marketing Automation: Lead Capture to Conversion"
+excerpt: "Build marketing automation systems that nurture leads from first touch to closed deal, with email sequences, lead scoring, and workflow design."
 category: "Growth Systems"
 tags: ["marketing automation", "email sequences", "lead nurturing", "workflow automation", "CRM"]
 date: "2025-12-11"

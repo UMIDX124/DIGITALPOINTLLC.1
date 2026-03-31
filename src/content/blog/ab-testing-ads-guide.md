@@ -1,6 +1,6 @@
 ---
-title: "A/B Testing for Ads: Statistical Methods That Actually Work"
-excerpt: "Stop guessing and start testing. Learn the statistical methods, sample size calculations, and testing frameworks that produce reliable results for ad campaigns."
+title: "A/B Testing for Ads: Methods That Actually Work"
+excerpt: "Stop guessing and start testing. Learn statistical methods, sample sizes, and testing frameworks that produce reliable ad campaign results."
 category: "Marketing Analytics"
 tags: ["A/B testing", "statistical significance", "ad testing", "experiment design", "paid ads"]
 date: "2025-08-01"

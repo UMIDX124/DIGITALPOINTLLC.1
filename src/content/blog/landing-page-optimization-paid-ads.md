@@ -1,5 +1,5 @@
 ---
-title: "Landing Page Optimization for Paid Ads: Increase Conversions by 40%+"
+title: "Landing Page Optimization for Paid Ads (+40%)"
 excerpt: "Optimize your landing pages for paid ads with proven techniques for layout, copy, speed, and trust signals that increase conversions by 40% or more."
 category: "CAC ROAS Optimization"
 tags: ["landing pages", "conversion optimization", "paid ads", "CRO"]

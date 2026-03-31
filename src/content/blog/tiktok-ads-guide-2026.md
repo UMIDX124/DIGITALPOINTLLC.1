@@ -1,6 +1,6 @@
 ---
-title: "TikTok Ads Guide 2026: Strategy, Benchmarks, and Best Practices"
-excerpt: "Everything you need to know about advertising on TikTok in 2026, including campaign setup, creative best practices, benchmarks by industry, and scaling strategies."
+title: "TikTok Ads Guide 2026: Strategy & Benchmarks"
+excerpt: "Everything about advertising on TikTok in 2026, including campaign setup, creative best practices, industry benchmarks, and scaling strategies."
 category: "Paid Ads Benchmarks"
 tags: ["TikTok Ads", "social advertising", "video ads", "Gen Z marketing", "short-form video"]
 date: "2026-03-10"

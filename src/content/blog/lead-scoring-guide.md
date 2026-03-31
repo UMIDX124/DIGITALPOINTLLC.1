@@ -1,5 +1,5 @@
 ---
-title: "Lead Scoring Guide: Prioritize Leads That Actually Convert"
+title: "Lead Scoring: Prioritize Leads That Convert"
 excerpt: "Build a lead scoring system that separates high-value prospects from tire-kickers, so your sales team focuses on leads most likely to become customers."
 category: "Growth Systems"
 tags: ["lead scoring", "lead qualification", "sales efficiency", "CRM", "marketing automation"]

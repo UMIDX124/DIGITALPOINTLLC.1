@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn Ads for B2B: Complete Strategy Guide"
-excerpt: "The definitive guide to LinkedIn advertising for B2B companies, covering targeting strategies, ad formats, campaign structures, benchmarks, and optimization tactics."
+excerpt: "The definitive guide to LinkedIn advertising for B2B, covering targeting strategies, ad formats, campaign structures, benchmarks, and optimization."
 category: "Paid Ads Benchmarks"
 tags: ["LinkedIn Ads", "B2B advertising", "B2B marketing", "LinkedIn strategy", "lead generation"]
 date: "2025-12-04"

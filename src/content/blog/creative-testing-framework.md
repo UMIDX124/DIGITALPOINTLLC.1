@@ -1,5 +1,5 @@
 ---
-title: "Ad Creative Testing: A Scientific Framework for Finding Winners"
+title: "Ad Creative Testing: A Framework for Winners"
 excerpt: "Learn a systematic creative testing framework for paid ads with methods for testing hooks, formats, copy, and visuals to find high-performing ad creative."
 category: "CAC ROAS Optimization"
 tags: ["creative testing", "ad creative", "A/B testing", "paid advertising"]

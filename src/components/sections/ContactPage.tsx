@@ -67,7 +67,6 @@ export function ContactPage() {
     <>
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 radial-glow" />
         <Container className="relative z-10 pt-32 pb-12">
           <FadeUp>
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-glass border border-border-glass text-text-secondary text-sm mb-6">
@@ -76,11 +75,11 @@ export function ContactPage() {
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               We actually{' '}
-              <span className="bg-gradient-to-r from-[#e0aaff] via-[#c77dff] to-[#ff6b9d] bg-clip-text text-transparent">
+              <span className="text-violet-400">
                 read every message
               </span>
             </h1>
-            <p className="text-[#b794c7] text-lg md:text-xl max-w-2xl leading-relaxed">
+            <p className="text-zinc-400 text-lg md:text-xl max-w-2xl leading-relaxed">
               No chatbots, no ticket queues, no &ldquo;someone from our team will reach out.&rdquo; When you write to us, Faizan or Anwaar will personally read it and reply — usually within a few hours, always within a day.
             </p>
           </FadeUp>
@@ -99,15 +98,15 @@ export function ContactPage() {
                     <a href={method.href} target={method.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer">
                       <GlassCard className="p-5 group cursor-pointer">
                         <div className="flex items-start gap-4">
-                          <div className="p-2 rounded-lg" style={{ background: 'rgba(199, 125, 255, 0.15)' }}>
-                            <method.icon className="w-5 h-5 text-[#c77dff]" />
+                          <div className="p-2 rounded-lg bg-violet-500/10">
+                            <method.icon className="w-5 h-5 text-violet-400" />
                           </div>
                           <div>
-                            <h3 className="font-display font-semibold text-white group-hover:text-[#e0aaff] transition-colors">
+                            <h3 className="font-display font-semibold text-white group-hover:text-violet-300 transition-colors">
                               {method.title}
                             </h3>
-                            <p className="text-[#c77dff] text-sm mt-0.5">{method.value}</p>
-                            <p className="text-[#9080a0] text-xs mt-1">{method.description}</p>
+                            <p className="text-violet-400 text-sm mt-0.5">{method.value}</p>
+                            <p className="text-zinc-500 text-xs mt-1">{method.description}</p>
                           </div>
                         </div>
                       </GlassCard>
@@ -119,9 +118,9 @@ export function ContactPage() {
               <div className="space-y-3 pt-4">
                 {officeDetails.map((detail) => (
                   <div key={detail.label} className="flex items-center gap-3 text-sm">
-                    <detail.icon className="w-4 h-4 text-[#9080a0]" />
-                    <span className="text-[#9080a0]">{detail.label}:</span>
-                    <span className="text-[#b794c7]">{detail.value}</span>
+                    <detail.icon className="w-4 h-4 text-zinc-500" />
+                    <span className="text-zinc-500">{detail.label}:</span>
+                    <span className="text-zinc-400">{detail.value}</span>
                   </div>
                 ))}
               </div>
@@ -129,15 +128,14 @@ export function ContactPage() {
               {/* Quick audit CTA */}
               <FadeUp delay={0.3}>
                 <div
-                  className="p-5 rounded-xl mt-6"
+                  className="p-5 rounded-xl mt-6 border border-white/[0.06]"
                   style={{
-                    background: 'linear-gradient(135deg, rgba(123, 44, 191, 0.15), rgba(157, 78, 221, 0.1))',
-                    border: '1px solid rgba(199, 125, 255, 0.2)',
+                    background: 'rgba(139, 92, 246, 0.06)',
                   }}
                 >
                   <p className="text-white font-display font-semibold mb-2">Want a free growth audit instead?</p>
-                  <p className="text-[#b794c7] text-sm mb-3">Get a structured review of your marketing, systems, and team — in under 48 hours.</p>
-                  <Link href="/free-growth-audit" className="inline-flex items-center gap-1 text-[#c77dff] hover:text-[#e0aaff] text-sm font-medium transition-colors">
+                  <p className="text-zinc-400 text-sm mb-3">Get a structured review of your marketing, systems, and team — in under 48 hours.</p>
+                  <Link href="/free-growth-audit" className="inline-flex items-center gap-1 text-violet-400 hover:text-violet-300 text-sm font-medium transition-colors">
                     Start your audit <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
@@ -155,54 +153,51 @@ export function ContactPage() {
                         animate={{ scale: 1 }}
                         transition={{ type: 'spring', stiffness: 200, damping: 15 }}
                       >
-                        <CheckCircle className="w-16 h-16 text-[#c77dff] mx-auto mb-4" />
+                        <CheckCircle className="w-16 h-16 text-violet-400 mx-auto mb-4" />
                       </motion.div>
                       <h3 className="font-display text-2xl font-bold text-white mb-2">Got it! We&apos;re on it.</h3>
-                      <p className="text-[#b794c7]">One of us (the founders, not a bot) will reply within 24 hours. Usually much sooner.</p>
+                      <p className="text-zinc-400">One of us (the founders, not a bot) will reply within 24 hours. Usually much sooner.</p>
                     </div>
                   ) : (
                     <form onSubmit={handleSubmit} className="space-y-5">
                       <h3 className="font-display text-xl font-semibold text-white mb-2">Drop us a line</h3>
-                      <p className="text-[#9080a0] text-sm mb-6">No form letters, no auto-replies. A real human (probably Faizan, let&apos;s be honest) will get back to you within 24 hours.</p>
+                      <p className="text-zinc-500 text-sm mb-6">No form letters, no auto-replies. A real human (probably Faizan, let&apos;s be honest) will get back to you within 24 hours.</p>
 
                       <div>
-                        <label htmlFor="contact-name" className="block text-sm text-[#b794c7] mb-1.5">Name</label>
+                        <label htmlFor="contact-name" className="block text-sm text-zinc-400 mb-1.5">Name</label>
                         <input
                           id="contact-name"
                           type="text"
                           required
                           value={form.name}
                           onChange={(e) => setForm(f => ({ ...f, name: e.target.value }))}
-                          className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder:text-[#7c5a8a] focus:outline-none focus:ring-2 focus:ring-[#c77dff]/50"
-                          style={{ background: 'rgba(13, 8, 21, 0.6)', border: '1px solid rgba(157, 78, 221, 0.2)' }}
+                          className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder:text-zinc-600 focus:outline-none focus:ring-2 focus:ring-violet-500/50 bg-white/[0.03] border border-white/[0.06]"
                           placeholder="Your name"
                         />
                       </div>
 
                       <div>
-                        <label htmlFor="contact-email" className="block text-sm text-[#b794c7] mb-1.5">Email</label>
+                        <label htmlFor="contact-email" className="block text-sm text-zinc-400 mb-1.5">Email</label>
                         <input
                           id="contact-email"
                           type="email"
                           required
                           value={form.email}
                           onChange={(e) => setForm(f => ({ ...f, email: e.target.value }))}
-                          className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder:text-[#7c5a8a] focus:outline-none focus:ring-2 focus:ring-[#c77dff]/50"
-                          style={{ background: 'rgba(13, 8, 21, 0.6)', border: '1px solid rgba(157, 78, 221, 0.2)' }}
+                          className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder:text-zinc-600 focus:outline-none focus:ring-2 focus:ring-violet-500/50 bg-white/[0.03] border border-white/[0.06]"
                           placeholder="you@company.com"
                         />
                       </div>
 
                       <div>
-                        <label htmlFor="contact-message" className="block text-sm text-[#b794c7] mb-1.5">Message</label>
+                        <label htmlFor="contact-message" className="block text-sm text-zinc-400 mb-1.5">Message</label>
                         <textarea
                           id="contact-message"
                           required
                           rows={5}
                           value={form.message}
                           onChange={(e) => setForm(f => ({ ...f, message: e.target.value }))}
-                          className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder:text-[#7c5a8a] focus:outline-none focus:ring-2 focus:ring-[#c77dff]/50 resize-none"
-                          style={{ background: 'rgba(13, 8, 21, 0.6)', border: '1px solid rgba(157, 78, 221, 0.2)' }}
+                          className="w-full px-4 py-3 rounded-xl text-white text-sm placeholder:text-zinc-600 focus:outline-none focus:ring-2 focus:ring-violet-500/50 resize-none bg-white/[0.03] border border-white/[0.06]"
                           placeholder="Tell us about your project, challenges, or what you need help with..."
                         />
                       </div>
@@ -210,11 +205,7 @@ export function ContactPage() {
                       <button
                         type="submit"
                         disabled={status === 'submitting'}
-                        className="w-full py-3.5 rounded-xl text-white font-semibold text-sm flex items-center justify-center gap-2 disabled:opacity-50 transition-transform duration-150 hover:scale-[1.01] active:scale-[0.99]"
-                        style={{
-                          background: 'linear-gradient(135deg, #7b2cbf 0%, #9d4edd 100%)',
-                          boxShadow: '0 4px 16px rgba(123, 44, 191, 0.3)',
-                        }}
+                        className="w-full py-3.5 rounded-xl text-white font-semibold text-sm flex items-center justify-center gap-2 disabled:opacity-50 transition-all duration-150 hover:scale-[1.01] active:scale-[0.99] bg-violet-600 hover:bg-violet-500"
                       >
                         {status === 'submitting' ? (
                           <span className="flex items-center gap-2">
@@ -232,7 +223,7 @@ export function ContactPage() {
                       </button>
 
                       {status === 'error' && (
-                        <p className="text-[#ff6b9d] text-sm text-center">Something went wrong. Please try again or email us directly.</p>
+                        <p className="text-red-400 text-sm text-center">Something went wrong. Please try again or email us directly.</p>
                       )}
                     </form>
                   )}

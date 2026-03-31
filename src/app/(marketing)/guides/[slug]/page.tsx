@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const url = `https://digitalpointllc.com/guides/${slug}`;
 
   return {
-    title: `${guide.title} | Digital Point LLC`,
+    title: { absolute: guide.title },
     description: guide.description,
     openGraph: {
       title: guide.title,

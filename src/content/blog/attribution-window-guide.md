@@ -1,6 +1,6 @@
 ---
-title: "Attribution Windows Explained: How to Choose the Right Lookback Period"
-excerpt: "Learn how attribution windows work, why the default settings are costing you money, and how to choose the right lookback period for every channel and campaign type."
+title: "Attribution Windows: Choosing the Right Lookback"
+excerpt: "Learn how attribution windows work, why default settings cost you money, and how to choose the right lookback period for every channel."
 category: "Marketing Attribution"
 tags: ["attribution windows", "lookback period", "marketing attribution", "conversion tracking", "ad platforms"]
 date: "2025-08-22"

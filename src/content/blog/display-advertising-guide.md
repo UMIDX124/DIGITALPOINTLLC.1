@@ -1,6 +1,6 @@
 ---
-title: "Display Advertising Guide: Best Practices for Performance Marketers"
-excerpt: "A complete guide to display advertising for performance marketers, covering Google Display Network, programmatic buying, creative best practices, and measurement strategies."
+title: "Display Advertising: Best Practices Guide"
+excerpt: "A complete guide to display advertising covering Google Display Network, programmatic buying, creative best practices, and measurement."
 category: "Paid Ads Benchmarks"
 tags: ["display advertising", "Google Display Network", "programmatic", "banner ads", "retargeting"]
 date: "2025-10-17"

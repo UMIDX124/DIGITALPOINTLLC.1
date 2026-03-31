@@ -1,6 +1,6 @@
 ---
-title: "Native Advertising Guide: Performance Marketing Beyond Traditional Ads"
-excerpt: "Native ads blend into editorial content and outperform traditional display by 2-3x on engagement. Learn the platforms, strategies, and benchmarks for native advertising in 2026."
+title: "Native Advertising Guide for Performance Marketing"
+excerpt: "Native ads outperform display by 2-3x on engagement. Learn the platforms, strategies, and benchmarks for native advertising in 2026."
 category: "Paid Ads Benchmarks"
 tags: ["native advertising", "content marketing", "sponsored content", "Taboola", "Outbrain", "performance marketing"]
 date: "2026-01-08"

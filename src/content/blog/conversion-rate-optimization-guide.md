@@ -1,6 +1,6 @@
 ---
-title: "Conversion Rate Optimization for Paid Traffic: Complete Guide"
-excerpt: "Learn how to systematically improve conversion rates on your paid traffic campaigns with proven CRO frameworks, testing methodologies, and benchmarks for 2026."
+title: "CRO for Paid Traffic: Complete Guide"
+excerpt: "Learn how to improve conversion rates on paid traffic campaigns with proven CRO frameworks, testing methodologies, and benchmarks for 2026."
 category: "Marketing Analytics"
 tags: ["conversion rate optimization", "CRO", "paid traffic", "landing pages", "A/B testing"]
 date: "2025-09-24"

@@ -1,6 +1,6 @@
 ---
-title: "Hiring Remote Media Buyers: What to Look For and Where to Find Them"
-excerpt: "Find and hire elite remote media buyers who can manage six-figure ad budgets profitably. Learn the skills to screen for, where to source candidates, and how to evaluate performance."
+title: "Hiring Remote Media Buyers: What to Look For"
+excerpt: "Find and hire remote media buyers who manage six-figure ad budgets profitably. Learn the skills to screen for and how to evaluate performance."
 category: "Remote Workforce"
 tags: ["media buyer", "remote hiring", "paid ads", "talent acquisition", "performance marketing"]
 date: "2026-02-05"

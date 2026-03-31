@@ -1,6 +1,6 @@
 ---
-title: "Bid Strategy Guide: Manual vs Automated Bidding Across Platforms"
-excerpt: "Choosing the right bid strategy can make or break your ROAS. Learn when to use manual vs automated bidding, how each platform's algorithm works, and which strategy fits your goals."
+title: "Bid Strategy: Manual vs Automated Bidding Guide"
+excerpt: "Choosing the right bid strategy can make or break your ROAS. Learn when to use manual vs automated bidding and which strategy fits your goals."
 category: "Paid Ads Benchmarks"
 tags: ["bid strategy", "automated bidding", "manual bidding", "Google Ads bidding", "Meta Ads bidding", "campaign optimization"]
 date: "2025-08-29"

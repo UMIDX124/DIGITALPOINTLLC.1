@@ -11,15 +11,15 @@ interface FadeUpProps {
   duration?: number;
 }
 
-export function FadeUp({ children, className, delay = 0, duration = 0.6 }: FadeUpProps) {
+export function FadeUp({ children, className, delay = 0, duration = 0.4 }: FadeUpProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 30 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 16 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }}
       transition={{ duration, delay, ease: [0.25, 0.4, 0.25, 1] }}
       className={className}
       style={{ willChange: 'transform, opacity' }}
@@ -44,7 +44,7 @@ export function FadeIn({ children, className, delay = 0 }: FadeInProps) {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-      transition={{ duration: 0.5, delay }}
+      transition={{ duration: 0.3, delay }}
       className={className}
       style={{ willChange: 'opacity' }}
     >
@@ -66,9 +66,9 @@ export function ScaleIn({ children, className, delay = 0 }: ScaleInProps) {
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.95 }}
-      transition={{ duration: 0.5, delay, ease: [0.25, 0.4, 0.25, 1] }}
+      initial={{ opacity: 0, scale: 0.97 }}
+      animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.97 }}
+      transition={{ duration: 0.3, delay, ease: [0.25, 0.4, 0.25, 1] }}
       className={className}
       style={{ willChange: 'transform, opacity' }}
     >
@@ -83,7 +83,7 @@ interface StaggerContainerProps {
   staggerDelay?: number;
 }
 
-export function StaggerContainer({ children, className, staggerDelay = 0.1 }: StaggerContainerProps) {
+export function StaggerContainer({ children, className, staggerDelay = 0.08 }: StaggerContainerProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 
@@ -108,11 +108,11 @@ export function StaggerContainer({ children, className, staggerDelay = 0.1 }: St
 }
 
 export const staggerItem = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0, y: 12 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: [0.25, 0.4, 0.25, 1] as const },
+    transition: { duration: 0.3, ease: [0.25, 0.4, 0.25, 1] as const },
   },
 };
 
@@ -135,30 +135,21 @@ interface GlassCardProps extends React.HTMLAttributes<HTMLDivElement> {
   hover?: boolean;
 }
 
-/** Memoized GlassCard to avoid re-renders in list contexts */
+/** Cosmic card — purple-tinted dark background */
 export const GlassCard = memo(function GlassCard({ children, className, hover = true, ...rest }: GlassCardProps) {
   return (
     <div
       {...rest}
       className={cn(
-        'relative rounded-2xl overflow-hidden',
-        hover && 'transition-shadow duration-300 hover:shadow-xl',
+        'relative rounded-xl overflow-hidden',
+        hover && 'card-hover',
         className
       )}
       style={{
-        background: 'rgba(26, 15, 46, 0.6)',
-        backdropFilter: 'blur(20px)',
-        WebkitBackdropFilter: 'blur(20px)',
-        border: '1px solid rgba(157, 78, 221, 0.2)',
+        background: 'rgba(19, 12, 30, 0.7)',
+        border: '1px solid rgba(139, 92, 246, 0.1)',
       }}
     >
-      {/* Inner glow */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'linear-gradient(135deg, rgba(199, 125, 255, 0.08) 0%, transparent 50%)',
-        }}
-      />
       <div className="relative z-10">{children}</div>
     </div>
   );
@@ -176,11 +167,11 @@ export const MetricDisplay = memo(function MetricDisplay({ value, label, prefix,
   return (
     <div className={cn('text-center', className)}>
       <div className="font-display text-3xl md:text-4xl font-bold text-white tabular-nums">
-        {prefix && <span className="text-[#c77dff]">{prefix}</span>}
+        {prefix && <span className="text-violet-400">{prefix}</span>}
         {value}
-        {suffix && <span className="text-[#b794c7] text-xl">{suffix}</span>}
+        {suffix && <span className="text-zinc-400 text-xl">{suffix}</span>}
       </div>
-      <p className="text-[#b794c7] text-sm mt-1">{label}</p>
+      <p className="text-zinc-500 text-sm mt-1">{label}</p>
     </div>
   );
 });
@@ -191,24 +182,20 @@ interface SignalPointProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-export const SignalPoint = memo(function SignalPoint({ className, pulse = true, size = 'md' }: SignalPointProps) {
+export const SignalPoint = memo(function SignalPoint({ className, size = 'md' }: SignalPointProps) {
   const sizeClasses = {
-    sm: 'w-2 h-2',
-    md: 'w-3 h-3',
-    lg: 'w-4 h-4',
+    sm: 'w-1.5 h-1.5',
+    md: 'w-2 h-2',
+    lg: 'w-2.5 h-2.5',
   };
 
   return (
     <span
       className={cn(
-        'inline-block rounded-full bg-[#ff6b9d]',
-        pulse && 'animate-pulse',
+        'inline-block rounded-full bg-violet-500',
         sizeClasses[size],
         className
       )}
-      style={{
-        boxShadow: '0 0 8px rgba(255, 107, 157, 0.6)',
-      }}
     />
   );
 });
@@ -220,17 +207,11 @@ interface SectionProps {
   background?: 'none' | 'gradient' | 'grid' | 'cosmic';
 }
 
-export function Section({ children, className, id, background = 'none' }: SectionProps) {
+export function Section({ children, className, id }: SectionProps) {
   return (
     <section
       id={id}
-      className={cn(
-        'section-padding relative',
-        background === 'gradient' && 'cosmic-glow',
-        background === 'grid' && 'grid-bg',
-        background === 'cosmic' && 'cosmic-bg',
-        className
-      )}
+      className={cn('section-padding relative', className)}
     >
       {children}
     </section>
@@ -268,7 +249,7 @@ export function SectionHeader({ eyebrow, title, description, align = 'center', c
         <span
           className="text-sm font-medium uppercase tracking-wider mb-4 block"
           style={{
-            background: 'linear-gradient(90deg, #e0aaff, #c77dff)',
+            background: 'linear-gradient(90deg, #c4b5fd, #a78bfa)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}
@@ -280,7 +261,7 @@ export function SectionHeader({ eyebrow, title, description, align = 'center', c
         {title}
       </h2>
       {description && (
-        <p className="text-[#b794c7] text-lg mt-4 leading-relaxed">
+        <p className="text-[#a196b0] text-lg mt-4 leading-relaxed">
           {description}
         </p>
       )}

@@ -1,5 +1,5 @@
 ---
-title: "Attribution in 2025: A Practical Guide for Marketing Teams"
+title: "Attribution in 2025: A Practical Marketing Guide"
 excerpt: "With third-party cookies dying and privacy regulations tightening, here's how smart teams are still measuring what works."
 category: "Marketing Attribution"
 tags: ["attribution", "tracking", "privacy", "cookies", "marketing analytics", "first-party data"]

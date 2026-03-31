@@ -1,6 +1,6 @@
 ---
 title: "Why Your ROAS Is Lying to You (And What to Track Instead)"
-excerpt: "Most businesses rely on platform-reported ROAS, but it rarely tells the full story. Here's what sophisticated advertisers track to understand real performance."
+excerpt: "Most businesses rely on platform-reported ROAS, but it rarely tells the full story. Here's what sophisticated advertisers track for real performance."
 category: "CAC ROAS Optimization"
 tags: ["roas", "attribution", "paid ads", "meta ads", "google ads", "performance marketing"]
 date: "2026-03-20"

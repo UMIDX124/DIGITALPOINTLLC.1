@@ -1,6 +1,6 @@
 ---
-title: "Account-Based Marketing (ABM) Guide: Targeted Growth for B2B"
-excerpt: "Learn how to implement account-based marketing with paid ads — from building target account lists to measuring pipeline impact and scaling your ABM program."
+title: "ABM Guide: Targeted Account-Based Growth for B2B"
+excerpt: "Learn how to implement account-based marketing with paid ads — from building target lists to measuring pipeline impact and scaling your ABM program."
 category: "Growth Systems"
 tags: ["account-based marketing", "ABM", "B2B marketing", "demand generation", "target accounts"]
 date: "2025-08-03"

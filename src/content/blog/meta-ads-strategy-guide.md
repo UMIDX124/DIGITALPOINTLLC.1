@@ -1,5 +1,5 @@
 ---
-title: "Meta Ads Strategy: How to Structure Campaigns for Maximum ROAS"
+title: "Meta Ads Strategy: Structure Campaigns for ROAS"
 excerpt: "Learn how to structure Meta ad campaigns for maximum ROAS with proven frameworks for campaign architecture, audience targeting, and budget allocation."
 category: "Paid Ads Benchmarks"
 tags: ["meta ads", "facebook advertising", "ROAS optimization", "campaign structure"]

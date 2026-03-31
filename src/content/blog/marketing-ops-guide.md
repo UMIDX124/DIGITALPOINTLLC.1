@@ -1,6 +1,6 @@
 ---
 title: "Marketing Operations Guide: Building Systems That Scale"
-excerpt: "Build marketing operations that support growth: tech stack management, data governance, process automation, and the systems that let marketing teams scale without chaos."
+excerpt: "Build marketing operations that support growth: tech stack management, data governance, process automation, and systems that let teams scale."
 category: "Growth Systems"
 tags: ["marketing operations", "marketing ops", "tech stack", "data governance", "process automation"]
 date: "2025-12-22"

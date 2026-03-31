@@ -1,5 +1,5 @@
 ---
-title: "Growth Marketing Framework: Systems for Predictable Revenue"
+title: "Growth Marketing Framework: Predictable Revenue"
 excerpt: "Build a growth marketing framework that turns unpredictable campaigns into a systematic, repeatable revenue engine with clear processes and metrics."
 category: "Growth Systems"
 tags: ["growth marketing", "marketing framework", "revenue growth", "marketing systems", "growth strategy"]

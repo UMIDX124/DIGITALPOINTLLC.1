@@ -1,6 +1,6 @@
 ---
-title: "Cohort Analysis for Marketing: Track Customer Behavior Over Time"
-excerpt: "Learn how to use cohort analysis to understand customer retention, lifetime value, and campaign performance over time instead of relying on snapshot metrics."
+title: "Cohort Analysis for Marketing: Track Behavior"
+excerpt: "Learn how to use cohort analysis to understand retention, lifetime value, and campaign performance instead of relying on snapshot metrics."
 category: "Marketing Analytics"
 tags: ["cohort analysis", "customer retention", "LTV", "marketing analytics", "data analysis"]
 date: "2025-09-10"

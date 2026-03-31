@@ -1,6 +1,6 @@
 ---
 title: "Geo-Targeting in Paid Ads: Strategy Guide"
-excerpt: "Master geo-targeting in Google Ads, Meta Ads, and LinkedIn to reduce wasted spend and improve ROAS. Strategies for local, national, and international campaigns."
+excerpt: "Master geo-targeting in Google Ads, Meta, and LinkedIn to reduce wasted spend and improve ROAS. Strategies for local, national, and global campaigns."
 category: "CAC ROAS Optimization"
 tags: ["geo-targeting", "location targeting", "paid ads", "local advertising", "international ads"]
 date: "2025-11-01"

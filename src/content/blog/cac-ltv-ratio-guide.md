@@ -1,6 +1,6 @@
 ---
-title: "CAC to LTV Ratio: The Most Important Metric You're Ignoring"
-excerpt: "Learn why the CAC-to-LTV ratio is the single best indicator of marketing efficiency and business health, with benchmarks, calculation methods, and optimization strategies."
+title: "CAC to LTV Ratio: The Metric You're Ignoring"
+excerpt: "Learn why the CAC-to-LTV ratio is the best indicator of marketing efficiency, with benchmarks, calculation methods, and optimization strategies."
 category: "CAC ROAS Optimization"
 tags: ["CAC LTV ratio", "customer lifetime value", "unit economics", "marketing metrics", "growth strategy"]
 date: "2025-09-07"

@@ -1,6 +1,6 @@
 ---
 title: "Google Ads Quality Score: Complete Optimization Guide"
-excerpt: "Everything you need to know about Google Ads Quality Score — how it's calculated, why it matters, and exactly how to improve it to lower your CPCs and boost ad positions."
+excerpt: "Everything about Google Ads Quality Score — how it's calculated, why it matters, and how to improve it to lower CPCs and boost ad positions."
 category: "Paid Ads Benchmarks"
 tags: ["Quality Score", "Google Ads", "PPC optimization", "ad rank", "CPC optimization"]
 date: "2025-11-05"

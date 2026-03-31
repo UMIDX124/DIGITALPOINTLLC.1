@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const baseUrl = 'https://digitalpointllc.com';
   return {
-    title: post.title,
+    title: { absolute: post.title },
     description: post.excerpt,
     keywords: post.tags,
     openGraph: {
@@ -42,6 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
+      images: ['/opengraph-image'],
     },
     alternates: {
       canonical: `${baseUrl}/blog/${slug}`,

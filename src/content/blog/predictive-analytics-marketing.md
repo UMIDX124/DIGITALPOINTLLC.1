@@ -1,5 +1,5 @@
 ---
-title: "Predictive Analytics in Marketing: Forecast Revenue and Optimize Spend"
+title: "Predictive Analytics: Forecast Marketing Revenue"
 excerpt: "Use predictive analytics to forecast marketing revenue, identify high-value prospects, and optimize spend allocation before results come in."
 category: "Marketing Analytics"
 tags: ["predictive analytics", "marketing forecasting", "machine learning", "LTV prediction", "budget optimization"]
