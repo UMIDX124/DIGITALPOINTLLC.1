@@ -89,6 +89,7 @@ export function ContactPage() {
       {/* Contact Methods + Form */}
       <Section>
         <Container>
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-10">Reach Out Directly</h2>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Left: Contact info */}
             <div className="lg:col-span-2 space-y-6">
