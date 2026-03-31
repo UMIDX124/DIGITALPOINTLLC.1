@@ -4,10 +4,12 @@ import SupportChatbot from '@/components/ui-dp/SupportChatbot';
 import { StickyCTABar } from '@/components/ui-dp/StickyCTABar';
 import { ExitIntentModal } from '@/components/ui-dp/ExitIntentModal';
 
-// Fewer stars (8), static, barely visible
-const starPositions = Array.from({ length: 8 }, (_, i) => ({
-  top: ((i * 23 + 11) % 100),
-  left: ((i * 31 + 17) % 100),
+// Pre-computed star positions (deterministic for SSR)
+const starPositions = Array.from({ length: 15 }, (_, i) => ({
+  top: ((i * 17 + 7) % 100),
+  left: ((i * 23 + 13) % 100),
+  delay: (i % 5),
+  duration: 2 + (i % 3),
 }));
 
 export default function MarketingLayout({
@@ -18,25 +20,27 @@ export default function MarketingLayout({
   return (
     <div
       className="relative min-h-screen flex flex-col"
-      style={{ background: 'linear-gradient(180deg, #0d0815 0%, #0a0610 100%)' }}
+      style={{ background: 'linear-gradient(180deg, #0d0815 0%, #080510 100%)' }}
     >
-      {/* Subtle cosmic glow at top */}
+      {/* Cosmic background */}
       <div
         className="fixed inset-0 pointer-events-none z-0"
         style={{
-          background: 'radial-gradient(ellipse 80% 50% at 50% 0%, rgba(139, 92, 246, 0.05) 0%, transparent 50%)',
+          background: 'radial-gradient(ellipse 100% 100% at 50% 0%, rgba(157, 78, 221, 0.08) 0%, transparent 50%)',
         }}
       />
 
-      {/* Static stars — very subtle */}
-      <div className="fixed inset-0 pointer-events-none z-0 opacity-20">
+      {/* Stars background */}
+      <div className="fixed inset-0 pointer-events-none z-0 opacity-40">
         {starPositions.map((star, i) => (
           <div
             key={i}
-            className="absolute w-px h-px bg-white rounded-full"
+            className="absolute w-px h-px bg-white rounded-full animate-twinkle"
             style={{
               top: `${star.top}%`,
               left: `${star.left}%`,
+              animationDelay: `${star.delay}s`,
+              animationDuration: `${star.duration}s`,
             }}
           />
         ))}

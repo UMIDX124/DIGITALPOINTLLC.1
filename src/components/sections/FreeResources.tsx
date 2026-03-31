@@ -31,13 +31,20 @@ export function FreeResources() {
       <div className="container-wide relative z-10">
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-          <span className="text-sm font-medium uppercase tracking-wider mb-4 block text-violet-400">
+          <span
+            className="text-sm font-medium uppercase tracking-wider mb-4 block"
+            style={{
+              background: 'linear-gradient(90deg, #e0aaff, #c77dff)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}
+          >
             Free Resources
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
             Guides &amp; Frameworks
           </h2>
-          <p className="text-zinc-400 text-lg mt-4 leading-relaxed">
+          <p className="text-[#b794c7] text-lg mt-4 leading-relaxed">
             Actionable playbooks you can implement today — no email required
           </p>
         </div>
@@ -50,41 +57,56 @@ export function FreeResources() {
             return (
               <motion.div
                 key={resource.title}
-                initial={{ opacity: 0, y: 16 }}
+                initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
                 transition={{
-                  duration: 0.4,
-                  delay: index * 0.08,
+                  duration: 0.5,
+                  delay: index * 0.1,
                   ease: [0.25, 0.4, 0.25, 1],
                 }}
               >
                 <Link
                   href={resource.href}
-                  className="group relative flex flex-col h-full rounded-xl overflow-hidden p-6 card-hover"
+                  className="group relative flex flex-col h-full rounded-2xl overflow-hidden p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
                   style={{
-                    background: '#161618',
+                    background: 'rgba(255, 255, 255, 0.03)',
                     border: '1px solid rgba(255, 255, 255, 0.06)',
                   }}
                 >
+                  {/* Hover glow */}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+                    style={{
+                      background:
+                        'linear-gradient(135deg, rgba(199, 125, 255, 0.06) 0%, transparent 60%)',
+                    }}
+                  />
+
                   <div className="relative z-10 flex flex-col h-full">
                     {/* Icon */}
-                    <div className="w-11 h-11 rounded-lg flex items-center justify-center mb-4 bg-white/[0.05] border border-white/[0.06]">
-                      <Icon className="w-5 h-5 text-violet-400" />
+                    <div
+                      className="w-11 h-11 rounded-xl flex items-center justify-center mb-4"
+                      style={{
+                        background: 'rgba(157, 78, 221, 0.15)',
+                        border: '1px solid rgba(199, 125, 255, 0.2)',
+                      }}
+                    >
+                      <Icon className="w-5 h-5 text-[#c77dff]" />
                     </div>
 
                     {/* Title */}
-                    <h3 className="font-display text-lg font-semibold text-white mb-2 leading-snug group-hover:text-violet-400 transition-colors">
+                    <h3 className="font-display text-lg font-semibold text-white mb-2 leading-snug group-hover:text-[#c77dff] transition-colors">
                       {resource.title}
                     </h3>
 
                     {/* Description */}
-                    <p className="text-zinc-500 text-sm leading-relaxed flex-1 mb-5">
+                    <p className="text-[#7c5a8a] text-sm leading-relaxed flex-1 mb-5">
                       {resource.description}
                     </p>
 
                     {/* CTA */}
-                    <span className="inline-flex items-center gap-1.5 text-sm font-medium text-violet-400 group-hover:text-violet-300 transition-colors">
+                    <span className="inline-flex items-center gap-1.5 text-sm font-medium text-[#c77dff] group-hover:text-[#e0aaff] transition-colors">
                       Read Free Guide
                       <span
                         aria-hidden="true"

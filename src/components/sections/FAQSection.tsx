@@ -32,6 +32,7 @@ const faqs = [
   },
 ];
 
+/** Memoized FAQ item — CSS grid transition instead of framer-motion AnimatePresence */
 const FAQItem = memo(function FAQItem({ question, answer, isOpen, onToggle }: {
   question: string;
   answer: string;
@@ -39,7 +40,10 @@ const FAQItem = memo(function FAQItem({ question, answer, isOpen, onToggle }: {
   onToggle: () => void;
 }) {
   return (
-    <div className="border-b border-white/[0.06]">
+    <div
+      className="border-b"
+      style={{ borderColor: 'rgba(157, 78, 221, 0.15)' }}
+    >
       <button
         onClick={onToggle}
         className="w-full py-5 flex items-center justify-between text-left"
@@ -49,16 +53,17 @@ const FAQItem = memo(function FAQItem({ question, answer, isOpen, onToggle }: {
           className="flex-shrink-0 transition-transform duration-200"
           style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
         >
-          <ChevronDown className="w-5 h-5 text-zinc-500" />
+          <ChevronDown className="w-5 h-5 text-[#c77dff]" />
         </span>
       </button>
 
+      {/* CSS grid transition for expand/collapse — no framer-motion needed */}
       <div
         className="grid transition-[grid-template-rows] duration-200 ease-out"
         style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
       >
         <div className="overflow-hidden">
-          <p className="pb-5 text-zinc-400 text-sm leading-relaxed">
+          <p className="pb-5 text-[#b794c7] text-sm leading-relaxed">
             {answer}
           </p>
         </div>
@@ -77,6 +82,8 @@ export function FAQSection() {
   return (
     <Section className="relative overflow-hidden">
       <FAQSchema faqs={faqs} />
+      {/* Cosmic background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#13091e] via-[#0d0815] to-[#0a0510]" />
 
       <Container className="relative z-10">
         <SectionHeader

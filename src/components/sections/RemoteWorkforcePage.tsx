@@ -62,6 +62,9 @@ export function RemoteWorkforcePage() {
     <>
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0 radial-glow" />
+        <div className="absolute inset-0 grid-bg opacity-30" />
+        
         <Container className="relative z-10 pt-32 pb-20">
           <FadeUp>
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-glass border border-border-glass text-text-secondary text-sm mb-6">
