@@ -1,6 +1,6 @@
 ---
-title: "Cross-Channel Attribution: Connecting the Dots Across Platforms"
-excerpt: "Learn how to build a unified view of marketing performance across Google, Meta, TikTok, and other channels — and stop letting platform silos hide the truth about your ROI."
+title: "Cross-Channel Attribution: Connect the Dots"
+excerpt: "Build a unified view of marketing performance across Google, Meta, TikTok, and other channels. Stop letting platform silos hide your true ROI."
 category: "Marketing Attribution"
 tags: ["cross-channel attribution", "multi-platform tracking", "marketing measurement", "unified reporting", "marketing analytics"]
 date: "2025-10-06"

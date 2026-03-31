@@ -1,6 +1,6 @@
 ---
-title: "Negative ROAS? How to Turn Around Unprofitable Ad Campaigns"
-excerpt: "A step-by-step recovery plan for ad campaigns that are losing money, with diagnostic frameworks and proven turnaround strategies across Google and Meta Ads."
+title: "Negative ROAS? Turn Around Unprofitable Ads"
+excerpt: "A step-by-step recovery plan for ad campaigns losing money, with diagnostic frameworks and proven turnaround strategies for Google and Meta Ads."
 category: "CAC ROAS Optimization"
 tags: ["ROAS recovery", "unprofitable ads", "ad campaign optimization", "loss recovery", "paid media"]
 date: "2026-01-10"

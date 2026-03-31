@@ -1,5 +1,5 @@
 ---
-title: "Seasonal Marketing Strategy: Planning Paid Campaigns Around Peak Periods"
+title: "Seasonal Marketing: Planning Campaigns for Peaks"
 excerpt: "Learn how to plan, budget, and execute paid advertising campaigns around seasonal peaks to maximize revenue during your most important selling periods."
 category: "Paid Ads Benchmarks"
 tags: ["seasonal marketing", "holiday advertising", "campaign planning", "budget planning", "Q4 marketing"]

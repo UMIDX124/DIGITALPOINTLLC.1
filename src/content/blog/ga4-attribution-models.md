@@ -1,6 +1,6 @@
 ---
 title: "GA4 Attribution Models: Which One Should You Use?"
-excerpt: "Google Analytics 4 changed its attribution models. Learn which GA4 attribution model is right for your business, how to configure it, and how to interpret the data correctly."
+excerpt: "Google Analytics 4 changed its attribution models. Learn which GA4 model is right for your business, how to configure it, and how to interpret data."
 category: "Marketing Attribution"
 tags: ["GA4", "Google Analytics 4", "attribution models", "data-driven attribution", "marketing analytics"]
 date: "2025-10-29"

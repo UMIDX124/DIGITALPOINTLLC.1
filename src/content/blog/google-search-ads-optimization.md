@@ -1,5 +1,5 @@
 ---
-title: "Google Search Ads Optimization: Advanced Bidding and Structure Guide"
+title: "Google Search Ads: Advanced Optimization Guide"
 excerpt: "Master Google Search Ads with advanced optimization strategies for bidding, ad structure, keyword management, and Quality Score improvement."
 category: "Paid Ads Benchmarks"
 tags: ["google ads", "search ads", "PPC optimization", "bidding strategy"]

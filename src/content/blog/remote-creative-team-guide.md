@@ -1,6 +1,6 @@
 ---
 title: "Building a Remote Creative Team for Ad Production"
-excerpt: "How to build and manage a remote creative team that produces high-performing ad creatives at scale, from hiring designers and video editors to establishing production workflows."
+excerpt: "How to build and manage a remote creative team that produces high-performing ad creatives at scale, from hiring designers to production workflows."
 category: "Remote Workforce"
 tags: ["creative team", "ad creative", "remote hiring", "video production", "design team"]
 date: "2026-01-29"

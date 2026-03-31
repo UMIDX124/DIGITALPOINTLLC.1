@@ -1,6 +1,6 @@
 ---
-title: "Managing Remote Marketing Teams: Tools, Processes, and Best Practices"
-excerpt: "Proven frameworks for managing remote marketing teams effectively, including communication cadences, performance tracking, and the tools that make distributed teams work."
+title: "Managing Remote Marketing Teams: Best Practices"
+excerpt: "Proven frameworks for managing remote marketing teams, including communication cadences, performance tracking, and tools for distributed teams."
 category: "Remote Workforce"
 tags: ["remote team management", "marketing operations", "team productivity", "remote work tools", "leadership"]
 date: "2026-02-03"

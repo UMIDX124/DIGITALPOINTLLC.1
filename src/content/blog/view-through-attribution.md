@@ -1,5 +1,5 @@
 ---
-title: "View-Through Attribution: Should You Count Impressions as Conversions?"
+title: "View-Through Attribution: Count Impressions?"
 excerpt: "Understand view-through attribution, when it inflates your numbers, when it captures real value, and how to configure it correctly across ad platforms."
 category: "Marketing Attribution"
 tags: ["view-through attribution", "impression tracking", "display advertising", "marketing measurement", "attribution models"]

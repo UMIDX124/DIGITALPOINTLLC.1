@@ -1,6 +1,6 @@
 ---
 title: "Conversion Tracking Setup: Complete Technical Guide"
-excerpt: "Step-by-step guide to setting up conversion tracking across Google Ads, Meta, GA4, and your CRM. Fix tracking gaps that cost you 20-40% in lost attribution."
+excerpt: "Step-by-step guide to setting up conversion tracking across Google Ads, Meta, GA4, and your CRM. Fix tracking gaps costing 20-40% in attribution."
 category: "Marketing Analytics"
 tags: ["conversion tracking", "tracking setup", "Google Ads tracking", "Meta pixel", "server-side tracking"]
 date: "2025-09-26"

@@ -1,6 +1,6 @@
 ---
-title: "SaaS Marketing Playbook: Paid Acquisition Strategies That Scale"
-excerpt: "The complete SaaS paid acquisition guide covering channel strategy, CAC benchmarks, trial optimization, and scaling frameworks for B2B and B2C SaaS companies."
+title: "SaaS Marketing Playbook: Paid Acquisition Guide"
+excerpt: "The complete SaaS paid acquisition guide covering channel strategy, CAC benchmarks, trial optimization, and scaling for B2B and B2C SaaS."
 category: "Growth Systems"
 tags: ["SaaS marketing", "SaaS advertising", "customer acquisition", "growth marketing", "B2B SaaS"]
 date: "2026-02-24"

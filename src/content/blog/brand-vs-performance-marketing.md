@@ -1,6 +1,6 @@
 ---
 title: "Brand vs Performance Marketing: Finding the Balance"
-excerpt: "Learn how to balance brand and performance marketing for sustainable growth. Data-driven frameworks for budget allocation between brand building and direct response."
+excerpt: "Learn how to balance brand and performance marketing for sustainable growth. Data-driven frameworks for budget allocation and direct response."
 category: "Growth Systems"
 tags: ["brand marketing", "performance marketing", "marketing strategy", "brand building", "growth marketing"]
 date: "2025-08-31"

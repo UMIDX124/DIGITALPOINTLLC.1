@@ -1,5 +1,5 @@
 ---
-title: "Lookalike Audiences in 2026: What Still Works After Privacy Changes"
+title: "Lookalike Audiences in 2026: What Still Works"
 excerpt: "Learn what works for lookalike audiences after iOS privacy changes with updated strategies for Meta, Google, and LinkedIn audience expansion."
 category: "Paid Ads Benchmarks"
 tags: ["lookalike audiences", "audience targeting", "privacy changes", "paid social"]

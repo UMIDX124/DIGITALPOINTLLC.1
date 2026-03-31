@@ -1,5 +1,5 @@
 ---
-title: "Programmatic Advertising: What Marketers Need to Know in 2026"
+title: "Programmatic Advertising Guide for 2026"
 excerpt: "Understand programmatic advertising with this guide to DSPs, targeting methods, brand safety, and measurement for marketers spending $10K+/month on ads."
 category: "Paid Ads Benchmarks"
 tags: ["programmatic advertising", "display ads", "DSP", "media buying"]

@@ -1,5 +1,5 @@
 ---
-title: "Marketing Mix Modeling: How to Measure True Channel Impact"
+title: "Marketing Mix Modeling: Measure Channel Impact"
 excerpt: "Understand how Marketing Mix Modeling (MMM) helps you allocate budgets across channels by measuring incremental impact, not just last-click attribution."
 category: "Marketing Analytics"
 tags: ["marketing mix modeling", "MMM", "attribution", "budget allocation", "media planning"]

@@ -1,6 +1,6 @@
 ---
 title: "Ad Fatigue: How to Detect, Prevent, and Fix It"
-excerpt: "Learn to identify ad fatigue before it destroys your campaign performance, with detection frameworks, prevention strategies, and recovery playbooks for every major ad platform."
+excerpt: "Learn to identify ad fatigue before it destroys campaign performance, with detection frameworks, prevention strategies, and recovery playbooks."
 category: "Paid Ads Benchmarks"
 tags: ["ad fatigue", "creative refresh", "ad performance", "campaign optimization", "creative strategy"]
 date: "2025-08-08"

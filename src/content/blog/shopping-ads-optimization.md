@@ -1,6 +1,6 @@
 ---
 title: "Google Shopping Ads Optimization: From Setup to Scale"
-excerpt: "The complete guide to Google Shopping Ads optimization, covering product feed management, campaign structure, bidding strategies, and scaling tactics for e-commerce advertisers."
+excerpt: "The complete guide to Google Shopping Ads optimization, covering product feed management, campaign structure, bidding, and scaling for e-commerce."
 category: "Paid Ads Benchmarks"
 tags: ["Google Shopping", "Shopping Ads", "product feed", "e-commerce ads", "Merchant Center"]
 date: "2026-03-06"

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Digital Point LLC",
   },
   description:
-    "Digital Point helps businesses scale revenue with performance marketing, remote execution, and systems that actually hold. Paid acquisition, reporting clarity, and managed workforce support for founder-led and growth-stage businesses.",
+    "Digital Point helps businesses scale with performance marketing, remote execution, and systems that hold. Paid acquisition, reporting, and workforce support.",
   keywords: [
     "performance marketing agency",
     "paid acquisition agency",

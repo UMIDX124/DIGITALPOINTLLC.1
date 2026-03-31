@@ -1,6 +1,6 @@
 ---
 title: "CPM Trends in 2026: What Advertisers Need to Know"
-excerpt: "A deep analysis of CPM trends across every major ad platform in 2026, with data on what is driving costs up and strategies to maintain efficiency despite rising prices."
+excerpt: "A deep analysis of CPM trends across every major ad platform in 2026, with data on what drives costs up and strategies to maintain efficiency."
 category: "Paid Ads Benchmarks"
 tags: ["CPM trends", "advertising costs", "ad pricing", "media costs", "2026 trends"]
 date: "2025-10-01"

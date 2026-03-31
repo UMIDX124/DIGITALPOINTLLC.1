@@ -1,5 +1,5 @@
 ---
-title: "Remote Marketing Team vs Agency: Which Is Right for Your Business?"
+title: "Remote Marketing Team vs Agency: Which Is Right?"
 excerpt: "Compare the pros, cons, and total costs of building a remote marketing team versus hiring an agency for your performance marketing needs."
 category: "Remote Workforce"
 tags: ["remote team", "marketing agency", "outsourcing", "in-house marketing", "cost comparison"]

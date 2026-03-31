@@ -1,5 +1,5 @@
 ---
-title: "Retargeting Strategy: How to Re-Engage Without Wasting Budget"
+title: "Retargeting Strategy: Re-Engage Without Waste"
 excerpt: "Build a retargeting strategy that re-engages warm audiences efficiently with segmentation, frequency caps, and cross-platform tactics that maximize ROI."
 category: "CAC ROAS Optimization"
 tags: ["retargeting", "remarketing", "audience segmentation", "conversion optimization"]

@@ -1,6 +1,6 @@
 ---
 title: "Competitor Analysis for Paid Ads: Tools and Techniques"
-excerpt: "Learn how to spy on your competitors' ad strategies, estimate their budgets, reverse-engineer their best-performing creatives, and find gaps you can exploit."
+excerpt: "Learn how to analyze competitors' ad strategies, estimate their budgets, reverse-engineer top creatives, and find gaps you can exploit."
 category: "Paid Ads Benchmarks"
 tags: ["competitor analysis", "ad intelligence", "competitive research", "paid advertising", "market research"]
 date: "2025-09-12"

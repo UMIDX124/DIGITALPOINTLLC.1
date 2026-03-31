@@ -1,6 +1,6 @@
 ---
-title: "ROAS Optimization: The Complete Guide to Maximizing Return on Ad Spend"
-excerpt: "Master ROAS optimization with proven strategies across Google Ads, Meta Ads, and every major paid channel. Includes benchmarks, frameworks, and actionable tactics."
+title: "ROAS Optimization: Maximize Return on Ad Spend"
+excerpt: "Master ROAS optimization with proven strategies across Google Ads, Meta Ads, and every major paid channel. Benchmarks, frameworks, and tactics."
 category: "CAC ROAS Optimization"
 tags: ["ROAS", "return on ad spend", "ad optimization", "paid media", "performance marketing"]
 date: "2026-02-19"

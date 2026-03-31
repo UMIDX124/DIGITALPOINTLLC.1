@@ -1,6 +1,6 @@
 ---
-title: "Revenue Operations (RevOps): Aligning Marketing, Sales, and Customer Success"
-excerpt: "Learn how Revenue Operations breaks down silos between marketing, sales, and customer success to create a unified revenue engine with shared data and goals."
+title: "RevOps: Aligning Marketing, Sales & Success"
+excerpt: "Learn how Revenue Operations breaks down silos between marketing, sales, and success to create a unified revenue engine with shared data."
 category: "Growth Systems"
 tags: ["revenue operations", "RevOps", "sales alignment", "marketing alignment", "revenue growth"]
 date: "2026-02-15"

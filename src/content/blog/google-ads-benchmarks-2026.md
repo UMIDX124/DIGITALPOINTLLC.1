@@ -1,6 +1,6 @@
 ---
-title: "Google Ads Benchmarks 2026: CPC, CTR, and Conversion Rates by Industry"
-excerpt: "The most comprehensive Google Ads benchmarks for 2026 — CPC, CTR, conversion rate, and cost per conversion data across 15+ industries for Search, Shopping, Display, and YouTube."
+title: "Google Ads Benchmarks 2026: CPC, CTR & CVR Data"
+excerpt: "Google Ads benchmarks for 2026 — CPC, CTR, conversion rate, and cost per conversion across 15+ industries for Search, Shopping, and Display."
 category: "Paid Ads Benchmarks"
 tags: ["Google Ads benchmarks", "CPC benchmarks", "CTR benchmarks", "conversion rate benchmarks", "2026 benchmarks"]
 date: "2025-11-03"

@@ -1,6 +1,6 @@
 ---
-title: "Data Clean Rooms: The Future of Privacy-Safe Marketing Measurement"
-excerpt: "Learn what data clean rooms are, how they work, and why they're becoming essential for marketing measurement as third-party cookies disappear and privacy regulations tighten."
+title: "Data Clean Rooms: Privacy-Safe Measurement"
+excerpt: "Learn what data clean rooms are, how they work, and why they are essential for marketing measurement as cookies disappear and privacy rules tighten."
 category: "Marketing Attribution"
 tags: ["data clean rooms", "privacy marketing", "marketing measurement", "first-party data", "cookieless future"]
 date: "2025-10-13"

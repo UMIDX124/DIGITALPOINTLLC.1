@@ -1,5 +1,5 @@
 ---
-title: "First-Click vs Last-Click Attribution: Pros, Cons, and When to Use Each"
+title: "First-Click vs Last-Click Attribution Compared"
 excerpt: "Understand the key differences between first-click and last-click attribution, when each makes sense, and why most teams need both."
 category: "Marketing Attribution"
 tags: ["first-click attribution", "last-click attribution", "attribution models", "marketing measurement"]

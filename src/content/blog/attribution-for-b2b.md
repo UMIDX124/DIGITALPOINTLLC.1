@@ -1,5 +1,5 @@
 ---
-title: "Marketing Attribution for B2B: Long Sales Cycles and Complex Funnels"
+title: "B2B Marketing Attribution: Long Sales Cycles Guide"
 excerpt: "B2B attribution is harder than B2C. Learn how to track marketing impact across long sales cycles, multiple stakeholders, and complex buying journeys."
 category: "Marketing Attribution"
 tags: ["B2B attribution", "B2B marketing", "sales cycle tracking", "account-based attribution", "marketing measurement"]

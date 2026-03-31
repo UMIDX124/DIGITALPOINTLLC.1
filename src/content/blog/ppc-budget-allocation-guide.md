@@ -1,6 +1,6 @@
 ---
-title: "PPC Budget Allocation: How to Distribute Ad Spend Across Channels"
-excerpt: "A data-driven framework for allocating your PPC budget across Google, Meta, LinkedIn, TikTok, and other channels to maximize total return on your advertising investment."
+title: "PPC Budget Allocation Across Channels Guide"
+excerpt: "A data-driven framework for allocating your PPC budget across Google, Meta, LinkedIn, TikTok, and other channels to maximize return on ad spend."
 category: "Paid Ads Benchmarks"
 tags: ["PPC budget", "budget allocation", "media mix", "ad spend", "channel strategy"]
 date: "2026-01-20"

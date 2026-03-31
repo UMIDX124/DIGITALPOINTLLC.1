@@ -1,6 +1,6 @@
 ---
 title: "How to Improve ROAS on Google Ads: 12 Proven Strategies"
-excerpt: "Twelve specific, actionable strategies to improve your Google Ads ROAS, from quick wins you can implement today to advanced tactics for experienced advertisers."
+excerpt: "Twelve actionable strategies to improve your Google Ads ROAS, from quick wins you can implement today to advanced tactics for experienced advertisers."
 category: "CAC ROAS Optimization"
 tags: ["Google Ads", "ROAS", "PPC optimization", "search ads", "shopping ads"]
 date: "2025-11-19"

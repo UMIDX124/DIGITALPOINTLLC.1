@@ -1,6 +1,6 @@
 ---
 title: "Marketing Agency vs In-House Team: Cost Analysis"
-excerpt: "Detailed cost comparison of marketing agencies vs in-house teams vs remote workforce models. Find the most cost-effective approach for your marketing needs."
+excerpt: "Detailed cost comparison of marketing agencies vs in-house teams vs remote workforce models. Find the most cost-effective approach for your needs."
 category: "Remote Workforce"
 tags: ["marketing agency", "in-house marketing", "remote marketing team", "marketing costs", "team building"]
 date: "2025-12-08"

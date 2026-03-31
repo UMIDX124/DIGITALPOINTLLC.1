@@ -1,6 +1,6 @@
 ---
 title: "Cookieless Tracking: Marketing in a Post-Cookie World"
-excerpt: "Third-party cookies are going away. Learn the practical alternatives for tracking, attribution, and audience targeting that actually work in 2026 and beyond."
+excerpt: "Third-party cookies are going away. Learn practical alternatives for tracking, attribution, and audience targeting that work in 2026 and beyond."
 category: "Marketing Attribution"
 tags: ["cookieless tracking", "privacy marketing", "first-party data", "server-side tracking", "post-cookie marketing"]
 date: "2025-09-29"

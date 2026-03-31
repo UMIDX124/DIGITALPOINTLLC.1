@@ -1,6 +1,6 @@
 ---
-title: "B2B Paid Advertising Guide: Channels, Tactics, and Benchmarks"
-excerpt: "B2B paid advertising requires different strategies than B2C. Learn which channels work, what benchmarks to expect, and how to build a B2B paid media strategy that generates pipeline."
+title: "B2B Paid Advertising: Channels, Tactics & Benchmarks"
+excerpt: "B2B paid advertising needs different strategies than B2C. Learn which channels work, benchmarks to expect, and how to build a pipeline strategy."
 category: "Paid Ads Benchmarks"
 tags: ["B2B advertising", "B2B marketing", "LinkedIn Ads", "lead generation", "demand generation"]
 date: "2025-08-24"
