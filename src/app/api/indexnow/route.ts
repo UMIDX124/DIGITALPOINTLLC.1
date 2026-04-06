@@ -1,12 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const INDEXNOW_KEY = 'a4ba6cf90e363e1de7820d3ddc85b296';
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '';
 const HOST = 'digitalpointllc.com';
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { urls } = body as { urls: string[] };
+
+    if (!INDEXNOW_KEY) {
+      return NextResponse.json({ error: 'IndexNow key not configured' }, { status: 500 });
+    }
 
     if (!urls || !Array.isArray(urls) || urls.length === 0) {
       return NextResponse.json(

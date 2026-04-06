@@ -298,7 +298,7 @@ const guides: Guide[] = [
     slug: 'cac-roas-guide',
     title: 'The Complete Guide to CAC & ROAS (2026)',
     description:
-      'Learn how to calculate, benchmark, and optimize Customer Acquisition Cost and Return on Ad Spend. Includes industry benchmarks and the relationship between CAC, LTV, and ROAS.',
+      'Learn how to calculate, benchmark, and optimize Customer Acquisition Cost and Return on Ad Spend with industry benchmarks and CAC/LTV/ROAS insights.',
     readTime: '20 min read',
     datePublished: '2026-01-20',
     dateModified: '2026-03-15',

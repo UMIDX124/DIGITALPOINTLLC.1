@@ -34,9 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       authors: [post.author],
       tags: post.tags,
       url: `${baseUrl}/blog/${slug}`,
-      ...(post.image && {
-        images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
-      }),
+      images: [{ url: post.image || '/og-image.png', width: 1200, height: 630, alt: post.title }],
     },
     twitter: {
       card: 'summary_large_image',

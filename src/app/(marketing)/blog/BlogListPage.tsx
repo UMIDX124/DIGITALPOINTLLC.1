@@ -156,6 +156,7 @@ export function BlogListPage({ posts, categories, categoryMeta }: Props) {
       {/* Articles Grid */}
       <Section>
         <Container>
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-8">Latest Articles</h2>
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {displayPosts.map((article) => (
               <StaggerItem key={article.slug}>

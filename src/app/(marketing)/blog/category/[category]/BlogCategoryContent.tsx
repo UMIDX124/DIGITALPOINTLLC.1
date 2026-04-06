@@ -32,6 +32,9 @@ export function BlogCategoryContent({ categoryName, meta, posts }: Props) {
 
       <Section>
         <Container>
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-8">
+            Articles about {categoryName}
+          </h2>
           {posts.length === 0 ? (
             <FadeUp>
               <div className="text-center py-16">
