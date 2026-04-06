@@ -16,7 +16,8 @@ export function ExitIntentModal() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
-  const isAuditPage = pathname === '/free-growth-audit';
+  const isAuditPage =
+    pathname === '/free-audit' || pathname === '/free-growth-audit';
 
   useEffect(() => {
     if (isAuditPage) return;
@@ -60,7 +61,7 @@ export function ExitIntentModal() {
 
         <div className="mt-4 space-y-3">
           <Link
-            href="/free-growth-audit"
+            href="/free-audit"
             onClick={() => setOpen(false)}
             className="w-full py-3 rounded-xl text-sm font-semibold text-white flex items-center justify-center gap-2"
             style={{

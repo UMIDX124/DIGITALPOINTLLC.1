@@ -1,7 +1,6 @@
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
 import SupportChatbot from '@/components/ui-dp/SupportChatbot';
-import { StickyCTABar } from '@/components/ui-dp/StickyCTABar';
 import { ExitIntentModal } from '@/components/ui-dp/ExitIntentModal';
 
 // Pre-computed star positions (deterministic for SSR)
@@ -56,7 +55,6 @@ export default function MarketingLayout({
       </div>
 
       <SupportChatbot />
-      <StickyCTABar />
       <ExitIntentModal />
     </div>
   );
