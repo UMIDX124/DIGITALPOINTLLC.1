@@ -1,21 +1,20 @@
+import { redirect } from 'next/navigation';
 import type { Metadata } from 'next';
-import { AuditPage } from '@/components/sections/AuditPage';
 
+// Legacy URL — permanently redirected to /free-audit
 export const metadata: Metadata = {
-  title: 'Free Growth Audit',
+  title: 'Free Paid Ads Audit',
   description:
-    'Get a free, no-obligation review of your marketing setup. We analyze your ad spend, attribution gaps, and conversion rates to find quick wins.',
-  openGraph: {
-    title: 'Free Growth Audit — Digital Point LLC',
-    description:
-      'Free, no-obligation review of your marketing setup. Find what is broken and what to fix next.',
-    url: 'https://digitalpointllc.com/free-growth-audit',
-  },
+    'Get a free paid ads audit from Digital Point LLC. We\'ve managed $50M+ in ad spend.',
   alternates: {
-    canonical: 'https://digitalpointllc.com/free-growth-audit',
+    canonical: 'https://digitalpointllc.com/free-audit',
+  },
+  robots: {
+    index: false,
+    follow: true,
   },
 };
 
 export default function Page() {
-  return <AuditPage />;
+  redirect('/free-audit');
 }

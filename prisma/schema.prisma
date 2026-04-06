@@ -101,3 +101,26 @@ model ChatLead {
   @@index([status])
   @@index([createdAt])
 }
+
+model Lead {
+  id           String   @id @default(cuid())
+  name         String
+  email        String
+  company      String?
+  phone        String?
+  platforms    String   // comma-separated: "Meta Ads,Google Ads"
+  adSpend      String
+  currentRoas  String?
+  challenge    String
+  industry     String?
+  businessType String
+  source       String?
+  notes        String?
+  status       String   @default("New")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([email])
+  @@index([status])
+  @@index([createdAt])
+}

@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import CookieConsent from "@/components/CookieConsent";
+import { StickyAuditCTA } from "@/components/StickyAuditCTA";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -66,12 +67,12 @@ export const metadata: Metadata = {
   publisher: "Digital Point LLC",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/favicon-16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon.ico?v=2", sizes: "32x32" },
+      { url: "/favicon-16.png?v=2", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32.png?v=2", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png?v=2", sizes: "48x48", type: "image/png" },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon.png?v=2",
   },
   openGraph: {
     title: "Digital Point LLC | Performance Marketing & Remote Workforce Solutions",
@@ -275,6 +276,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <CookieConsent />
+        <StickyAuditCTA />
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9780328939631989"
           strategy="afterInteractive"
