@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { motion, useInView, useMotionValue, useTransform, animate } from 'framer-motion';
 import {
   TrendingDown,
@@ -14,42 +14,41 @@ import { AuditLeadForm } from '@/components/AuditLeadForm';
 
 /* ---------- Animated counter ---------- */
 
-function useCountUp(target: number, inView: boolean, duration = 1.6) {
-  const motionValue = useMotionValue(0);
-  const display = useTransform(motionValue, (latest) =>
-    Math.round(latest).toLocaleString()
-  );
-
-  useEffect(() => {
-    if (inView) {
-      const controls = animate(motionValue, target, {
-        duration,
-        ease: [0.22, 1, 0.36, 1],
-      });
-      return controls.stop;
-    }
-  }, [inView, target, duration, motionValue]);
-
-  return display;
-}
-
 function AnimatedNumber({
   value,
   prefix = '',
   suffix = '',
+  decimals = 0,
 }: {
   value: number;
   prefix?: string;
   suffix?: string;
+  decimals?: number;
 }) {
-  const ref = useRef(null);
+  const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
-  const display = useCountUp(value, inView);
+  const [display, setDisplay] = useState('0');
+
+  useEffect(() => {
+    if (!inView) return;
+    const controls = animate(0, value, {
+      duration: 1.6,
+      ease: [0.22, 1, 0.36, 1],
+      onUpdate: (latest) => {
+        setDisplay(
+          decimals > 0
+            ? latest.toFixed(decimals)
+            : Math.round(latest).toLocaleString()
+        );
+      },
+    });
+    return () => controls.stop();
+  }, [inView, value, decimals]);
 
   return (
     <span ref={ref} className="tabular-nums font-mono">
       {prefix}
-      <motion.span>{display}</motion.span>
+      {display}
       {suffix}
     </span>
   );
