@@ -209,6 +209,22 @@ export default function SupportChatbot() {
     setTicketError("");
 
     try {
+      // Fire-and-forget CRM webhook
+      fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: ticketForm.name,
+          email: ticketForm.email,
+          phone: '',
+          company: ticketForm.name,
+          service: 'Support Ticket',
+          budget: '0',
+          message: `[${ticketForm.priority.toUpperCase()}] ${ticketForm.subject}: ${ticketForm.message}`,
+          source: 'DPL',
+        }),
+      }).catch(() => {});
+
       const res = await fetch("/api/ticket", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

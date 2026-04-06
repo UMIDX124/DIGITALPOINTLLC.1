@@ -111,13 +111,32 @@ export function AuditPage() {
     trackFormSubmit('free_audit');
 
     try {
+      const resolvedBottleneck = challenges.find(c => c.id === formData.bottleneck)?.label || formData.bottleneck;
+      const resolvedAdSpend = spendRanges.find(s => s.id === formData.adSpend)?.label || formData.adSpend;
+
+      // Fire-and-forget CRM webhook
+      fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: '',
+          company: formData.company || formData.name,
+          service: resolvedBottleneck,
+          budget: resolvedAdSpend || '0',
+          message: `Audit request - Challenge: ${resolvedBottleneck}, Ad Spend: ${resolvedAdSpend}`,
+          source: 'DPL',
+        }),
+      }).catch(() => {});
+
       const response = await fetch('/api/audit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          bottleneck: challenges.find(c => c.id === formData.bottleneck)?.label || formData.bottleneck,
-          adSpend: spendRanges.find(s => s.id === formData.adSpend)?.label || formData.adSpend,
+          bottleneck: resolvedBottleneck,
+          adSpend: resolvedAdSpend,
         }),
       });
 

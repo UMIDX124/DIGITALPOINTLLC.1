@@ -100,6 +100,22 @@ export async function POST(request: NextRequest) {
       // Database unavailable (e.g. SQLite on serverless) — continue with email
     }
 
+    // Fire-and-forget CRM webhook (server-side, no CORS issues)
+    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name,
+        email,
+        phone: '',
+        company: company || name,
+        service: bottleneck || 'Growth Audit',
+        budget: sanitize(body.adSpend) || '0',
+        message: `Audit request - Challenge: ${bottleneck}, Ad Spend: ${sanitize(body.adSpend) || 'N/A'}`,
+        source: 'DPL',
+      }),
+    }).catch(() => {});
+
     // Send email with escaped user input (best-effort)
     try {
       await sendEmail({

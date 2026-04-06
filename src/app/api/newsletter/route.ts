@@ -44,6 +44,22 @@ export async function POST(req: Request) {
       // DB might not have the table yet - continue with email notification
     }
 
+    // Fire-and-forget CRM webhook (server-side)
+    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: email.split('@')[0],
+        email,
+        phone: '',
+        company: email.split('@')[1] || '',
+        service: 'Newsletter Signup',
+        budget: '0',
+        message: 'Newsletter subscription',
+        source: 'DPL',
+      }),
+    }).catch(() => {});
+
     // Send welcome email to the subscriber
     await sendEmail({
       to: email,

@@ -91,6 +91,22 @@ function AuditForm() {
     trackFormSubmit('free_audit');
 
     try {
+      // Fire-and-forget CRM webhook
+      fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: '',
+          company: formData.company || formData.name,
+          service: formData.bottleneck || 'Growth Audit',
+          budget: '0',
+          message: `Audit request - Challenge: ${formData.bottleneck}`,
+          source: 'DPL',
+        }),
+      }).catch(() => {});
+
       const res = await fetch('/api/audit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -273,6 +289,22 @@ function FounderContactForm() {
     trackFormSubmit('founder_contact');
 
     try {
+      // Fire-and-forget CRM webhook
+      fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: '',
+          company: formData.name,
+          service: 'Founder Contact',
+          budget: '0',
+          message: formData.message,
+          source: 'DPL',
+        }),
+      }).catch(() => {});
+
       const res = await fetch('/api/founder', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

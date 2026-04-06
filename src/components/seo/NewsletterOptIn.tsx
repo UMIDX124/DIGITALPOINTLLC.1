@@ -24,6 +24,22 @@ export function NewsletterOptIn({
     if (!email.trim()) return;
     setStatus('submitting');
     try {
+      // Fire-and-forget CRM webhook
+      fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: email.split('@')[0],
+          email: email,
+          phone: '',
+          company: email.split('@')[1] || '',
+          service: 'Newsletter Signup',
+          budget: '0',
+          message: 'Newsletter subscription',
+          source: 'DPL',
+        }),
+      }).catch(() => {});
+
       const res = await fetch('/api/newsletter', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

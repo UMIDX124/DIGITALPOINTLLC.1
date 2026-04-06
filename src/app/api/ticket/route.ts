@@ -102,6 +102,22 @@ export async function POST(request: NextRequest) {
       // Database unavailable (e.g. SQLite on serverless) — continue with email
     }
 
+    // Fire-and-forget CRM webhook (server-side)
+    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name,
+        email,
+        phone: '',
+        company: name,
+        service: 'Support Ticket',
+        budget: '0',
+        message: `[${priority.toUpperCase()}] ${subject}: ${message}`,
+        source: 'DPL',
+      }),
+    }).catch(() => {});
+
     // Route email based on priority (best-effort)
     const recipientEmail =
       priority === 'high'

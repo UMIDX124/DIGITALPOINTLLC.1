@@ -92,6 +92,22 @@ export async function POST(request: NextRequest) {
       // Database unavailable (e.g. SQLite on serverless) — continue with email
     }
 
+    // Fire-and-forget CRM webhook (server-side)
+    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name,
+        email,
+        phone: '',
+        company: name,
+        service: 'Founder Contact',
+        budget: '0',
+        message,
+        source: 'DPL',
+      }),
+    }).catch(() => {});
+
     try {
       await sendEmail({
         to: 'ADMIN@DIGITALPOINTLLC.COM',
