@@ -6,10 +6,14 @@
  *
  * Configure via env:
  *   CRM_WEBHOOK_URL     — base URL of the CRM (no trailing slash)
- *   CRM_WEBHOOK_SECRET  — shared secret sent in the X-Webhook-Secret header
  *   LEAD_WEBHOOK_SECRET — HMAC signing key; body is signed with HMAC-SHA256
  *                        and sent in the X-Webhook-Signature header as
- *                        `sha256=<hex>`
+ *                        `sha256=<hex>`. The HMAC is the single source of
+ *                        authentication for CRM-inbound webhooks.
+ *
+ * Historical note: we used to also send an `X-Webhook-Secret: $CRM_WEBHOOK_SECRET`
+ * header as a defense-in-depth check. The CRM never verified it (dead header),
+ * so it's been removed to reduce the number of secrets in rotation.
  */
 
 import { createHmac } from 'node:crypto';
@@ -46,8 +50,6 @@ type TicketPayload = {
 
 function headers(body: string): HeadersInit {
   const h: Record<string, string> = { 'Content-Type': 'application/json' };
-  const secret = process.env.CRM_WEBHOOK_SECRET;
-  if (secret) h['X-Webhook-Secret'] = secret;
 
   const signingKey = process.env.LEAD_WEBHOOK_SECRET;
   if (signingKey) {
