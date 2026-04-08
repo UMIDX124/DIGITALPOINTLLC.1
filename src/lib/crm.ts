@@ -69,7 +69,7 @@ export function forwardLeadToCrm(payload: LeadPayload): void {
     ...payload,
   });
 
-  fetch(`${CRM_BASE}/api/webhook/leads`, {
+  fetch(`${CRM_BASE}/api/webhook/lead`, {
     method: 'POST',
     headers: headers(body),
     body,
@@ -91,7 +91,7 @@ export function forwardTicketToCrm(payload: TicketPayload): void {
     ...payload,
   });
 
-  fetch(`${CRM_BASE}/api/webhook/tickets`, {
+  fetch(`${CRM_BASE}/api/webhook/ticket`, {
     method: 'POST',
     headers: headers(body),
     body,
