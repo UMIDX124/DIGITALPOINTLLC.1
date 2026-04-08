@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact — Digital Point LLC',
   description: 'Get in touch with Digital Point LLC. Reach out for a free growth audit, partnership inquiries, or general questions.',
+  alternates: {
+    canonical: 'https://www.digitalpointllc.com/contact',
+  },
 };
 
 export default function Contact() {

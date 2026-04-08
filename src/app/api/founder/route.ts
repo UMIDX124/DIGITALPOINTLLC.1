@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { sendEmail, escapeHtml } from '@/lib/email';
+import { forwardLeadToCrm } from '@/lib/crm';
 
 const rateLimitMap = new Map<string, { count: number; lastRequest: number }>();
 const RATE_LIMIT_WINDOW = 60 * 1000;
@@ -92,21 +93,13 @@ export async function POST(request: NextRequest) {
       // Database unavailable (e.g. SQLite on serverless) — continue with email
     }
 
-    // Fire-and-forget CRM webhook (server-side)
-    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name,
-        email,
-        phone: '',
-        company: name,
-        service: 'Founder Contact',
-        budget: '0',
-        message,
-        source: 'DPL',
-      }),
-    }).catch(() => {});
+    forwardLeadToCrm({
+      name,
+      email,
+      message,
+      formType: 'CONTACT',
+      service: 'Founder Contact',
+    });
 
     try {
       await sendEmail({

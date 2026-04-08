@@ -6,6 +6,7 @@ import {
   buildAdminAuditEmail,
   buildLeadAutoReply,
 } from '@/lib/email-templates/audit-lead';
+import { forwardLeadToCrm } from '@/lib/crm';
 
 /* ---------- Rate limiting — 3 per hour per IP ---------- */
 
@@ -137,28 +138,16 @@ export async function POST(request: NextRequest) {
       }
     })();
 
-    // Fire-and-forget CRM webhook
-    const crmUrl =
-      process.env.CRM_WEBHOOK_URL ||
-      'https://fu-corp-crm.vercel.app/api/webhook/lead';
-
-    fetch(crmUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: data.name,
-        email: data.email,
-        phone: data.phone || '',
-        company: data.company || data.name,
-        service: data.platforms.join(', '),
-        budget: data.adSpend,
-        message: `Challenge: ${data.challenge}. ROAS: ${data.currentRoas || 'N/A'}. ${data.notes || ''}`.trim(),
-        source: 'DPL',
-        formType: 'audit',
-        qualityScore: scoreLead(data.adSpend),
-      }),
-    }).catch(() => {
-      // silent — CRM is non-critical
+    forwardLeadToCrm({
+      name: data.name,
+      email: data.email,
+      phone: data.phone || '',
+      company: data.company || data.name,
+      service: 'Performance Marketing',
+      budget: data.adSpend,
+      message: `Challenge: ${data.challenge}. Platforms: ${data.platforms.join(', ')}. ROAS: ${data.currentRoas || 'N/A'}. ${data.notes || ''}`.trim(),
+      formType: 'AUDIT_REQUEST',
+      qualityScore: scoreLead(data.adSpend),
     });
 
     return NextResponse.json({

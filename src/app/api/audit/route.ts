@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { sendEmail, escapeHtml } from '@/lib/email';
+import { forwardLeadToCrm } from '@/lib/crm';
 
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
 const RATE_LIMIT = 5;
@@ -100,21 +101,15 @@ export async function POST(request: NextRequest) {
       // Database unavailable (e.g. SQLite on serverless) — continue with email
     }
 
-    // Fire-and-forget CRM webhook (server-side, no CORS issues)
-    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name,
-        email,
-        phone: '',
-        company: company || name,
-        service: bottleneck || 'Growth Audit',
-        budget: sanitize(body.adSpend) || '0',
-        message: `Audit request - Challenge: ${bottleneck}, Ad Spend: ${sanitize(body.adSpend) || 'N/A'}`,
-        source: 'DPL',
-      }),
-    }).catch(() => {});
+    forwardLeadToCrm({
+      name,
+      email,
+      company: company || name,
+      service: 'Performance Marketing',
+      budget: sanitize(body.adSpend) || '0',
+      message: `Audit request - Challenge: ${bottleneck}, Ad Spend: ${sanitize(body.adSpend) || 'N/A'}`,
+      formType: 'AUDIT_REQUEST',
+    });
 
     // Send email with escaped user input (best-effort)
     try {

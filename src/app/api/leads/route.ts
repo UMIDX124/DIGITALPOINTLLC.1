@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { sendEmail, escapeHtml } from '@/lib/email';
+import { forwardLeadToCrm } from '@/lib/crm';
 
 export async function POST(request: NextRequest) {
   try {
@@ -45,25 +46,15 @@ export async function POST(request: NextRequest) {
 
     // Forward to Alpha CRM (non-blocking — runs for every chatbot lead with email)
     if (email) {
-      const crmUrl =
-        process.env.CRM_WEBHOOK_URL ||
-        'https://fu-corp-crm.vercel.app/api/webhook/lead';
-      fetch(crmUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: name || 'Unknown',
-          email,
-          phone: phone || '',
-          company: company || name || '',
-          service: interest || '',
-          message: conversationSummary || '',
-          source: 'DPL',
-          formType: 'chatbot',
-          qualityScore: qualityScore || 0,
-        }),
-      }).catch(() => {
-        // silent — CRM is non-critical
+      forwardLeadToCrm({
+        name: name || 'Unknown',
+        email,
+        phone: phone || '',
+        company: company || name || '',
+        service: interest || '',
+        message: conversationSummary || '',
+        formType: 'CHATBOT',
+        qualityScore: qualityScore || 0,
       });
     }
 

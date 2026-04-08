@@ -12,6 +12,7 @@ const footerLinks = {
     { name: 'Results', href: '/results' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Submit a Support Ticket', href: '/support' },
     { name: 'Free Growth Audit', href: '/free-growth-audit' },
   ],
 };

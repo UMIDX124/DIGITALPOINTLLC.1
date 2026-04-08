@@ -47,22 +47,6 @@ export function ContactPage() {
     if (!form.name.trim() || !form.email.trim() || !form.message.trim()) return;
     setStatus('submitting');
     try {
-      // Fire-and-forget CRM webhook
-      fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: form.name,
-          email: form.email,
-          phone: '',
-          company: form.name,
-          service: 'Contact Inquiry',
-          budget: '0',
-          message: form.message,
-          source: 'DPL',
-        }),
-      }).catch(() => {});
-
       const res = await fetch('/api/founder', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

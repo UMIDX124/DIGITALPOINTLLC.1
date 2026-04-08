@@ -18,6 +18,7 @@ const navigation = [
   { name: 'Blog', href: '/blog' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Support', href: '/support' },
 ];
 
 const mobileNavigation = [
@@ -30,6 +31,7 @@ const mobileNavigation = [
   { name: 'Blog', href: '/blog' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Support', href: '/support' },
 ];
 
 /** Memoized nav link to prevent re-renders when sibling state changes */

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { sendEmail, escapeHtml } from '@/lib/email';
+import { forwardTicketToCrm } from '@/lib/crm';
 
 // ─── Rate Limiting ───────────────────────────────────────────────────────────
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
@@ -102,21 +103,13 @@ export async function POST(request: NextRequest) {
       // Database unavailable (e.g. SQLite on serverless) — continue with email
     }
 
-    // Fire-and-forget CRM webhook (server-side)
-    fetch('https://fu-corp-crm.vercel.app/api/webhook/lead', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name,
-        email,
-        phone: '',
-        company: name,
-        service: 'Support Ticket',
-        budget: '0',
-        message: `[${priority.toUpperCase()}] ${subject}: ${message}`,
-        source: 'DPL',
-      }),
-    }).catch(() => {});
+    forwardTicketToCrm({
+      subject,
+      description: message,
+      priority: priority === 'high' ? 'High' : 'Medium',
+      clientEmail: email,
+      clientName: name,
+    });
 
     // Route email based on priority (best-effort)
     const recipientEmail =
