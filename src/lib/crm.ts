@@ -5,9 +5,14 @@
  * CRM at https://fu-corp-crm.vercel.app via authenticated webhooks.
  *
  * Configure via env:
- *   CRM_WEBHOOK_URL    — base URL of the CRM (no trailing slash)
- *   CRM_WEBHOOK_SECRET — shared secret sent in the X-Webhook-Secret header
+ *   CRM_WEBHOOK_URL     — base URL of the CRM (no trailing slash)
+ *   CRM_WEBHOOK_SECRET  — shared secret sent in the X-Webhook-Secret header
+ *   LEAD_WEBHOOK_SECRET — HMAC signing key; body is signed with HMAC-SHA256
+ *                        and sent in the X-Webhook-Signature header as
+ *                        `sha256=<hex>`
  */
+
+import { createHmac } from 'node:crypto';
 
 const CRM_BASE =
   process.env.CRM_WEBHOOK_URL?.replace(/\/$/, '') ||
@@ -39,10 +44,17 @@ type TicketPayload = {
   [key: string]: unknown;
 };
 
-function headers(): HeadersInit {
+function headers(body: string): HeadersInit {
   const h: Record<string, string> = { 'Content-Type': 'application/json' };
   const secret = process.env.CRM_WEBHOOK_SECRET;
   if (secret) h['X-Webhook-Secret'] = secret;
+
+  const signingKey = process.env.LEAD_WEBHOOK_SECRET;
+  if (signingKey) {
+    const signature = createHmac('sha256', signingKey).update(body).digest('hex');
+    h['X-Webhook-Signature'] = `sha256=${signature}`;
+  }
+
   return h;
 }
 
@@ -59,7 +71,7 @@ export function forwardLeadToCrm(payload: LeadPayload): void {
 
   fetch(`${CRM_BASE}/api/webhook/leads`, {
     method: 'POST',
-    headers: headers(),
+    headers: headers(body),
     body,
   }).catch((err) => {
     if (process.env.NODE_ENV === 'development') {
@@ -81,7 +93,7 @@ export function forwardTicketToCrm(payload: TicketPayload): void {
 
   fetch(`${CRM_BASE}/api/webhook/tickets`, {
     method: 'POST',
-    headers: headers(),
+    headers: headers(body),
     body,
   }).catch((err) => {
     if (process.env.NODE_ENV === 'development') {
