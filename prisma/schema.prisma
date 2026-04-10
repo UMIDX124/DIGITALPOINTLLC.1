@@ -1,15 +1,10 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -60,8 +55,8 @@ model SupportTicket {
   email     String
   subject   String
   message   String
-  priority  String   @default("normal") // "normal" | "high"
-  status    String   @default("open")   // "open" | "in_progress" | "resolved" | "closed"
+  priority  String   @default("normal")
+  status    String   @default("open")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
@@ -74,7 +69,7 @@ model SupportTicket {
 model ChatMessage {
   id        String   @id @default(cuid())
   sessionId String
-  role      String   // "user" | "assistant"
+  role      String
   content   String
   intent    String?
   createdAt DateTime @default(now())
@@ -108,7 +103,7 @@ model Lead {
   email        String
   company      String?
   phone        String?
-  platforms    String   // comma-separated: "Meta Ads,Google Ads"
+  platforms    String
   adSpend      String
   currentRoas  String?
   challenge    String
@@ -123,4 +118,10 @@ model Lead {
   @@index([email])
   @@index([status])
   @@index([createdAt])
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
 }

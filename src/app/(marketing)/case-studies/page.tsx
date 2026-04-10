@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Case Studies — Digital Point LLC',
     description:
       'Real results from real clients. See how we drive ROAS, reduce CAC, and build full-funnel attribution.',
-    url: 'https://digitalpointllc.com/case-studies',
+    url: 'https://www.digitalpointllc.com/case-studies',
     type: 'website',
   },
   twitter: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: 'Case Studies — Digital Point LLC',
     description: 'Real results from real clients. See how we drive ROAS, reduce CAC, and build full-funnel attribution.',
   },
-  alternates: { canonical: 'https://digitalpointllc.com/case-studies' },
+  alternates: { canonical: 'https://www.digitalpointllc.com/case-studies' },
 };
 
 export default function CaseStudies() {

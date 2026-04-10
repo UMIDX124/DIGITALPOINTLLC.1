@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Blog & Resources — Digital Point LLC',
     description: 'Growth marketing insights, remote workforce playbooks, paid ads benchmarks, and operational frameworks from Digital Point LLC.',
-    url: 'https://digitalpointllc.com/blog',
+    url: 'https://www.digitalpointllc.com/blog',
     type: 'website',
   },
   twitter: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Blog & Resources — Digital Point LLC',
     description: 'Growth marketing insights, remote workforce playbooks, paid ads benchmarks, and operational frameworks from Digital Point LLC.',
   },
-  alternates: { canonical: 'https://digitalpointllc.com/blog' },
+  alternates: { canonical: 'https://www.digitalpointllc.com/blog' },
 };
 
 export default function Blog() {

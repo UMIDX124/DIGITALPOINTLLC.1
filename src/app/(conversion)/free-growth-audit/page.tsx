@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'Get a free paid ads audit from Digital Point LLC. We\'ve managed $50M+ in ad spend.',
   alternates: {
-    canonical: 'https://digitalpointllc.com/free-audit',
+    canonical: 'https://www.digitalpointllc.com/free-audit',
   },
   robots: {
     index: false,

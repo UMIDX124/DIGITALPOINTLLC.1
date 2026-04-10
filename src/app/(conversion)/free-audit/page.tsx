@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Free Paid Ads Audit — Digital Point LLC',
     description:
       'Know exactly where your ad budget is leaking. $50M+ ad spend managed, 200+ audits delivered. Free, actionable fix list within 48 hours.',
-    url: 'https://digitalpointllc.com/free-audit',
+    url: 'https://www.digitalpointllc.com/free-audit',
     type: 'website',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       'Know exactly where your ad budget is leaking. Free audit delivered in 48 hours.',
   },
   alternates: {
-    canonical: 'https://digitalpointllc.com/free-audit',
+    canonical: 'https://www.digitalpointllc.com/free-audit',
   },
 };
 

@@ -1,30 +1,14 @@
 import { NextResponse } from 'next/server';
 import { sendEmail, escapeHtml } from '@/lib/email';
 import { db } from '@/lib/db';
-
-// In-memory rate limiter
-const rateLimiter = new Map<string, { count: number; reset: number }>();
+import { checkRateLimit } from '@/lib/ratelimit';
 
 export async function POST(req: Request) {
   try {
     // Rate limit: 3 per hour per IP
     const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
-    const now = Date.now();
-    const limit = rateLimiter.get(ip);
-    if (limit && now < limit.reset) {
-      if (limit.count >= 3) {
-        return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
-      }
-      limit.count++;
-    } else {
-      rateLimiter.set(ip, { count: 1, reset: now + 3600000 });
-    }
-
-    // Cleanup expired rate limit entries
-    if (rateLimiter.size > 100) {
-      for (const [key, val] of rateLimiter) {
-        if (now > val.reset) rateLimiter.delete(key);
-      }
+    if (!await checkRateLimit(ip, 'newsletter', 3, 60 * 60 * 1000)) {
+      return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
     }
 
     const { email } = await req.json();
@@ -92,7 +76,7 @@ export async function POST(req: Request) {
             </ul>
           </div>
           <div style="text-align: center; margin-bottom: 24px;">
-            <a href="https://digitalpointllc.com/blog" style="display: inline-block; background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: white; text-decoration: none; padding: 12px 28px; border-radius: 8px; font-size: 14px; font-weight: 600;">Read Our Latest Insights</a>
+            <a href="https://www.digitalpointllc.com/blog" style="display: inline-block; background: linear-gradient(135deg, #7b2cbf, #9d4edd); color: white; text-decoration: none; padding: 12px 28px; border-radius: 8px; font-size: 14px; font-weight: 600;">Read Our Latest Insights</a>
           </div>
           <div style="text-align: center; border-top: 1px solid rgba(199, 125, 255, 0.15); padding-top: 20px;">
             <p style="color: #7c5a8a; font-size: 12px; margin: 0;">Digital Point LLC — Performance Marketing & Growth Systems</p>

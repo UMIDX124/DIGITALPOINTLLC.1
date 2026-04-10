@@ -218,7 +218,7 @@ export function buildLeadAutoReply(lead: AuditLeadData): {
     </div>
 
     <div style="text-align:center;margin-top:24px;color:${BRAND.textLow};font-size:11px;line-height:1.6;">
-      Digital Point LLC · <a href="https://digitalpointllc.com" style="color:${BRAND.textMid};text-decoration:none;">digitalpointllc.com</a><br>
+      Digital Point LLC · <a href="https://www.digitalpointllc.com" style="color:${BRAND.textMid};text-decoration:none;">digitalpointllc.com</a><br>
       You received this because you requested a free audit at digitalpointllc.com/free-audit
     </div>
   </div>

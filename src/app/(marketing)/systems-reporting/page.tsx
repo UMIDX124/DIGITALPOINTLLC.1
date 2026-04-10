@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     title: 'Systems & Reporting — Digital Point LLC',
     description:
       'Attribution, dashboards, CRM structure, and marketing automation for growth companies.',
-    url: 'https://digitalpointllc.com/systems-reporting',
+    url: 'https://www.digitalpointllc.com/systems-reporting',
   },
   alternates: {
-    canonical: 'https://digitalpointllc.com/systems-reporting',
+    canonical: 'https://www.digitalpointllc.com/systems-reporting',
   },
 };
 

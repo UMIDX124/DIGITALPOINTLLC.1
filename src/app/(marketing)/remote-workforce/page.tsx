@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     title: 'Remote Workforce — Digital Point LLC',
     description:
       'Managed remote teams for marketing ops, creative production, analytics, and execution support.',
-    url: 'https://digitalpointllc.com/remote-workforce',
+    url: 'https://www.digitalpointllc.com/remote-workforce',
   },
   alternates: {
-    canonical: 'https://digitalpointllc.com/remote-workforce',
+    canonical: 'https://www.digitalpointllc.com/remote-workforce',
   },
 };
 

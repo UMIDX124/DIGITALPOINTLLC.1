@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     'Privacy Policy for Digital Point LLC. Learn how we collect, use, and protect your information when you visit digitalpointllc.com.',
   alternates: {
-    canonical: 'https://digitalpointllc.com/privacy-policy',
+    canonical: 'https://www.digitalpointllc.com/privacy-policy',
   },
   openGraph: {
     title: 'Privacy Policy | Digital Point LLC',
     description:
       'Privacy Policy for Digital Point LLC. Learn how we collect, use, and protect your information.',
-    url: 'https://digitalpointllc.com/privacy-policy',
+    url: 'https://www.digitalpointllc.com/privacy-policy',
   },
 };
 
@@ -350,7 +350,7 @@ export default function PrivacyPolicyPage() {
                   <p className="mt-1">
                     Website:{' '}
                     <a
-                      href="https://digitalpointllc.com"
+                      href="https://www.digitalpointllc.com"
                       className="text-white underline underline-offset-2 hover:text-[#b794c7] transition-colors"
                     >
                       digitalpointllc.com

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Terms of Service for Digital Point LLC. Review the terms governing your use of digitalpointllc.com, our marketing services, tools, and content.',
   alternates: {
-    canonical: 'https://digitalpointllc.com/terms-of-service',
+    canonical: 'https://www.digitalpointllc.com/terms-of-service',
   },
 };
 
@@ -308,7 +308,7 @@ export default function TermsOfServicePage() {
               <p className={secondaryTextClass}>
                 Website:{' '}
                 <a
-                  href="https://digitalpointllc.com"
+                  href="https://www.digitalpointllc.com"
                   className="text-[#c77dff] hover:text-[#e0aaff] transition-colors underline"
                 >
                   digitalpointllc.com

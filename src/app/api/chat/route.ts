@@ -1,33 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { isAIEnabled, handleMessage } from '@/lib/ai-chatbot/orchestrator';
 import { matchFAQ } from '@/lib/ai-chatbot/faq';
+import { checkRateLimit } from '@/lib/ratelimit';
 
 export const maxDuration = 30;
-
-// Rate limiting
-const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
-const RATE_LIMIT = 30; // 30 messages per window
-const RATE_WINDOW = 60 * 1000; // 1 minute
-
-function checkRateLimit(ip: string): boolean {
-  const now = Date.now();
-  const record = rateLimitMap.get(ip);
-
-  if (!record || now > record.resetTime) {
-    rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_WINDOW });
-    return true;
-  }
-
-  if (record.count >= RATE_LIMIT) return false;
-  record.count++;
-  return true;
-}
 
 export async function POST(request: NextRequest) {
   try {
     const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
 
-    if (!checkRateLimit(ip)) {
+    if (!await checkRateLimit(ip, 'chat', 30, 60 * 1000)) {
       return NextResponse.json(
         { error: 'Too many messages. Please slow down.' },
         { status: 429 }

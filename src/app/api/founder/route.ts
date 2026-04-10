@@ -2,33 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { sendEmail, escapeHtml } from '@/lib/email';
 import { forwardLeadToCrm } from '@/lib/crm';
-
-const rateLimitMap = new Map<string, { count: number; lastRequest: number }>();
-const RATE_LIMIT_WINDOW = 60 * 1000;
-const RATE_LIMIT_MAX = 3;
-let cleanupCounter = 0;
-
-function checkRateLimit(ip: string): boolean {
-  const now = Date.now();
-
-  if (++cleanupCounter % 100 === 0) {
-    for (const [key, val] of rateLimitMap) {
-      if (now - val.lastRequest > RATE_LIMIT_WINDOW) rateLimitMap.delete(key);
-    }
-  }
-
-  const record = rateLimitMap.get(ip);
-
-  if (!record || now - record.lastRequest > RATE_LIMIT_WINDOW) {
-    rateLimitMap.set(ip, { count: 1, lastRequest: now });
-    return true;
-  }
-
-  if (record.count >= RATE_LIMIT_MAX) return false;
-  record.count++;
-  record.lastRequest = now;
-  return true;
-}
+import { checkRateLimit } from '@/lib/ratelimit';
 
 function sanitize(input: string): string {
   return input
@@ -45,7 +19,7 @@ export async function POST(request: NextRequest) {
                request.headers.get('x-real-ip') ||
                'unknown';
 
-    if (!checkRateLimit(ip)) {
+    if (!await checkRateLimit(ip, 'founder', 3, 60 * 1000)) {
       return NextResponse.json(
         { success: false, message: 'Too many requests. Please try again later.' },
         { status: 429 }

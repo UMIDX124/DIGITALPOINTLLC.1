@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useInView } from 'framer-motion';
-import { useRef, ReactNode, memo } from 'react';
+import { useRef, useState, useEffect, useCallback, ReactNode, memo } from 'react';
 import { cn } from '@/lib/utils';
 
 interface FadeUpProps {
@@ -164,6 +164,94 @@ export const GlassCard = memo(function GlassCard({ children, className, hover = 
   );
 });
 
+// ── CountUpOnView ────────────────────────────────────────────────────
+// Animates a number from 0 to `end` when it scrolls into the viewport.
+// Uses requestAnimationFrame with ease-out timing over ~2 000 ms.
+// Respects prefers-reduced-motion and only fires once.
+
+interface CountUpOnViewProps {
+  end: number;
+  /** Decimal places to preserve (e.g. 1 for "4.2") */
+  decimals?: number;
+  duration?: number;
+  prefix?: string;
+  suffix?: string;
+  className?: string;
+}
+
+export const CountUpOnView = memo(function CountUpOnView({
+  end,
+  decimals = 0,
+  duration = 2000,
+  prefix,
+  suffix,
+  className,
+}: CountUpOnViewProps) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const [display, setDisplay] = useState('0');
+  const hasAnimated = useRef(false);
+
+  const animate = useCallback(() => {
+    if (hasAnimated.current) return;
+    hasAnimated.current = true;
+
+    // Respect prefers-reduced-motion
+    const prefersReduced =
+      typeof window !== 'undefined' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (prefersReduced) {
+      setDisplay(end.toFixed(decimals));
+      return;
+    }
+
+    const start = performance.now();
+
+    function tick(now: number) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease-out: 1 - (1 - t)^3
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = eased * end;
+      setDisplay(current.toFixed(decimals));
+
+      if (progress < 1) {
+        requestAnimationFrame(tick);
+      }
+    }
+
+    requestAnimationFrame(tick);
+  }, [end, decimals, duration]);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          animate();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [animate]);
+
+  return (
+    <span ref={ref} className={className}>
+      {prefix}
+      {display}
+      {suffix}
+    </span>
+  );
+});
+
+// ── MetricDisplay ────────────────────────────────────────────────────
+
 interface MetricDisplayProps {
   value: string;
   label: string;
@@ -173,12 +261,21 @@ interface MetricDisplayProps {
 }
 
 export const MetricDisplay = memo(function MetricDisplay({ value, label, prefix, suffix, className }: MetricDisplayProps) {
+  // Parse numeric part and any trailing alpha characters (e.g. "50M" -> 50, extraSuffix "M")
+  const match = value.match(/^(\d+(?:\.\d+)?)(.*)/);
+  const numericValue = match ? parseFloat(match[1]) : 0;
+  const extraSuffix = match && match[2] ? match[2] : '';
+  const decimals = match && match[1].includes('.') ? match[1].split('.')[1].length : 0;
+
+  // Combine any trailing alpha from value with the explicit suffix
+  const combinedSuffix = extraSuffix + (suffix ?? '');
+
   return (
     <div className={cn('text-center', className)}>
       <div className="font-display text-3xl md:text-4xl font-bold text-white tabular-nums">
         {prefix && <span className="text-[#c77dff]">{prefix}</span>}
-        {value}
-        {suffix && <span className="text-[#b794c7] text-xl">{suffix}</span>}
+        <CountUpOnView end={numericValue} decimals={decimals} />
+        {combinedSuffix && <span className="text-[#b794c7] text-xl">{combinedSuffix}</span>}
       </div>
       <p className="text-[#b794c7] text-sm mt-1">{label}</p>
     </div>

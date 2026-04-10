@@ -26,7 +26,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://digitalpointllc.com"),
+  metadataBase: new URL("https://www.digitalpointllc.com"),
   title: {
     default: "Digital Point LLC | Performance Marketing & Remote Workforce Solutions",
     template: "%s | Digital Point LLC",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "Digital Point LLC | Performance Marketing & Remote Workforce Solutions",
     description:
       "Scale revenue with performance marketing, remote execution, and systems that actually hold. Co-founder-led growth audits available.",
-    url: "https://digitalpointllc.com",
+    url: "https://www.digitalpointllc.com",
     siteName: "Digital Point LLC",
     type: "website",
     locale: "en_US",
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
     google: process.env.GOOGLE_SITE_VERIFICATION,
   } : undefined,
   alternates: {
-    canonical: "https://digitalpointllc.com",
+    canonical: "https://www.digitalpointllc.com",
   },
 };
 
@@ -176,7 +176,7 @@ export default function RootLayout({
               name: "Digital Point LLC",
               description:
                 "Performance marketing, RevOps, and remote workforce solutions for scaling businesses.",
-              url: "https://digitalpointllc.com",
+              url: "https://www.digitalpointllc.com",
               serviceType: [
                 "Performance Marketing",
                 "Remote Workforce Management",
@@ -203,7 +203,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Digital Point LLC",
-              url: "https://digitalpointllc.com",
+              url: "https://www.digitalpointllc.com",
             }),
           }}
         />
@@ -222,37 +222,37 @@ export default function RootLayout({
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://digitalpointllc.com",
+                  item: "https://www.digitalpointllc.com",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Performance Marketing",
-                  item: "https://digitalpointllc.com/performance-marketing",
+                  item: "https://www.digitalpointllc.com/performance-marketing",
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
                   name: "Remote Workforce",
-                  item: "https://digitalpointllc.com/remote-workforce",
+                  item: "https://www.digitalpointllc.com/remote-workforce",
                 },
                 {
                   "@type": "ListItem",
                   position: 4,
                   name: "Systems & Reporting",
-                  item: "https://digitalpointllc.com/systems-reporting",
+                  item: "https://www.digitalpointllc.com/systems-reporting",
                 },
                 {
                   "@type": "ListItem",
                   position: 5,
                   name: "Results",
-                  item: "https://digitalpointllc.com/results",
+                  item: "https://www.digitalpointllc.com/results",
                 },
                 {
                   "@type": "ListItem",
                   position: 6,
                   name: "Free Growth Audit",
-                  item: "https://digitalpointllc.com/free-growth-audit",
+                  item: "https://www.digitalpointllc.com/free-growth-audit",
                 },
               ],
             }),

@@ -2,33 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { sendEmail, escapeHtml } from '@/lib/email';
 import { forwardTicketToCrm } from '@/lib/crm';
-
-// ─── Rate Limiting ───────────────────────────────────────────────────────────
-const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
-const RATE_LIMIT = 5;
-const RATE_WINDOW = 60 * 60 * 1000; // 1 hour
-let cleanupCounter = 0;
-
-function checkRateLimit(ip: string): boolean {
-  const now = Date.now();
-
-  if (++cleanupCounter % 100 === 0) {
-    for (const [key, val] of rateLimitMap) {
-      if (now > val.resetTime) rateLimitMap.delete(key);
-    }
-  }
-
-  const record = rateLimitMap.get(ip);
-
-  if (!record || now > record.resetTime) {
-    rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_WINDOW });
-    return true;
-  }
-
-  if (record.count >= RATE_LIMIT) return false;
-  record.count++;
-  return true;
-}
+import { checkRateLimit } from '@/lib/ratelimit';
 
 // ─── Sanitize ────────────────────────────────────────────────────────────────
 function sanitize(input: string | undefined | null): string | null {
@@ -50,7 +24,7 @@ export async function POST(request: NextRequest) {
       request.headers.get('x-real-ip') ||
       'unknown';
 
-    if (!checkRateLimit(ip)) {
+    if (!await checkRateLimit(ip, 'ticket', 5, 60 * 60 * 1000)) {
       return NextResponse.json(
         { success: false, message: 'Too many requests. Please try again later.' },
         { status: 429 }
