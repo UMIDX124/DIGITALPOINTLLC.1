@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, IBM_Plex_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import CookieConsent from "@/components/CookieConsent";
@@ -274,6 +275,11 @@ export default function RootLayout({
         <Toaster />
         <CookieConsent />
         <StickyAuditCTA />
+        <Script
+          src="https://fu-corp-crm.vercel.app/tracker.js"
+          data-key="cmnsabvhc0001rgw4u6c9e8km"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

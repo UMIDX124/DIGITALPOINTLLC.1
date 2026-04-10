@@ -54,6 +54,12 @@ export function ContactPage() {
       });
       if (res.ok) {
         setStatus('success');
+        if (typeof window !== "undefined" && (window as unknown as { ACCLead?: (d: Record<string, string>) => void }).ACCLead) {
+          (window as unknown as { ACCLead: (d: Record<string, string>) => void }).ACCLead({
+            name: form.name, email: form.email, message: form.message,
+            page: window.location.pathname, source: "contact-form",
+          });
+        }
         setForm({ name: '', email: '', message: '' });
       } else {
         setStatus('error');
