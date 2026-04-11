@@ -276,8 +276,8 @@ export default function RootLayout({
         <CookieConsent />
         <StickyAuditCTA />
         <Script
-          src="https://fu-corp-crm.vercel.app/tracker.js"
-          data-key="cmnsabvhc0001rgw4u6c9e8km"
+          src="https://alpha-command-center.vercel.app/tracker.js"
+          data-key="cmmsabvhc0001rgw4u6c9e8km"
           strategy="afterInteractive"
         />
       </body>
